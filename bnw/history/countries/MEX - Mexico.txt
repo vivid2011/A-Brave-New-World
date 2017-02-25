@@ -71,7 +71,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 5
+			popularity = 94
 		}
 
 		fascism = {
@@ -83,12 +83,16 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 94
+			popularity = 0
+		}
+		
+		monarchist = {
+			popularity = 5
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1934.7.1"
+	ruling_party = democratic
+	last_election = "1896.6.15"
 	election_frequency = 72
 	elections_allowed = yes
 }
@@ -198,3 +202,16 @@ create_navy_leader = {
 	traits = { superior_tactician }
 	skill = 3
 }
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+		name = "President Porfirio Diaz"
+		desc = ""
+		picture = "gfx/leaders/MEX/Diaz.dds"
+		expire = "1911.5.25"
+		ideology = liberalism
+		traits = {
+			#
+		}
+	}
