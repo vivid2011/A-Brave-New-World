@@ -85,13 +85,17 @@ set_politics = {
 		}
 		
 		neutrality = {
+			popularity = 0
+		}
+		
+		monarchist = {
 			popularity = 80
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
+	ruling_party = monarchist
+	last_election = "None"
+	election_frequency = 0
 	elections_allowed = no
 }
 
@@ -139,5 +143,18 @@ create_country_leader = {
 		traits = {
 			#
 		}
+	}
+}
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "King Rama VI"
+	desc = ""
+	picture = "gfx/leaders/SIA/RamaVI.dds"
+	expire = "1910.10.23"
+	ideology = imperial
+	traits = {
+		#
 	}
 }

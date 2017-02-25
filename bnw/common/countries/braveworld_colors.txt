@@ -16,4 +16,7 @@ ONG = {
 	color = rgb { 255 163 102 }
 	color_ui = rgb { 255 163 102 }
 }
-
+PTR = {
+	color = rgb { 0 247 255 }
+	color_ui = rgb { 0 247 255 }
+}

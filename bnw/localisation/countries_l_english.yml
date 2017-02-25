@@ -1525,3 +1525,51 @@
  JAP_monarchist:0 "Empire of Japan"
  JAP_monarchist_DEF:0 "Empire of Japan"
  JAP_monarchist_ADJ:0 "Japanese"
+ #SIAM
+ SIA_monarchist:0 "Kingdom of Siam"
+ SIA_monarchist_DEF:0 "Kingdom of Siam"
+ SIA_monarchist_ADJ:0 "Siamese"
+ #PUERTO RICO
+ PTR_monarchist:0 "Kingdom of Puerto Rico"
+ PTR_monarchist_DEF:0 "Kingdom of Puerto Rico"
+ PTR_monarchist_ADJ:0 "Puerto Rican"
+ PTR_democratic:0 "Puerto Rico"
+ PTR_democratic_DEF:0 "Puerto Rico"
+ PTR_democratic_AJD:0 "Puerto Rican"
+ PTR_neutrality:0 "Puerto Rico"
+ PTR_neutrality_DEF:0 "Puerto Rico"
+ PTR_neutrality_ADJ:0 "Puerto Rican"
+ PTR_communism:0 "Puerto Rican People's Republic"
+ PTR_communism_DEF:0 "Puerto Rican People's Republic"
+ PTR_communism_ADJ:0 "Puerto Rican"
+ PTR_fascism:0 "Nationalist State of Puerto Rico"
+ PTR_fascism_DEF:0 "Nationalist State of Puerto Rico"
+ PTR_fascism_ADJ:0 "Puerto Rican"
+ #BELGIUM
+ BEL_monarchist:0 "Kingdom of Belgium"
+ BEL_monarchist_DEF:0 "Kingdom of Belgium"
+ BEL_monarchist_ADJ:0 "Belgian"
+ #BRITISH RAJ
+ RAJ_monarchist:0 "British Raj"
+ RAJ_monarchist_DEF:0 "British Raj"
+ RAJ_monarchist_ADJ:0 "Indian"
+ #BRITISH MALAY
+ MAL_monarchist:0 "British Malaya"
+ MAL_monarchist_DEF:0 "British Malaya"
+ MAL_monarchist_ADJ: "Malay"
+ #DUTCH EAST INDIES
+ INS_monarchist:0 "Dutch East Indies"
+ INS_monarchist_DEF:0 "Dutch East Indies"
+ INS_monarchist_ADJ: "Indonesian"
+ #BHUTAN
+ BHU_monarchist:0 "Kingdom of Bhutan"
+ BHU_monarchist_DEF:0 "Kingdom of Bhutan"
+ BHU_monarchist_ADJ:0 "Bhutanese"
+ #NEPAL
+ NEP_monarchist:0 "Kingdom of Nepal"
+ NEP_monarchist_DEF:0 "Kingdom of Nepal"
+ NEP_monarchist_ADJ:0 "Nepalese"
+ #AFGHANISTAN
+ AFG_monarchist:0 "Emirate of Afghanistan"
+ AFG_monarchist_DEF:0 "Emirate of Afghanistan"
+ AFG_monarchist_ADJ:0 "Afghan"

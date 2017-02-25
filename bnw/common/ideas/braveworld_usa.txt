@@ -22,11 +22,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				every_country = 
-					add_opinion_modifier = {
-						
-					}
-				}
+				#Relations
 			}
 		}
 		

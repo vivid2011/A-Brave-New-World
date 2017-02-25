@@ -53,18 +53,26 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 33
+			popularity = 20
 		}
 
 #		fascism = {
 #		}
 		
 		communism = {
-			popularity = 33
+			popularity = 10
 		}
 		neutrality = {
-			popularity = 34
+			popularity = 0
 		}
+		monarchist = {
+			popularity = 70
+		}
+		
+		ruling_party = monarchist
+		last_election = "None"
+		election_frequency = 0
+		elections_allowed = no
 	}
 }
 
@@ -164,3 +172,15 @@ set_cosmetic_tag = MAL_UK # British Malaya
 	}
 }
 
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "Governor-General Frank Swettenham"
+	desc = ""
+	picture = "gfx/leaders/INS/Sweetenham.dds"
+	expire = "1904.6.15"
+	ideology = imperial
+	traits = {
+		
+	}
+}

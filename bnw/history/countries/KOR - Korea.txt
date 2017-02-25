@@ -14,11 +14,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 20
 		}
 
 		fascism = {
-			popularity = 0
+			popularity = 10
 		}
 		
 		communism = {
@@ -31,7 +31,7 @@ set_politics = {
 		}
 		
 		monarchist = {
-			popularity = 100
+			popularity = 70
 		}
 	}
 	ruling_party = monarchist

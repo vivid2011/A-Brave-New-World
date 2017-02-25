@@ -136,3 +136,16 @@ create_country_leader = {
 		elections_allowed = yes
 	}
 }
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "President Emilio Aguinaldo"
+	desc = ""
+	picture = "gfx/leaders/PHI/Aguinaldo.dds"
+	expire = "1901.4.23"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}

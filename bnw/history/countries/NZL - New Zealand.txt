@@ -263,3 +263,16 @@ create_equipment_variant = {
 		ship_anti_air_upgrade = 2
 	}
 }
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "Prime Minister Richard Seddon"
+	desc = ""
+	picture = "gfx/leaders/NZL/Seddon.dds"
+	expire = "1906.6.10"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}

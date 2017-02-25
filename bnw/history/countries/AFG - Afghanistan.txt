@@ -67,22 +67,25 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 15
+			popularity = 0
 		}
 		
 		communism = {
-			popularity = 10
-			#banned = no #default is no
+			popularity = 0
 		}
 		
 		neutrality = { 
-			popularity = 75
+			popularity = 0
+		}
+		
+		monarchist = {
+			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
+	ruling_party = monarchist
+	last_election = "None"
+	election_frequency = 0
 	elections_allowed = no
 }
 
@@ -132,4 +135,17 @@ create_corps_commander = {
 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = { desert_fox }
 	skill = 4
+}
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "Emir Abdur Rahman Khan"
+	desc = ""
+	picture = "gfx/leaders/AFG/Abdur_Rahman.dds"
+	expire = "1901.10.1"
+	ideology = imperial
+	traits = {
+		#
+	}
 }

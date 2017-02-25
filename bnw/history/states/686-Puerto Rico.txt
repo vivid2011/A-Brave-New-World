@@ -6,7 +6,7 @@ state={
 	state_category = rural
 
 	history={
-		owner = USA
+		owner = PTR
 		victory_points = {
 			1440 1 
 		}
@@ -20,6 +20,7 @@ state={
 			}
 		}
 		add_core_of = USA
+		add_core_of = PTR
 	}
 
 	provinces={

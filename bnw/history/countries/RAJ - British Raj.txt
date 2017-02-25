@@ -131,13 +131,17 @@ set_politics = {
 		}
 
 		neutrality = {
+			popularity = 0
+		}
+		
+		monarchist = {
 			popularity = 80
 		}
 	}
 	
-	ruling_party = neutrality
-	last_election = "1935.11.14"
-	election_frequency = 48
+	ruling_party = monarchist
+	last_election = "None"
+	election_frequency = 0
 	elections_allowed = no
 }
 
@@ -212,4 +216,17 @@ create_navy_leader = {
 	gfx = "GFX_RAJ_herbert_fitzherbert"
 	traits = { }
 	skill = 3
+}
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "Viceroy Lord Curzon of Kedleston"
+	desc = ""
+	picture = "gfx/leaders/RAJ/Curzon.dds"
+	expire = "1905.11.18"
+	ideology = imperial
+	traits = {
+		
+	}
 }

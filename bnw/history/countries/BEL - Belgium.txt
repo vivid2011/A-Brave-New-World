@@ -79,22 +79,26 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 83
+			popularity = 33
 		}
 
 		fascism = {
-			popularity = 11
+			popularity = 6
 		}
 		
 		communism = {
-			popularity = 6
+			popularity = 1
+		}
+		
+		monarchist = {
+			popularity = 60
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "1932.11.27"
-	election_frequency = 48
-	elections_allowed = yes
+	ruling_party = monarchist
+	last_election = "None"
+	election_frequency = 0
+	elections_allowed = no
 }
 
 1939.1.1 = {
@@ -183,6 +187,17 @@ create_country_leader = {
 	picture = "gfx/leaders/BEL/Smet_de_Naeyer.dds"
 	expire = "1907.5.2"
 	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "King Leopold II"
+	desc = ""
+	picture = "gfx/leaders/BEL/Leopold_II.dds"
+	expire = "1909.12.17"
+	ideology = imperial
 	traits = {
 		#
 	}
