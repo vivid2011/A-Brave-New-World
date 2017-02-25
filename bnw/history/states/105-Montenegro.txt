@@ -1,0 +1,30 @@
+
+state={
+	id=105
+	name="STATE_105" # Montenegro
+	manpower = 395500
+	
+	state_category = rural
+	
+	resources={
+		chromium=24
+		aluminium=78
+	}
+
+	history={
+		owner = MNT
+		add_core_of = MNT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			9809 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = YUG
+	}
+
+	provinces={
+		9809 9821 11858 
+	}
+}

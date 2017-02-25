@@ -1,0 +1,23 @@
+state={
+	id=757
+	name="STATE_757"
+	state_category = town
+	resources={
+		chromium=10
+		steel = 10
+	}
+
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+		}
+		add_core_of = GRE
+	}
+	provinces={
+		1106 1205 11786 11895 12001 
+	}
+	manpower=260000
+	buildings_max_level_factor=1.000
+}

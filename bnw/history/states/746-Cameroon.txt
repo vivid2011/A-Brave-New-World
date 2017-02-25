@@ -1,0 +1,23 @@
+state={
+	id=746
+	name="STATE_746"
+	provinces={
+		1993 2080 5036 5054 6039 7963 9137 11012 11194 
+	}
+	
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 2
+		}
+		
+		1919.6.28 = {
+			owner = FRA
+		}
+		
+	}
+	
+	manpower=772456
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

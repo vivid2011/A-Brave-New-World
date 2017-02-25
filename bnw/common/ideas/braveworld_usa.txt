@@ -1,0 +1,94 @@
+ideas = {
+
+	country = {
+		victors_of_span_amer_war = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = 0.1
+				conscription = 0.1
+			}
+		}
+		
+		american_imperial = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				every_country = 
+					add_opinion_modifier = {
+						
+					}
+				}
+			}
+		}
+		
+		land_of_innovation ={
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			research_bonus = {
+				research_time_factor = -0.05
+			}
+			
+		}
+		
+	}
+	
+	political_advisor = {
+		
+	}
+	
+
+	army_chief = {
+		
+	}
+	
+	air_chief = {
+		
+	}
+	
+	navy_chief = {
+		
+	}
+	
+	
+	high_command = {
+		
+	}
+		
+	tank_manufacturer = { 
+		
+	}
+	
+	naval_manufacturer = { 
+		
+	}
+	
+	aircraft_manufacturer = { 
+		
+	}
+	
+	materiel_manufacturer = {
+		
+	}
+	
+	industrial_concern = {
+		
+	}
+	
+	theorist = {
+		
+	}
+	
+}

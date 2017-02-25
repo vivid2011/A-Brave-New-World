@@ -1,0 +1,5 @@
+BHZ	= "countries/BosniaHerz.txt"
+AHU = "countries/AustriaHungary.txt"
+ONG = "countries/OrangeState.txt"
+TVL = "countries/Transvaal.txt"
+MOR = "countries/Morocco.txt"

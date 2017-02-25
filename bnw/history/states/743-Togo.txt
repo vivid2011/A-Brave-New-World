@@ -1,0 +1,21 @@
+state={
+	id=743
+	name="STATE_743"
+	provinces={
+		1951 12843
+	}
+	
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 2
+		}
+		1919.6.28 = {
+			owner = FRA
+		}
+	}
+	
+	manpower=200000
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+}

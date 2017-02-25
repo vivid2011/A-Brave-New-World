@@ -1,0 +1,40 @@
+﻿######################################
+# Brave World - Russian Empire Events
+######################################
+
+add_namespace = russia
+
+#Serbia requests help
+country_event = {
+	id = russia.1
+	title = russia.1.t
+	desc = russia.1.d
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = russia.1.a
+		RUS = {
+			give_guarantee = SER
+		}
+		AHU = {
+			country_event = { id = austria.13 }
+		}
+		
+		ai_chance = {
+			factor = 90
+		}
+	}
+	
+	option = {
+		name = russia.1.b
+		SER = {
+			country_event = { id = serbia.1 }
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+}
