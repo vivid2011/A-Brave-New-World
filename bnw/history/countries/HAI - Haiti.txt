@@ -128,3 +128,16 @@ create_country_leader = {
 		elections_allowed = no
 	}
 }
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "Tirésias Simon Sam"
+	desc = ""
+	picture = "gfx/leaders/HAI/Sam.dds"
+	expire = "1902.5.12"
+	ideology = Conservatism
+	traits = {
+		#
+	}
+}

@@ -71,11 +71,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 49
+			popularity = 80
 		}
 
 		fascism = {
-			popularity = 51
+			popularity = 20
 		}
 		
 		communism = {
@@ -84,9 +84,9 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1931.10.11"
-	election_frequency = 96
+	election_frequency = 48
 	elections_allowed = yes
 }
 
@@ -134,5 +134,18 @@ create_country_leader = {
 		traits = {
 			#
 		}
+	}
+}
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "President Eduardo López de Romaña"
+	desc = ""
+	picture = "gfx/leaders/PRU/Romana.dds"
+	expire = "1903.9.8"
+	ideology = liberalism
+	traits = {
+		#
 	}
 }

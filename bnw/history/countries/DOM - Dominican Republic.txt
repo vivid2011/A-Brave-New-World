@@ -62,11 +62,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 80
 		}
 
 		fascism = {
-			popularity = 100
+			popularity = 20
 		}
 		
 		communism = {
@@ -75,10 +75,10 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = democratic
 	last_election = "1934.5.16"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
@@ -125,5 +125,18 @@ create_country_leader = {
 		traits = {
 			#
 		}
+	}
+}
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "Juan Isidro Jimenes Pereyra"
+	desc = ""
+	picture = "gfx/leaders/DOM/Pereyra.dds"
+	expire = "1902.5.2"
+	ideology = liberalism
+	traits = {
+		#
 	}
 }

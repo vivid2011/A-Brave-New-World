@@ -155,3 +155,16 @@ create_corps_commander = {
 	traits = {  trickster urban_assault_specialist }
 	skill = 3
 }
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "President Manuel Antonio Sanclemente"
+	desc = ""
+	picture = "gfx/leaders/COL/Sanclemente.dds"
+	expire = "1900.7.31"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}

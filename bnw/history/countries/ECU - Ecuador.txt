@@ -128,3 +128,16 @@ create_country_leader = {
 		}
 	}
 }
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "President Eloy Alfaro"
+	desc = ""
+	picture = "gfx/leaders/ECU/Alfaro.dds"
+	expire = "1901.8.31"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}

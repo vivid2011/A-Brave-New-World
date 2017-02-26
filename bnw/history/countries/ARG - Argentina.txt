@@ -80,7 +80,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 5
+			popularity = 78
 		}
 
 		fascism = {
@@ -92,13 +92,13 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 78
+			popularity = 5
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1931.11.8"
-	election_frequency = 72
+	election_frequency = 48
 	elections_allowed = yes
 }
 
@@ -228,5 +228,18 @@ create_equipment_variant = {
 		ship_engine_upgrade = 1
 		ship_armor_upgrade = 1
 		ship_gun_upgrade = 1
+	}
+}
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "President Julio Argentino Roca"
+	desc = ""
+	picture = "gfx/leaders/ARG/Roca.dds"
+	expire = "1904.10.12"
+	ideology = conservatism
+	traits = {
+		#
 	}
 }

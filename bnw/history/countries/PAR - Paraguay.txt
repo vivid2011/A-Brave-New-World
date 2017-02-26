@@ -63,7 +63,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 25
+			popularity = 75
 		}
 
 		fascism = {
@@ -71,12 +71,12 @@ set_politics = {
 		}
 		
 		communism = {
-			popularity = 75
+			popularity = 25
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = democratic
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
@@ -147,3 +147,15 @@ create_country_leader = {
 
 
 }
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "President Emilio Aceval"
+	desc = ""
+	picture = "gfx/leaders/PAR/Aceval.dds"
+	expire = "1902.1.9"
+	ideology = conservatism
+	traits = {
+		#
+	}

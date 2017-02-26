@@ -69,7 +69,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 100
 		}
 
 		fascism = {
@@ -81,13 +81,13 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1934.11.11"
-	election_frequency = 72
+	election_frequency = 60
 	elections_allowed = yes
 }
 
@@ -149,5 +149,18 @@ create_country_leader = {
 		traits = {
 			#
 		}
+	}
+}
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "President José Manuel Pando"
+	desc = ""
+	picture = "gfx/leaders/BOL/Pando.dds"
+	expire = "1904.8.14"
+	ideology = liberalism
+	traits = {
+		#
 	}
 }

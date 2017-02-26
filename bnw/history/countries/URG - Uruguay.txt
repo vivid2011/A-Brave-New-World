@@ -130,3 +130,16 @@ create_country_leader = {
 		}
 	}
 }
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "President Juan Lindolfo Cuestas"
+	desc = ""
+	picture = "gfx/leaders/URG/Cuestas.dds"
+	expire = "1903.4.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}

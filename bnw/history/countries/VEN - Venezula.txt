@@ -130,3 +130,16 @@ create_country_leader = {
 		elections_allowed = no
 	}
 }
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "President Cipriano Castro"
+	desc = ""
+	picture = "gfx/leaders/VEN/Castro.dds"
+	expire = "1908.12.19"
+	ideology = falangism
+	traits = {
+		#
+	}
+}

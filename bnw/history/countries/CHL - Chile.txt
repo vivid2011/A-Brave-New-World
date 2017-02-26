@@ -198,3 +198,16 @@ create_equipment_variant = {
 		ship_anti_air_upgrade = 1
 	}
 }
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "Interim-President Aníbal Zañartu"
+	desc = ""
+	picture = "gfx/leaders/CHL/Zanartu.dds"
+	expire = "1901.7.12"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}

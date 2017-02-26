@@ -79,7 +79,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 0
+			popularity = 100
 		}
 
 		fascism = {
@@ -91,14 +91,14 @@ set_politics = {
 		}
 		
 		neutrality = { 
-			popularity = 100
+			popularity = 0
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1934.7.17"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
@@ -194,4 +194,17 @@ create_navy_leader = {
 	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_navy_3.dds"
 	traits = {  }
 	skill = 3
+}
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "President Campos Sales"
+	desc = ""
+	picture = "gfx/leaders/BRA/Sales.dds"
+	expire = "1902.11.15"
+	ideology = liberalism
+	traits = {
+		#
+	}
 }
