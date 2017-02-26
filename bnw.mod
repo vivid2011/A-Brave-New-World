@@ -1,11 +1,11 @@
-﻿name="A Brave World"
+﻿name="A Brave New World"
 path="mod/bnw/"
 tags={
 	"Alternative History"
+	"Ideologies"
 	"Gameplay"
-	"Historical"
-	"Technologies"
+	"Map"
 }
 picture="bw-logo.png"
-#remote_file_id="724800870"
-supported_version="1.3.x"
+remote_file_id="866389913"
+supported_version="1.3.*"
