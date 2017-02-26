@@ -60,26 +60,30 @@ set_convoys = 20
 
 set_politics = {
 
-	parties = {
-		democratic = { 
-			popularity = 98
-		}
+		parties = {
+			democratic = { 
+				popularity = 30
+			}
 
-		fascism = {
-			popularity = 0
+			fascism = {
+				popularity = 0
+			}
+			
+			communism = {
+				popularity = 2
+				#banned = no #default is no
+			}
+			
+			neutrality = {
+				popularity = 68
+			}
 		}
 		
-		communism = {
-			popularity = 2
-			#banned = no #default is no
-		}
+		ruling_party = neutrality
+		last_election = "1936.1.10"
+		election_frequency = 48  
+		elections_allowed = yes
 	}
-	
-	ruling_party = democratic
-	last_election = "1936.1.10"
-	election_frequency = 48
-	elections_allowed = yes
-}
 
 create_country_leader = {
 	name = "José Agripino Barnet"
@@ -108,6 +112,7 @@ create_country_leader = {
 				popularity = 2
 				#banned = no #default is no
 			}
+			
 		}
 		
 		ruling_party = democratic
@@ -125,5 +130,18 @@ create_country_leader = {
 		traits = {
 			#
 		}
+	}
+}
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "Military Governor Leonard Wood"
+	desc = ""
+	picture = "gfx/leaders/CUB/Wood.dds"
+	expire = "1902.5.20"
+	ideology = centrism
+	traits = {
+		#
 	}
 }
