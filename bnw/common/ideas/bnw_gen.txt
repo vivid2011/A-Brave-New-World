@@ -1,0 +1,70 @@
+ideas = {
+
+	country = {
+		
+		GEN_backwards_empire = {
+			
+			modifier = {
+			conscription_factor = 0.2
+			research_time_factor = 0.35
+			political_power_cost = 0.05
+			political_power_gain = -0.5
+			}
+		}
+		GEN_non_industrialized = {
+			
+			modifier = {
+			industrial_capacity_factory = -0.5
+
+			}
+		GEN_industrializing = {
+			
+			modifier = {
+			industrial_capacity_factory = -0.1
+
+			}
+		GEN_industrialized = {
+			
+			modifier = {
+			industrial_capacity_factory = 0
+
+			}
+		}
+		
+		GEN_Decadence = {
+			
+			modifier = {
+			unity_factor = 0.2
+			conscription_factor = -0.025
+			army_attack_factor = -0.02
+			army_defence_factor = 0.02
+			political_power_cost = 0.1
+			justify_war_goal_time = 0.25
+			industrial_capacity_factory = 0.08
+			}
+			
+		}
+		GEN_economic_boom = {
+			
+			modifier = {
+			industrial_capacity_factory = 0.2
+			}
+		}
+		
+		GEN_economic_crash = {
+			
+			modifier = {
+			industrial_capacity_factory = -0.4
+			}
+		}
+		
+		GEN_fractured_empire = {
+			
+			modifier = {
+			unity_factor = -0.15
+			conscription_factor = -0.015
+			industrial_capacity_factory = -0.02
+			}
+		}
+
+}

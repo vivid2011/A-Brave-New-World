@@ -1,0 +1,84 @@
+leader_traits = {
+
+political_science_professor = {
+		random = no
+		political_power_factor = 0.05
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+soldier = {
+		random = no
+		army_morale_factor = 0.02
+		army_attack_factor = 0.02
+		army_defence_factor = 0.02
+		army_org_factor = 0.55
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+hero_of_spanish_american_war = {
+		random = no
+		army_morale_factor = 0.05
+		army_attack_factor = 0.02
+		army_defence_factor = 0.02
+		army_org_factor = 0.55
+		no_supply_grace = 48
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+general = {
+		random = no
+		army_morale_factor = 0.015
+		army_attack_factor = 0.01
+		army_org_factor = 0.5
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+survived_assassination_attempt = {
+		random = no
+		unity_factor = 0.1
+		political_power_factor = 0.1
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+general = {
+		random = no
+		army_morale_factor = 0.015
+		army_attack_factor = 0.01
+		army_org_factor = 0.5
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+conservationist = {
+		random = no
+		local_resources_factor = -0.02
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+leftist = {
+		random = no
+		industrial_capacity_factory = -0.08
+		research_time_factor = -0.02
+	}	
+antitrust = {
+	random = no
+	industrial_capacity_factory = -0.03
+	}	
+}
