@@ -116,3 +116,16 @@ create_country_leader = {
 		elections_allowed = yes
 	}
 }
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "President Tomás Regalado"
+	desc = ""
+	picture = "gfx/leaders/ELS/Regalado.dds"
+	expire = "1903.4.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}

@@ -66,7 +66,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 15
+			popularity = 70
 		}
 
 		fascism = {
@@ -79,14 +79,14 @@ set_politics = {
 		}
 
 		neutrality = {
-			popularity = 70
+			popularity = 15
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1934.11.8"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
@@ -139,3 +139,16 @@ create_country_leader = {
 			#
 		}
 	}
+	
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "President José Santos Zelaya"
+	desc = ""
+	picture = "gfx/leaders/NIC/Zelaya.dds"
+	expire = "1909.12.21"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}

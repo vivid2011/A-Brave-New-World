@@ -63,7 +63,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 30
+			popularity = 70
 		}
 
 		fascism = {
@@ -76,14 +76,14 @@ set_politics = {
 		}
 
 		neutrality = {
-			popularity = 70
+			popularity = 30
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1931.2.8"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
@@ -123,5 +123,18 @@ create_country_leader = {
 		last_election = "1931.2.8"
 		election_frequency = 48
 		elections_allowed = no
+	}
+}
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "President Manuel Estrada Cabrera"
+	desc = ""
+	picture = "gfx/leaders/GUA/Cabrera.dds"
+	expire = "1920.4.15"
+	ideology = liberalism
+	traits = {
+		#
 	}
 }

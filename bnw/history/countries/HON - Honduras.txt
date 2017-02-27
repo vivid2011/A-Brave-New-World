@@ -117,3 +117,16 @@ create_country_leader = {
 		elections_allowed = yes
 	}
 }
+
+### BRAVEWORLD LEADERS ###
+
+create_country_leader = {
+	name = "President Terencio Sierra"
+	desc = ""
+	picture = "gfx/leaders/HON/Sierra.dds"
+	expire = "1903.2.1"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}

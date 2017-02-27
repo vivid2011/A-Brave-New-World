@@ -124,3 +124,16 @@ create_country_leader = {
 		}
 	}
 }
+
+### BRAVEWORLD LEADERS ### 
+
+create_country_leader = {
+	name = "President Rafael Yglesias Castro"
+	desc = ""
+	picture = "gfx/leaders/COS/Castro.dds"
+	expire = "1902.5.8"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
