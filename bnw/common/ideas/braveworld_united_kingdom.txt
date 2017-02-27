@@ -1,0 +1,43 @@
+ideas = {
+
+	country = {
+		
+		queen_victoria = {
+		
+		modifier = {
+
+		allowed = {
+
+                always = no
+
+            	}
+
+            removal_cost = -1	
+			
+			unity_factor = 0.1
+			
+			}
+		
+		}
+		
+		queen_victoria_died = {    #Until coronation of EDWARD VII
+		
+		allowed = {
+
+                always = no
+
+            	}
+
+            removal_cost = -1	
+
+		modifier = {
+			
+			unity_factor = -0.1
+			
+			}
+		
+		}
+		
+	}
+	
+}

@@ -1,0 +1,27 @@
+ideas = {
+
+	country = {
+		
+		a_fight_for_survival = {
+		allowed = {
+
+                always = no
+
+            	}
+
+            removal_cost = -1		
+
+		modifier = {
+			
+			training_time_army_factor = -0.15
+			conscription_factor = 0.02
+			army_attack_factor = -0.02
+			army_defence_factor = -0.01
+			
+			}
+		
+		}
+		
+	}
+	
+}
