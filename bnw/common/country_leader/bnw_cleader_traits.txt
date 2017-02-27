@@ -53,17 +53,6 @@ survived_assassination_attempt = {
 	}
 
 
-general = {
-		random = no
-		army_morale_factor = 0.015
-		army_attack_factor = 0.01
-		army_org_factor = 0.5
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
 conservationist = {
 		random = no
 		local_resources_factor = -0.02
