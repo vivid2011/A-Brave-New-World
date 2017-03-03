@@ -994,11 +994,11 @@ country_event = {
 
 	trigger = {
 		tag = ENG
-		date = 1901.1.1
+		date = 1900.12.30
 	}
 	
 	mean_time_to_happen = {
-		days = 1
+		days = 2
 	}
 	
 	option = {
@@ -1070,11 +1070,11 @@ country_event = {
 
 	trigger = {
 		tag = ENG
-		date = 1909.1.1
+		date = 1910.5.29
 	}
 	
 	mean_time_to_happen = {
-		days = 1
+		days = 2
 	}
 	
 	option = {

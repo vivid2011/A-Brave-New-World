@@ -1522,3 +1522,101 @@ country_event = {
 		}
 	}
 }
+
+#Independence of Puerto Rico
+country_event = {
+	id = usa.51
+        title = usa.51.t
+        desc = usa.51.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		date = 1900.5.10
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 90
+			modifier = {
+				has_government = fascism
+				factor = 100
+			}
+			modifier = {
+				has_government = communism
+				factor = 100
+			}
+		}
+		name = usa.51.a
+			USA = { 
+				transfer_state = 686
+			}
+	}
+	
+    option = {
+		ai_chance = {
+			factor = 10
+			modifier = {
+				has_government = fascism
+				factor = 0
+			}
+			modifier = {
+				has_government = communism
+				factor = 0
+			}
+		}
+		name = usa.51.b
+            add_political_power = 100
+			remove_puppet = PTR
+			
+	}
+}
+
+#Platt Amendment
+country_event = {
+	id = usa.52
+        title = usa.52.t
+        desc = usa.52.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = USA
+		date = 1901.2.28
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 100
+		}
+		name = usa.52.a
+			CUB = { 
+				transfer_state = 315
+			}
+			USA = {
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+						set_autonomy = {
+							target = CUB
+							autonomous_state = autonomy_integrated_puppet
+						}
+					else = {
+						puppet = CUB
+					}
+				}
+			}
+	}
+}

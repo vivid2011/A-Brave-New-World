@@ -19,7 +19,7 @@ state={
 
 			}
 		}
-		add_core_of = USA
+		add_claim_by = USA
 		add_core_of = PTR
 	}
 

@@ -62,7 +62,7 @@ set_politics = {
 
 		parties = {
 			democratic = { 
-				popularity = 30
+				popularity = 68
 			}
 
 			fascism = {
@@ -75,11 +75,11 @@ set_politics = {
 			}
 			
 			neutrality = {
-				popularity = 68
+				popularity = 30
 			}
 		}
 		
-		ruling_party = neutrality
+		ruling_party = democratic
 		last_election = "1936.1.10"
 		election_frequency = 48  
 		elections_allowed = yes
@@ -136,12 +136,12 @@ create_country_leader = {
 ### BRAVEWORLD LEADERS ###
 
 create_country_leader = {
-	name = "Military Governor Leonard Wood"
-	desc = ""
-	picture = "gfx/leaders/CUB/Wood.dds"
-	expire = "1902.5.20"
-	ideology = centrism
-	traits = {
-		#
+		name = "President Tomás Estrada Palma"
+		desc = ""
+		picture = "gfx/leaders/CUB/Palma.dds"
+		expire = "1906.9.28"
+		ideology = conservatism
+		traits = {
+			#
+		}
 	}
-}

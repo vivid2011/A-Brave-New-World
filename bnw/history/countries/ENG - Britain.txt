@@ -66,6 +66,10 @@ if = {
 		autonomous_state = autonomy_colony
 		freedom_level = 0.35
 	}
+	set_autonomy = {
+		target = NZL
+		autonomous_state = autonomy_integrated_puppet
+	}
 	else = {
 		puppet = MAL
 		puppet = RAJ
