@@ -7,7 +7,12 @@ state={
 	state_category = wasteland
 
 	history={
-		owner = ENG
+		owner = GER
+		1918.6.28 ={
+			owner = ENG
+			remove_core_of = GER
+			add_core_of = ENG
+		}
 		buildings = {
 			infrastructure = 3
 		}
@@ -15,7 +20,7 @@ state={
 			4879 1
 		}
 		add_core_of = SAF
-		add_core_of = ENG
+		add_core_of = GER
 	}
 
 	provinces={

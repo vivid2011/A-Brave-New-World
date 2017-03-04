@@ -1,13 +1,11 @@
 ﻿###########################
-# Japanese Events
+# Brave World - Japanese Events
 ###########################
+
+#original event count = 18
 
 add_namespace = japan
 
-
-###########################
-# Brave World - Japanese Events
-###########################
 
 # Meiji Dies
 country_event = {
@@ -35,7 +33,7 @@ country_event = {
 			name="Taishō"
 			picture="Portrait_Japan_Taisho.dds"
 			expire="1912.7.29"
-			ideology=imperial
+			ideology=nationalist
 			traits={
 				warrior_code
 			}

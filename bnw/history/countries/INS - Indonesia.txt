@@ -42,12 +42,12 @@ set_politics = {
 		monarchist = {
 			popularity = 70
 		}
-		
-		ruling_party = monarchist
-		last_election = "None"
-		election_frequency = 0
-		elections_allowed = no
 	}
+	
+	ruling_party = monarchist
+	last_election = "None"
+	election_frequency = 0
+	elections_allowed = no
 }
 
 create_country_leader = {

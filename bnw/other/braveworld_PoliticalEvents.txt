@@ -1,8 +1,4 @@
-﻿###########################
-# Political Events
-###########################
-
-add_namespace = political
+﻿add_namespace = political
 
 #Populist Execute Coup
 country_event = {
@@ -14,8 +10,8 @@ country_event = {
 	#is_triggered_only = yes
 	
 	trigger = {
-		NOT = { has_government = monarchist }
-		monarchist > 0.4
+		NOT = { has_government = populism }
+		populism > 0.4
 		is_puppet = no
 	}
 	
@@ -23,14 +19,14 @@ country_event = {
 		days = 100
 		modifier = {
 			factor = 0.5
-			monarchist > 0.5
+			populism > 0.5
 		}
 	}
 	
 	option = {
 		name = political.29.a
 		set_politics = {
-			ruling_party = monarchist
+			ruling_party = populism
 			elections_allowed = no
 		}
 		add_timed_idea = { idea = reign_of_terror days = 730 }

@@ -1,12 +1,8 @@
-﻿###########################
-# Turkey Events
-###########################
+﻿#############################
+# Brave World - Turkey Events
+#############################
 
 add_namespace = turkey
-
-#############################
-# Brave World - Ottoman Events
-#############################
 
 # President dies
 country_event = {

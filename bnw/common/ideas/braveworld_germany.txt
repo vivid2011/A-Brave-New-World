@@ -1,0 +1,111 @@
+ideas = {
+
+	country = {
+		winner_franco_prussian = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = 0.05
+				army_morale_factor = 0.02
+			}
+		}
+		
+		german_powerhouse = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.025
+			}
+			
+		}
+		
+		prussian_militarism = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.02
+			}
+		}
+		
+		clausewitz_ghost = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
+			
+			modifier = {
+				army_attack_factor = 0.015
+				army_defence_factor = 0.01
+				supply_consumption_factor = -0.01
+				army_speed_factor = 0.02
+			}
+			
+		}
+		
+	}
+	
+	political_advisor = {
+		
+	}
+
+	
+	# TECHNOLOGY
+	tank_manufacturer = { 
+		
+	}
+	
+	naval_manufacturer = { 
+		
+	}
+	
+	aircraft_manufacturer = { 
+		
+
+	}
+	
+	industrial_concern = {
+		
+	}
+	
+	materiel_manufacturer = {
+		
+	}
+	
+	theorist = {
+		
+	}	
+		
+	# MILITARY
+	army_chief = {
+		
+	}
+	
+	air_chief = {
+		
+	}
+	
+	navy_chief = { #CHIEF OF NAVY
+		
+	}
+
+	high_command = {
+		
+	}
+
+
+
+
+
+}

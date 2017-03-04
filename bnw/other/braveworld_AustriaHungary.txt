@@ -28,7 +28,7 @@ country_event = {
 		kill_country_leader = yes
 		create_country_leader={
 			name = "Charles I"
-			ideology = imperial
+			ideology = imperialism
 			expire = "1922.4.1"
 			picture = "Portrait_AustriaHungary_CarlosI.dds"
 			traits ={
@@ -54,8 +54,9 @@ country_event = {
 		}
 		AHU = { 
 			transfer_state = 104
-#			add_ideas = bosnian_revolts
+			add_ideas = bosnian_revolts
 			annex_country = { target = BHZ transfer_troops = yes }
+		
 		}
 		add_named_threat = { threat = 2 name = AHU }
 		hidden_effect = {
@@ -259,8 +260,8 @@ country_event = {
 	
 	option = {
 		name = austria.12.b
-		SOV = {
-			country_event = { id = SovietUnion.1 }
+		RUS = {
+			country_event = { id = russia.1 }
 		}
 		ai_chance = {
 			factor = 80
@@ -329,3 +330,4 @@ country_event = {
 		add_opinion_modifier = { target = GER modifier = reject_faction }
 	}
 }
+>>>>>>> dd86fef24ad74bd55db9486aafb0a22aaf73d8aa

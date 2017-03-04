@@ -24,7 +24,7 @@ state= {
 			}
 		}
 		add_core_of = CUB
-		add_claim_of = USA
+		add_claim_by = USA
 		victory_points = {
 			7622 5 
 		}

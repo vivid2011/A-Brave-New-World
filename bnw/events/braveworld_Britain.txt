@@ -8,23 +8,23 @@ add_namespace = britain
 
 
 #Appointment of new PM
-create_country={
+country_event={
 	
-	id = britain.21
-	title = britain.21.t
-	desc = britain.21.d
+	id = britain.24
+	title = britain.24.t
+	desc = britain.24.d
 	#picture = GFX_report_event_usa_funeral
 	
 	fire_only_once = yes
 	
 	trigger = {
 		tag = ENG
-		date = 1902.7.11
+		date > 1902.7.11
 		has_government = democratic
 	}
 	
 	option = {
-		name = britain.21.a
+		name = britain.24.a
 		create_country_leader={
 			name="Arthur Balfour"
 			picture = "Portait_Britain_Arthur_Balfour.dds"
@@ -38,23 +38,23 @@ create_country={
 }
 
 #Appointment of new PM
-create_country={
+country_event={
 	
-	id = britain.22
-	title = britain.22.t
-	desc = britain.22.d
+	id = britain.25
+	title = britain.25.t
+	desc = britain.25.d
 	#picture = GFX_report_event_usa_funeral
 	
 	fire_only_once = yes
 	
 	trigger = {
 		tag = ENG
-		date = 1905.12.5
+		date > 1905.12.5
 		has_government = democratic
 	}
 	
 	option = {
-		name = britain.22.a
+		name = britain.25.a
 		create_country_leader={
 			name="Henry Campbell-Bannerman"
 			picture = "Portrait_Britain_Henry_Campbell.dds"
@@ -68,23 +68,23 @@ create_country={
 }
 
 #Appointment of new PM
-create_country={
+country_event={
 	
-	id = britain.23
-	title = britain.23.t
-	desc = britain.23.d
+	id = britain.26
+	title = britain.26.t
+	desc = britain.26.d
 	#picture = GFX_report_event_usa_funeral
 	
 	fire_only_once = yes
 	
 	trigger = {
 		tag = ENG
-		date = 1908.4.7
+		date > 1908.4.7
 		has_government = democratic
 	}
 	
 	option = {
-		name = britain.23.a
+		name = britain.26.a
 		create_country_leader={
 			name="Herbert Henry Asquith"
 			picture = "Portrait_Britain_Herbet_Asquith.dds"
@@ -98,23 +98,23 @@ create_country={
 }
 
 #Appointment of new PM
-create_country={
+country_event={
 	
-	id = britain.24
-	title = britain.24.t
-	desc = britain.24.d
+	id = britain.27
+	title = britain.27.t
+	desc = britain.27.d
 	#picture = GFX_report_event_usa_funeral
 	
 	fire_only_once = yes
 	
 	trigger = {
 		tag = ENG
-		date = 1916.12.7
+		date > 1916.12.7
 		has_government = democratic
 	}
 	
 	option = {
-		name = britain.24.a
+		name = britain.27.a
 		create_country_leader={
 			name="David Lloyd George"
 			picture = "Portrait_Britain_David_George.dds"
@@ -128,23 +128,23 @@ create_country={
 }
 
 #Appointment of new PM
-create_country={
+country_event={
 	
-	id = britain.25
-	title = britain.25.t
-	desc = britain.25.d
+	id = britain.28
+	title = britain.28.t
+	desc = britain.28.d
 	#picture = GFX_report_event_usa_funeral
 	
 	fire_only_once = yes
 	
 	trigger = {
 		tag = ENG
-		date = 1922.10.23
+		date > 1922.10.23
 		has_government = democratic
 	}
 	
 	option = {
-		name = britain.25.a
+		name = britain.28.a
 		create_country_leader={
 			name="Andrew Bonar Law"
 			picture = "Portrait_Britain_Andrew_Law.dds"
@@ -154,5 +154,153 @@ create_country={
 				
 			}
 		}
+	}
+}
+
+
+#Independence of Australia
+country_event = {
+	id = britain.29
+    title = britain.29.t
+    desc = britain.29.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		date > 1900.12.30
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 100
+			modifier = {
+				has_government = fascism
+				factor = 10
+			}
+			modifier = {
+				has_government = communism
+				factor = 10
+			}
+		}
+		name = britain.29.a
+			AST = { 
+				transfer_state = 517
+				transfer_state = 518
+				transfer_state = 519
+				transfer_state = 520
+				transfer_state = 521
+				transfer_state = 522
+				transfer_state = 523
+				transfer_state = 674
+				transfer_state = 285
+			}
+			
+			ENG = {
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+						set_autonomy = {
+							target = AST
+							autonomous_state = autonomy_integrated_puppet
+						}
+					else = {
+						puppet = AST
+					}
+				}
+			}
+	}
+	
+    option = {
+		ai_chance = {
+			factor = 0
+			modifier = {
+				has_government = fascism
+				factor = 90
+			}
+			modifier = {
+				has_government = communism
+				factor = 90
+			}
+		}
+		name = britain.29.b
+                add_political_power = -250
+	}
+}
+
+#Independence of South Africa
+country_event = {
+	id = britain.30
+    title = britain.30.t
+    desc = britain.30.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		date > 1910.5.29
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 100
+			modifier = {
+				has_government = fascism
+				factor = 10
+			}
+			modifier = {
+				has_government = communism
+				factor = 10
+			}
+		}
+		name = britain.30.a
+			SAF = { 
+				transfer_state = 681
+				transfer_state = 719
+				transfer_state = 759
+				transfer_state = 275
+			}
+			
+			ENG = {
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+						set_autonomy = {
+							target = SAF
+							autonomous_state = autonomy_integrated_puppet
+						}
+					else = {
+						puppet = SAF
+					}
+				}
+			}
+	}
+	
+    option = {
+		ai_chance = {
+			factor = 0
+			modifier = {
+				has_government = fascism
+				factor = 90
+			}
+			modifier = {
+				has_government = communism
+				factor = 90
+			}
+		}
+		name = britain.30.b
+        add_political_power = -250
 	}
 }

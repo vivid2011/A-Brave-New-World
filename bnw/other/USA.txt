@@ -5,6 +5,7 @@
 add_namespace = usa
 
 # Amelia Eartharts wants to join the USAAC
+#!!!!! ALTERED !!!!!
 country_event = {
 	id = usa.1
 	title = usa.1.t
@@ -17,6 +18,7 @@ country_event = {
 		tag = USA
 		has_war = yes
 		NOT = { has_global_flag = earhart_disappeared }
+		date>1936.1.1
 	}
 	
 	mean_time_to_happen = {
@@ -33,7 +35,6 @@ country_event = {
 			type = fighter_genius
 			is_female = yes
 		}
-		set_country_flag = amelia_active_ace
 	}
 	option = { # Refuse
 		name = usa.1.b
@@ -52,7 +53,7 @@ country_event = {
 	
 	option = { 
 		name = usa.2.a
-		every_other_country = {
+		every_country = {
 			limit = {
 				OR = {
 					has_government = fascism
@@ -119,52 +120,27 @@ country_event = {
 
 	is_triggered_only = yes
 	
-	option = {
+	option = { 
 		name = usa.4.a
 		custom_effect_tooltip = usa.4.a.tt
 		hidden_effect = {
 			ENG = {	load_oob = "ENG_destroyers_for_bases" }
 			ENG = {
-				if = { limit = { 696 = { is_controlled_by = ENG } }
-					remove_state_core = 696
-				}
-				if = { limit = { 331 = { is_controlled_by = ENG } }
-					remove_state_core = 331
-				}
-				if = { limit = { 308 = { is_controlled_by = ENG } } 
-					remove_state_core = 308
-				}
-				if = { limit = { 693 = { is_controlled_by = ENG } } 
-					remove_state_core = 693
-				}
-				if = { limit = { 689 = { is_controlled_by = ENG } } 
-					remove_state_core = 689
-				}
-				if = { limit = { 691 = { is_controlled_by = ENG } } 
-					remove_state_core = 691
-				}
+				remove_state_core = 696
+				remove_state_core = 331
+				remove_state_core = 308
+				remove_state_core = 693
+				remove_state_core = 689
+				remove_state_core = 691
 			}
 			CAN = { load_oob = "CAN_destroyers_for_bases" }
 		}
 		USA = {
-			if = { limit = { 696 = { is_controlled_by = ENG } }
-				transfer_state = 696
-			}
-			if = { limit = { 331 = { is_controlled_by = ENG } }
-				transfer_state = 331
-			}
-			if = { limit = { 308 = { is_controlled_by = ENG } } 
-				transfer_state = 308
-			}
-			if = { limit = { 693 = { is_controlled_by = ENG } } 
-				transfer_state = 693
-			}
-			if = { limit = { 689 = { is_controlled_by = ENG } } 
-				transfer_state = 689
-			}
-			if = { limit = { 691 = { is_controlled_by = ENG } } 
-				transfer_state = 691
-			}
+			transfer_state = 696
+			transfer_state = 308
+			transfer_state = 693
+			transfer_state = 689
+			transfer_state = 691
 			add_opinion_modifier = {
 				target = ROOT
 				modifier = destroyers_for_bases_opinion
@@ -520,8 +496,6 @@ country_event = {
 		has_government = democratic
 	}
 
-	fire_only_once = yes
-
 	mean_time_to_happen = {
 		days = 365
 	}
@@ -609,7 +583,6 @@ country_event = {
 	hidden = yes
 
 	immediate = {
-		save_event_target_as = being_attacked
 		USA = {
 			country_event = { id = usa.17 }
 		}
@@ -702,20 +675,11 @@ country_event = {
 			}
 		}
 
-		event_target:being_attacked = {
-			FROM = {
-				add_to_war = {
-					targeted_alliance = PREV
-					enemy = ROOT
-				}
+		ROOT = {
+			declare_war_on = {
+				target = FROM
 			}
 		}
-
-		#ROOT = {
-		#	declare_war_on = {
-		#		target = FROM
-		#	}
-		#}
 		hidden_effect = {
 			news_event = { id = news.157 days = 2 }
 		}
@@ -739,7 +703,7 @@ country_event = {
 
 		custom_effect_tooltip = usa.18.b_tt
 		hidden_effect = {
-			event_target:being_attacked = { white_peace = ROOT }
+			FROM = { FROM = { white_peace = ROOT } }
 			news_event = { id = news.158 days = 2 }
 		}
 	}
@@ -868,7 +832,7 @@ country_event = {
 			limit = {
 				ENG = {
 					is_faction_leader = yes
-					NOT = { has_war_with = USA }
+					NOT = { has_war_with = ENG }
 				}
 			}
 			ENG = { add_to_faction = USA }
@@ -887,736 +851,5 @@ country_event = {
 	option = {
 		name = usa.24.b
 		ai_chance = { factor = 0 }
-	}
-}
-
-###########################
-# Brave World - USA Events
-###########################
-
-# Election of 1900: McKinley vs William Jennings Bryan
-country_event = {
-	id = usa.25
-	title = usa.25.t
-	desc = usa.25.d
-	picture = GFX_report_event_usa_election_generic
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = USA
-		democratic > 0.5
-		date > 1900.10.1
-		date < 1900.10.8
-	}
-	
-	mean_time_to_happen = {
-		days = 4
-	}
-	
-	option = { 	
-		name = usa.25.a
-		ai_chance = {
-			factor = 75
-		}
-		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
-		
-		hidden_effect={ # SHHHHHH! Hide better than Paradox hides the Amelia Earhart disaster.
-			
-		}
-		
-		random_list={
-			75={ USA={ country_event={ id=usa.26 days = 313 } } }
-			25={ USA={ country_event={ id=usa.36 days = 313 } } }
-		}
-		
-	}
-
-	option = { 
-		name = usa.25.b
-		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}		
-		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democrat_party }
-		create_country_leader = {
-			name = "William Jennings Bryan"
-			picture = "Portrait_USA_William_Bryan.dds"
-			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {
-				staunch_constitutionalist
-			}
-		}
-	}
-}
-
-# McKinley Dies
-country_event = {
-	id = usa.26
-	title = usa.26.t
-	desc = usa.26.d
-	picture = GFX_report_event_usa_funeral
-	
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	#trigger = {
-	#	tag = USA
-	#	date > 1901.9.14
-	#	date < 1901.9.20
-	#	has_government = democratic
-	#	#check to see if it is McKinley
-	#}
-
-	#mean_time_to_happen = {
-	#	days = 2
-	#}
-	
-	option = {
-		name = usa.26.a
-		add_political_power = -40
-		kill_country_leader = yes
-		create_country_leader={
-			name="Theodore Roosevelt"
-			picture = "Portrait_USA_Theodore_Roosevelt.dds"
-			expire = "1919.1.6"
-			ideology = liberalism
-			traits = {
-				#soldier
-				#general
-				#hero_of_spanish_american_war
-				#progressive
-				#antitrust
-				#conservationist
-			}
-		}
-	}
-}
-
-# Election of 1904: Roosevelt vs Alton B. Parker
-country_event = {
-	id = usa.27
-	title = usa.27.t
-	desc = usa.27.d
-	picture = GFX_report_event_usa_election_generic
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = USA
-		democratic > 0.5
-		date > 1904.1.1
-		date < 1905.1.1
-	}
-	
-	mean_time_to_happen = {
-		days = 313
-	}
-	
-	option = { 	
-		name = usa.27.a
-		ai_chance = {
-			factor = 75
-		}
-	}
-
-	option = { 
-		name = usa.27.b
-		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}		
-		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democrat_party }
-		create_country_leader = {
-			name = "Alton B. Parker"
-			picture = "Portrait_USA_Alton_Parker.dds"
-			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {
-				staunch_constitutionalist
-			}
-		}
-	}
-}
-
-# Election of 1908: Taft vs William Jennings Bryan
-country_event = {
-	id = usa.28
-	title = usa.28.t
-	desc = usa.28.d
-	picture = GFX_report_event_usa_election_generic
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = USA
-		democratic > 0.5
-		date > 1908.1.1
-		date < 1909.1.1
-	}
-	
-	mean_time_to_happen = {
-		days = 313
-	}
-	
-	option = { 	
-		name = usa.28.a
-		ai_chance = {
-			factor = 75
-		}		
-		#add_ideas = beginning_of_progressive_era
-	}
-
-	option = { 
-		name = usa.28.b
-		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}		
-		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democrat_party }
-		create_country_leader = {
-			name = "William Jennings Bryan"
-			picture = "Portrait_USA_William_Bryan.dds"
-			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {
-				staunch_constitutionalist
-			}
-		}
-	}
-}
-
-# Election of 1912: Taft vs Woodrow Wilson vs Roosevelt
-country_event = {
-	id = usa.29
-	title = usa.29.t
-	desc = usa.29.d
-	picture = GFX_report_event_usa_election_generic
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = USA
-		democratic > 0.5
-		date > 1911.1.1
-		date < 1912.1.1
-	}
-	
-	mean_time_to_happen = {
-		days = 313
-	}
-	
-	option = { 	
-		name = usa.29.a
-		ai_chance = {
-			factor = 0
-		}
-	}
-
-	option = { 
-		name = usa.29.b
-		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 75
-				is_historical_focus_on = yes
-			}
-		}		
-		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democrat_party }
-		create_country_leader = {
-			name = "Woodrow Wilson"
-			picture = "Portrait_USA_Woodrow_Wilson.dds"
-			expire = "1965.1.1"
-			ideology = liberalism
-			traits = {
-				
-			}
-		}
-	}
-	
-	option = { 
-		name = usa.29.c
-		ai_chance = {
-			factor = 5
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}		
-		set_party_name = { ideology = democratic long_name = USA_bullmoose_party name = USA_bullmoose_party }
-		create_country_leader = {
-			name = "Theodore Roosevelt"
-			picture = "Portrait_USA_Theodore_Roosevelt.dds"
-			expire = "1965.1.1"
-			ideology = liberalism
-			traits = {
-				#soldier
-				#general
-				#hero_of_spanish_american_war
-				#progressive
-				#antitrust
-				#conservationist
-			}
-		}
-	}
-}
-
-# Election of 1916: Wilson vs Charles Evans Hughes
-country_event = {
-	id = usa.30
-	title = usa.30.t
-	desc = usa.30.d
-	picture = GFX_report_event_usa_election_generic
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = USA
-		democratic > 0.5
-		date > 1916.1.1
-		date < 1917.1.1
-	}
-	
-	mean_time_to_happen = {
-		days = 313
-	}
-	
-	option = { 	
-		name = usa.30.a
-		ai_chance = {
-			factor = 75
-		}
-	}
-
-	option = { 
-		name = usa.30.b
-		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}		
-		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
-		create_country_leader = {
-			name = "Charles Evans Hughes"
-			picture = "Portrait_USA_Generic_2.dds"
-			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {
-				
-			}
-		}
-	}
-}
-
-# USA option to intervene in WWI
-country_event = {
-	id = usa.31
-	title = usa.31.t
-	desc = usa.31.d
-	picture = GFX_report_event_usa_macarthur_speech
-
-	is_triggered_only = yes
-	
-	#Intervene ultimatum war
-	option = { 
-		name = usa.31.a
-	
-		#Need to use FROM FROM scope since the one sending the event is the nation under attack
-		ai_chance = {
-			factor = 20			
-			modifier = {
-				factor = 0.2
-				FROM = {
-					FROM = {
-						strength_ratio = {
-							tag = USA
-							ratio > 0.6
-						}
-					}
-				}
-			}		
-		}
-
-		custom_effect_tooltip = usa.31.a_tt
-		FROM = { FROM = { country_event = { id = usa.31 days = 2 } } }
-	}
-
-	#Don't Intervene
-	option = {
-		name = usa.31.b
-
-		ai_chance = {
-			factor = 5
-			modifier = {
-				factor = 0
-				FROM = {
-					FROM = {
-						strength_ratio = {
-							tag = USA
-							ratio < 0.3
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
-# Roosevelt wants to join the USAA
-country_event = {
-	id = usa.32
-	title = usa.32.t
-	desc = usa.32.d
-	#picture = GFX_report_event_usa_amelia_earhart_airplane
-
-	fire_only_once = yes
-	
-	trigger = {
-		tag = USA
-		OR={
-			has_war_with = GER
-			has_war_with = RUS
-			has_war_with = AHU
-			has_war_with = TUR
-		}
-		date > 1916.1.1
-		date < 1919.1.6
-	}
-	
-	mean_time_to_happen = {
-		days = 30
-	}
-	
-	option = { # Let him join
-		name = usa.32.a
-		add_political_power = -50
-		add_national_unity = -0.02
-		create_field_marshal={
-			name="Theodore Roosevelt"
-			id = 500
-			picture = "Portrait_USA_Theodore_Roosevelt.dds"
-			traits = { offensive_doctrine logistics_wizard inspirational_leader }
-			skill = 5
-		}
-	}
-	option = { # Refuse
-		name = usa.32.b
-		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}
-	}
-}
-
-#Columbia is aggressive
-country_event={
-	id=usa.33
-	title=usa.33.t
-	desc=usa.33.d
-	
-	is_triggered_only = yes
-	fire_only_once = yes
-	
-	#Defend Panama!
-	option={
-		name=usa.33.a
-		
-		ai_chance = {
-			factor = 50
-			modifier = {
-				factor = 75
-				is_historical_focus_on = yes
-			}
-		}
-		
-		set_global_flag = usa_defends_panamanian_independence
-		give_guarantee=PAN
-		#remove_guarantee=COL
-		news_event = { hours = 3 id = news.246 } #usa war resolution
-		
-		COL={
-			country_event = {
-				id=columbia.2
-				hours = 4
-			}
-		}
-		
-		add_opinion_modifier={
-			target=COL
-			modifier=usa_defends_panama
-		}
-		
-	}
-	
-	#Let Panama go
-	option={
-		name=usa.33.b
-		set_global_flag=america_backs_off_panama
-		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}
-		news_event = { hours = 3 id = news.247 } #usa backs down resolution
-	}
-}
-
-#Panama Canal Treaty
-country_event={
-	id=usa.34
-	title=usa.34.t
-	desc=usa.34.d
-	
-	is_triggered_only=yes
-	fire_only_once = yes
-	
-	option={
-		name=usa.34.a
-		give_guarantee = PAN
-		
-		IF={
-			LIMIT={
-				NOT={
-					has_guaranteed=PAN
-				}
-			}
-			give_guarantee=PAN
-		}
-		
-		random_country={
-			LIMIT={
-				tag = PAN
-			}
-			country_event ={
-				id=panama.1
-				hours=4
-			}
-		}
-	}
-	
-}
-
-#Panama Canal Treaty Revoked!
-country_event={
-	id=usa.35
-	title=usa.35.t
-	desc=usa.35.d
-	
-	is_triggered_only=yes
-	
-	option={
-		name=usa.35.a
-		
-		create_wargoal={
-			type=take_state_focus
-			target=PAN
-			generator={685}
-		}
-		
-	}
-	
-}
-
-#McKinley doesn't die
-country_event = {
-	id = usa.36
-	title = usa.36.t
-	desc = usa.36.d
-	#picture = GFX_report_event_usa_funeral
-	
-	fire_only_once = yes
-	
-#	trigger = {
-#		tag = USA
-#		date > 1901.9.14
-#		date < 1901.9.20
-#		has_government = democratic
-#	}
-
-#	mean_time_to_happen = {
-#		days = 2
-#	}
-	
-	option = {
-		name = usa.36.a
-		set_country_flag = mckinley_lives
-	}
-}
-
-#Boxer Rebellion Receive Event
-
-#Roosevelt dies
-
-#Join League of nations
-
-#Involvement in Russian Civil War
-
-# Election of 1920: Warren G. Harding vs 
-country_event = {
-	id = usa.50
-	title = usa.50.t
-	desc = usa.50.d
-	picture = GFX_report_event_usa_election_generic
-
-	fire_only_once = yes
-
-	trigger = {
-		tag = USA
-		democratic > 0.5
-		date > 1920.1.1
-		date < 1921.1.1
-	}
-	
-	mean_time_to_happen = {
-		days = 313
-	}
-	
-	option = { 	
-		name = usa.50.a
-		ai_chance = {
-			factor = 75
-		}
-		
-		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
-	#	create_country_leader={
-	#		
-	#	}
-		
-	}
-
-	option = { 
-		name = usa.50.b
-		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
-		}		
-		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
-		create_country_leader = {
-			name = "Charles Evans Hughes"
-			picture = "Portrait_USA_Generic_2.dds"
-			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {
-				
-			}
-		}
-	}
-}
-
-#Independence of Puerto Rico
-country_event = {
-	id = usa.51
-        title = usa.51.t
-        desc = usa.51.d
-	picture = GFX_report_event_election_vote
-	
-	fire_only_once = yes
-
-	trigger = {
-		tag = USA
-		date = 1900.5.10
-	}
-	
-	mean_time_to_happen = {
-		days = 2
-	}
-	
-	option = {
-		ai_chance = {
-			factor = 90
-			modifier = {
-				has_government = fascism
-				factor = 100
-			}
-			modifier = {
-				has_government = communism
-				factor = 100
-			}
-		}
-		name = usa.51.a
-			USA = { 
-				transfer_state = 686
-			}
-	}
-	
-    option = {
-		ai_chance = {
-			factor = 10
-			modifier = {
-				has_government = fascism
-				factor = 0
-			}
-			modifier = {
-				has_government = communism
-				factor = 0
-			}
-		}
-		name = usa.51.b
-            add_political_power = 100
-			remove_puppet = PTR
-			
-	}
-}
-
-#Platt Amendment
-country_event = {
-	id = usa.52
-        title = usa.52.t
-        desc = usa.52.d
-	picture = GFX_report_event_election_vote
-	
-	fire_only_once = yes
-
-	trigger = {
-		tag = USA
-		date = 1901.2.28
-	}
-	
-	mean_time_to_happen = {
-		days = 2
-	}
-	
-	option = {
-		ai_chance = {
-			factor = 100
-		}
-		name = usa.52.a
-			CUB = { 
-				transfer_state = 315
-			}
-			USA = {
-				if = {
-					limit = {
-						has_dlc = "Together for Victory"
-					}
-						set_autonomy = {
-							target = CUB
-							autonomous_state = autonomy_integrated_puppet
-						}
-					else = {
-						puppet = CUB
-					}
-				}
-			}
 	}
 }

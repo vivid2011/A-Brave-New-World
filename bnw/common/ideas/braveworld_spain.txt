@@ -3,18 +3,14 @@ ideas = {
 	country = {
 		
 		loser_of_spanish_american_war = {
-		allowed = {
-
+			allowed = {
                 always = no
-
-            	}
+           	}
 
             removal_cost = -1			
 
-		modifier = {
-			
-			unity_factor = -0.1
-			
+			modifier = {
+				unity_factor = -0.1
 			}
 		
 		}

@@ -1,0 +1,113 @@
+ideas = {
+
+	country = {
+
+		franco_prussia_loser = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = -0.10
+			}
+		}
+		
+		spirit_of_commune = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				NOT = {
+					has_government = communism
+				}
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				communism_drift = 0.0005
+			}
+			
+		}
+		
+		oligarchic_economy = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -10
+			
+			modifier = {
+				industrial_capacity_factory = 0.02
+				political_power_factor = -0.05
+			}
+		}
+		
+		national_laissez_faire = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -100
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				political_power_factor = -0.05
+			}
+		}
+		
+	}
+
+	# POLITICAL
+	political_advisor = {
+		
+	}
+		
+	# MILITARY
+	army_chief = {
+		
+	}
+	navy_chief = {
+		
+	}
+	air_chief = {
+		
+	}
+	
+	high_command = {
+		
+	}
+	
+	tank_manufacturer = {
+		
+	}
+	
+	materiel_manufacturer = {
+		
+	}
+	
+	aircraft_manufacturer = {
+		
+		
+	}
+	naval_manufacturer = {
+		
+	}
+	
+	industrial_concern = {	
+		
+	}
+	
+	
+	theorist = {
+		
+	}	
+}

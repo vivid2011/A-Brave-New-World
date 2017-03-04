@@ -3,67 +3,103 @@ ideas = {
 	country = {
 		
 		GEN_backwards_empire = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1000
 			
 			modifier = {
-			conscription_factor = 0.2
-			research_time_factor = 0.35
-			political_power_cost = 0.05
-			political_power_gain = -0.5
+				conscription_factor = 0.2
+				research_time_factor = 0.35
+				political_power_cost = 0.05
+				political_power_gain = -0.5
 			}
 		}
 		GEN_non_industrialized = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1000
 			
 			modifier = {
-			industrial_capacity_factory = -0.5
-
+				industrial_capacity_factory = -0.5
 			}
+		}
 		GEN_industrializing = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -100
 			
 			modifier = {
-			industrial_capacity_factory = -0.1
-
+				industrial_capacity_factory = -0.1
 			}
+		}
 		GEN_industrialized = {
 			
+			allowed = {
+				always = yes
+			}
+			
 			modifier = {
-			industrial_capacity_factory = 0
-
+				industrial_capacity_factory = 0
 			}
 		}
 		
 		GEN_Decadence = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -100000
 			
 			modifier = {
-			unity_factor = 0.2
-			conscription_factor = -0.025
-			army_attack_factor = -0.02
-			army_defence_factor = 0.02
-			political_power_cost = 0.1
-			justify_war_goal_time = 0.25
-			industrial_capacity_factory = 0.08
+				unity_factor = 0.2
+				conscription_factor = -0.025
+				army_attack_factor = -0.02
+				army_defence_factor = 0.02
+				political_power_cost = 0.1
+				justify_war_goal_time = 0.25
+				industrial_capacity_factory = 0.08
 			}
 			
 		}
+		
 		GEN_economic_boom = {
+			allowed = {
+				always = no
+			}
+			removal_cost = -1
 			
 			modifier = {
-			industrial_capacity_factory = 0.2
+				industrial_capacity_factory = 0.2
 			}
 		}
 		
 		GEN_economic_crash = {
 			
+			allowed = {
+				always = no
+			}
+			removal_cost = -1000
+			
 			modifier = {
-			industrial_capacity_factory = -0.4
+				industrial_capacity_factory = -0.4
 			}
 		}
 		
 		GEN_fractured_empire = {
-			
+			allowed = {
+				always = no
+			}
+			removal_cost = -100000
 			modifier = {
-			unity_factor = -0.15
-			conscription_factor = -0.015
-			industrial_capacity_factory = -0.02
+				unity_factor = -0.15
+				conscription_factor = -0.015
+				industrial_capacity_factory = -0.02
 			}
 		}
 

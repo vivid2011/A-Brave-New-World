@@ -1,12 +1,10 @@
 ﻿###########################
-# French Events
-###########################
-
-add_namespace = france
-
-###########################
 # Brave World - French Events
 ###########################
+
+#Number of base events = 30
+
+add_namespace = france
 
 # Election of 1906: Fallières vs Paul Doumer
 country_event = {

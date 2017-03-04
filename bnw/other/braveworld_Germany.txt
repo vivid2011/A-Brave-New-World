@@ -1,12 +1,10 @@
 ﻿###########################
-# German Events
-###########################
-
-add_namespace = germany
-
-###########################
 # Brave World - German Events
 ###########################
+
+#Base game event count = 124
+
+add_namespace = germany
 
 #Viktor dies
 country_event = {
@@ -31,7 +29,7 @@ country_event = {
 		kill_country_leader = yes
 		create_country_leader={
 			name = "Bernhard Heinrich Karl Martin von Buelow"
-			ideology = imperial
+			ideology = imperialism
 			expire = "1929.10.28"
 			picture = "Portrait_Germany_Bernhard.dds"
 			id=501
@@ -64,7 +62,7 @@ country_event = {
 		name = germany.127.a
 		create_country_leader={
 			name = "Georg Michaelis"
-			ideology = imperial
+			ideology = imperialism
 			expire = "1936.7.24"
 			traits = {
 				#to come soon
@@ -95,7 +93,7 @@ country_event = {
 		name = germany.128.a
 		create_country_leader={
 			name = "Georg von Hertling"
-			ideology = imperial
+			ideology = imperialism
 			expire = "1919.1.4"
 			traits = {
 				#to come soon
@@ -125,7 +123,7 @@ country_event = {
 		name = germany.129.a
 		create_country_leader={
 			name = "Maximilian Alexander Friedrich Wilhelm"
-			ideology = imperial
+			ideology = imperialism
 			expire = "1929.10.28"
 			traits = {
 				#to come soon
@@ -173,7 +171,7 @@ country_event = {
 	option = {
 		name = germany.131.a
 			GER = {
-				add_to_faction = TUR
+			add_to_faction = TUR
 			}
 		add_named_threat = { threat = 1 name = germany.cpjoin }
 		
@@ -181,7 +179,7 @@ country_event = {
 	
 	option = {
 		name = germany.131.b
-		add_opinion_modifier = { target = TUR modifier = reject_faction }
+		add_opinion_modifier = { target = GER modifier = reject_faction }
 	}
 }
 
@@ -249,7 +247,7 @@ country_event = {
 		name = germany.134.a
 		create_country_leader={
 			name = "Theobald von Bethmann-Hollweg"
-			ideology = imperial
+			ideology = imperialism
 			expire = "1921.1.1"
 			traits = {
 				#to come soon

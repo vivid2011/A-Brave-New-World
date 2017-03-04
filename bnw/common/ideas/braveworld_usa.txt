@@ -14,18 +14,6 @@ ideas = {
 			}
 		}
 		
-		american_imperial = {
-			allowed = {
-				always = no
-			}
-			
-			removal_cost = -1
-			
-			modifier = {
-				#Relations
-			}
-		}
-		
 		land_of_innovation ={
 			allowed = {
 				always = no
@@ -34,12 +22,40 @@ ideas = {
 			removal_cost = -1
 			
 			research_bonus = {
-				research_time_factor = -0.05
+				research_time_factor = 0.05
 			}
 			
 		}
 		
+		idealism = {
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier= {
+				industrial_capacity_factory = 0.05
+			}
+			
+		}
+		
+		nat_of_img = {
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				conscription_factor = 0.01
+			}
+		}
+	
 	}
+	
+	
+	
 	
 	political_advisor = {
 		
@@ -64,7 +80,7 @@ ideas = {
 	}
 		
 	tank_manufacturer = { 
-		
+	
 	}
 	
 	naval_manufacturer = { 
@@ -75,16 +91,19 @@ ideas = {
 		
 	}
 	
+	
 	materiel_manufacturer = {
 		
 	}
+	
+
 	
 	industrial_concern = {
 		
 	}
 	
+	
 	theorist = {
 		
 	}
-	
 }

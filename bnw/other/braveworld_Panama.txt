@@ -1,0 +1,74 @@
+﻿#############################
+# Brave World - Panama Events
+#############################
+
+add_namespace = panama
+
+country_event={
+	id=panama.1
+	title=panama.1.t
+	desc=panama.1.d
+	
+	is_triggered_only = yes
+	
+	#Accept Treaty
+	option={
+		name=panama.1.a
+		
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 90
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 50
+				has_global_flag = america_backs_off_panama
+			}
+		}
+		
+		USA={
+			transfer_state=685
+		}
+		
+		#add 100000 equipment
+		
+		add_opinion_modifier={
+			target=USA
+			modifier=accepted_treaty
+		}
+		
+	}
+	
+	#Revoke Treaty
+	option={
+		name=panama.1.b
+		
+		ai_chance = {
+			factor = 50
+			modifier = {
+				factor = 10
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 50
+				has_global_flag = america_backs_off_panama
+			}
+		}
+		
+		USA={
+			add_state_claim=685
+			country_event={
+				id = usa.35
+				hours = 4
+			}
+		}
+		
+		add_opinion_modifier={
+			target=USA
+			modifier=defied_demands
+		}
+		
+	}
+	
+}

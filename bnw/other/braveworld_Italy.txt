@@ -1,12 +1,10 @@
 ﻿###########################
-# Italian Events
-###########################
-
-add_namespace = italy
-
-###########################
 # Brave World - Italian Events
 ###########################
+
+#Number of base events - 16
+
+add_namespace = italy
 
 # Fuck Italy and its dumb parliamentary junk. Mussolini made Italian politics easier to understand.
 country_event = {
@@ -468,5 +466,3 @@ country_event = {
 		}
 	}
 }
-
-
