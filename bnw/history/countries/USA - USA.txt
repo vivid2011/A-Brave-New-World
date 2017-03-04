@@ -181,10 +181,10 @@ set_politics = {
 }
 
 add_ideas = {
-	undisturbed_isolation
-	great_depression
-	disarmed_nation
-	free_trade
+	victors_of_span_amer_war
+	land_of_innovation
+	idealism
+	nat_of_img
 	home_of_the_free
 }
 
