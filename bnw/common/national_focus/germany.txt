@@ -530,7 +530,7 @@ focus_tree = {
 	focus = {
 		id = GER_air_innovation_2
 		icon = GFX_goal_generic_air_fighter2
-		prerequisite = { focus = GER_strategic_air_effort focus = GER_tactical_air_effort focus = GER_soviet_treaty }
+		prerequisite = { focus = GER_strategic_air_effort focus = GER_tactical_air_effort }
 		x = 4
 		y = 3
 		cost = 10
@@ -626,6 +626,8 @@ focus_tree = {
 					NOT = { tag = GER }
 					NOT = { has_war_with = GER }
 					NOT = { is_in_faction_with = SOV }
+					NOT = { is_in_faction_with = FRA }
+					NOT = { is_in_faction_with = ENG }
 					OR = {
 						capital_scope = {
 								is_on_continent = europe
@@ -646,7 +648,17 @@ focus_tree = {
 						}
 					}
 					OR = {
-						has_government = populism
+						has_government = monarchist
+						AND = {
+							OR = {is_neighbor_of = FRA
+								  is_neighbor_of = SOV
+								  is_neighbor_of = ENG
+								  }
+							NOT = { has_government = democratic }
+						}
+					}
+					OR = {
+						has_government = communism
 						AND = {
 							OR = {is_neighbor_of = FRA
 								  is_neighbor_of = SOV
@@ -665,6 +677,7 @@ focus_tree = {
 		id = GER_entente_war_goal
 		icon = GFX_goal_generic_war_with_comintern
 		prerequisite = { focus = GER_anti_entente_pact }
+		prerequisite = { focus = GER_army_innovation }
 		will_lead_to_war_with = FRA
 		will_lead_to_war_with = ENG
 		will_lead_to_war_with = SOV
@@ -1308,7 +1321,6 @@ focus_tree = {
 		id = GER_denmark_friend
 		icon = GFX_goal_generic_improve_relations
 		prerequisite = { focus = GER_plan_z }
-		mutually_exclusive = { focus = GER_weserubung }
 
 		available = {
 			country_exists = DEN

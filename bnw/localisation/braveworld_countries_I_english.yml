@@ -1,4 +1,6 @@
 ﻿l_english:
+#BRAVE WORLD
+ # AUSTRIA-HUNGARY
  AHU_fascism:0 "Austrian Reich"
  AHU_fascism_DEF:0 "The Austro-Hungarian Reich"
  AHU_democratic:0 "Austro-Hungarian Republic"
@@ -14,9 +16,110 @@
  AHU_neutrality_ADJ:0 "Austro-Hungarian"
  AHU_communism_ADJ:0 "Austro-Hungarian"
  AHU_monarchist_ADJ:0 "Austro-Hungarian"
+ # PERSIA/IRAN
  PER_monarchist:0 "Persian Empire"
- PER_monarchist_DESC:0 "Persian Empire"
+ PER_monarchist_DEF:0 "Persian Empire"
  PER_monarchist_ADJ:0 "Persian"
+ # SAUDI ARABIA
+ SAU_monarchist:0 "Saudi Arabia"
+ SAU_monarchist_DEF:0 "Kingdom of Saudi Arabia"
+ SAU_monarchist_ADJ:0 "Saudi"
+ SAU_neutrality:0 "Arab States"
+ SAU_neutrality_DEF:0 "Arab States"
+ SAU_neutrality_ADJ:0 "Arab"
+ # OTTOMAN EMPIRE/TURKEY
+ TUR_monarchist:0 "Ottoman Empire"
+ TUR_monarchist_DEF:0 "Ottoman Empire"
+ TUR_monarchist_ADJ:0 "Ottoman"
+ # GERMANY
+ GER_monarchist:0 "German Empire"
+ GER_monarchist_DEF:0 "German Empire"
+ GER_monarchist_ADJ:0 "German"
+ # BOSNIA-HERZNEGOVINA
+ BHZ_monarchist:0 "Bosnia-Herzegovina"
+ BHZ_monarchist_DEF:0 "Dutchy of Bosnia-Herzegovina"
+ BHZ_monarchist_ADJ:0 "Bosnian"
+ # ORANGE STATE
+ ONG_democratic:0 "Orange Free State"
+ ONG_democratic_DEF:0 "Orange Free State"
+ ONG_democratic_ADJ:0 "Orangers"
+ ONG_fascism:0 "The Orange State"
+ ONG_fascism_DEF:0 "The Orange State"
+ ONG_fascism_ADJ:0 "Orangers"
+ ONG_communism:0 "Orange Commune"
+ ONG_communism_DEF:0 "The Orange Commune"
+ ONG_communism_ADJ:0 "Orangers"
+ ONG_neutrality:0 "The Orange State"
+ ONG_neutrality_DEF:0 "The Orange State"
+ ONG_neutrality_ADJ:0 "Orangers"
+ ONG_monarchist:0 "The Orange Kingdom"
+ ONG_monarchist_DEF:0 "The Orange Kingdom"
+ ONG_monarchist_ADJ:0 "Orangers"
+ # TRANSVAAL
+ TVL_democratic:0 "South African Republic"
+ TVL_democratic_DEF:0 "Transvaal"
+ TVL_democratic_ADJ:0 "South African"
+ TVL_fascism:0 "The South African Ryk"
+ TVL_fascism_DEF:0 "The South African Empire"
+ TVL_fascism_ADJ:0 "South African"
+ TVL_communism:0 "The South African Synicate"
+ TVL_communism_DEF:0 "The South African Syndicate"
+ TVL_communism_ADJ:0 "South African"
+ TVL_neutrality:0 "The Independent South African State"
+ TVL_neutrality_DEF:0 "South Africa"
+ TVL_neutrality_ADJ:0 "South African"
+ TVL_monarchist:0 "The Imperial Dominion of South Africa"
+ TVL_monarchist_DEF:0 "The Empire of South Africa"
+ TVL_monarchist_ADJ:0 "South African"
+ # ITALY
+ ITA_monarchist:0 "Kingdom of Italy"
+ ITA_monarchist_DEF:0 "Kingdom of Italy"
+ ITA_monarchist_ADJ:0 "Italian"
+ #QING
+ CHI_monarchist:0 "Qing Empire"
+ CHI_monarchist_DEF:0 "Qing Empire"
+ CHI_monarchist_ADJ:0 "Qing"
+ #ROMANIA
+ ROM_monarchist:0 "Kingdom of Romania"
+ ROM_monarchist_DEF:0 "Kingdom of Romania"
+ ROM_monarchist_ADJ:0 "Romanian"
+ #BULGARIA
+ BUL_monarchist:0 "Kingdom of Bulgaria"
+ BUL_monarchist_DEF:0 "Kingdom of Bulgaria"
+ BUL_monarchist_ADJ:0 "Bulgarian"
+ #SERBIA
+ SER_monarchist:0 "Kingdom of Serbia"
+ SER_monarchist_DEF:0 "Kingdom of Serbia"
+ SER_monarchist_ADJ:0 "Serbian"
+ #MONTENEGRO
+ MNT_monarchist:0 "Kingdom of Montenegro"
+ MNT_monarchist_DEF:0 "Kingdom of Montenegro"
+ MNT_monarchist_ADJ:0 "Montenegran"
+ #GREECE
+ GRE_monarchist:0 "Kingdom of Greece"
+ GRE_monarchist_DEF:0 "Kingdom of Greece"
+ GRE_monarchist_ADJ:0 "Greek"
+ # SOVIET UNION / RUSSIAN EMPIRE
+ SOV_monarchist:0 "Russian Empire"
+ SOV_monarchist_DEF:0 "Russian Empire"
+ SOV_monarchist_ADJ:0 "Russian"
+ #SWEDEN
+ SWE_monarchist:0 "Kingdom of Sweden"
+ SWE_monarchist_DEF:0 "Kingdom of Sweden"
+ SWE_monarchist_ADJ:0 "Swedish"
+ #ETHIOPIA
+ ETH_monarchist:0 "Empire of Ethiopia"
+ ETH_monarchist_DEF:0 "Empire of Ethiopia"
+ ETH_monarchist_ADJ:0 "Ethiopian"
+ #PORTUGAL
+ POR_monarchist:0 "Kingdom of Portugal"
+ POR_monarchist_DEF:0 "Kingdom of Portugal"
+ POR_monarchist_ADJ:0 "Portugese"
+ #SPAIN
+ SPR_monarchist:0 "Spainish Empire"
+ SPR_monarchist_DEF:0 "Empire of Spain"
+ SPR_monarchist_ADJ:0 "Spanish"
+ #MOROCCO
  MOR_monarchist:0 "Kingdom of Morocco"
  MOR_monarchist_DEF:0 "Kingdom of Morocco"
  MOR_monarchist_ADJ:0 "Moroccan"
@@ -32,3 +135,59 @@
  MOR_fascism:0 "Nationalist State of Morocco"
  MOR_fascism_DEF:0 "Nationalist State of Morocco"
  MOR_fascism_ADJ:0 "Moroccan"
+ #KOREA
+ KOR_monarchist:0 "Korean Empire"
+ KOR_monarchist_DEF:0 "Korean Empire"
+ KOR_monarchist_ADJ:0 "Korean"
+ #JAPAN
+ JAP_monarchist:0 "Empire of Japan"
+ JAP_monarchist_DEF:0 "Empire of Japan"
+ JAP_monarchist_ADJ:0 "Japanese"
+ #SIAM
+ SIA_monarchist:0 "Kingdom of Siam"
+ SIA_monarchist_DEF:0 "Kingdom of Siam"
+ SIA_monarchist_ADJ:0 "Siamese"
+ #PUERTO RICO
+ PTR_monarchist:0 "Kingdom of Puerto Rico"
+ PTR_monarchist_DEF:0 "Kingdom of Puerto Rico"
+ PTR_monarchist_ADJ:0 "Puerto Rican"
+ PTR_democratic:0 "Puerto Rico"
+ PTR_democratic_DEF:0 "Puerto Rico"
+ PTR_democratic_AJD:0 "Puerto Rican"
+ PTR_neutrality:0 "Puerto Rico"
+ PTR_neutrality_DEF:0 "Puerto Rico"
+ PTR_neutrality_ADJ:0 "Puerto Rican"
+ PTR_communism:0 "Puerto Rican People's Republic"
+ PTR_communism_DEF:0 "Puerto Rican People's Republic"
+ PTR_communism_ADJ:0 "Puerto Rican"
+ PTR_fascism:0 "Nationalist State of Puerto Rico"
+ PTR_fascism_DEF:0 "Nationalist State of Puerto Rico"
+ PTR_fascism_ADJ:0 "Puerto Rican"
+ #BELGIUM
+ BEL_monarchist:0 "Kingdom of Belgium"
+ BEL_monarchist_DEF:0 "Kingdom of Belgium"
+ BEL_monarchist_ADJ:0 "Belgian"
+ #BRITISH RAJ
+ RAJ_monarchist:0 "British Raj"
+ RAJ_monarchist_DEF:0 "British Raj"
+ RAJ_monarchist_ADJ:0 "Indian"
+ #BRITISH MALAY
+ MAL_monarchist:0 "British Malaya"
+ MAL_monarchist_DEF:0 "British Malaya"
+ MAL_monarchist_ADJ: "Malay"
+ #DUTCH EAST INDIES
+ INS_monarchist:0 "Dutch East Indies"
+ INS_monarchist_DEF:0 "Dutch East Indies"
+ INS_monarchist_ADJ: "Indonesian"
+ #BHUTAN
+ BHU_monarchist:0 "Kingdom of Bhutan"
+ BHU_monarchist_DEF:0 "Kingdom of Bhutan"
+ BHU_monarchist_ADJ:0 "Bhutanese"
+ #NEPAL
+ NEP_monarchist:0 "Kingdom of Nepal"
+ NEP_monarchist_DEF:0 "Kingdom of Nepal"
+ NEP_monarchist_ADJ:0 "Nepalese"
+ #AFGHANISTAN
+ AFG_monarchist:0 "Emirate of Afghanistan"
+ AFG_monarchist_DEF:0 "Emirate of Afghanistan"
+ AFG_monarchist_ADJ:0 "Afghan"

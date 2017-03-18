@@ -48,4 +48,11 @@ opinion_modifiers = {
 		decay = 1
 	}
 	
+	anti_entente_pact_opinion = {
+		value = 50
+	}
+
+	refused_anti_entente_pact_opinion= {
+		value = -50
+	}
 }	

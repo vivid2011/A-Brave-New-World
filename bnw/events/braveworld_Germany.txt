@@ -257,3 +257,66 @@ country_event = {
 		}
 	}
 }
+
+#Anti Entente Pact
+country_event = {
+	id = germany.135
+	title = germany.135.t
+	desc = germany.135.d
+	picture = GFX_report_event_japan_europe_pact
+
+	is_triggered_only = yes
+	
+	option = {
+		name = germany.135.a		#join
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 2
+				AND = {
+					OR = {
+						has_opinion = {
+							target = SOV
+							value < -10
+						}
+					}
+					OR = {	
+						has_opinion = {
+							target = ENG
+							value < -10
+						}
+					}
+					OR = {
+						has_opinion = {
+							target = FRA
+							value < -10
+						}
+					}
+				}
+			}
+			modifier = {
+				factor = 0.5
+				has_opinion = {
+					target = GER
+					value < -10
+				}
+			}
+		}
+		set_country_flag = anti_entente_member
+		GER = { add_opinion_modifier = { target = ROOT modifier = anti_comintern_pact_opinion } }
+		add_opinion_modifier = { target = GER modifier = anti_comintern_pact_opinion }
+		SOV  = { add_opinion_modifier = { target = ROOT modifier = pact_against_us } }
+		FRA  = { add_opinion_modifier = { target = ROOT modifier = pact_against_us } }
+		ENG  = { add_opinion_modifier = { target = ROOT modifier = pact_against_us } }
+	}
+	
+	option = {
+		name = germany.135.b		#refuse
+		trigger = { NOT = { is_puppet_of = GER } }
+		ai_chance = { 
+			factor = 25 
+		}
+		GER =  { add_opinion_modifier = { target = ROOT modifier = refused_anti_comintern_pact_opinion } }
+	}
+
+}
