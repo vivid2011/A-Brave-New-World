@@ -212,6 +212,10 @@ country_event = {
 						}
 					else = {
 						puppet = AST
+						#set_autonomy = {
+						#	target = AST
+						#	autonomous_state = autonomy_puppet
+						#}
 					}
 				}
 			}
@@ -283,6 +287,10 @@ country_event = {
 						}
 					else = {
 						puppet = SAF
+						#set_autonomy = {
+						#	target = SAF
+						#	autonomous_state = autonomy_puppet
+						#}
 					}
 				}
 			}

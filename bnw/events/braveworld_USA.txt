@@ -833,7 +833,7 @@ country_event = {
 		name = usa.51.b
         add_political_power = 100
 		end_puppet = PTR
-			
+		
 	}
 }
 
@@ -874,6 +874,10 @@ country_event = {
 						}
 					else = {
 						puppet = CUB
+						#set_autonomy = {
+						#	target = CUB
+						#	autonomous_state = autonomy_puppet
+						#}
 					}
 				}
 			}

@@ -2,7 +2,23 @@
 
 oob = "TUR_1936"
 
-puppet = BHZ
+if = {
+	limit = {
+		has_dlc = "Together for Victory"	
+	}
+	
+	set_autonomy = {
+		target = BHZ
+		autonomous_state = autonomy_integrated_puppet
+	}
+	else = {
+		puppet = BHZ
+		#set_autonomy = {
+		#	target = BHZ
+		#	autonomous_state = autonomy_puppet
+		#}
+	}
+}
 
 set_research_slots = 3
 
