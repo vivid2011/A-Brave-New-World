@@ -1,6 +1,6 @@
 leader_traits = {
 
-political_science_professor = {
+	political_science_professor = {
 		random = no
 		political_power_factor = 0.05
 		
@@ -8,7 +8,8 @@ political_science_professor = {
 			factor = 1
 		}
 	}
-soldier = {
+	
+	soldier = {
 		random = no
 		army_morale_factor = 0.02
 		army_attack_factor = 0.02
@@ -19,20 +20,21 @@ soldier = {
 			factor = 1
 		}
 	}
-hero_of_spanish_american_war = {
+	
+	hero_of_spanish_american_war = {
 		random = no
-		army_morale_factor = 0.05
+		army_morale_factor = 0.04
 		army_attack_factor = 0.02
 		army_defence_factor = 0.02
 		army_org_factor = 0.55
-		no_supply_grace = 48
+		no_supply_grace = 24
 
 		ai_will_do = {
 			factor = 1
 		}
 	}
 
-general = {
+	general = {
 		random = no
 		army_morale_factor = 0.015
 		army_attack_factor = 0.01
@@ -42,7 +44,8 @@ general = {
 			factor = 1
 		}
 	}
-survived_assassination_attempt = {
+	
+	survived_assassination_attempt = {
 		random = no
 		unity_factor = 0.1
 		political_power_factor = 0.1
@@ -52,8 +55,7 @@ survived_assassination_attempt = {
 		}
 	}
 
-
-conservationist = {
+	conservationist = {
 		random = no
 		local_resources_factor = -0.02
 		
@@ -61,13 +63,45 @@ conservationist = {
 			factor = 1
 		}
 	}
-leftist = {
+	
+	leftist = {
 		random = no
 		industrial_capacity_factory = -0.08
 		research_time_factor = -0.02
 	}	
-antitrust = {
-	random = no
-	industrial_capacity_factory = -0.03
-	}	
+	
+	antitrust = {
+		random = no
+		industrial_capacity_factory = -0.03
+	}
+	
+	inexperienced_politician = {
+		random = no
+		political_power_factor = -0.5
+	}
+	
+	rule_in_exile = {
+		random = no
+		political_power_factor = -0.5
+		unity_factor = -0.05
+	}
+	
+	integrity_questioned ={
+		random = no
+		unity_factor = -0.05
+	}
+	
+	progressive = {
+		random = no
+		conscription = -0.005
+	}
+	
+	taftian = {
+		random = no
+		local_resources_factor = -0.01
+		conscription = 0.0025
+		industrial_capacity_factory = -0.04
+		research_time_factor = -0.01
+	}
+	
 }

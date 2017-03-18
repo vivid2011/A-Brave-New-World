@@ -35,10 +35,6 @@ country_event = {
 		}
 		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
 		
-		hidden_effect={ # SHHHHHH! Hide better than Paradox hides the Amelia Earhart disaster.
-			
-		}
-		
 		random_list={
 			75={ USA={ country_event={ id=usa.26 days = 313 } } }
 			25={ USA={ country_event={ id=usa.36 days = 313 } } }
@@ -46,7 +42,7 @@ country_event = {
 		
 	}
 
-	option = { 
+	option = {
 		name = usa.25.b
 		ai_chance = {
 			factor = 25
@@ -56,6 +52,7 @@ country_event = {
 			}
 		}		
 		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democrat_party }
+		retire_country_leader = yes
 		create_country_leader = {
 			name = "William Jennings Bryan"
 			picture = "Portrait_USA_William_Bryan.dds"
@@ -65,6 +62,7 @@ country_event = {
 				staunch_constitutionalist
 			}
 		}
+		set_country_flag = bryan_presidency
 	}
 }
 
@@ -78,18 +76,6 @@ country_event = {
 	is_triggered_only = yes
 	fire_only_once = yes
 	
-	#trigger = {
-	#	tag = USA
-	#	date > 1901.9.14
-	#	date < 1901.9.20
-	#	has_government = democratic
-	#	#check to see if it is McKinley
-	#}
-
-	#mean_time_to_happen = {
-	#	days = 2
-	#}
-	
 	option = {
 		name = usa.26.a
 		add_political_power = -40
@@ -100,18 +86,18 @@ country_event = {
 			expire = "1919.1.6"
 			ideology = liberalism
 			traits = {
-				#soldier
-				#general
-				#hero_of_spanish_american_war
-				#progressive
-				#antitrust
-				#conservationist
+				soldier
+				general
+				hero_of_spanish_american_war
+				progressive
+				antitrust
+				conservationist
 			}
 		}
 	}
 }
 
-# Election of 1904: Roosevelt vs Alton B. Parker
+# Election of 1904: Roosevelt/McKinley vs Alton B. Parker/Bryan
 country_event = {
 	id = usa.27
 	title = usa.27.t
@@ -131,36 +117,70 @@ country_event = {
 		days = 313
 	}
 	
-	option = { 	
+	option = {
 		name = usa.27.a
+		if = {
+			limit = {
+				has_country_flag = mckinley_lives
+			}
+			retire_country_leader = yes
+			create_country_leader={
+				name="Theodore Roosevelt"
+				picture = "Portrait_USA_Theodore_Roosevelt.dds"
+				expire = "1919.1.6"
+				ideology = liberalism
+				traits = {
+					soldier
+					general
+					hero_of_spanish_american_war
+					progressive
+					antitrust
+					conservationist
+				}
+			}
+		}
+		
 		ai_chance = {
 			factor = 75
 		}
 	}
 
-	option = { 
-		name = usa.27.b
+	option = {
 		ai_chance = {
 			factor = 25
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
 			}
-		}		
-		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democrat_party }
-		create_country_leader = {
-			name = "Alton B. Parker"
-			picture = "Portrait_USA_Alton_Parker.dds"
-			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {
-				staunch_constitutionalist
-			}
 		}
+		
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = bryan_presidency
+				}
+			}
+			
+			name = usa.27.b
+			set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democrat_party }
+			create_country_leader = {
+				name = "Alton B. Parker"
+				picture = "Portrait_USA_Alton_Parker.dds"
+				expire = "1965.1.1"
+				ideology = conservatism
+				traits = {
+					staunch_constitutionalist
+				}
+			}
+		} else = {
+			name = usa.27.c
+			set_country_flag = WJB_pres_2
+		}
+		
 	}
 }
 
-# Election of 1908: Taft vs William Jennings Bryan
+# Election of 1908: Taft/Roosevelt vs William Jennings Bryan/George Gray
 country_event = {
 	id = usa.28
 	title = usa.28.t
@@ -181,36 +201,82 @@ country_event = {
 	}
 	
 	option = { 	
-		name = usa.28.a
 		ai_chance = {
 			factor = 75
-		}		
+		}
+		
+		# Taft running
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = roosevelt_running_1908
+				}
+			}
+			name = usa.28.a
+			retire_country_leader = yes
+			create_country_leader = {
+				name="William Howard Taft"
+				expire = "1930.3.8"
+				ideology = liberalism
+				traits = {
+					taftian
+				}
+			}
+			set_country_flag = taft_president
+		}
+		else = {
+			# Roosevelt running
+			name = usa.28.b
+			set_country_flag = roosevelt_president2
+		}
 		#add_ideas = beginning_of_progressive_era
 	}
-
-	option = { 
-		name = usa.28.b
+	option = {
 		ai_chance = {
 			factor = 25
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
 			}
-		}		
-		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democrat_party }
-		create_country_leader = {
-			name = "William Jennings Bryan"
-			picture = "Portrait_USA_William_Bryan.dds"
-			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {
-				staunch_constitutionalist
+		}
+		
+		#WJB is President
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = WJB_pres_2
+				}
+			}
+			name = usa.28.c
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "William Jennings Bryan"
+				picture = "Portrait_USA_William_Bryan.dds"
+				expire = "1965.1.1"
+				ideology = conservatism
+				traits = {
+					staunch_constitutionalist
+				}
+			}
+		}
+		else={
+			name = usa.28.e
+			set_party_name = { ideology = democratic long_name = USA_democratic_party }
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "George Gray"
+				picture = "Portrait_USA_William_Bryan.dds"
+				expire = "1965.1.1"
+				ideology = conservatism
+				traits = {
+					staunch_constitutionalist
+				}
 			}
 		}
 	}
 }
 
-# Election of 1912: Taft vs Woodrow Wilson vs Roosevelt
+# Election of 1912: Taft vs Woodrow Wilson \\vs Roosevelt
 country_event = {
 	id = usa.29
 	title = usa.29.t
@@ -233,54 +299,61 @@ country_event = {
 	option = { 	
 		name = usa.29.a
 		ai_chance = {
-			factor = 0
+			base = 0
 		}
 	}
 
 	option = { 
 		name = usa.29.b
 		ai_chance = {
-			factor = 25
-			modifier = {
-				factor = 75
-				is_historical_focus_on = yes
-			}
-		}		
+			base = 1
+		}
+		retire_country_leader = yes
 		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democrat_party }
 		create_country_leader = {
 			name = "Woodrow Wilson"
 			picture = "Portrait_USA_Woodrow_Wilson.dds"
 			expire = "1965.1.1"
 			ideology = liberalism
-			traits = {
-				
-			}
+			traits = {}
 		}
 	}
 	
-	option = { 
-		name = usa.29.c
-		ai_chance = {
-			factor = 5
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
+	if = {
+		limit = {
+			NOT = {
+				has_country_flag = roosevelt_president2
 			}
-		}		
-		set_party_name = { ideology = democratic long_name = USA_bullmoose_party name = USA_bullmoose_party }
-		create_country_leader = {
-			name = "Theodore Roosevelt"
-			picture = "Portrait_USA_Theodore_Roosevelt.dds"
-			expire = "1965.1.1"
-			ideology = liberalism
-			traits = {
-				#soldier
-				#general
-				#hero_of_spanish_american_war
-				#progressive
-				#antitrust
-				#conservationist
+		}
+		option = { 
+			name = usa.29.c
+			ai_chance = {
+				base = 0
+				modifier = {
+					factor = 0
+					is_historical_focus_on = yes
+				}
+				modifier = {
+					base = 0.25
+					is_historical_focus_on = no
+				}
+			}		
+			set_party_name = { ideology = democratic long_name = USA_bullmoose_party name = USA_bullmoose_party }
+			create_country_leader = {
+				name = "Theodore Roosevelt"
+				picture = "Portrait_USA_Theodore_Roosevelt.dds"
+				expire = "1965.1.1"
+				ideology = liberalism
+				traits = {
+					soldier
+					general
+					hero_of_spanish_american_war
+					progressive
+					antitrust
+					conservationist
+				}
 			}
+			set_country_flag = roosevelt_president2
 		}
 	}
 }
@@ -313,14 +386,13 @@ country_event = {
 	}
 
 	option = { 
-		name = usa.30.b
 		ai_chance = {
 			factor = 25
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
 			}
-		}		
+		}
 		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
 		create_country_leader = {
 			name = "Charles Evans Hughes"
@@ -404,6 +476,14 @@ country_event = {
 			has_war_with = SOV
 			has_war_with = AHU
 			has_war_with = TUR
+			has_war_with = MEX
+			has_war_with = ENG
+			has_war_with = FRA
+			has_war_with = SPR
+			has_war_with = ITA
+			has_war_with = JAP
+			has_war_with = CHI
+			has_war_with = BOX
 		}
 		date > 1916.1.1
 		date < 1919.1.6
@@ -422,16 +502,16 @@ country_event = {
 			id = 500
 			picture = "Portrait_USA_Theodore_Roosevelt.dds"
 			traits = { offensive_doctrine logistics_wizard inspirational_leader }
-			skill = 5
+			skill = 6
 		}
 	}
 	option = { # Refuse
 		name = usa.32.b
 		ai_chance = {
-			factor = 25
+			base = 1
 			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
+				factor = 0.5
+				is_historical_focus_on = no
 			}
 		}
 	}
@@ -460,7 +540,7 @@ country_event={
 		
 		#set_global_flag = usa_defends_panamanian_independence
 		give_guarantee=PAN
-		#remove_guarantee=COL
+		#revoke_guarentee = COL
 		news_event = { hours = 3 id = news.246 } #usa war resolution
 		
 		COL={
@@ -468,11 +548,10 @@ country_event={
 				id=columbia.2
 				hours = 4
 			}
-		}
-		
-		add_opinion_modifier={
-			target=COL
-			modifier = usa_defends_panama
+			add_opinion_modifier={
+				target=ROOT
+				modifier = usa_defends_panama
+			}
 		}
 		
 	}
@@ -556,17 +635,7 @@ country_event = {
 	#picture = GFX_report_event_usa_funeral
 	
 	fire_only_once = yes
-	
-#	trigger = {
-#		tag = USA
-#		date > 1901.9.14
-#		date < 1901.9.20
-#		has_government = democratic
-#	}
-
-#	mean_time_to_happen = {
-#		days = 2
-#	}
+	is_triggered_only = yes
 	
 	option = {
 		name = usa.36.a
@@ -574,19 +643,11 @@ country_event = {
 	}
 }
 
-#Boxer Rebellion Receive Event
-
-#Roosevelt dies
-
-#Join League of nations
-
-#Involvement in Russian Civil War
-
 # Election of 1920: Warren G. Harding vs 
 country_event = {
-	id = usa.50
-	title = usa.50.t
-	desc = usa.50.d
+	id = usa.37
+	title = usa.37.t
+	desc = usa.37.d
 	picture = GFX_report_event_usa_election_generic
 
 	fire_only_once = yes
@@ -603,20 +664,24 @@ country_event = {
 	}
 	
 	option = { 	
-		name = usa.50.a
+		name = usa.37.a
 		ai_chance = {
 			factor = 75
 		}
 		
 		set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democratic_party }
-	#	create_country_leader={
-	#		
-	#	}
+		create_country_leader={
+			name = "James M. Cox"
+			picture = "Portrait_USA_Generic_2.dds"
+			expire = "1965.1.1"
+			ideology = conservatism
+			traits = {}
+		}
 		
 	}
 
 	option = { 
-		name = usa.50.b
+		name = usa.37.b
 		ai_chance = {
 			factor = 25
 			modifier = {
@@ -626,22 +691,69 @@ country_event = {
 		}		
 		set_party_name = { ideology = democratic long_name = USA_republican_party name = USA_republican_party }
 		create_country_leader = {
-			name = "Charles Evans Hughes"
+			name = "Warren G. Harding"
 			picture = "Portrait_USA_Generic_2.dds"
 			expire = "1965.1.1"
-			ideology = conservatism
-			traits = {
-				
-			}
+			ideology = liberalism
+			traits = {}
 		}
 	}
 }
 
+#Roosevelt Decision to run in 1908
+country_event = {
+	id = usa.38
+	title = usa.38.t
+	desc = usa.38.d
+	fire_only_once = yes
+	trigger = {
+		tag = USA
+		date > 1907.6.8
+		NOT = {
+			has_country_flag = mckinley_lives
+		}
+	}
+	
+	#Run again
+	option={
+		name = usa.38.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 0.5
+				is_historical_focus_on = no
+			}
+		}
+		set_country_flag = roosevelt_running_1908
+	}
+	
+	#Don't run
+	option={
+		name = usa.38.b
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = no
+			}
+		}
+	}
+	
+}
+
+#Boxer Rebellion Receive Event
+
+#Roosevelt dies
+
+#Join League of nations
+
+#Involvement in Russian Civil War
+
 #Independence of Puerto Rico
 country_event = {
 	id = usa.51
-        title = usa.51.t
-        desc = usa.51.d
+    title = usa.51.t
+    desc = usa.51.d
 	picture = GFX_report_event_election_vote
 	
 	fire_only_once = yes
@@ -668,9 +780,9 @@ country_event = {
 			}
 		}
 		name = usa.51.a
-			USA = { 
-				transfer_state = 686
-			}
+		USA = { 
+			transfer_state = 686
+		}
 	}
 	
     option = {
@@ -687,7 +799,7 @@ country_event = {
 		}
 		name = usa.51.b
         add_political_power = 100
-		release_puppet = PTR
+		end_puppet = PTR
 			
 	}
 }
@@ -695,8 +807,8 @@ country_event = {
 #Platt Amendment
 country_event = {
 	id = usa.52
-        title = usa.52.t
-        desc = usa.52.d
+    title = usa.52.t
+    desc = usa.52.d
 	picture = GFX_report_event_election_vote
 	
 	fire_only_once = yes

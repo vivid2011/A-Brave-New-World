@@ -1,0 +1,117 @@
+﻿
+division_template = {
+	name = "Rebel Infantry"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Caballeros"
+	
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	# NORTH
+	division = {
+		name = "Villaistas"
+		location = 10800
+		division_template = "Rebel Infantry"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Villaistas"
+		location = 10916
+		division_template = "Rebel Infantry"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Villaistas"
+		location = 7935
+		division_template = "Rebel Infantry"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Villaistas"
+		location = 12827
+		division_template = "Rebel Infantry"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Villaistas"
+		location = 10809
+		division_template = "Rebel Infantry"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Villaistas"
+		location = 7973
+		division_template = "Rebel Infantry"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Villaistas"
+		location = 12850
+		division_template = "Rebel Infantry"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Villaistas"
+		location = 4898
+		division_template = "Rebel Infantry"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Villaistas"
+		location = 12835
+		division_template = "Rebel Infantry"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Villaistas"
+		location = 10809
+		division_template = "Rebel Infantry"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Villaistas"
+		location = 12897
+		division_template = "Caballeros"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Villaistas"
+		location = 12897
+		division_template = "Caballeros"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+	division = {
+		name = "Villaistas"
+		location = 12811
+		division_template = "Caballeros"
+		start_experience_factor = 0.25
+		start_equipment_factor = 0.8
+	}
+
+}

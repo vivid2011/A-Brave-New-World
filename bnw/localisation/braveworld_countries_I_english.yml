@@ -191,3 +191,11 @@
  AFG_monarchist:0 "Emirate of Afghanistan"
  AFG_monarchist_DEF:0 "Emirate of Afghanistan"
  AFG_monarchist_ADJ:0 "Afghan"
+ #EIGHT NATION ALLIANCE
+ ENA_democratic:0 "Eight Nation Alliance"
+ ENA_democratic_DEF:0 "Eight Nation Alliance"
+ ENA_democratic_ADJ:0 "Non-Chinese"
+ #BOXER CHINA --> Need to make other nations and alternative history events
+ BOX_monarchist:0 "Boxer China"
+ BOX_monarchist_DEF:0 "Boxer China"
+ BOX_monarchist_ADJ:0 "Chinese"

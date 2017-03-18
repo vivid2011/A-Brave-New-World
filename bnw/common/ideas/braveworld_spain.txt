@@ -12,7 +12,19 @@ ideas = {
 			modifier = {
 				unity_factor = -0.1
 			}
+		}
 		
+		empire_no_more = {
+			allowed = {
+                always = no
+           	}
+
+            removal_cost = -1000		
+
+			modifier = {
+				army_attack_factor = -0.1
+				army_morale_factor = -0.1
+			}
 		}
 		
 	}

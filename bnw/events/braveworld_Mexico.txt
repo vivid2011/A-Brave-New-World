@@ -6,8 +6,329 @@ add_namespace = mexico
 
 
 #Mexican civil war
-#country_event={
+country_event={
 	
+	id = mexico.1
+	title = mexico.1.t
+	desc  = mexico.1.d
 	
+	fire_only_once = yes
 	
-#}
+	trigger = {
+		date > 1910.11.10
+	}
+	
+	#Step down
+	option = {
+		name = mexico.1.a
+		
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Francisco I. Madero"
+			expire = "1940.1.1"
+			#picture = "Portrait_China_Puyi.dds"
+			ideology = liberalism
+			traits = {
+				inexperienced_politician
+			}
+		}
+		
+		remove_ideas = old_man_dictator
+		add_ideas = improvement_over_diaz
+		
+	}
+	
+	#Revolution
+	option = {
+		name = mexico.1.b
+		hidden_effect = {
+			start_civil_war = {
+				ideology = democratic
+				capital = 482
+				states = { 482 480 476 }
+			}
+			
+			random_other_country = {
+				limit = {
+					original_tag = MEX
+					has_government = democratic
+				}
+				
+				create_country_leader = {
+					name = "Francisco I. Madero"
+					expire = "1940.1.1"
+					#picture = "Portrait_China_Puyi.dds"
+					ideology = liberalism
+					traits = {
+						inexperienced_politician
+						rule_in_exile
+					}
+				}
+				
+				set_equipment_fraction = 0.8
+				set_national_unity = 0.9
+				load_oob = "Mex_1911_Rev"
+			}
+		}
+		custom_effect_tooltip = mex.1.tt
+		set_country_flag = mexican_revolution_1
+	}
+}
+
+# Revolution #2
+country_event = {
+	id = mexico.2
+	title = mexico.2.t
+	desc  = mexico.2.d
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1910.11.10
+		has_country_flag = mexican_revolution_1
+	}
+	
+	#Step down
+	option = {
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 0.5
+				is_historical_focus_on = no
+			}
+		}
+		
+		name = mexico.2.a
+		
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Francisco I. Madero"
+			expire = "1940.1.1"
+			#picture = "Portrait_China_Puyi.dds"
+			ideology = liberalism
+			traits = {
+				inexperienced_politician
+			}
+		}
+		
+		remove_ideas = old_man_dictator
+		add_ideas = improvement_over_diaz
+		
+	}
+	
+	#Revolution
+	option = {
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = no
+			}
+		}
+		name = mexico.2.b
+		hidden_effect = {
+			start_civil_war = {
+				ideology = democratic
+				capital = 482
+				states = { 482 480 476 }
+			}
+			
+			random_other_country = {
+				limit = {
+					original_tag = MEX
+					has_government = democratic
+				}
+				
+				create_country_leader = {
+					name = "Francisco I. Madero"
+					expire = "1940.1.1"
+					#picture = "Portrait_China_Puyi.dds"
+					ideology = liberalism
+					traits = {
+						inexperienced_politician
+						rule_in_exile
+					}
+				}
+				
+				set_equipment_fraction = 0.8
+				set_national_unity = 0.9
+				load_oob = "Mex_1915_Rev"
+			}
+		}
+		custom_effect_tooltip = mex.2.tt
+		set_country_flag = mexican_revolution_2
+	}
+}
+
+# Madero Assassination
+country_event = {
+	id = mexico.3
+	title = mexico.3.t
+	desc = mexico.3.d
+	fire_only_once = yes
+	trigger = {
+		date > 1913.5.1
+		has_idea = improvement_over_diaz
+	}
+	
+	option = {
+		name = mexico.3.b
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Victoriano Huerta"
+			expire = "1916.1.1"
+			#picture = "Portrait_China_Puyi.dds"
+			ideology = oligarchism
+			traits = {}
+		}
+		remove_ideas = improvement_over_diaz
+	}
+}
+
+# Civil War
+country_event = {
+	id = mexico.4
+	title = mexico.4.t
+	desc = mexico.4.d
+	fire_only_once = yes
+	trigger = {
+		date > 1913.10.1
+		has_country_flag = mexican_revolution_2
+	}
+	
+	# No backing down!
+	option = {
+		name = mexico.4.a
+		
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = no
+			}
+		}
+		
+		hidden_effect = {
+			start_civil_war = {
+				ideology = democratic
+				capital = 482
+				states = { 482 480 476 }
+			}
+			
+			random_other_country = {
+				limit = {
+					original_tag = MEX
+					has_government = democratic
+				}
+				
+				set_equipment_fraction = 0.8
+				set_national_unity = 0.9
+				load_oob = "Mex_1915_Rev"
+			}
+			
+		}
+	}
+	
+	# Step down peacefully
+	option = {
+		name = mexico.4.b
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 0.5
+				is_historical_focus_on = no
+			}
+		}
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Venustiano Carranza"
+			expire = "1916.1.1"
+			#picture = "Portrait_China_Puyi.dds"
+			ideology = fascism_ideology
+			traits = {}
+		}
+		set_country_flag = carranza_president
+	}
+}
+
+# War of the Winners
+country_event = {
+	id = mexico.5
+	title = mexico.5.t
+	desc = mexico.5.d
+	fire_only_once = yes
+	trigger = {
+		date > 1913.10.1
+	}
+	
+	#Side with Carranza
+	option = {
+		name = mexico.5.a
+		
+		start_civil_war = {
+			ruling_party = democratic
+			states = { 482 484 483 481 480 479 }
+		}
+		
+		random_other_country = {
+			limit = {
+				original_tag = MEX
+				has_government = democratic
+			}
+			
+			create_country_leader = {
+				name = "Pancho Villa"
+				expire = "1923.7.23"
+				#picture = "Portrait_China_Puyi.dds"
+				ideology = liberalism
+				traits = {}
+			}
+			
+			set_equipment_fraction = 0.8
+			set_national_unity = 0.9
+			load_oob = "Villa_Rebels"
+		}
+		
+		load_oob = "Carranza_Reg"
+	}
+	
+	#Side with Others
+	option = {
+		name = mexico.5.b
+		retire_country_leader = yes
+		create_country_leader = {
+			name = "Pancho Villa"
+			expire = "1923.7.23"
+			#picture = "Portrait_China_Puyi.dds"
+			ideology = liberalism
+			traits = {}
+		}
+		
+		start_civil_war = {
+			ruling_party = fascism
+			states = { 482 484 483 481 480 479 }
+		}
+		random_other_country = {
+			limit = {
+				original_tag = MEX
+				has_government = fascism
+			}
+			
+			create_country_leader = {
+				name = "Venustiano Carranza"
+				expire = "1916.1.1"
+				#picture = "Portrait_China_Puyi.dds"
+				ideology = fascism_ideology
+				traits = {}
+			}
+			
+			set_equipment_fraction = 0.8
+			set_national_unity = 0.9
+			load_oob = "Carranza_Rebels"
+		}
+		load_oob = "Pancho_Reg"
+	}
+	
+}
+
+# German Call to Arms

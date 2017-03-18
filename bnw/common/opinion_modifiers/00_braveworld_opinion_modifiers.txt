@@ -48,6 +48,18 @@ opinion_modifiers = {
 		decay = 1
 	}
 	
+	boxer_rebels_support = {
+		value = -20
+	}
+	
+	boxer_rebels_denounced = {
+		value = 20
+	}
+	
+	rebel_government = {
+		value = -100
+	}
+
 	anti_entente_pact_opinion = {
 		value = 50
 	}

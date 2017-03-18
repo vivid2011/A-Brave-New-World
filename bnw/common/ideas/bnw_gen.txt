@@ -102,5 +102,26 @@ ideas = {
 				industrial_capacity_factory = -0.02
 			}
 		}
+		
+		GEN_reb_gov = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1000000
+			
+			modifier = {
+				political_power_gain = -1
+				every_country = {
+					limit = {
+						NOT = ROOT
+					}
+					add_opinion_modifier = {
+						modifier = rebel_government
+					}
+				}
+			}
+			
+		}
 
 }

@@ -43,4 +43,388 @@ country_event={
 	}
 }
 
+# BOXER REBELLION EVENTS
 
+country_event = {
+	id = china.206
+	title = china.206.t
+	desc = china.206.d
+	#picture = GFX_XX
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = CHI
+		date > 1900.1.15
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+	
+	# Support the Boxers
+	option = {
+		name = china.206.a
+		
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = no
+			}
+		}
+		
+		every_country = {
+			limit = {
+				NOT = { tag = CHI }
+			}
+			add_opinion_modifier = {
+				target = CHI
+				modifier = boxer_rebels_support
+			}
+		}
+		add_manpower = -250000
+		add_ideas = supported_boxers
+	}
+	
+	# Support West
+	option = {
+		name = china.206.b
+		
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 0.5
+				is_historical_focus_on = no
+			}
+		}
+		
+		every_country = {
+			limit = {
+				NOT = { tag = CHI }
+			}
+			add_opinion_modifier = {
+				target = CHI
+				modifier = boxer_rebels_denounced
+			}
+		}
+		
+		add_ideas = chinese_betrayer
+		
+	}
+	
+}
+
+# Support Boxer Decision
+country_event = {
+	id = china.207
+	title = china.207.t
+	desc = china.207.d
+	
+	fire_only_once = yes
+	trigger = {
+		#date > 1900.5.11
+		date > 1900.1.30
+		has_idea = supported_boxers
+	}
+	
+	option = {
+		name = china.207.a
+		hidden_effect = {
+			ENA = {
+				transfer_state = 594
+				transfer_state = 591
+				transfer_state = 599
+				transfer_state = 593
+				transfer_state = 592
+				transfer_state = 597
+				transfer_state = 614
+				transfer_state = 609
+				transfer_state = 610
+				transfer_state = 595
+				transfer_state = 330
+				set_capital = 594
+				
+				add_manpower = 25000000
+				load_oob = "ENA_oob"
+			}
+			
+			594 = {
+				add_core_of = ENA
+			}
+			
+			591 = {
+				add_core_of = ENA
+			}
+			
+			599 = {
+				add_core_of = ENA
+			}
+			
+			593 = {
+				add_core_of = ENA
+			}
+			
+			592 = {
+				add_core_of = ENA
+			}
+			
+			597 = {
+				add_core_of = ENA
+			}
+			
+			614 = {
+				add_core_of = ENA
+			}
+			
+			609 = {
+				add_core_of = ENA
+			}
+			
+			610 = {
+				add_core_of = ENA
+			}
+			
+			595 = {
+				add_core_of = ENA
+			}
+			
+			330 = {
+				add_core_of = ENA
+			}
+				
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 10000000
+				producer = ENA
+			}
+			
+		}
+		
+		CHI = {
+			declare_war_on = {
+				target = ENA
+				type = annex_everything
+			}
+			set_national_unity = 0.8
+		}
+	}
+}
+
+# Support West Decision
+country_event = {
+	id = china.208
+	title = china.208.t
+	desc = china.208.d
+	
+	trigger = {
+		#date > 1900.5.11
+		date > 1900.1.30
+		has_idea = chinese_betrayer
+	}
+	
+	fire_only_once = yes
+	
+	option = {
+		name = china.208.a
+		hidden_effect = {
+			BOX = {
+				transfer_state = 287
+				transfer_state = 730
+				transfer_state = 604
+				transfer_state = 615
+				transfer_state = 618
+				transfer_state = 283
+				transfer_state = 620
+				transfer_state = 617
+				transfer_state = 605
+				transfer_state = 622
+				transfer_state = 619
+				transfer_state = 603
+				transfer_state = 616
+				transfer_state = 602
+				transfer_state = 621
+				transfer_state = 322
+				transfer_state = 600
+				transfer_state = 611
+				transfer_state = 606
+				transfer_state = 607
+				transfer_state = 330
+				set_capital = 287
+				load_oob = "BOX_oob"
+				set_equipment_fraction = 0.7
+				set_national_unity = 0.9
+					
+				287 = {add_core_of = BOX}
+				730 = {add_core_of = BOX}
+				604 = {add_core_of = BOX}
+				615 = {add_core_of = BOX}
+				618 = {add_core_of = BOX}
+				283 = {add_core_of = BOX}
+				620 = {add_core_of = BOX}
+				617 = {add_core_of = BOX}
+				605 = {add_core_of = BOX}
+				622 = {add_core_of = BOX}
+				619 = {add_core_of = BOX}
+				603 = {add_core_of = BOX}
+				616 = {add_core_of = BOX}
+				602 = {add_core_of = BOX}
+				621 = {add_core_of = BOX}
+				322 = {add_core_of = BOX}
+				600 = {add_core_of = BOX}
+				611 = {add_core_of = BOX}
+				606 = {add_core_of = BOX}
+				607 = {add_core_of = BOX}
+				330 = {add_core_of = BOX}
+				
+			}
+			#news_event = { hours = 6 id = news.XXX }
+			#set_global_flag = spanish_civil_war
+			CHI = {
+				declare_war_on = {
+					target = BOX
+					type = annex_everything
+				}
+				set_national_unity = 0.8
+			}
+		}
+	}
+}
+
+# ENA makes demands
+country_event = {
+	id = china.210
+	title = china.210.t
+	desc = china.210.d
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = china.210.a
+		
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0.5
+				is_historical_focus_on = no
+			}
+		}
+		white_peace = ENA
+		CHI = {
+			transfer_state = 594
+			transfer_state = 591
+			transfer_state = 599
+			transfer_state = 593
+			transfer_state = 592
+			transfer_state = 597
+			transfer_state = 614
+			transfer_state = 609
+			transfer_state = 610
+			transfer_state = 595
+		
+			594 = {
+				remove_core_of = ENA
+			}
+			
+			591 = {
+				remove_core_of = ENA
+			}
+			
+			599 = {
+				remove_core_of = ENA
+			}
+			
+			593 = {
+				remove_core_of = ENA
+			}
+			
+			592 = {
+				remove_core_of = ENA
+			}
+			
+			597 = {
+				remove_core_of = ENA
+			}
+			
+			614 = {
+				remove_core_of = ENA
+			}
+			
+			609 = {
+				remove_core_of = ENA
+			}
+			
+			610 = {
+				remove_core_of = ENA
+			}
+			
+			595 = {
+				remove_core_of = ENA
+			}
+			
+			330 = {
+				remove_core_of = ENA
+			}
+		}
+		
+		SOV = {
+			transfer_state = 330
+		}
+		every_country = {
+			limit = {
+				NOT = {
+					tag = CHI
+				}
+			}
+			remove_opinion_modifier = {
+				modifier = boxer_rebels_support
+			}
+		}
+		
+	}
+	
+	option = {
+		name = china.210
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 0.5
+				is_historical_focus_on = no
+			}
+		}
+	}
+	
+}
+
+# ENA wins
+country_event = {
+	id = china.211
+	title = china.211.t
+	desc = china.211.d
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			country_exists = ENA
+		}
+		330 = {
+			controller = {
+				tag = SOV
+			}
+		}
+	}
+	
+	option = {
+		name = china.211
+		add_ideas = {
+			slaves_of_west
+		}
+	}
+	
+}
+
+# ENA loses
+
+
+# CHI wins against BOX

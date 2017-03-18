@@ -30,6 +30,35 @@ ideas = {
 		
 		}
 		
+		pax_britannia = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = 0.05
+				local_resources_factor = 0.1
+				industrial_capacity_factory = 0.1
+			}
+		}
+		
+		an_ode_to_rome = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_morale_factor = -0.03
+				army_attack_factor = -0.02
+				concsription = -0.015
+			}
+			
+		}
+		
 	}
 	
 }
