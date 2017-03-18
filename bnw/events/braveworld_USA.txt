@@ -146,6 +146,7 @@ country_event = {
 	}
 
 	option = {
+		name = usa.27.b
 		ai_chance = {
 			factor = 25
 			modifier = {
@@ -160,8 +161,6 @@ country_event = {
 					has_country_flag = bryan_presidency
 				}
 			}
-			
-			name = usa.27.b
 			set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democrat_party }
 			create_country_leader = {
 				name = "Alton B. Parker"
@@ -172,8 +171,12 @@ country_event = {
 					staunch_constitutionalist
 				}
 			}
-		} else = {
-			name = usa.27.c
+		} 
+		
+		if = {
+			limit = {
+				has_country_flag = bryan_presidency
+			}
 			set_country_flag = WJB_pres_2
 		}
 		
@@ -200,7 +203,8 @@ country_event = {
 		days = 313
 	}
 	
-	option = { 	
+	option = {
+		name = usa.28.a
 		ai_chance = {
 			factor = 75
 		}
@@ -212,7 +216,6 @@ country_event = {
 					has_country_flag = roosevelt_running_1908
 				}
 			}
-			name = usa.28.a
 			retire_country_leader = yes
 			create_country_leader = {
 				name="William Howard Taft"
@@ -224,14 +227,19 @@ country_event = {
 			}
 			set_country_flag = taft_president
 		}
-		else = {
+		if = {
+			
+			limit = {
+				has_country_flag = roosevelt_running_1908
+			}
+			
 			# Roosevelt running
-			name = usa.28.b
 			set_country_flag = roosevelt_president2
 		}
 		#add_ideas = beginning_of_progressive_era
 	}
 	option = {
+		name = usa.28.b
 		ai_chance = {
 			factor = 25
 			modifier = {
@@ -247,7 +255,6 @@ country_event = {
 					has_country_flag = WJB_pres_2
 				}
 			}
-			name = usa.28.c
 			retire_country_leader = yes
 			create_country_leader = {
 				name = "William Jennings Bryan"
@@ -259,8 +266,10 @@ country_event = {
 				}
 			}
 		}
-		else={
-			name = usa.28.e
+		if = {
+			limit = {
+				has_country_flag = WJB_pres_2
+			}
 			set_party_name = { ideology = democratic long_name = USA_democratic_party }
 			retire_country_leader = yes
 			create_country_leader = {
@@ -319,25 +328,26 @@ country_event = {
 		}
 	}
 	
-	if = {
-		limit = {
-			NOT = {
-				has_country_flag = roosevelt_president2
+	
+	option = { 
+		name = usa.29.c
+		ai_chance = {
+			base = 0
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				add = 0.25
+				is_historical_focus_on = no
 			}
 		}
-		option = { 
-			name = usa.29.c
-			ai_chance = {
-				base = 0
-				modifier = {
-					factor = 0
-					is_historical_focus_on = yes
+		if = {
+			limit = {
+				NOT = {
+					has_country_flag = roosevelt_president2
 				}
-				modifier = {
-					base = 0.25
-					is_historical_focus_on = no
-				}
-			}		
+			}
 			set_party_name = { ideology = democratic long_name = USA_bullmoose_party name = USA_bullmoose_party }
 			create_country_leader = {
 				name = "Theodore Roosevelt"
@@ -354,6 +364,29 @@ country_event = {
 				}
 			}
 			set_country_flag = roosevelt_president2
+		}
+		if = {
+			limit = {
+				has_country_flag = roosevelt_president2
+			}
+			
+			random_list = {
+				50 = {
+					retire_country_leader = yes
+					set_party_name = { ideology = democratic long_name = USA_democratic_party name = USA_democrat_party }
+					create_country_leader = {
+						name = "Woodrow Wilson"
+						picture = "Portrait_USA_Woodrow_Wilson.dds"
+						expire = "1965.1.1"
+						ideology = liberalism
+						traits = {}
+					}
+				}
+				50 = {
+					#Do nothing, Taft won
+				}
+			}
+			
 		}
 	}
 }

@@ -72,7 +72,7 @@
  britain.30.a:0 "Allow Australia limited independence!"
  britain.30.b:0 "Retain the integrity of our Empire!"
  britain.31.t:0 "Independence of South Africa"
- britain.31.d:0 "With heavy strain on the budget to maintain the empire, Parliament has had to look at unconventional means of controlling what could be a major catastrophe. So, Parliament has drafted what will be known as the \'South African Republic,\' a continued protectorate for the United Kingdom and her empire. Unfortunately, we will lose some resources as a result of this decision. Of course, we can always decide against this option and remain with the territory under our control but at a very high cost."
+ britain.31.d:0 "With heavy strain on the budget to maintain the empire, Parliament has had to look at unconventional means of controlling what could be a major catastrophe. So, Parliament has drafted what will be known as the 'South African Republic,' a continued protectorate for the United Kingdom and her empire. Unfortunately, we will lose some resources as a result of this decision. Of course, we can always decide against this option and remain with the territory under our control but at a very high cost."
  britain.31.a:0 "Allow South Africa it's colonial puppet status"
  britain.31.b:0 "We retain the Empire until the end!"
  # BRITAIN
@@ -145,8 +145,7 @@
  
  # UNITED STATES
  usa.25.t:0 "Election of 1900"
- usa.25.d:0 "It is the first American election of the 20th Century and can define the United States for the rest of the century. Incumbent President William McKinley is
- running for reelection against Democratic nominee William Jennings Bryan. McKinley is running on the platform of continued economic growth and Americanism. Bryan focused on anti-imperialism and bimetallism."
+ usa.25.d:0 "It is the first American election of the 20th Century and can define the United States for the rest of the century. Incumbent President William McKinley is running for reelection against Democratic nominee William Jennings Bryan. McKinley is running on the platform of continued economic growth and Americanism. Bryan focused on anti-imperialism and bimetallism."
  usa.25.a:0 "McKinley has won a second term!"
  usa.25.b:0 "The People have chosen Bryan as the new President."
  usa.26.t:0 "Death of President McKinley"

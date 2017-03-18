@@ -54,7 +54,7 @@ ideas = {
 			modifier = {
 				army_morale_factor = -0.03
 				army_attack_factor = -0.02
-				concsription = -0.015
+				conscription = -0.015
 			}
 			
 		}
