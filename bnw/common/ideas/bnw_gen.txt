@@ -102,8 +102,7 @@ ideas = {
 				industrial_capacity_factory = -0.02
 			}
 		}
-		
-<<<<<<< HEAD
+
 		GEN_leftist_ethos = {
 			allowed = {
 				always = no
@@ -177,12 +176,7 @@ ideas = {
 				fascism_drift = 0.05
 			}
 		}
-		
-		GEN_democratic_drift = {
-			allowed = {
-				always = no
-			}
-=======
+
 		GEN_reb_gov = {
 			allowed = {
 				always = no
@@ -195,8 +189,11 @@ ideas = {
 			}
 			
 		}
->>>>>>> origin/master
 
+		GEN_democratic_drift = {
+			allowed = {
+				always = no
+			}
 			allowed_civil_war = {
 				has_government = democratic
 			}
