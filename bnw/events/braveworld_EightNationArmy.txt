@@ -1,0 +1,86 @@
+﻿#############################
+# Brave World - Panama Events
+#############################
+
+add_namespace = eightnationarmy
+
+# Surrender after occupation of Beijing
+country_event={
+	id=eightnationarmy.1
+	title=eightnationarmy.1.t
+	desc=eightnationarmy.1.d
+	
+	fire_only_once = yes
+	
+	trigger = {
+		CHI = {
+			has_war = yes
+		}
+		608 = {
+			controller ={ 
+				tag = ENA
+			}
+		}
+	}
+	
+	#Demand to Capitulate
+	option={
+		name=eightnationarmy.1.a
+		
+		CHI = { country_event = { id = china.210 hours = 2} }
+	
+	}
+}
+
+# Burning of Summer Palace
+country_event = {
+	id = eightnationarmy.2
+	title = eightnationarmy.2.t
+	desc  = eightnationarmy.2.d
+	
+	fire_only_once = yes
+	
+	trigger = {
+		608 = {
+			controller ={
+				tag = ENA
+			}
+		}
+	}
+	
+	# Burn Palace
+	option = {
+		name = eightnationarmy.2.a
+		ai_chance = {
+			base = 1
+			modifier = {
+				factor = 0.75
+				is_historical_focus_on = no
+			}
+		}
+		CHI = {
+			country_event = { id = china.210 hours = 2 }
+		}
+		#set_global_flag = summer_palace_burned
+	}
+	
+	# Keep Palace
+	option = {
+		name = eightnationarmy.2.a
+		ai_chance = {
+			base = 0
+			modifier = {
+				add = 0.25
+				is_historical_focus_on = no
+			}
+		}
+		CHI = {
+			country_event = { id = china.210 hours = 2 }
+		}
+		#set_global_flag = summer_palace_safe
+		
+	}
+	
+}
+
+

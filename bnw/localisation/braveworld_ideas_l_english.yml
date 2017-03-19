@@ -1,4 +1,5 @@
 ﻿l_english:
+ # ---- BRAVEWORLD ---- #
  victors_of_span_amer_war:0 "Victors of the Spanish-American War"
  land_of_innovation:0 "Land of Innovation"
  idealism:0 "Idealism"
@@ -19,10 +20,12 @@
  GEN_economic_boom:0 "Economic Boom"
  GEN_economic_crash:0 "Economic Crash"
  GEN_fractured_empire:0 "Fractured Nation"
+ GEN_reb_gov:0 "Rebel Government"
  queen_victoria:0 "Queen Victoria"
  queen_victoria_died:0 "Death of Queen Victoria"
  loser_of_spanish_american_war:0 "Loser of the Spanish-American War"
  a_fight_for_survival:0 "A Fight For Survival"
+<<<<<<< HEAD
  GEN_leftist_ethos:0 "Leftist Ethos"
  GEN_authoritarian_ethos:0 "Authoritarian Ethos"
  GEN_communism_drift:0 "Communist Drift"
@@ -77,3 +80,17 @@
  prussian_discipline:0 "Prussian Discipline"
  waffen_ss:0 "Waffen SS Divisions"
  #Germany#
+=======
+ supported_boxers:0 "Supported Boxers"
+ chinese_betrayer:0 "Betrayer of the Chinese"
+ slaves_of_west:0 "Slaves of the Imperials"
+ fundamentalist:0 "Fundamentalists"
+ boxer_ideology:0 "Boxer Ideology"
+ old_man_dictator:0 "Old Man Dictator"
+ improvement_over_diaz:0 "Improvement over Diaz"
+ old_man_still_got_it:0 "Old Man Still Has It"
+ pax_britannia:0 "Pax Britannia"
+ an_ode_to_rome:0 "An Ode to Rome"
+ nation_of_two_souls:0 "Nation of Two Souls"
+ empire_no_more:0 "An Empire No More"
+>>>>>>> origin/master

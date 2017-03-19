@@ -15,7 +15,6 @@ ideas = {
 				army_attack_factor = -0.02
 				army_defence_factor = -0.01
 			}
-		
 		}
 		
 	}

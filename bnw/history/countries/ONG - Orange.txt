@@ -11,6 +11,11 @@ add_ideas = {
 	# None yet
 }
 
+declare_war_on = {
+	target = ENG
+	type = take_state
+}
+
 set_politics = {
 	parties = {
 		democratic = {

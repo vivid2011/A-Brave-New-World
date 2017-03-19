@@ -10,9 +10,9 @@ add_namespace = britain
 #Appointment of new PM
 country_event={
 	
-	id = britain.24
-	title = britain.24.t
-	desc = britain.24.d
+	id = britain.25
+	title = britain.25.t
+	desc = britain.25.d
 	#picture = GFX_report_event_usa_funeral
 	
 	fire_only_once = yes
@@ -24,42 +24,12 @@ country_event={
 	}
 	
 	option = {
-		name = britain.24.a
+		name = britain.25.a
 		create_country_leader={
 			name="Arthur Balfour"
 			picture = "Portait_Britain_Arthur_Balfour.dds"
 			expire = "1930.3.19"
 			ideology = conservatism
-			traits = {
-				
-			}
-		}
-	}
-}
-
-#Appointment of new PM
-country_event={
-	
-	id = britain.25
-	title = britain.25.t
-	desc = britain.25.d
-	#picture = GFX_report_event_usa_funeral
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = ENG
-		date > 1905.12.5
-		has_government = democratic
-	}
-	
-	option = {
-		name = britain.25.a
-		create_country_leader={
-			name="Henry Campbell-Bannerman"
-			picture = "Portrait_Britain_Henry_Campbell.dds"
-			expire = "1908.4.22"
-			ideology = liberalism
 			traits = {
 				
 			}
@@ -79,16 +49,16 @@ country_event={
 	
 	trigger = {
 		tag = ENG
-		date > 1908.4.7
+		date > 1905.12.5
 		has_government = democratic
 	}
 	
 	option = {
 		name = britain.26.a
 		create_country_leader={
-			name="Herbert Henry Asquith"
-			picture = "Portrait_Britain_Herbet_Asquith.dds"
-			expire = "1928.2.15"
+			name="Henry Campbell-Bannerman"
+			picture = "Portrait_Britain_Henry_Campbell.dds"
+			expire = "1908.4.22"
 			ideology = liberalism
 			traits = {
 				
@@ -109,16 +79,16 @@ country_event={
 	
 	trigger = {
 		tag = ENG
-		date > 1916.12.7
+		date > 1908.4.7
 		has_government = democratic
 	}
 	
 	option = {
 		name = britain.27.a
 		create_country_leader={
-			name="David Lloyd George"
-			picture = "Portrait_Britain_David_George.dds"
-			expire = "1945.3.26"
+			name="Herbert Henry Asquith"
+			picture = "Portrait_Britain_Herbet_Asquith.dds"
+			expire = "1928.2.15"
 			ideology = liberalism
 			traits = {
 				
@@ -139,12 +109,42 @@ country_event={
 	
 	trigger = {
 		tag = ENG
-		date > 1922.10.23
+		date > 1916.12.7
 		has_government = democratic
 	}
 	
 	option = {
 		name = britain.28.a
+		create_country_leader={
+			name="David Lloyd George"
+			picture = "Portrait_Britain_David_George.dds"
+			expire = "1945.3.26"
+			ideology = liberalism
+			traits = {
+				
+			}
+		}
+	}
+}
+
+#Appointment of new PM
+country_event={
+	
+	id = britain.29
+	title = britain.29.t
+	desc = britain.29.d
+	#picture = GFX_report_event_usa_funeral
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ENG
+		date > 1922.10.23
+		has_government = democratic
+	}
+	
+	option = {
+		name = britain.29.a
 		create_country_leader={
 			name="Andrew Bonar Law"
 			picture = "Portrait_Britain_Andrew_Law.dds"
@@ -160,9 +160,9 @@ country_event={
 
 #Independence of Australia
 country_event = {
-	id = britain.29
-    title = britain.29.t
-    desc = britain.29.d
+	id = britain.30
+    title = britain.30.t
+    desc = britain.30.d
 	picture = GFX_report_event_election_vote
 	
 	fire_only_once = yes
@@ -188,7 +188,7 @@ country_event = {
 				factor = 10
 			}
 		}
-		name = britain.29.a
+		name = britain.30.a
 			AST = { 
 				transfer_state = 517
 				transfer_state = 518
@@ -212,6 +212,10 @@ country_event = {
 						}
 					else = {
 						puppet = AST
+						#set_autonomy = {
+						#	target = AST
+						#	autonomous_state = autonomy_puppet
+						#}
 					}
 				}
 			}
@@ -229,16 +233,16 @@ country_event = {
 				factor = 90
 			}
 		}
-		name = britain.29.b
+		name = britain.30.b
                 add_political_power = -250
 	}
 }
 
 #Independence of South Africa
 country_event = {
-	id = britain.30
-    title = britain.30.t
-    desc = britain.30.d
+	id = britain.31
+    title = britain.31.t
+    desc = britain.31.d
 	picture = GFX_report_event_election_vote
 	
 	fire_only_once = yes
@@ -264,7 +268,7 @@ country_event = {
 				factor = 10
 			}
 		}
-		name = britain.30.a
+		name = britain.31.a
 			SAF = { 
 				transfer_state = 681
 				transfer_state = 719
@@ -283,6 +287,10 @@ country_event = {
 						}
 					else = {
 						puppet = SAF
+						#set_autonomy = {
+						#	target = SAF
+						#	autonomous_state = autonomy_puppet
+						#}
 					}
 				}
 			}
@@ -300,7 +308,7 @@ country_event = {
 				factor = 90
 			}
 		}
-		name = britain.30.b
+		name = britain.31.b
         add_political_power = -250
 	}
 }

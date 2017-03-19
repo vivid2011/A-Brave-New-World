@@ -103,6 +103,7 @@ ideas = {
 			}
 		}
 		
+<<<<<<< HEAD
 		GEN_leftist_ethos = {
 			allowed = {
 				always = no
@@ -181,6 +182,20 @@ ideas = {
 			allowed = {
 				always = no
 			}
+=======
+		GEN_reb_gov = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1000000
+			
+			modifier = {
+				political_power_gain = -1
+			}
+			
+		}
+>>>>>>> origin/master
 
 			allowed_civil_war = {
 				has_government = democratic
