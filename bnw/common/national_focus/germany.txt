@@ -998,7 +998,6 @@ focus_tree = {
 			AHU = { has_civil_war = no }
 			any_country = {
 				original_tag = AHU
-				has_government = populism
 				NOT = { has_war_with = GER }
 			}
 		}
@@ -1631,3 +1630,276 @@ focus_tree = {
 			add_ideas = triumphant_will
 		}
 	}
+	
+#POLITICAL REFORMS
+
+	focus = {
+		id = GER_political_effort
+		icon = GFX_goal_generic_demand_territory
+		x = 26
+		y = 0
+		cost = 30
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_political_power = 120
+		}
+	}
+	
+	focus = {
+		id = GER_move_left
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = GER_political_effort }
+		cancel_if_invalid = no
+		x = 23
+		y = 1
+		cost = 20
+		ai_will_do = {
+			factor = 0.5
+			}
+		available = {
+			NOT = { has_government = fascism }
+		}
+		completion_reward = {
+			add_ideas = { GEN_leftist_ethos }
+		}
+	}
+	
+	focus = {
+		id = GER_move_right
+		icon = GFX_goal_generic_political_pressure
+		prerequisite = { focus = GER_political_effort }
+		cancel_if_invalid = no
+		x = 29
+		y = 1
+		cost = 20
+		ai_will_do = {
+			factor = 0.5
+			}
+		available = {
+			NOT = { has_government = communism }
+		}
+		completion_reward = {
+			add_ideas = { GEN_authoritarian_ethos }
+		}
+	}
+	
+	focus = {
+		id = GER_embrace_communism
+		icon = GFX_goal_generic_war_with_comintern
+		prerequisite = { focus = GER_move_left }
+		cancel_if_invalid = no
+		x = 22
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 0.5
+		}
+		completion_reward = {
+			add_ideas = { GEN_communism_drift }
+		}
+	}
+	
+	focus = {
+		id = GER_embrace_democratic
+		icon = GFX_goal_molotov_ribbentrop_pact
+		prerequisite = { focus = GER_move_left }
+		cancel_if_invalid = no
+		x = 24
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 0.5
+		}
+		completion_reward = {
+			add_ideas = { GEN_democratic_drift }
+		}
+	}
+	
+	focus = {
+		id = GER_embrace_monarchist
+		icon = GFX_goal_anschluss
+		prerequisite = { focus = GER_move_right }
+		cancel_if_invalid = no
+		x = 28
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 0.5
+		}
+		completion_reward = {
+			add_ideas = { GEN_monarchist_drift }
+		}
+	}
+	
+	focus = {
+		id = GER_embrace_fascism
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = { focus = GER_move_right }
+		cancel_if_invalid = no
+		x = 30
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 0.5
+		}
+		completion_reward = {
+			add_ideas = { GEN_fascism_drift }
+		}
+	}
+	
+	focus = {
+		id = GER_centrism
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		prerequisite = { focus = GER_political_effort }
+		cancel_if_invalid = no
+		x = 26
+		y = 1
+		cost = 20
+		ai_will_do = {
+			factor = 0.5
+			}
+		available = {
+				NOT = { has_government = communism
+					has_government = fascism }
+		}
+		completion_reward = {
+			add_ideas = { GEN_centrism_ethos }
+		}
+	}
+	
+	focus = {
+		id = GER_neutral
+		icon = GFX_goal_anschluss
+		prerequisite = { focus = GER_centrism }
+		cancel_if_invalid = no
+		x = 26
+		y = 2
+		cost = 10
+		ai_will_do = {
+			factor = 0.5
+			}
+		completion_reward = {
+			add_ideas = { neutrality_idea }
+		}
+	}
+	
+	focus = {
+		id = GER_sparticism #radical anti-war marxism
+		icon = GFX_goal_support_fourth_int
+		prerequisite = { focus = GER_embrace_communism }
+		cancel_if_invalid = no
+		x = 21
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 0.5
+		}
+		available = {
+			has_government = communism
+		}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GER_leninism
+		icon = GFX_goal_support_communism
+		prerequisite = { focus = GER_embrace_communism }
+		cancel_if_invalid = no
+		x = 23
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 0.5
+		}
+		available = {
+			has_government = communism
+		}
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = GER_ger_engineering
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = GER_embrace_democratic }
+		cancel_if_invalid = no
+		x = 25
+		y = 3
+		cost = 10
+		ai_will_do = {
+			factor = 0.5
+		}
+		available = {
+			has_government = democratic
+		}
+		completion_reward = {
+			add_ideas = { german_engineering }
+		}
+	}
+	
+	focus = {
+		id = GER_global_communism
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = GER_leninism
+						 focus = GER_sparticism}
+		cancel_if_invalid = no
+		x = 22
+		y = 4
+		cost = 10
+		ai_will_do = {
+			factor = 0.5
+		}
+		completion_reward = {
+			any_country = {
+				IF = { 
+					limit = { has_government = communism }
+						add_opinion_modifier = { communist_brotherhood } 
+				} 
+			}
+		}
+	}
+	
+	focus = {
+		id = GER_prussian_discipline
+		icon = GFX_goal_generic_small_arms
+		prerequisite = { focus = GER_embrace_monarchist}
+		cancel_if_invalid = no
+		x = 28
+		y = 3
+		cost = 10
+		available = {
+			has_government = monarchist
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+		completion_reward = {
+			add_ideas = { prussian_discipline }
+		}
+	}
+	
+	focus = {
+		id = GER_form_ss
+		icon = GFX_goal_generic_military_deal
+		prerequisite = { focus = GER_embrace_fascism}
+		cancel_if_invalid = no
+		x = 30
+		y = 3
+		cost = 10
+		available = {
+			has_government = fascism
+		}
+		ai_will_do = {
+			factor = 0.5
+		}
+		completion_reward = {
+			add_ideas = { waffen_ss }
+		}
+	}
+	
+	

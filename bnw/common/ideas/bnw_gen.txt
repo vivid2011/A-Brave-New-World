@@ -102,5 +102,136 @@ ideas = {
 				industrial_capacity_factory = -0.02
 			}
 		}
+		
+		GEN_leftist_ethos = {
+			allowed = {
+				always = no
+			}
 
+			allowed_civil_war = {
+				has_government = communism
+			}
+		
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				monarchist_drift = -0.02
+				fascism_drift = -0.02
+			}
+		}
+		
+		GEN_authoritarian_ethos = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+		
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				communism_drift = -0.02
+				democratic_drift = -0.02
+			}
+		}
+		
+		GEN_communism_drift = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+		
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				communism_drift = 0.05
+			}
+		}
+		
+		GEN_fascism_drift = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+		
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				fascism_drift = 0.05
+			}
+		}
+		
+		GEN_democratic_drift = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+		
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				democratic_drift = 0.05
+			}
+		}
+		
+		GEN_monarchist_drift = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = monarchist
+			}
+		
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				monarchist_drift = 0.05
+			}
+		}
+		
+		GEN_centrism_ethos = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+		
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				neutrality_drift = 0.05
+				fascism_drift = -0.02
+				monarchist_drift = -0.02
+				democratic_drift = -0.02
+				communism_drift = -0.02
+			}
+		}
 }

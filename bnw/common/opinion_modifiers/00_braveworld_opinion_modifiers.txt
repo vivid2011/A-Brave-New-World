@@ -55,4 +55,8 @@ opinion_modifiers = {
 	refused_anti_entente_pact_opinion= {
 		value = -50
 	}
+	
+	communist_brotherhood = {
+		value = 25
+	}
 }	

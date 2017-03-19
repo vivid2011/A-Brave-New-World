@@ -23,6 +23,13 @@
  queen_victoria_died:0 "Death of Queen Victoria"
  loser_of_spanish_american_war:0 "Loser of the Spanish-American War"
  a_fight_for_survival:0 "A Fight For Survival"
+ GEN_leftist_ethos:0 "Leftist Ethos"
+ GEN_authoritarian_ethos:0 "Authoritarian Ethos"
+ GEN_communism_drift:0 "Communist Drift"
+ GEN_fascism_drift:0 "Fascist Drift"
+ GEN_democratic_drift:0 "Democratic Drift"
+ GEN_monarchist_drift:0 "Monarchist Drift"
+ GEN_centrism_ethos:0 "Centrism Ethos"
 
  #Austria-Hungary + Generics#
  habsburg:0 "Habsburg Dynasty"
@@ -66,4 +73,7 @@
  prussian_general_staff_desc:0 "The General Staff of this nation is extremely experienced and knows well of the ways of warfare."
  reserves:0 "Frontline Reserves"
  reserves_desc:0 "This nation employs reserves to the front lines"
+ german_engineering:0 "German Engineering"
+ prussian_discipline:0 "Prussian Discipline"
+ waffen_ss:0 "Waffen SS Divisions"
  #Germany#
