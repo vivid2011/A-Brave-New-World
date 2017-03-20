@@ -1427,9 +1427,9 @@
  ITA_monarchist:0 "Kingdom of Italy"
  ITA_monarchist_DEF:0 "Kingdom of Italy"
  ITA_monarchist_ADJ:0 "Italian"
- SPA_monarchist:0 "Spanish Empire"
- SPA_monarchist_DEF:0 "Spanish Empire"
- SPA_monarchist_ADJ:0 "Spanish"
+ SPR_monarchist:0 "Spanish Empire"
+ SPR_monarchist_DEF:0 "Spanish Empire"
+ SPR_monarchist_ADJ:0 "Spanish"
  MNT_monarchist:0 "Kingdom of Montenegro"
  MNT_monarchist_DEF:0 "Kingdom of Montenegro"
  MNT_monarchist_ADJ:0 "Montenegrin"
@@ -1532,6 +1532,12 @@
  PTR_democratic:0 "Republic of Puerto Rico"
  PTR_democratic_DEF:0 "Republic of Puerto Rico"
  PTR_democratic_ADJ:0 "Republic of Puerto Rico"
+ BUL_monarchist:0 "Kingdom of Bulgaria"
+ BUL_monarchist_DEF:0 "Kingdom of Bulgaria"
+ BUL_monarchist_ADJ:0 "Bulgarian"
+ SIA_monarchist:0 "Kingdom of Siam"
+ SIA_monarchist_DEF:0 "Kingdom of Siam"
+ SIA_monarchist_ADJ:0 "Siamese"
  
  
  
