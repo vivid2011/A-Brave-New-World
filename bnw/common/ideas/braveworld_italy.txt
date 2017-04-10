@@ -1,0 +1,19 @@
+ideas = {
+
+	country = {
+		
+		Umberto_I = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				unity_factor = 0.3
+			}
+		}
+	}
+}
