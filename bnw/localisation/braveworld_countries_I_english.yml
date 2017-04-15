@@ -199,3 +199,23 @@
  BOX_monarchist:0 "Boxer China"
  BOX_monarchist_DEF:0 "Boxer China"
  BOX_monarchist_ADJ:0 "Chinese"
+ #REPUBLIC OF ACRE
+ ACR_monarchist:0 "Principality of Acre"
+ ACR_monarchist_DEF:0 "Principality of Acre"
+ ACR_monarchist_ADJ:0 "Acrean"
+ ACR_democratic:0 "Republic of Acre"
+ ACR_democratic_DEF:0 "Republic of Acre"
+ ACR_democratic_AJD:0 "Acrean"
+ ACR_neutrality:0 "Acre"
+ ACR_neutrality_DEF:0 "Acre"
+ ACR_neutrality_ADJ:0 "Acrean"
+ ACR_communism:0 "People's Republic of Acre"
+ ACR_communism_DEF:0 "People's Republic of Acre"
+ ACR_communism_ADJ:0 "Acrean"
+ ACR_fascism:0 "Nationalist State of Acre"
+ ACR_fascism_DEF:0 "Nationalist State of Acre"
+ ACR_fascism_ADJ:0 "Acrean"
+ #BOLIVIA
+ BOL_democratic:0 "Republic of Bolivia"
+ #BRAZIL
+ BRA_democratic:0 "Brazilian Republic"

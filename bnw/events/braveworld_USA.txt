@@ -1,8 +1,4 @@
-﻿###########################
-# USA Events
-###########################
-
-add_namespace = usa
+﻿add_namespace = usa
 
 ###########################
 # Brave World - USA Events
@@ -874,10 +870,6 @@ country_event = {
 						}
 					else = {
 						puppet = CUB
-						#set_autonomy = {
-						#	target = CUB
-						#	autonomous_state = autonomy_puppet
-						#}
 					}
 				}
 			}

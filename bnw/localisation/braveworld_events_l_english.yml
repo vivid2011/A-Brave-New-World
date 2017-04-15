@@ -210,5 +210,41 @@
  usa.52.a:0 "Enforce the demands!"
  # UNITED STATES
  
+ # ACRE #
+ acre.1.t:0 "The End of the Republic"
+ acre.1.d:0 "The Bolivian Army has captured President Luis Gálvez Rodríguez de Arias. We have no choice but to relent to the same monsters that we rebelled against. We will still persist under the rule of the Bolivians. This is not the death of Acre!"
+ acre.1.a:0 "Has the end come?"
+ acre.2.t:0 "The Third Republic of Acre"
+ acre.2.d:0 "Acre has risen again! We have defeated Bolivia on the field of battle and now stand in a position of strength. Acre will now see it's day!"
+ acre.2.a:0 "For the glory of Acre!"
+ 
+ # BOLIVIA
+ bolivia.1.t:0 "The End of the Acrean Republic"
+ bolivia.1.d:0 "The Bolivian Army has captured President Luis Gálvez Rodríguez de Arias. They have no choice but to relent to us. The rebellion is finally crushed. This is the death of Acre!"
+ bolivia.1.a:0 "For the glory of Bolivia!"
+ bolivia.2.t:0 "The Second Acrean Republic"
+ bolivia.2.d:0 "The rebels in Acre have risen. Fortunately, our army was quick to stop them. We have hung the leaders and suppressed their followers. There can not be another uprising."
+ bolivia.2.a:0 "For the glory of Bolivia!"
+ bolivia.3.t:0 "The Third Republic of Acre"
+ bolivia.3.d:0 "The rebels in Acre have again risen. This time though, they were armed and ready to fight. Their 30,000 man army has already defeated us in battle. We must reign in these rebels before Brazil takes the territory. This is not weak rebellion, it is a war!"
+ bolivia.3.a:0 "We must crush these rebels once and for all!"
+ bolivia.4.t:0 "The Treaty of Petropolis"
+ bolivia.4.d:0 "Brazil has negotiated a treaty with the rebels in Acre. Brazil will integrate Acre into their country, and we will recieve an end to this war, and infrastructure funding accross the county. We could also deny the terms of the treaty and declare war on Brazil for the land."
+ bolivia.4.a:0 "It is a fair agreement."
+ bolivia.4.b:0 "To war, by Jingo!"
+ 
+ #Brazil
+ brazil.1.t:0 "The Fate of Acre"
+ brazil.1.d:0 "The Bolivian rebels in Acre have risen up for a third time. We can offer to incorporate them into our own nation, taking their land and rubber. To please Bolivia, we can fund a major railroad to connect them to the sea. All it takes is a simple communique."
+ brazil.1.a:0 "This will be good for both countries."
+ brazil.1.b:0 "Let the rebels suffer."
+ brazil.2.t:0 "Bolivia Accepts the Treaty of Petropolis"
+ brazil.2.d:0 "Bolivia has accepted the terms of the Treaty of Petropolis, which we made with the Republic of Acre. Acre is now a state of Brazil, and as long as we provide infrastructure for Bolivia, we are safe from another war."
+ brazil.2.a:0 "This will be good for both countries."
+ brazil.3.t:0 "Bolivia Declares War"
+ brazil.3.d:0 "Bolivia has found the terms of the Treaty of Petropolis unnaceptable and has decided to declare war on us over Acre! We must defend our new land from these Spanish invaders!"
+ brazil.3.a:0 "For the glory of Brazil!"
+ 
+ 
  
  
