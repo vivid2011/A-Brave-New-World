@@ -137,6 +137,7 @@ set_technology = {
 
 set_convoys = 300
 set_national_unity = 0.4
+puppet = DAH
 
 set_politics = {
 

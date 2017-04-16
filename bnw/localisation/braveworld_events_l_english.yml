@@ -100,7 +100,10 @@
  # EIGHT NATION ALLIANCE
  
  # FRANCE
- 
+ france.34.t:0 "The Fate of Dahomey"
+ france.34.d:0 "The Kindom of Dahomey has been a protectorate of France since the Second Franco-Dahomean War in 1894. It is now time to decide the fate of these people. We can integrate them into French West Africa, or let them free."
+ france.34.a:0 "Subjugate the savages!"
+ france.34.b:0 "Let them be free!"
  # FRANCE
  
  # GERMANY
@@ -119,7 +122,9 @@
  # JAPAN
  
  # MEXICO
- 
+ mexico.6.t:0 "The Mazocoba Massacre"
+ mexico.6.d:0 "The Yaqui in Sonora have been rebellious for years. The last of these rebels made a stand in Mazocoba, Sonora. Our armies easily defeated the rebels, but nearly two thousand native civilians were killed in the battle."
+ mexico.6.a:0 "The beasts are finally put down."
  # MEXICO
  
  # NEWS EVENTS
@@ -257,5 +262,11 @@
  belgium.1.a:0 "Take the land and its rubber."
  belgium.1.b:0 "The people deserve freedom!"
  # BELGIUM #
+ 
+ # DAHOMEY #
+ dahomey.1.t:0 "Dahomey Sees Freedom"
+ dahomey.1.d:0 "The French have elected to let us free from out bonds. They have released their protectorateship, making the Kingdom of Dahomey independent again."
+ dahomey.1.a:0 "Glory to Dahomey!"
+ # DAHOMEY #
  
  
