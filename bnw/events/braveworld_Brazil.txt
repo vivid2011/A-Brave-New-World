@@ -32,9 +32,6 @@ country_event = {
 			transfer_state = 762
 		}
 		add_political_power = -50
-		762 = {
-			add_infrastructure = 1
-		}
 		BOL = {
 		country_event = { id = bolivia.4 }
 		}

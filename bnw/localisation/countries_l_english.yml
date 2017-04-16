@@ -1570,6 +1570,23 @@
  CFS_fascism:0 "Congo Free State"
  CFS_fascism_DEF:0 "Congo Free State"
  CFS_fascism_ADJ:0 "Congoan"
+ #ASHANTI
+ ASH_monarchist:0 "Kingdom of Ashanti"
+ ASH_monarchist_DEF:0 "Kingdom of Ashanti"
+ ASH_monarchist_ADJ:0 "Ashantian"
+ ASH_democratic:0 "Republic of Ashanti"
+ ASH_democratic_DEF:0 "Republic of Ashanti"
+ ASH_democratic_AJD:0 "Ashantian"
+ ASH_neutrality:0 "Ashanti Free State"
+ ASH_neutrality_DEF:0 "Ashanti Free State"
+ ASH_neutrality_ADJ:0 "Ashantian"
+ ASH_communism:0 "People's Republic of Ashanti"
+ ASH_communism_DEF:0 "People's Republic of Ashanti"
+ ASH_communism_ADJ:0 "Ashantian"
+ ASH_fascism:0 "Nationalist Ashanti"
+ ASH_fascism_DEF:0 "Nationalist Ashanti"
+ ASH_fascism_ADJ:0 "Ashantian"
+ 
  
  
  

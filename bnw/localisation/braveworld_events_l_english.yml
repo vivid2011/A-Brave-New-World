@@ -75,6 +75,9 @@
  britain.31.d:0 "With heavy strain on the budget to maintain the empire, Parliament has had to look at unconventional means of controlling what could be a major catastrophe. So, Parliament has drafted what will be known as the 'South African Republic,' a continued protectorate for the United Kingdom and her empire. Unfortunately, we will lose some resources as a result of this decision. Of course, we can always decide against this option and remain with the territory under our control but at a very high cost."
  britain.31.a:0 "Allow South Africa it's colonial puppet status"
  britain.31.b:0 "We retain the Empire until the end!"
+ britain.32.t:0 "The War of the Golden Stool"
+ britain.32.d:0 "Our Colonial Govornor to the Gold Coast has insulted our subjects in the Kingdom of Ashanti. He requested to sit on the Golden Stool, the symbol of the monarchy of Ashanti. The Ashanti were insulted, and took up arms in full revolt. Led by their Queen, they have taken back their lands. We must put down these beasts."
+ britain.32.a:0 "For the crown!"
  # BRITAIN
  
  # CHINA
@@ -254,3 +257,5 @@
  belgium.1.a:0 "Take the land and its rubber."
  belgium.1.b:0 "The people deserve freedom!"
  # BELGIUM #
+ 
+ 

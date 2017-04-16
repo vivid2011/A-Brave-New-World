@@ -16,9 +16,6 @@ country_event = {
 	
 	trigger = {
 		tag = BOL
-		state_762 = {
-			owner = BOL
-		}
 		date > 1900.3.1
 	}
 
@@ -111,12 +108,6 @@ country_event = {
 		name = bolivia.4.a
 		ai_chance = {
 			factor = 90
-		}
-		487 = {
-			add_infrastructure = 1
-		}
-		382 = {
-			add_infrastructure = 1
 		}
 		add_political_power = -20
 		BRA = {
