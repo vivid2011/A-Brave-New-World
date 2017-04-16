@@ -74,6 +74,7 @@ set_technology = {
 	}
 }
 
+puppet = CFS
 
 set_politics = {
 

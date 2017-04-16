@@ -1554,6 +1554,22 @@
  ACR_fascism:0 "Nationalist State of Acre"
  ACR_fascism_DEF:0 "Nationalist State of Acre"
  ACR_fascism_ADJ:0 "Acrean"
+ #CONGO FREE STATE
+ CFS_monarchist:0 "Congo Free State"
+ CFS_monarchist_DEF:0 "Congo Free State"
+ CFS_monarchist_ADJ:0 "Congoan"
+ CFS_democratic:0 "Congo Free State"
+ CFS_democratic_DEF:0 "Congo Free State"
+ CFS_democratic_AJD:0 "Congoan"
+ CFS_neutrality:0 "Congo Free State"
+ CFS_neutrality_DEF:0 "Congo Free State"
+ CFS_neutrality_ADJ:0 "Congoan"
+ CFS_communism:0 "Congo Free State"
+ CFS_communism_DEF:0 "Congo Free State"
+ CFS_communism_ADJ:0 "Congoan"
+ CFS_fascism:0 "Congo Free State"
+ CFS_fascism_DEF:0 "Congo Free State"
+ CFS_fascism_ADJ:0 "Congoan"
  
  
  

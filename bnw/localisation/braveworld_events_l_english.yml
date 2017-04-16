@@ -217,6 +217,7 @@
  acre.2.t:0 "The Third Republic of Acre"
  acre.2.d:0 "Acre has risen again! We have defeated Bolivia on the field of battle and now stand in a position of strength. Acre will now see it's day!"
  acre.2.a:0 "For the glory of Acre!"
+ # ACRE #
  
  # BOLIVIA
  bolivia.1.t:0 "The End of the Acrean Republic"
@@ -232,8 +233,9 @@
  bolivia.4.d:0 "Brazil has negotiated a treaty with the rebels in Acre. Brazil will integrate Acre into their country, and we will recieve an end to this war, and infrastructure funding accross the county. We could also deny the terms of the treaty and declare war on Brazil for the land."
  bolivia.4.a:0 "It is a fair agreement."
  bolivia.4.b:0 "To war, by Jingo!"
+ # BOLIVIA #
  
- #Brazil
+ # BRAZIL #
  brazil.1.t:0 "The Fate of Acre"
  brazil.1.d:0 "The Bolivian rebels in Acre have risen up for a third time. We can offer to incorporate them into our own nation, taking their land and rubber. To please Bolivia, we can fund a major railroad to connect them to the sea. All it takes is a simple communique."
  brazil.1.a:0 "This will be good for both countries."
@@ -244,7 +246,11 @@
  brazil.3.t:0 "Bolivia Declares War"
  brazil.3.d:0 "Bolivia has found the terms of the Treaty of Petropolis unnaceptable and has decided to declare war on us over Acre! We must defend our new land from these Spanish invaders!"
  brazil.3.a:0 "For the glory of Brazil!"
+ # BRAZIL #
  
- 
- 
- 
+ # BELGIUM #
+ belgium.1.t:0 "The Fate of Congo Free State"
+ belgium.1.d:0 "The Congo Free State is the personal property of King Leopold II since its inception. He has now offered to integrate the Congo Basin into Belgium officially. Shall we accept, or let Congo go free?"
+ belgium.1.a:0 "Take the land and its rubber."
+ belgium.1.b:0 "The people deserve freedom!"
+ # BELGIUM #
