@@ -32,6 +32,8 @@ country_event = {
 			transfer_state = 295
 			transfer_state = 538
 			transfer_state = 718
+			transfer_state = 769
+			transfer_state = 770
 		}
 		add_political_power = -50
 	}
@@ -44,6 +46,10 @@ country_event = {
 			transfer_state = 295
 			transfer_state = 538
 			transfer_state = 718
+		}
+		BEL = {
+			transfer_state = 769
+			transfer_state = 770
 		}
 		add_political_power = 150
 	}

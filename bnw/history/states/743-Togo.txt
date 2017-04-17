@@ -16,6 +16,6 @@ state={
 	}
 	
 	manpower=400000
-	state_category=wasteland
+	state_category=rural
 	buildings_max_level_factor=1.000
 }
