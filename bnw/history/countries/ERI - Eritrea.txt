@@ -1,6 +1,6 @@
-﻿capital = 774
+﻿capital = 550
 
-oob = "RCB_1900"
+oob = "ERI_1900"
 
 set_technology = {
 	infantry_weapons = 1
@@ -39,8 +39,8 @@ set_politics = {
 ### BRAVEWORLD LEADERS ###
 
 create_country_leader = {
-	name = "President Fulbert Youlou"
-	picture = "gfx/leaders/RCG/Youlou.dds"
-	expire = "1972.4.1"
+	name = "President Isaias Afwerki"
+	picture = "gfx/leaders/ERI/Afwerki.dds"
+	expire = ""
 	ideology = liberalism
 }

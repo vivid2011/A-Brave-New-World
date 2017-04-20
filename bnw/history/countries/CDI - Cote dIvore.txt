@@ -1,6 +1,6 @@
-﻿capital = 774
+﻿capital = 775
 
-oob = "RCB_1900"
+oob = "CDI_1900"
 
 set_technology = {
 	infantry_weapons = 1
@@ -39,8 +39,8 @@ set_politics = {
 ### BRAVEWORLD LEADERS ###
 
 create_country_leader = {
-	name = "President Fulbert Youlou"
-	picture = "gfx/leaders/RCG/Youlou.dds"
-	expire = "1972.4.1"
+	name = "President Félix Houphouët-Boigny"
+	picture = "gfx/leaders/CDI/Boigny.dds"
+	expire = "1993.5.1"
 	ideology = liberalism
 }

@@ -1,6 +1,6 @@
-﻿capital = 774
+﻿capital = 539
 
-oob = "RCB_1900"
+oob = "GAB_1900"
 
 set_technology = {
 	infantry_weapons = 1
@@ -39,8 +39,8 @@ set_politics = {
 ### BRAVEWORLD LEADERS ###
 
 create_country_leader = {
-	name = "President Fulbert Youlou"
-	picture = "gfx/leaders/RCG/Youlou.dds"
-	expire = "1972.4.1"
+	name = "President Léon M'ba"
+	picture = "gfx/leaders/GAB/Mba.dds"
+	expire = "1967.8.1"
 	ideology = liberalism
 }
