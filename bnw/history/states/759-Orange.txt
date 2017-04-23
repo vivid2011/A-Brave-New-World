@@ -25,8 +25,8 @@ state={
 			12648 7
 		}
 		
-		add_core_of = ENG
 		add_core_of = ONG
+		add_core_of = SAF
 	}
 	
 	manpower=920091

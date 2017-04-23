@@ -16,6 +16,7 @@ state={
 		victory_points = {
 			9945 5 
 		}
+		add_core_of = MOR
 		buildings = {
 			infrastructure = 3
 			air_base = 3
