@@ -1,0 +1,67 @@
+﻿capital = 759
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_research_slots = 1
+set_national_unity = 0.75
+
+add_ideas = {
+	# None yet
+}
+
+declare_war_on = {
+	target = ENG
+	type = take_state
+}
+
+set_politics = {
+	parties = {
+		democratic = {
+			popularity = 80
+		}
+		
+		fascism = {
+			popularity = 4
+		}
+		
+		communism = {
+			popularity = 4
+		}
+		
+		neutrality = {
+			popularity = 10
+		}
+		
+		monarchist = {
+			popularity = 2
+			banned = yes
+		}		
+	}
+	
+	ruling_party = democratic
+	last_election = "1896.3.4"
+	election_frequency = 48
+	elections_allowed = no
+	
+}
+
+create_country_leader = {
+	name = "President Martinus Theunis Steyn"
+	picture = "gfx/leaders/ONG/MarthinusTheunisSteyn.dds"
+	expire = "1916.11.28"
+	ideology = liberalism
+	traits = {}
+}
+
+create_corps_commander = {
+	name = "Christiaan de Wet"
+	portrait_path = "gfx/leaders/ONG/ChristiaanDeWet.dds"
+	skill = 5
+	traits = {
+		trickster
+		hill_fighter
+		ranger
+	}
+}

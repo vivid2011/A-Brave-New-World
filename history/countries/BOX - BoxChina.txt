@@ -1,0 +1,55 @@
+﻿
+1902.1.1 = {
+	capital = 608
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_convoys = 0
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 5
+		}
+
+		fascism = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communism = {
+			popularity = 0
+			banned = yes #default is no
+		}
+		
+		neutrality = { 
+			popularity = 0
+			banned = yes
+		}
+		
+		monarchist = { 
+			popularity = 95
+		}
+	}
+	
+	ruling_party = monarchist
+	last_election = "None"
+	election_frequency = 0
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Prince Duan"
+	#desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
+	picture = "Portrait_China_Chiang_Kai_Shek.dds"
+	expire = "1965.1.1"
+	ideology = absolute
+	traits = {
+		#
+	}
+}

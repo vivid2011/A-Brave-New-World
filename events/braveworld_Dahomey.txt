@@ -1,0 +1,23 @@
+﻿######################################
+# Brave World - Kingdom of Dahomey
+######################################
+
+add_namespace = dahomey
+
+# Birth of New Dahomey
+country_event = {
+	id = dahomey.1
+	title = dahomey.1.t
+	desc = dahomey.1.d
+	picture = GFX_report_event_generic_funeral
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = dahomey.1.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

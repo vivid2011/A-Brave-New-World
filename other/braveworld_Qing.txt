@@ -1,0 +1,42 @@
+﻿##########################
+#Brave World - Qing Events
+##########################
+
+add_namespace = qing
+
+#Cixi dies
+country_event={
+	
+	id = qing.1
+	title = qing.1.t
+	desc = qing.1.d
+	picture = GFX_report_event_usa_funeral
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = QNE
+		date > 1908.11.15
+	}
+	
+	mean_time_to_happen={
+		days = 1
+	}
+	
+	option={
+		name = quing.1.a
+		kill_country_leader = yes
+		add_political_power = -100
+		create_country_leader = {
+			name = "Puyi"	
+			expire = "1965.1.1"
+			picture = "Portrait_China_Puyi.dds"
+			ideology = monarchism
+			traits = {
+				#
+			}
+		}
+	}
+}
+
+

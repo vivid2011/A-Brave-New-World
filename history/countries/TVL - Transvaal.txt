@@ -1,0 +1,58 @@
+﻿capital = 275
+
+set_technology = {
+	infantry_weapons = 1
+}
+
+set_research_slots = 1
+set_national_unity = 0.75
+
+add_ideas = {
+	# None yet
+}
+
+declare_war_on = {
+	target = ENG
+	type = take_state
+}
+
+ONG = { add_to_faction = TVL }
+
+set_politics = {
+	parties = {
+		democratic = {
+			popularity = 80
+		}
+		
+		fascism = {
+			popularity = 4
+		}
+		
+		communism = {
+			popularity = 4
+		}
+		
+		neutrality = {
+			popularity = 10
+		}
+		
+		monarchist = {
+			popularity = 2
+			banned = yes
+		}		
+	}
+	
+	ruling_party = democratic
+	last_election = "1900.9.11"
+	election_frequency = 48
+	elections_allowed = no
+	
+}
+
+create_country_leader = {
+	name = "President Paul Kruger"
+	picture = gfx/leaders/TVL/Kruger.dds
+	expire = "1900.10.10"
+	ideology = liberalism
+	traits = {}
+}

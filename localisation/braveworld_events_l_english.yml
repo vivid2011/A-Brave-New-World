@@ -1,0 +1,277 @@
+﻿l_english:
+# AUSTRIA-HUNGARY
+ ahu.1.t:0 "The Death of the Emperor"
+ ahu.1.d:0 "Emperor Franz-Josef has passed away. Our glorious Emperor will be laid to rest and his succesor, Charles I, shall continue his mission to glory."
+ ahu.1.a:0 "Long live the Emperor!"
+ ahu.2.t:0 "Ultimatum to Bosnia"
+ ahu.2.d:0 "Evan sucks at writing events"
+ ahu.2.a:0 "I agree"
+ ahu.3.t:0 "Germany Refuses our Offer!"
+ ahu.3.d:0 "The German Empire has refused our offer to join them in a glorious alliance!"
+ ahu.3.a:0 "They will regret this decision..."
+ ahu.4.t:0 "The Romanian Invitation"
+ ahu.4.d:0 "THIS EVENT SHOULD BE FOR ROM NOT AHU EVAN"
+ ahu.4.a:0 "You Suck"
+ ahu.4.b:0 "Hi, i'm Evan and I suck at events"
+ ahu.5.t:0 "Romania Refuses our Offer!"
+ ahu.5.d:0 "Romania has refused our offer to join them in a glorious alliance!"
+ ahu.5.a:0 "They will regret this decision..."
+ ahu.6.t:0 "The Bulgarian Invitation"
+ ahu.6.d:0 "AGAIN, THIS SHOULD BE FOR BUL"
+ ahu.6.a:0 "Evan sucks"
+ ahu.6.b:0 "Yup, he does"
+ ahu.7.t:0 "Bulgaria Refuses our Offer!"
+ ahu.7.d:0 "Bulgaria has refused our offer to join them in a glorious alliance!"
+ ahu.7.a:0 "They will regret this decision..."
+ ahu.8.t:0 "The Albanian Invitation"
+ ahu.8.d:0 "ITS NOT THAT FUCKING HARD TO MAKE EVENTS"
+ ahu.8.a:0 "THESE ARE ALL SHIT EVAN"
+ ahu.8.b:0 "GET YOUR SHIT TOGETHER"
+ ahu.9.t:0 "Albania Refuses our Offer!"
+ ahu.9.d:0 "Albania has refused our offer to join them in a glorious alliance!"
+ ahu.9.a:0 "They will regret this decision..."
+ ahu.10.t:0 "The Italian Ultimatum"
+ ahu.10.d:0 "This is a list of events for AHU not events about AHU"
+ ahu.10.a:0 "Cmon evan, get your shit together"
+ ahu.10.b:0 "fr, man"
+ ahu.11.t:0 "Italy Refuses the Ultimatum!"
+ ahu.11.d:0 "Italy has refused to adhere to the points of our simple request, we now much make move the machine of war!"
+ ahu.11.a:0 "To the battlefields, men!"
+ ahu.12.t:0 "The Serbian Ultimatum"
+ ahu.12.d:0 "This is a SER and RUS event"
+ ahu.12.a:0 "Whats with all these ultimatums anyways"
+ ahu.12.b:0 "This is getting annoying for me"
+ ahu.12.c:0 "Damnit Evan"
+ ahu.13.t:0 "Russia Gurantees Serbia!"
+ ahu.13.d:0 "The Russian Empire has declared that Serbia shall not be violated! They are of course bluffing..."
+ ahu.13.a:0 "Let slip the dogs of war!"
+ ahu.14.t:0 "Germany Invites Us to Faction"
+ ahu.14.d:0 "The German Empire has sent a gracious invitation to their faction!"
+ ahu.14.a:0 "Of course! The Germans and Austrians will thrive together!"
+ ahu.14.b:0 "We are better seperated."
+ # AUSTRIA-HUNGARY
+ 
+ # BRITAIN
+ britain.25.t:0 "Appointment of Arthur Balfour"
+ britain.25.d:0 "Prime Minister Robert Gascoyne-Cecil has decided to step down from being the leader of the United Kingdom. He cites failing health and age as his reason for leaving office. The seventy-two year old has decided to spend what time he has left on this earth with his children. In his place, Arthur Balfour has taken his place until the next change of events."
+ britain.25.a:0 "Hopefully we won't get any declarations..."
+ britain.26.t:0 "Conservatives Lose Election!"
+ britain.26.d:0 "The Conservative Party for the United Kingdom has lost to the Liberal Party following a division of the party's base over imperialism or decolonialization, taxes, Chinese labor, and a failure for a swift end to the effects of the Boer War. It appears Henry Campbell-Bannerman and the Liberals have taken over Parliament and the Office."
+ britain.26.a:0 "Into the future!"
+ britain.27.t:0 "Sir Henry Campbell-Bannerman Steps Down"
+ britain.27.d:0 "Prime Minister CB has decided to step down from his position. This is due to declining mental and physical health. Herbert Henry Asquith will be taking his place upon stepping down."
+ britain.27.a:0 "Reforms and budgets abound!"
+ britain.28.t:0 "Coup in the Government!"
+ britain.28.d:0 "David Lloyd George has overthrown Asquith as a result of incompetent leadership. While the nation is still a democracy, the Liberals decided ot pull Asquith out of the Prime Minister position because the Coalition Government he created has failed to act properly during the war. Finances are also on the brink of collapse due to Asquith's failure."
+ britain.28.a:0 "Maybe George will be able to put the UK on the path to victory..."
+ britain.29.t:0 "Fall of the Liberal Party"
+ britain.29.d:0 "With the election of 1922 underway, it appears the Liberal Party is failing. The Conservatives won the vote to dissolve the Coalition government established during the War and were on the path to victory. Congratulations to a smart move by the Conservative Party."
+ britain.29.a:0 "A Conservative Future"
+ britain.30.t:0 "The Independence of Australia"
+ britain.30.d:0 "The British territory of Australia has become organized enough to sustain itself as an independent government. This will reduce stress on the United Kingdom's economy and political pressure but we will lose access to some important materials. What is the decision, Prime Minister?"
+ britain.30.a:0 "Allow Australia limited independence!"
+ britain.30.b:0 "Retain the integrity of our Empire!"
+ britain.31.t:0 "Independence of South Africa"
+ britain.31.d:0 "With heavy strain on the budget to maintain the empire, Parliament has had to look at unconventional means of controlling what could be a major catastrophe. So, Parliament has drafted what will be known as the 'South African Republic,' a continued protectorate for the United Kingdom and her empire. Unfortunately, we will lose some resources as a result of this decision. Of course, we can always decide against this option and remain with the territory under our control but at a very high cost."
+ britain.31.a:0 "Allow South Africa it's colonial puppet status"
+ britain.31.b:0 "We retain the Empire until the end!"
+ britain.32.t:0 "The War of the Golden Stool"
+ britain.32.d:0 "Our Colonial Govornor to the Gold Coast has insulted our subjects in the Kingdom of Ashanti. He requested to sit on the Golden Stool, the symbol of the monarchy of Ashanti. The Ashanti were insulted, and took up arms in full revolt. Led by their Queen, they have taken back their lands. We must put down these beasts."
+ britain.32.a:0 "For the crown!"
+ # BRITAIN
+ 
+ # CHINA
+ 
+ # CHINA
+ 
+ # COLUMBIA
+ columbia.1.t:0 "Panama Declares Independence!"
+ columbia.1.d:0 "Our province of Panama has declared itself an independent state in rebellion! Shall we recognize the new nation, or go to war against the rebels?"
+ columbia.1.a:0 "To the battlefields, men!"
+ columbia.1.b:0 "They deserve their own nation."
+ columbia.2.t:0 "The United States Gurantees Panama"
+ columbia.2.d:0 "The rebels in Panama have been guranteed by the horrible United States of America!"
+ columbia.2.a:0 "We have no choice but to renounce our claims."
+ columbia.2.b:0 "Not without a fight!"
+ # COLUMBIA
+ 
+ # EIGHT NATION ALLIANCE
+ 
+ # EIGHT NATION ALLIANCE
+ 
+ # FRANCE
+ france.34.t:0 "The Fate of Dahomey"
+ france.34.d:0 "The Kindom of Dahomey has been a protectorate of France since the Second Franco-Dahomean War in 1894. It is now time to decide the fate of these people. We can integrate them into French West Africa, or let them free."
+ france.34.a:0 "Subjugate the savages!"
+ france.34.b:0 "Let them be free!"
+ # FRANCE
+ 
+ # GERMANY
+ germany.135.t:0 "The Anti-Entente Pact"
+ germany.135.d:0 "We have been invited to Germany's Anti-Entente Pact. They believe that they are under diplomatic assault from France, the United Kingdom and Russia. Should we stand by Germany against the Entente?"
+ germany.135.a:0 "We stand with Germany"
+ germany.135.b:0 "It's better to sit this out."
+ # GERMANY
+ 
+ # ITALY
+ 
+ # ITALY
+ 
+ # JAPAN
+ 
+ # JAPAN
+ 
+ # MEXICO
+ mexico.6.t:0 "The Mazocoba Massacre"
+ mexico.6.d:0 "The Yaqui in Sonora have been rebellious for years. The last of these rebels made a stand in Mazocoba, Sonora. Our armies easily defeated the rebels, but nearly two thousand native civilians were killed in the battle."
+ mexico.6.a:0 "The beasts are finally put down."
+ # MEXICO
+ 
+ # NEWS EVENTS
+ 
+ # NEWS EVENTS
+ 
+ # PANAMA
+ 
+ # PANAMA
+ 
+ # POLITICAL EVENTS
+ 
+ # POLITICAL EVENTS
+ 
+ # SERBIA
+ 
+ # SERBIA
+ 
+ # SOVIET UNION/RUSSIA
+ 
+ # SOVIET UNION/RUSSIA
+ 
+ # OTTOMAN EMPIRE/TURKEY
+ 
+ # OTTOMAN EMPIRE/TURKEY
+ 
+ # UNITED STATES
+ usa.25.t:0 "Election of 1900"
+ usa.25.d:0 "It is the first American election of the 20th Century and can define the United States for the rest of the century. Incumbent President William McKinley is running for reelection against Democratic nominee William Jennings Bryan. McKinley is running on the platform of continued economic growth and Americanism. Bryan focused on anti-imperialism and bimetallism."
+ usa.25.a:0 "McKinley has won a second term!"
+ usa.25.b:0 "The People have chosen Bryan as the new President."
+ usa.26.t:0 "Death of President McKinley"
+ usa.26.d:0 "President McKinley was shot by an angered supporter of his yesterday. The bullet pierced his chest and lungs, causing them to fill with blood. The President died several hours later asphyxiating on his own blood. Vice President Theodore Roosevelt will be sworn into office later today as the 26th President of the United States of America."
+ usa.26.a:0 "May he rest in peace."
+ usa.27.t:0 "Election of 1904"
+ usa.27.d:0 "The election of 1904 has come around. The Republican Party was shaken by the attack on President McKinley but has had several years to recover. From wise leadership, the Reublicans have grown stronger. However, this has also given the Democratic Party much time to reconsider their events. It all depends on what the People think of the candidates."
+ usa.27.a:0 "The People have chosen Theodore Roosevelt!"
+ usa.27.b:0 "The People have chosen Alton B. Parker!"
+ usa.27.c:0 "The People have chosen William Jennings Bryan!"
+ usa.28.t:0 "Election of 1908"
+ usa.28.d:0 "The election of 1908 is just around the corner and the American people are ready for it. This election will decide the fate of the last President's legacy; whether the Anti-Trust policies will continue or the pro-American stances will prevail."
+ usa.28.a:0 "The People have choosen William Howard Taft!"
+ usa.28.b:0 "The People have choosen to reelect Theodore Roosevelt!"
+ usa.28.c:0 "The People have choosen William Bryan Jennings!"
+ usa.28.e:0 "The People have choosen George Gray!"
+ usa.29.t:0 "Election of 1912"
+ usa.29.d:0 "The election of 1912 is a major change of events. The Democrats have a major chance right now to overturn a decade of losing the Presidential election with Woodrow Wilson as the Democratic nominee. The platform also appears to be more appealing to the general Americans as well; lending a great boost to the Democratic voter base."
+ usa.29.a:0 "The People have choosen William Howard Taft!"
+ usa.29.b:0 "The People have choosen Woodrow Wilson!"
+ usa.29.c:0 "The People have choosen Theodore Roosevelt!"
+ usa.30.t:0 "Election of 1916"
+ usa.30.d:0 "In the midst of conflict and tension, the world continues to strive forward. The President has kept America neutral in these matters for far too long. Many Americans feel as though they have to pick a side in these trying times or be destroyed by all parties. Roosevelt has lashed out at Wilson for his inept behavior and labeled him a coward for not choosing sides."
+ usa.30.a:0 "The people have chosen to reelect Taft!"
+ usa.30.b:0 "The people have chosen Hughes as President."
+ usa.31.t:0 "American Intervention into the Great War"
+ usa.31.d:0 "Not implemented yet"
+ usa.31.a:0 "Accept the Invitation"
+ usa.31.b:0 "Decline the Invitation"
+ usa.32.t:0 "Roosevelt to Join the Army"
+ usa.32.d:0 "With the outbreak of war against the United States, Roosevelt has decided to offer his services to the American Army. While he is very old, he offers many lessons from his experience in warfare."
+ usa.32.a:0 "Accept the Offer"
+ usa.32.b:0 "Decline the Offer"
+ usa.33.t:0 "Columbia Targets Panama"
+ usa.33.d:0 "With the recent independence move by Panamanian nationalists, supported by some Americans, the Columbian government moves to their border in an attempt to reclaim their lost territory. However, Panama has claims to independence due to its status under the Spanish Empire, own culture, and lack of political rights in the old Columbian government. Therefore, the people demand proper action against a very aggressive force in Central America."
+ usa.33.a:0 "Protect Panama!"
+ usa.33.b:0 "Allow Panama and Columbia to sort it out themselves"
+ usa.34.t:0 "Panama Canal Treaty"
+ usa.34.d:0 "With the recent events between Panama and Columbia, and secret dealings between Panamanian and American diplomats several months before, Congress has finally drafted and approved the Panama Canal Treaty. This will pay Panama for the land on the narrowest points of the territory. The land is transferred indefinitely to the United States."
+ usa.34.a:0 "Send it to Panama"
+ usa.35.t:0 "Treaty Revoked!"
+ usa.35.d:0 "The Panamanians have the audacity to decline and ignore our original outstanding agreement! What should we do, Mr. President?"
+ usa.35.a:0 "The only option is war for the promised territory"
+ usa.36.t:0 "Attempted Assassination of McKinley"
+ usa.36.d:0 "The President, while at a fund raising event, was almost killed by an archarchist assassin! The killer said he was ashamed of McKinley's stances and angered that he wasn't being more active about it. The man's trial is to be held in two weeks in the case United States v. Czolgosz. It is likely he will be found guilty and sentenced to death by electricution chair."
+ usa.36.a:0 "Thank God the extra security paid off..."
+ usa.37.t:0 "Election of 1920"
+ usa.37.d:0 "Yeah, we never thought you'd get this far... To be implemented!"
+ usa.37.a:0 "The People have chosen James M. Cox!"
+ usa.37.b:0 "The People have chosen Warren G. Harding!"
+ usa.38.t:0 "Roosevelt's Decision to Run in 1908"
+ usa.38.d:0 "President Roosevelt has been debating over running for reelection in 1908. Newspapers constantly ask him about it and now he must make a decision. If he does not run, his friend, William Howard Taft, will have to continue where he left off. This does mean, however ,that he can run again at a future date if things don't go according to plan and the people want to return to the Rooseveltian way."
+ usa.38.a:0 "Run in 1908"
+ usa.38.b:0 "Let Taft run"
+ # ----------------------------------> MASSIVE GAP! <----------------------------------
+ usa.51.t:0 "Independence of Puerto Rico"
+ usa.51.d:0 "Many have begun to question what Puerto Rico is. The territory was taken from the Spanish in the Spanish-American War. However, they are not citizens of the United States yet are considered incoprated as a territory of the United States. They do not have full citizenship but American companies operate with very little interference by the American government. This has left many to ask - what is Puerto Rico's fate?"
+ usa.51.a:0 "Integrate Puerto Rico as an incoproated territory for possible stateship"
+ usa.51.b:0 "Allow Puerto Rico to walk free"
+ usa.52.t:0 "The Platt Amendment"
+ usa.52.d:0 "With the end of the Spanish-American War, the fate of Cuba is in the United States' hands. The nation is struggling to adopt a constitution as the United States continuously rejects them while it creates something to integrate Cuba closer into the United States. Thus, the Platt Amendment was born. It transfers the territory of Guantanamo Bay to the United States and ties the Cuban economy closer to the American counterpart. Their currency is also directly pegged to the USD as opposed to gold or silver like other national currencies."
+ usa.52.a:0 "Enforce the demands!"
+ # UNITED STATES
+ 
+ # ACRE #
+ acre.1.t:0 "The End of the Republic"
+ acre.1.d:0 "The Bolivian Army has captured President Luis Gálvez Rodríguez de Arias. We have no choice but to relent to the same monsters that we rebelled against. We will still persist under the rule of the Bolivians. This is not the death of Acre!"
+ acre.1.a:0 "Has the end come?"
+ acre.2.t:0 "The Third Republic of Acre"
+ acre.2.d:0 "Acre has risen again! We have defeated Bolivia on the field of battle and now stand in a position of strength. Acre will now see it's day!"
+ acre.2.a:0 "For the glory of Acre!"
+ # ACRE #
+ 
+ # BOLIVIA
+ bolivia.1.t:0 "The End of the Acrean Republic"
+ bolivia.1.d:0 "The Bolivian Army has captured President Luis Gálvez Rodríguez de Arias. They have no choice but to relent to us. The rebellion is finally crushed. This is the death of Acre!"
+ bolivia.1.a:0 "For the glory of Bolivia!"
+ bolivia.2.t:0 "The Second Acrean Republic"
+ bolivia.2.d:0 "The rebels in Acre have risen. Fortunately, our army was quick to stop them. We have hung the leaders and suppressed their followers. There can not be another uprising."
+ bolivia.2.a:0 "For the glory of Bolivia!"
+ bolivia.3.t:0 "The Third Republic of Acre"
+ bolivia.3.d:0 "The rebels in Acre have again risen. This time though, they were armed and ready to fight. Their 30,000 man army has already defeated us in battle. We must reign in these rebels before Brazil takes the territory. This is not weak rebellion, it is a war!"
+ bolivia.3.a:0 "We must crush these rebels once and for all!"
+ bolivia.4.t:0 "The Treaty of Petropolis"
+ bolivia.4.d:0 "Brazil has negotiated a treaty with the rebels in Acre. Brazil will integrate Acre into their country, and we will recieve an end to this war, and infrastructure funding accross the county. We could also deny the terms of the treaty and declare war on Brazil for the land."
+ bolivia.4.a:0 "It is a fair agreement."
+ bolivia.4.b:0 "To war, by Jingo!"
+ # BOLIVIA #
+ 
+ # BRAZIL #
+ brazil.1.t:0 "The Fate of Acre"
+ brazil.1.d:0 "The Bolivian rebels in Acre have risen up for a third time. We can offer to incorporate them into our own nation, taking their land and rubber. To please Bolivia, we can fund a major railroad to connect them to the sea. All it takes is a simple communique."
+ brazil.1.a:0 "This will be good for both countries."
+ brazil.1.b:0 "Let the rebels suffer."
+ brazil.2.t:0 "Bolivia Accepts the Treaty of Petropolis"
+ brazil.2.d:0 "Bolivia has accepted the terms of the Treaty of Petropolis, which we made with the Republic of Acre. Acre is now a state of Brazil, and as long as we provide infrastructure for Bolivia, we are safe from another war."
+ brazil.2.a:0 "This will be good for both countries."
+ brazil.3.t:0 "Bolivia Declares War"
+ brazil.3.d:0 "Bolivia has found the terms of the Treaty of Petropolis unnaceptable and has decided to declare war on us over Acre! We must defend our new land from these Spanish invaders!"
+ brazil.3.a:0 "For the glory of Brazil!"
+ # BRAZIL #
+ 
+ # BELGIUM #
+ belgium.1.t:0 "The Fate of Congo Free State"
+ belgium.1.d:0 "The Congo Free State is the personal property of King Leopold II since its inception. He has now offered to integrate the Congo Basin into Belgium officially. Shall we accept, or let Congo go free?"
+ belgium.1.a:0 "Take the land and its rubber."
+ belgium.1.b:0 "The people deserve freedom!"
+ # BELGIUM #
+ 
+ # DAHOMEY #
+ dahomey.1.t:0 "Dahomey Sees Freedom"
+ dahomey.1.d:0 "The French have elected to let us free from out bonds. They have released their protectorateship, making the Kingdom of Dahomey independent again."
+ dahomey.1.a:0 "Glory to Dahomey!"
+ # DAHOMEY #
+ 
+ # GENERIC #
+ event.1.t:0 "Independence for Africa"
+ event.1.d:0 "As the century reaches its halfway point, the people of Africa have asked their colonial powers for self-rule. Independence and Nationalist parties have grown in many regions, and the people want their own governments."
+ event.1.a:0 "It is the dawn of a new era."
+ 
+ 

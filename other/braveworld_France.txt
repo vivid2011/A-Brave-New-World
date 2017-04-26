@@ -1,0 +1,114 @@
+﻿###########################
+# Brave World - French Events
+###########################
+
+#Number of base events = 30
+
+add_namespace = france
+
+# Election of 1906: Fallières vs Paul Doumer
+country_event = {
+	id = france.32
+	title = france.32.t
+	desc = france.32.d
+	picture = GFX_report_event_france_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = FRA
+		democratic > 0.5
+		date > 1906.1.1
+		date < 1907.1.1
+	}
+	
+	option = { 	
+		name = france.32.a
+		ai_chance = {
+			factor = 75
+		}
+		#set_party_name = { ideology = democratic long_name = france_republican_party name = france_republican_party }
+		create_country_leader={
+			name="Clément Armand Fallières"
+			picture="Picture_France_Armand_Paris.dds"
+			expire="1931.6.22"
+			ideology=conservatism
+			traits={
+				#lawyer
+				#politician
+			}
+		}
+	}
+
+	option = { 
+		name = france.32.b
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}		
+		#set_party_name = { ideology = democratic long_name = france_radical_party name = france_radical_party }
+		create_country_leader={
+			name="Paul Doumer"
+			picture="Portait_France_Generic_2.dds"
+			ideology=liberalism
+			traits={
+			}
+		}
+	}
+}
+
+# Election of 1913: Poincaré vs Jules Pams
+country_event = {
+	id = france.33
+	title = france.33.t
+	desc = france.33.d
+	picture = GFX_report_event_france_election_generic
+
+	is_triggered_only = yes
+
+	trigger = {
+		tag = FRA
+		democratic > 0.5
+		date > 1913.1.1
+		date < 1914.1.1
+	}
+	
+	option = { 	
+		name = france.33.a
+		ai_chance = {
+			factor = 75
+		}
+		#set_party_name = { ideology = democratic long_name = france_republican_party name = france_republican_party }
+		create_country_leader={
+			name="Raymond Poincaré"
+			picture="Portrait_France_Alphonse_Raymond_Poincare.dds"
+			expire="1934.9.15"
+			ideology=liberalism
+			traits={
+				#lawyer
+			}
+		}
+	}
+
+	option = { 
+		name = france.33.b
+		ai_chance = {
+			factor = 25
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}		
+		#set_party_name = { ideology = democratic long_name = france_radical_party name = france_radical_party }
+		create_country_leader={
+			name="Jules Pams"
+			picture="Portait_France_Generic_2.dds"
+			ideology = liberalism
+			traits={
+			}
+		}
+	}
+}

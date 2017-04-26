@@ -1,0 +1,62 @@
+﻿######################################
+# Brave World - Republic of Acre
+######################################
+
+add_namespace = acre
+
+# End of 1st Republic
+country_event = {
+	id = acre.1
+	title = acre.1.t
+	desc = acre.1.d
+	picture = GFX_report_event_generic_funeral
+	
+	fire_only_once = yes
+	is_triggered_only = no
+	
+	trigger = {
+		tag = ACR
+		date > 1900.3.1
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		name = acre.1.a
+		ai_chance = {
+			factor = 100
+		}
+		BOL = {
+			transfer_state = 762
+		}
+	}
+}
+
+#The Third Republic
+country_event = {
+	id = acre.2
+	title = acre.2.t
+	desc = acre.2.d
+	picture = GFX_report_event_generic_funeral
+	
+	fire_only_once = yes
+	is_triggered_only = no
+	
+	trigger = {
+		tag = ACR
+		date > 1903.1.1
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		name = acre.2.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}

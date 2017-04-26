@@ -1,0 +1,59 @@
+ideas = {
+
+	country = {
+		
+		old_man_dictator = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				unity_factor = -0.1
+				industrial_capacity_factory = -0.1
+				production_speed_buildings_factor = -0.2
+				consumer_goods_factor = 0.1
+			}
+			
+		}
+		
+		improvement_over_diaz = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				unity_factor = -0.05
+				industrial_capacity_factory = -0.05
+				production_speed_buildings_factor = -0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		old_man_still_got_it = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			modifier = {
+				unity_factor = 0.2
+				conscription = 0.01
+				training_time_factor = -0.2
+			}
+			
+		}
+		
+	}
+	
+}

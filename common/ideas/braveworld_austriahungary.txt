@@ -1,0 +1,71 @@
+ideas = {
+
+	country = {
+		nation_of_two_souls = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -10
+			
+			modifier = {
+				unity_factor = -0.15
+			}
+			
+			research_bonus ={
+				research_time_factor = -0.3
+			}
+		}
+		
+	}
+	
+	political_advisor = {
+		
+	}
+	
+
+	army_chief = {
+		
+	}
+	
+	air_chief = {
+		
+	}
+	
+	navy_chief = {
+		
+	}
+	
+	
+	high_command = {
+		
+	}
+		
+	tank_manufacturer = { 
+	
+	}
+	
+	naval_manufacturer = { 
+		
+	}
+	
+	aircraft_manufacturer = { 
+		
+	}
+	
+	
+	materiel_manufacturer = {
+		
+	}
+	
+
+	
+	industrial_concern = {
+		
+	}
+	
+	
+	theorist = {
+		
+	}
+}

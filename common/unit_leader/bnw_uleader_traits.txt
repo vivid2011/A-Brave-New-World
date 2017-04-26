@@ -1,0 +1,38 @@
+leader_traits = {
+
+offensive_minded = { 
+		type = field_marshal
+		
+		gain_xp = {
+			is_attacker = yes
+		}
+		cost = 1000
+		
+		modifier = {
+			army_attack_factor = 0.1
+			army_defence_factor = -0.1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+defensive_minded = { 
+		type = field_marshal
+		
+		gain_xp = {
+			is_attacker = yes
+		}
+		cost = 1000
+		
+		modifier = {
+			army_attack_factor = -0.1
+			army_defence_factor = 0.2
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
