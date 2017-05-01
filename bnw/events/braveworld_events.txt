@@ -26,6 +26,10 @@ country_event = {
 			factor = 100
 		}
 		name = event.1.a
+			702 = {
+				add_core_of = CVD
+				remove_core_of = POR
+			}
 			459 = {
 				add_core_of = ALG
 			}
@@ -112,9 +116,11 @@ country_event = {
 			}
 			769 = {
 				add_core_of = RWA
+				remove_core_of = CFS
 			}
 			770 = {
 				add_core_of = BUR
+				remove_core_of = CFS
 			}
 			774 = {
 				add_core_of = RCG
@@ -175,8 +181,11 @@ country_event = {
 			708 = {
 				add_core_of = COM
 			}
+			705 = {
+				add_core_of = STP
+			}
 			707 = {
-				add_core_of = MAU
+				add_core_of = MTS
 			}
 			709 = {
 				add_core_of = SEY

@@ -30,3 +30,10 @@ BOX = {
 	color = rgb { 179 0 0 }
 	color_ui = rgb { 179 0 0 }
 }
+
+#AFRICA#
+
+SEY = {
+	color = rgb { 255 0 255 }
+	color_ui = rgb { 255 0 255 }
+}

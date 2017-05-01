@@ -1,4 +1,4 @@
-﻿capital = 703
+﻿capital = 708
 
 oob = "COM_1900"
 
