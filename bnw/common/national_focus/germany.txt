@@ -836,7 +836,7 @@ focus_tree = {
 		icon = GFX_goal_generic_demand_territory
 		prerequisite = { focus = GER_unify_ger }
 		mutually_exclusive = { focus = GER_austria_ally }
-		availible = {
+		available = {
 			is_puppet = no
 			NOT = { is_in_faction_with = AHU }
 		}
