@@ -4,7 +4,7 @@ state={
 	name="STATE_490"
 	manpower = 70020
 	
-	state_category = pastoral
+	state_category = wasteland
 
 	history={
 		owner = PRU
