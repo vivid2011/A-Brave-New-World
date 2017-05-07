@@ -14,11 +14,17 @@ state={
 			4797 3 
 		}
 		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			air_base = 1
-
+			infrastructure = 2
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 4
+				arms_factory = 1
+				air_base = 1
+			}
+		}
+		
 		add_core_of = SOV
 
 	}

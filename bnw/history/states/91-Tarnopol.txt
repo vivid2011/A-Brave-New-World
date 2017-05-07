@@ -11,10 +11,18 @@ state={
 			11479 5 
 		}
 		buildings = {
-			infrastructure = 6
-			industrial_complex = 3
-			air_base = 5
+			infrastructure = 5
+			industrial_complex = 2
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 3
+				air_base = 5
+			}
+		}
+		
 		add_core_of = POL
 		add_core_of = UKR
 		add_core_of = SOV

@@ -11,11 +11,21 @@ state={
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
-			infrastructure = 5
-			arms_factory = 1
+			infrastructure = 3
 			industrial_complex = 1
 			3900 = {
-				naval_base = 2
+				naval_base = 1
+			}
+		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 5
+				arms_factory = 1
+				industrial_complex = 1
+				3900 = {
+					naval_base = 2
+				}
 			}
 		}
 

@@ -14,9 +14,18 @@ state={
 	history={
 		owner = AHU
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 			industrial_complex = 3
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 3
+			}
+			remove_core_of = AHU
+		}
+		
 		victory_points = {
 			688 10 
 		}

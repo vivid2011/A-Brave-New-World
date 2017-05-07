@@ -14,11 +14,22 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-			air_base = 3
 			4464 = {
-				naval_base = 4
+				naval_base = 2
 			}
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 1
+				air_base = 3
+				4464 = {
+					naval_base = 4
+				}
+			}
+		}
+		
 		add_core_of = USA
 	}
 

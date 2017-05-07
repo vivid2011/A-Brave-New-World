@@ -11,14 +11,24 @@ state={
 			1440 1 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 1
-			air_base = 4
 			1440 = {
-				naval_base = 3
-
+				naval_base = 2
 			}
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 1
+				air_base = 4
+				1440 = {
+					naval_base = 3
+				}
+			}
+		}
+		
 		add_claim_by = USA
 		add_core_of = PTR
 	}

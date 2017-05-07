@@ -9,17 +9,29 @@ state={
 	history={
 		owner = NZL
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 			arms_factory = 1
 			industrial_complex = 4
-			air_base = 3
 			4543 = {
-				naval_base = 3
-			}
-			1814 = {
-				naval_base = 2
+				naval_base = 1
 			}
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 6
+				arms_factory = 1
+				industrial_complex = 4
+				air_base = 3
+				4543 = {
+					naval_base = 3
+				}
+				1814 = {
+					naval_base = 2
+				}
+			}
+		}
+		
 		victory_points = {
 			1814 10
 		}

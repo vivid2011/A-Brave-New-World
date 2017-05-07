@@ -15,21 +15,39 @@ state= {
 			3325 5
 		}
 		buildings = {
-			infrastructure = 8
+			infrastructure = 7
 			arms_factory = 2
-			industrial_complex = 4
+			industrial_complex = 3
 			dockyard = 2
-			air_base = 6
 			6287 = {
-				naval_base = 8
+				naval_base = 6
 			}
 			3325 = {
-				naval_base = 3
+				naval_base = 2
 			}
 			6361 = {
 				naval_base = 1
 			}
 		}
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 8
+				arms_factory = 2
+				industrial_complex = 4
+				dockyard = 2
+				air_base = 6
+				6287 = {
+					naval_base = 8
+				}
+				3325 = {
+					naval_base = 3
+				}
+				6361 = {
+					naval_base = 1
+				}
+			}
+		}
+		
 		add_core_of = DEN
 	}
 

@@ -10,9 +10,18 @@ state={
 		owner = FRA
 		buildings = {
 			infrastructure = 3
-			air_base = 2
 			8124 = {
 				naval_base = 2
+			}
+		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 3
+				air_base = 2
+				8124 = {
+					naval_base = 2
+				}
 			}
 		}
 

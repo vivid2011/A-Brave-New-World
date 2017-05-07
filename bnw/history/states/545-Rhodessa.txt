@@ -1,6 +1,6 @@
-
 state={
 	id=545
+	
 	name="STATE_545"
 	resources={
 		chromium=23.000
@@ -11,13 +11,11 @@ state={
 		owner = ENG
 		buildings = {
 			infrastructure = 3
-
 		}
 		victory_points = {
 			10929 1 
 		}
 		add_core_of = ZIM
-
 	}
 
 	provinces={

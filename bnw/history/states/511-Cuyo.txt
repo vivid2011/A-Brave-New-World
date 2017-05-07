@@ -9,10 +9,18 @@ state={
 	history={
 		owner = ARG
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 			industrial_complex = 1
-			air_base = 1
 		}
+		
+		1919.6.28 ={
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+				air_base = 1
+			}
+		}
+		
 		add_core_of = ARG
 		victory_points = {
 			12942 1 

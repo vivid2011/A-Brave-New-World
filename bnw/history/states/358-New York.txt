@@ -10,17 +10,28 @@ state={
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 8
-			arms_factory = 2
-			industrial_complex = 7
-			dockyard = 3
-			air_base = 10
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 5
+			dockyard = 2
 			3878 = {
-				naval_base = 6
-
+				naval_base = 4
 			}
-
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 8
+				arms_factory = 2
+				industrial_complex = 7
+				dockyard = 3
+				air_base = 10
+				3878 = {
+					naval_base = 6
+				}
+			}
+		}
+		
 		add_core_of = USA
 		victory_points = {
 			3878 30.0 

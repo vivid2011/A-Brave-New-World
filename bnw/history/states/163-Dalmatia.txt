@@ -9,6 +9,7 @@ state=
 	history={
 		owner = AHU
 		add_core_of = AHU
+		add_claim_by = ITA
 		buildings = {
 			infrastructure = 5
 			3943 = {

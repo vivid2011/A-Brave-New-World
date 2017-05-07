@@ -8,9 +8,18 @@ state={
 	history={
 		owner = AHU
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 			industrial_complex = 1
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 1
+			}
+			remove_core_of = AHU
+		}
+		
 		add_core_of = CZE
 		add_core_of = AHU
 

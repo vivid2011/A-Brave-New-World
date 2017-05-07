@@ -15,12 +15,19 @@ state={
 	history={
 		owner = ENG
 		buildings = {
-			infrastructure = 3
-			air_base = 1
-			7669 = {
-				naval_base = 1
+			infrastructure = 2
+		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 3
+				air_base = 1
+				7669 = {
+					naval_base = 1
+				}
 			}
 		}
+		
 		victory_points = {
 			7669 5 
 		}

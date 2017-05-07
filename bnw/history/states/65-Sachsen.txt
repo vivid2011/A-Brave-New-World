@@ -13,10 +13,19 @@ state={
 	history={
 		owner = GER
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			arms_factory = 3
-			industrial_complex = 7
+			industrial_complex = 4
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 7
+				arms_factory = 3
+				industrial_complex = 7
+			}
+		}
+		
 		victory_points = {
 			514 5 
 		}

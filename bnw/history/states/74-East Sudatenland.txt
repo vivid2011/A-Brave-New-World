@@ -11,9 +11,18 @@ state=
 	{
 		owner = AHU
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4
 			arms_factory = 1
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 7
+				arms_factory = 1
+			}
+			remove_core_of = AHU
+		}
+		
 		add_core_of = CZE
 		add_core_of = AHU
 		

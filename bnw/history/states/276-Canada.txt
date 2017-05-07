@@ -9,11 +9,20 @@ state={
 	history={
 		owner = CAN
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			arms_factory = 2
 			industrial_complex = 4
-			air_base = 5
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 7
+				arms_factory = 2
+				industrial_complex = 4
+				air_base = 5
+			}
+		}
+		
 		add_core_of = CAN
 		victory_points = {
 			3778 20 

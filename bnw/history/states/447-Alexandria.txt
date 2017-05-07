@@ -22,9 +22,19 @@ state={
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
-			air_base = 6
 			4076 = {
-				naval_base = 8
+				naval_base = 6
+			}
+		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 5
+				industrial_complex = 1
+				air_base = 6
+				4076 = {
+					naval_base = 8
+				}
 			}
 		}
 

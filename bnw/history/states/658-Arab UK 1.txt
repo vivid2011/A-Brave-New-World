@@ -18,10 +18,19 @@ state={
 		buildings = {
 			infrastructure = 2
 			7960 = {
-				naval_base = 3
+				naval_base = 1
 			}
-			8051 = {
-				naval_base = 2
+		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 2
+				7960 = {
+					naval_base = 3
+				}
+				8051 = {
+					naval_base = 2
+				}
 			}
 		}
 

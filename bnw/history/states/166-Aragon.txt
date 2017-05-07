@@ -17,10 +17,18 @@ state={
 			3816 1 
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 			industrial_complex = 1
-			air_base = 3
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 1
+				air_base = 3
+			}
+		}
+		
 		add_core_of = SPR
 	}
 

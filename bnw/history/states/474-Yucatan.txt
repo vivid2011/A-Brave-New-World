@@ -11,14 +11,25 @@ state={
 		buildings = {
 			infrastructure = 3
 			arms_factory = 1
-			air_base = 1
-			4904 = {
-				naval_base = 2
-			}
 			4965 = {
-				naval_base = 3
+				naval_base = 1
 			}
 		}
+		
+		1919.6.28 ={
+			buildings = {
+				infrastructure = 3
+				arms_factory = 1
+				air_base = 1
+				4904 = {
+					naval_base = 2
+				}
+				4965 = {
+					naval_base = 3
+				}
+			}
+		}
+		
 		add_core_of = MEX
 	}
 

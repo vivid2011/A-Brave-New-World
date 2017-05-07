@@ -7,19 +7,31 @@ state={
 		buildings = {
 			infrastructure = 2
 			1269 = {
-				naval_base = 2
-
+				naval_base = 1
 			}
 			4226 = {
 				naval_base = 1
-
 			}
-			10234 = {
-				naval_base = 1
-
-			}
-
 		}
+		
+		1919.6.28 = {
+			owner = JAP
+			
+			buildings = {
+				infrastructure = 2
+				1269 = {
+					naval_base = 2
+				}
+				4226 = {
+					naval_base = 1
+				}
+				10234 = {
+					naval_base = 1
+				}
+			}
+			
+		}
+		
 		victory_points = {
 			1269 3 
 		}

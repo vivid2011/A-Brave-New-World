@@ -10,9 +10,16 @@ state={
 		add_core_of = SOV
 		add_claim_by = JAP
 		buildings = {
-			infrastructure = 3
-			air_base = 1
+			infrastructure = 2
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 3
+				air_base = 1
+			}
+		}
+		
 	}
 
 	provinces={

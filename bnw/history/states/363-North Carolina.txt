@@ -9,13 +9,21 @@ state={
 	history={
 		owner = USA
 		buildings = {
-			infrastructure = 6
+			infrastructure = 4
 			industrial_complex = 3
-			air_base = 3
-			1132 = {
-				naval_base = 1
+		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 3
+				air_base = 3
+				1132 = {
+					naval_base = 1
+				}
 			}
 		}
+		
 		add_core_of = USA
 		victory_points = {
 			7138 3 

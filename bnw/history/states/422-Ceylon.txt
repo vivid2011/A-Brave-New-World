@@ -18,13 +18,26 @@ state=
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			air_base = 3
 			10201 = {
-				naval_base = 5
+				naval_base = 4
 			}
 			7260 = {
 				naval_base = 3
-				coastal_bunker = 3
+			}
+		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+				air_base = 3
+				10201 = {
+					naval_base = 5
+				}
+				7260 = {
+					naval_base = 3
+					coastal_bunker = 3
+				}
 			}
 		}
 

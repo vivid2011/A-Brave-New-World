@@ -9,7 +9,6 @@ state={
 
 			1869 = {
 				naval_base = 1
-
 			}
 
 

@@ -9,8 +9,15 @@ state=
 	{
 		owner = PHI
 		buildings = {
-			infrastructure = 3
+			infrastructure = 2
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 3
+			}
+		}
+		
 		add_core_of = PHI
 	}
 	provinces={

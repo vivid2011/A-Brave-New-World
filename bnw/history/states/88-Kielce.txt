@@ -15,11 +15,21 @@ state={
 			9427 10		
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 1
-			industrial_complex = 4
-			air_base = 4
+			industrial_complex = 2
 		}
+		
+		1919.6.28 = {
+			remove_core_of = AHU
+			buildings = {
+				infrastructure = 6
+				arms_factory = 1
+				industrial_complex = 4
+				air_base = 4
+			}
+		}
+		
 		add_core_of = POL
 		add_core_of = AHU
 	}

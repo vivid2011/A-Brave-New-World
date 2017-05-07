@@ -17,12 +17,23 @@ state={
 		buildings = {
 			infrastructure = 4
 			dockyard = 1
-			air_base = 5
 			957 = {
-				naval_base = 8
-				coastal_bunker = 3
+				naval_base = 5
 			}
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 4
+				dockyard = 1
+				air_base = 5
+				957 = {
+					naval_base = 8
+					coastal_bunker = 3
+				}
+			}
+		}
+		
 		add_core_of = SOV
 	}
 

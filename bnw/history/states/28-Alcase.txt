@@ -15,40 +15,66 @@ state={
 		victory_points = { 9503 5 }
 		victory_points = { 9559 10 }
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			industrial_complex = 3
 			549 = {
-				bunker = 10
-
+				bunker = 4
 			}
 			678 = {
-				bunker = 10
-
+				bunker = 3
 			}
 			3629 = {
-				bunker = 10
-
+				bunker = 2
 			}
 			6529 = {
-				bunker = 10
-
+				bunker = 1
 			}
 			9503 = {
-				bunker = 10
-
+				bunker = 1
 			}
 			9559 = {
-				bunker = 10
-
+				bunker = 2
 			}
 			11502 = {
-				bunker = 10
-
+				bunker = 5
 			}
-			anti_air_building = 5
-			air_base = 5
-
 		}
+		
+		1919.6.28 = {
+			owner = FRA
+			remove_core_of = GER
+		}
+		
+		1936.1.1 = {
+			buildings = {
+				infrastructure = 7
+				industrial_complex = 3
+				549 = {
+					bunker = 10
+				}
+				678 = {
+					bunker = 10
+				}
+				3629 = {
+					bunker = 10
+				}
+				6529 = {
+					bunker = 10
+				}
+				9503 = {
+					bunker = 10
+				}
+				9559 = {
+					bunker = 10
+				}
+				11502 = {
+					bunker = 10
+				}
+				anti_air_building = 5
+				air_base = 5
+			}
+		}
+		
 		add_core_of = FRA
 		add_core_of = GER
 		1939.1.1 = {

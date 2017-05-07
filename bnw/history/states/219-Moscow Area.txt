@@ -15,11 +15,20 @@ state={
 			6380 50 
 		}
 		buildings = {
-			infrastructure = 7
-			arms_factory = 9
+			infrastructure = 5
+			arms_factory = 5
 			industrial_complex = 2
-			air_base = 10
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 7
+				arms_factory = 9
+				industrial_complex = 2
+				air_base = 10
+			}
+		}
+		
 		add_core_of = SOV
 		1939.1.1 = {
 			buildings = {
