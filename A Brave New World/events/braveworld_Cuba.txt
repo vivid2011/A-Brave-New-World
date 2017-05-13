@@ -1,0 +1,25 @@
+﻿######################################
+# Brave World - Cuba
+######################################
+
+add_namespace = cuba
+
+#Cuban Freedom
+country_event = {
+	id = cuba.1
+	title cuba.1.t
+	desc = cuba.1.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		ai_chance = {
+			factor = 100
+		}
+		name = cuba.1.a
+		add_political_power = 150
+		
+	}
+}
