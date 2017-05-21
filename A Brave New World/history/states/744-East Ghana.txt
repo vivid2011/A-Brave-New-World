@@ -1,0 +1,23 @@
+state={
+	id=744
+	name="STATE_744"
+	provinces={
+		12785 
+	}
+	
+	history = {
+		owner = GER
+		buildings = {
+			infrastructure = 2
+		}
+		
+		1919.6.28={
+			owner = ENG
+		}
+	
+	}
+	
+	manpower=100000
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

@@ -2327,6 +2327,22 @@
  CVD_fascism:0 "Nationalist Cabo Verde"
  CVD_fascism_DEF:0 "Nationalist Cabo Verde"
  CVD_fascism_ADJ:0 "Cabo Verdean"
+ #EIGHT NATION ALLIANCE
+ ENA_monarchist:0 "Kingdom of the West"
+ ENA_monarchist_DEF:0 "Kingdom of the West"
+ ENA_monarchist_ADJ:0 "Western"
+ ENA_democratic:0 "Republic of the West"
+ ENA_democratic_DEF:0 "Republic of the West"
+ ENA_democratic_AJD:0 "Western"
+ ENA_neutrality:0 "Eight Nation Alliance"
+ ENA_neutrality_DEF:0 "The Eight-Nation Alliance"
+ ENA_neutrality_ADJ:0 "Western"
+ ENA_communism:0 "People's Republic of the West"
+ ENA_communism_DEF:0 "People's Republic of the West"
+ ENA_communism_ADJ:0 "Western"
+ ENA_fascism:0 "Nationalist West"
+ ENA_fascism_DEF:0 "Nationalist West"
+ ENA_fascism_ADJ:0 "Western"
  
  
  

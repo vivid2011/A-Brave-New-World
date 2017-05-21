@@ -81,7 +81,26 @@
  # BRITAIN
  
  # CHINA
- 
+ china.205.t:0 "The Death of Cixi"
+ china.205.d:0 "Our Empress has fallen and regained her rightful place with god. We must now let her heir, young Prince Puyi, run the country in her permanent absence."
+ china.205.a:0 "Long live Puyi!"
+ china.206.t:0 "The Question of Support"
+ china.206.d:0 "A group of rebels, the Boxers, have requested the support of the dynasty. They plan to revolt against the influence of the western powers and take back China. Shall we join them?"
+ china.206.a:0 "They have our swords and our guns!"
+ china.206.b:0 "They will languish at the hands of the west."
+ china.207.t:0 "The Boxer Rebellion"
+ china.207.d:0 "The Boxers have started their revolution! We now see ourselves at war with the Eight Nation Alliance, the powers of the west that have held China for too long."
+ china.207.a:0 "For China and for the Empress!"
+ china.208.t:0 "The Boxer Rebellion"
+ china.208.d:0 "The Boxers have started their revolution! We now stand with the west against these vile dogs who want to hurt the future of the Qing."
+ china.208.a:0 "For China and for the Empress!"
+ china.210.t:0 "The Eight Nation Alliance Makes Demands"
+ china.210.d:0 "The west has asked for peace. Their offer, while weakening to China, sees peace in our lands."
+ china.210.a:0 "We have no choice but to bow to the west."
+ china.210.b:0 "We will not stop fighting until the rivers run red with blood!"
+ china.211.t:0 "Eight Nation Alliance Finds Victory"
+ china.211.d:0 "The vile dogs of the west have found victory over China. We must now bow to their demands, and to their influence."
+ china.211.a:0 "This will be avenged!"
  # CHINA
  
  # COLUMBIA

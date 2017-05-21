@@ -1,0 +1,21 @@
+state={
+	id=749
+	name="STATE_749"
+	provinces={
+		1389 4393 7365 7614 10251 10423 11004 11018 12154 12193 12237 12240 12400 12428 
+	}
+	
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 2
+		}
+		1919.6.28 = {
+			owner = ENG
+		}
+	}
+	
+	manpower=538500
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

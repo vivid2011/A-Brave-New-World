@@ -12,28 +12,31 @@ add_ideas = {
 set_politics = {
 	parties = {
 		democratic = {
-			popularity = 80
+			popularity = 0
+			banned = yes
 		}
 		
 		fascism = {
-			popularity = 4
+			popularity = 0
+			banned = yes
 		}
 		
 		communism = {
-			popularity = 4
+			popularity = 0
+			banned = yes
 		}
 		
 		neutrality = {
-			popularity = 10
+			popularity = 100
 		}
 		
 		monarchist = {
-			popularity = 2
+			popularity = 0
 			banned = yes
 		}		
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1896.3.4"
 	election_frequency = 48
 	elections_allowed = no
@@ -42,9 +45,9 @@ set_politics = {
 
 create_country_leader = {
 	name = "Sir Claude Maxwell MacDonald"
-	#picture = ""
+	picture = "gfx/leaders/ENA/MacDonald.dds"
 	expire = "1915.9.10"
-	ideology = liberalism
+	ideology = centrism
 	traits = {}
 }
 
