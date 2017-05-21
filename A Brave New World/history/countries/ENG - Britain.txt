@@ -1,6 +1,6 @@
 ﻿capital = 126
 
-oob = "ENG_1936"
+oob = "ENG_1900"
 
 set_research_slots = 4
 
@@ -51,6 +51,15 @@ add_ideas = {
 }
 
 set_convoys = 800
+
+declare_war_on = {
+	target = TVL
+	type = take_state
+}
+declare_war_on = {
+	target = ONG
+	type = take_state
+}
 
 # DIPLOMACY
 if = {

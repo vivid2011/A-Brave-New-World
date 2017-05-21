@@ -1,0 +1,37 @@
+﻿division_template = {
+	name = "Boer Militia"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	#Boer Command
+	division= {	
+		name = "1st Orange Infantry Division"
+		location = 12648
+		division_template = "Boer Militia"
+		start_experience_factor = 0.8
+	}
+
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "HOL"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 10
+	}	
+}
+	#####################
