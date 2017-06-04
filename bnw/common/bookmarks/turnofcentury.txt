@@ -3,7 +3,7 @@ bookmarks = {
 		name = "TURNOFCENTURY_NAME"
 		desc = "TURNOFCENTURY_DESC"
 		date = 1900.1.1.1
-		picture = "GFX_select_date_1936"
+		picture = "GFX_select_date_1900"
 		default_country = "ENG"
 	
 		FRA = {
