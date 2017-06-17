@@ -1,0 +1,30 @@
+state= {
+	id=183
+	name="STATE_183"
+	manpower = 200000
+	
+	state_category = rural
+	resources={
+		chromium=2
+	}
+
+	history=
+	{
+		
+		owner = ENG
+		
+		buildings = {
+			infrastructure = 2
+		}
+		
+		1919.6.28 = {
+			owner = ENG
+			buildings = {
+				infrastructure = 4
+				air_base = 1
+			}
+		}
+
+	}
+	provinces= { 7193 }
+}

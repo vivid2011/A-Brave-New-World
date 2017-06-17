@@ -1,0 +1,21 @@
+state={
+	id=762
+	name="STATE_762"
+	provinces={
+		13205 13206 13207 
+	}
+	history={
+		owner = ACR
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BRA
+		add_core_of = BOL
+		add_core_of = ACR
+
+	}
+	manpower= 350000
+	buildings_max_level_factor=1.000
+	state_category= wasteland
+}

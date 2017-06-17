@@ -1,0 +1,28 @@
+state={
+	id=752
+	name="STATE_752"
+	provinces={
+		11984 
+	}
+	manpower = 147959
+	
+	state_category = rural
+	resources={
+		chromium=2
+	}
+
+	history=
+	{
+		owner = ENG
+		buildings = {
+			infrastructure = 2
+		}
+		1919.6.28 = {
+			owner = ENG
+			buildings = {
+				infrastructure = 4
+			}
+		}
+
+	}
+}

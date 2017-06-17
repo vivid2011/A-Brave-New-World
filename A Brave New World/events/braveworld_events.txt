@@ -1,0 +1,227 @@
+﻿add_namespace = event
+
+###########################
+# Brave World - Generic Events
+###########################
+
+#Independence for Africa
+country_event = {
+	id = event.1
+    title = event.1.t
+    desc = event.1.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+
+	trigger = {
+		date > 1950.1.1
+	}
+	
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 100
+		}
+		name = event.1.a
+			702 = {
+				add_core_of = CVD
+				remove_core_of = POR
+			}
+			459 = {
+				add_core_of = ALG
+			}
+			460 = {
+				add_core_of = ALG
+			}
+			513 = {
+				add_core_of = ALG
+			}
+			514 = {
+				add_core_of = ALG
+			}
+			699 = {
+				add_core_of = MOR
+			}
+			557 = {
+				add_core_of = MAU
+			}
+			556 = {
+				add_core_of = MLI
+			}
+			515 = {
+				add_core_of = NIG
+			}
+			773 = {
+				add_core_of = CHA
+			}
+			777 = {
+				add_core_of = BKF
+			}
+			660 = {
+				add_core_of = CAR
+			}
+			458 = {
+				add_core_of = TUN
+			}
+			665 = {
+				add_core_of = TUN
+			}
+			771 = {
+				add_core_of = SUD
+			}
+			551 = {
+				add_core_of = SUD
+			}
+			549 = {
+				add_core_of = SUD
+			}
+			772 = {
+				add_core_of = SSD
+			}
+			550 = {
+				add_core_of = ERI
+			}
+			268 = {
+				add_core_of = DJI
+			}
+			269 = {
+				add_core_of = SOM
+			}
+			559 = {
+				add_core_of = SOM
+			}
+			548 = {
+				add_core_of = UGA
+			}
+			546 = {
+				add_core_of = TZN
+			}
+			765 = {
+				add_core_of = MWI
+			}
+			766 = {
+				add_core_of = ZAM
+			}
+			541 = {
+				add_core_of = NAM
+			}
+			767 = {
+				add_core_of = SWA
+			}
+			768 = {
+				add_core_of = LES
+			}
+			769 = {
+				add_core_of = RWA
+				remove_core_of = CFS
+			}
+			770 = {
+				add_core_of = BUR
+				remove_core_of = CFS
+			}
+			774 = {
+				add_core_of = RCG
+			}
+			539 = {
+				add_core_of = GAB
+			}
+			297 = {
+				add_core_of = EQG
+			}
+			746 = {
+				add_core_of = CMN
+			}
+			558 = {
+				add_core_of = NGA
+			}
+			764 = {
+				add_core_of = BEN
+				remove_core_of = DAH
+			}
+			743 = {
+				add_core_of = TOG
+			}
+			274 = {
+				add_core_of = GHA
+			}
+			763 = {
+				add_core_of = GHA
+				remove_core_of = ASH
+			}
+			775 = {
+				add_core_of = CDI
+			}
+			776 = {
+				add_core_of = GUI
+			}
+			700 = {
+				add_core_of = SLE
+			}
+			296 = {
+				add_core_of = GBU
+			}
+			272 = {
+				add_core_of = SEN
+			}
+			701 = {
+				add_core_of = GAM
+			}
+			745 = {
+				add_core_of = NGA
+			}
+			744 = {
+				add_core_of = GHA
+			}
+			543 = {
+				add_core_of = MAD
+			}
+			708 = {
+				add_core_of = COM
+			}
+			705 = {
+				add_core_of = STP
+			}
+			707 = {
+				add_core_of = MTS
+			}
+			709 = {
+				add_core_of = SEY
+			}
+			275 = {
+				remove_core_of = TVL
+			}
+			759 = {
+				remove_core_of = ONG
+			}
+			544 = {
+				add_core_of = MZB
+			}
+			545 = {
+				add_core_of = ZIM
+			}
+			542 = {
+				add_core_of = BOT
+			}
+			540 = {
+				add_core_of = ANG
+			}
+			295 = {
+				add_core_of = COG
+				remove_core_of = CFS
+			}
+			718 = {
+				add_core_of = COG
+				remove_core_of = CFS
+			}
+			538 = {
+				add_core_of = COG
+				remove_core_of = CFS
+			}
+			547 = {
+				add_core_of = KEN
+			}
+	}
+}
