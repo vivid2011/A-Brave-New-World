@@ -14,12 +14,22 @@ state={
 		victory_points = {
 			692 30
 		}
+		
 		buildings = {
-			infrastructure = 7
-			arms_factory = 3
+			infrastructure = 5
+			arms_factory = 2
 			industrial_complex = 1
-			air_base = 6
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 7
+				arms_factory = 3
+				industrial_complex = 1
+				air_base = 6
+			}
+		}
+		
 		add_core_of = GER
 
 		1939.1.1 = {

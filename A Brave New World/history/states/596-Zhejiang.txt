@@ -22,18 +22,34 @@ state=
 
 			7191 = {
 				naval_base = 1
-				coastal_bunker = 1
-				bunker = 1
 			}
 			9974 = {
-				naval_base = 3
+				naval_base = 2
 				coastal_bunker = 1
-				bunker = 1
 			}
 			1055 = {
-				naval_base = 3
-				coastal_bunker = 1
-				bunker = 1
+				naval_base = 2
+			}
+		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 4
+				7191 = {
+					naval_base = 1
+					coastal_bunker = 1
+					bunker = 1
+				}
+				9974 = {
+					naval_base = 3
+					coastal_bunker = 1
+					bunker = 1
+				}
+				1055 = {
+					naval_base = 3
+					coastal_bunker = 1
+					bunker = 1
+				}
 			}
 		}
 

@@ -1,4 +1,4 @@
-
+# Fuck Sicily
 state={
 	id=115
 	name="STATE_115"
@@ -14,23 +14,44 @@ state={
 			4159 10 
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 4
 			industrial_complex = 1
-			air_base = 10
 			dockyard = 1
 			10074 = {
 				naval_base = 2
 			}
 			7059 = {
-				naval_base = 5
-			}
-			4159 = {
-				naval_base = 8
-			}
-			4014 = {
 				naval_base = 3
 			}
+			4159 = {
+				naval_base = 5
+			}
+			4014 = {
+				naval_base = 1
+			}
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 5
+				industrial_complex = 1
+				air_base = 10
+				dockyard = 1
+				10074 = {
+					naval_base = 2
+				}
+				7059 = {
+					naval_base = 5
+				}
+				4159 = {
+					naval_base = 8
+				}
+				4014 = {
+					naval_base = 3
+				}
+			}
+		}
+		
 		add_core_of = ITA
 	}
 

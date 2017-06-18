@@ -9,7 +9,7 @@ state={
 		chromium = 40
 	}
 	
-	state_category = wasteland
+	state_category = rural
 
 	history={
 		owner = SWE

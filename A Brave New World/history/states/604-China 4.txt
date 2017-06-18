@@ -20,10 +20,17 @@ state={
 		}
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 3
-			arms_factory = 1
+			industrial_complex = 1
 		}
-
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 3
+				arms_factory = 1
+			}
+		}
+		
 		1938.10.25 = {
 			owner = CHI
 		}

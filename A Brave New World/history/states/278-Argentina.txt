@@ -9,15 +9,13 @@ state={
 	history={
 		owner = ARG
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 2
-			industrial_complex = 5
+			industrial_complex = 3
 			dockyard = 1
-			air_base = 4
 			12364 = {
 				naval_base = 7
 				bunker = 1
-				coastal_bunker = 1
 			}
 			7621 = {
 				naval_base = 2
@@ -26,6 +24,28 @@ state={
 				naval_base = 1
 			}
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 6
+				arms_factory = 2
+				industrial_complex = 5
+				dockyard = 1
+				air_base = 4
+				12364 = {
+					naval_base = 7
+					bunker = 1
+					coastal_bunker = 1
+				}
+				7621 = {
+					naval_base = 2
+				}
+				1639 = {
+					naval_base = 1
+				}
+			}
+		}
+		
 		add_core_of = ARG
 		victory_points = {
 			12364 10 

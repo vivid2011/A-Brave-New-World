@@ -6,20 +6,19 @@ state={
 	}
 	state_category = town
 	history= {
-		owner = CUB
+		owner = USA
 		buildings = {
 			infrastructure = 3
 			air_base = 1
-			13209 = {
-				naval_base = 1
-			}
+			#13209 = {
+			#	naval_base = 1
+			#}
 		}
 		add_core_of = CUB
 		add_core_of = USA
-		victory_points = {
-			13209 1
-		}
-
+		#victory_points = {
+		#	13209 1
+		#}
 	}
 	manpower= 10000
 	buildings_max_level_factor=1.000

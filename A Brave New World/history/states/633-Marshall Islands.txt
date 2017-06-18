@@ -20,7 +20,7 @@ state={
 				naval_base = 1
 			}
 		}
-		1928.6.28={
+		1919.6.28={
 			owner = JAP
 			add_core_of = JAP
 			buildings = {

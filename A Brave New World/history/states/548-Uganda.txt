@@ -11,8 +11,8 @@ state={
 		owner = ENG
 		buildings = {
 			infrastructure = 3
-
 		}
+		add_core_of = KEN
 	}
 
 	provinces={

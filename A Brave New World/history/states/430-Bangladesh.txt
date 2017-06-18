@@ -16,9 +16,7 @@ state={
 			industrial_complex = 2
 			11968 = {
 				naval_base = 3
-
 			}
-			
 		}
 		add_core_of = PAK
 		add_core_of = RAJ

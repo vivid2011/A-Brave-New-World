@@ -9,11 +9,20 @@ state={
 	history={
 		owner = PAR
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 3
-			air_base = 1
+			industrial_complex = 2
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 4
+				arms_factory = 1
+				industrial_complex = 3
+				air_base = 1
+			}
+		}
+		
 		add_core_of = PAR
 		victory_points = {
 			2152 5 

@@ -16,14 +16,26 @@ state={
 			11293 5 
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			arms_factory = 1
-			industrial_complex = 5
-			air_base = 3
+			industrial_complex = 3
 			11293 = {
-				naval_base = 6
+				naval_base = 4
 			}
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 7
+				arms_factory = 1
+				industrial_complex = 5
+				air_base = 3
+				11293 = {
+					naval_base = 6
+				}
+			}
+		}
+		
 		add_core_of = IRE
 		add_core_of = ENG
 	}

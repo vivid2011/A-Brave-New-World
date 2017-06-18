@@ -12,7 +12,6 @@ state={
 			infrastructure = 3
 			10862 = {
 				naval_base = 2
-
 			}
 
 		}

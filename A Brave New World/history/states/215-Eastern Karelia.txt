@@ -9,7 +9,6 @@ state={
 		owner = SOV
 		buildings = {
 			infrastructure = 3
-
 		}
 		add_core_of = SOV
 
@@ -20,6 +19,6 @@ state={
 	}
 	manpower=214858
 	
-	state_category = wasteland
+	state_category = rural
 	buildings_max_level_factor=1.000
 }

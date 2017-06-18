@@ -8,14 +8,12 @@ state={
 	history={
 		owner = ENG
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 2
 			industrial_complex = 4
 			dockyard = 2
-			air_base = 5
 			12406 = {
-				naval_base = 6
-				coastal_bunker = 2
+				naval_base = 4
 			}
 			7859 = {
 				bunker = 1
@@ -24,6 +22,27 @@ state={
 				coastal_bunker = 1
 			}
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 6
+				arms_factory = 2
+				industrial_complex = 4
+				dockyard = 2
+				air_base = 5
+				12406 = {
+					naval_base = 6
+					coastal_bunker = 2
+				}
+				7859 = {
+					bunker = 1
+				}
+				7520 = {
+					coastal_bunker = 1
+				}
+			}
+		}
+		
 		victory_points = {
 			7859 30 
 		}

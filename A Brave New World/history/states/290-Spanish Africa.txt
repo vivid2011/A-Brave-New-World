@@ -5,7 +5,7 @@ state={
 	manpower = 744000
 	
 	
-	state_category = town
+	state_category = rural
 	
 	resources={
 		steel=20
@@ -16,17 +16,26 @@ state={
 		victory_points = {
 			9945 5 
 		}
-		add_core_of = MOR
 		buildings = {
 			infrastructure = 3
-			air_base = 3
 			12100 = {
 				naval_base = 3
 			}
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 3
+				air_base = 3
+				12100 = {
+					naval_base = 3
+				}
+			}
+		}
+		
 	}
 
 	provinces={
-		4199 7215 9945 10113 12087 12100 
+		4199 7215 9945 10113 12087 12100
 	}
 }

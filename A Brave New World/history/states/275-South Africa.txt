@@ -4,7 +4,7 @@ state={
 	name="STATE_275" # Transvaal
 	manpower = 2760272
 	
-	state_category = large_town
+	state_category = city
 	
 	resources={
 		steel=8
@@ -45,9 +45,10 @@ state={
 		}
 		add_core_of = SAF
 		add_core_of = TVL
+		add_core_of = ENG
 	}
 
 	provinces={
-		1688 2171 2213 5106 5217 10400 10566 
+		1688 2171 2213 5106 5217 10400 10566 10668 
 	}
 }

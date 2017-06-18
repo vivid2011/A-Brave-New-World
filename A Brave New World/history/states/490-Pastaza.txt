@@ -4,15 +4,23 @@ state={
 	name="STATE_490"
 	manpower = 70020
 	
-	state_category = wasteland
+	state_category = pastoral
 
 	history={
 		owner = PRU
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			air_base = 1
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+				air_base = 1
+			}
+		}
+		
 		add_core_of = PRU
 	}
 

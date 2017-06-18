@@ -6,6 +6,9 @@ state={
 	history={
 		owner = FRA
 		victory_points = {
+			8193 2 
+		}
+		victory_points = {
 			5139 1 
 		}
 		buildings = {
@@ -13,15 +16,24 @@ state={
 			industrial_complex = 1
 			5139 = {
 				naval_base = 1
-
 			}
-
+		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+				air_base = 1
+				5139 = {
+					naval_base = 1
+				}
+			}
 		}
 
 	}
 
 	provinces={
-		5139 8207 10948 
+		5139 8207 10948  
 	}
 	manpower=1364000
 	buildings_max_level_factor=1.000

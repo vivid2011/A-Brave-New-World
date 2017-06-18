@@ -8,10 +8,18 @@ state={
 	history={
 		owner = SOV
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 2
-			air_base = 1
+			infrastructure = 4
+			industrial_complex = 1
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 5
+				industrial_complex = 2
+				air_base = 1
+			}
+		}
+		
 		add_core_of = POL
 		add_core_of = SOV
 

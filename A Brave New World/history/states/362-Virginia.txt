@@ -11,13 +11,24 @@ state={
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 3
-			dockyard = 4
-			air_base = 10
+			dockyard = 3
 			788 = {
-				naval_base = 10
-
+				naval_base = 7
 			}
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 3
+				dockyard = 4
+				air_base = 10
+				788 = {
+					naval_base = 10
+				}
+			}
+		}
+		
 		add_core_of = USA
 		victory_points = {
 			788 10

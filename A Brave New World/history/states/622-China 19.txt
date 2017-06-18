@@ -15,7 +15,6 @@ state=
 		owner = CHI
 		add_core_of = PRC
 		add_core_of = CHI
-		add_core_of = PRC
 		victory_points = {
 			8049 3
 		}
@@ -24,18 +23,31 @@ state=
 		}
 		buildings = {
 			infrastructure = 2
-			arms_factory = 4
-			industrial_complex = 2
+			arms_factory = 2
+			industrial_complex = 1
 			10733 = {
 				bunker = 2
 			}
 			12156 = {
-				bunker = 2
+				bunker = 1
 			}
-			5007 = {
-				bunker = 2
+		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 2
+				arms_factory = 4
+				industrial_complex = 2
+				10733 = {
+					bunker = 2
+				}
+				12156 = {
+					bunker = 2
+				}
+				5007 = {
+					bunker = 2
+				}
 			}
-			
 		}
 
 	}

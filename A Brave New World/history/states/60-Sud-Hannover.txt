@@ -15,10 +15,19 @@ state={
 		owner = GER
 		victory_points = { 6524 5 }
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 1
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 6
+				arms_factory = 1
+				industrial_complex = 1
+			}
+		}
+		
 		add_core_of = GER
 		1939.1.1 = {
 			buildings = {

@@ -4,7 +4,7 @@ state={
 	name="STATE_488"
 	manpower = 245642
 	
-	state_category = wasteland
+	state_category = pastoral
 
 	history={
 		owner = VEN

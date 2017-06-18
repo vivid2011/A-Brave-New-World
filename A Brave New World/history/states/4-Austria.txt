@@ -17,12 +17,20 @@ state={
 		victory_points = {
 			9648 5 
 		}
+		
 		buildings = {
-			infrastructure = 7
-			arms_factory = 3
-			industrial_complex = 5
-			air_base = 6
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 2
 		}
+		
+		1919.6.28 = {
+			buildings ={
+				air_base = 6
+			}
+			remove_core_of = AHU
+		}
+		
 		add_core_of = AUS
 		add_core_of = AHU
 

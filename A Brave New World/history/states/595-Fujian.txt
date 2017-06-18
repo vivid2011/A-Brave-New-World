@@ -13,15 +13,29 @@ state= {
 			industrial_complex = 1
 			7071 = {
 				naval_base = 1
-				coastal_bunker = 1
-				bunker = 1
 			}
 			4196 = {
-				naval_base = 3
-				coastal_bunker = 1
-				bunker = 1
+				naval_base = 2
 			}
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+				7071 = {
+					naval_base = 1
+					coastal_bunker = 1
+					bunker = 1
+				}
+				4196 = {
+					naval_base = 3
+					coastal_bunker = 1
+					bunker = 1
+				}
+			}
+		}
+		
 		victory_points = { 
 			4196 3 
 		}

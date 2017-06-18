@@ -16,13 +16,24 @@ state={
 			156 1 
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 2
 			industrial_complex = 1
-			air_base = 3
 			130 = {
 				naval_base = 1
 			}
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 1
+				air_base = 3
+				130 = {
+					naval_base = 1
+				}
+			}
+		}
+		
 		add_core_of = SWE
 	}
 

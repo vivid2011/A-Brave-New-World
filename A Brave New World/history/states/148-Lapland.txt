@@ -4,7 +4,7 @@ state={
 	name="STATE_148"
 	manpower = 121737
 	
-	state_category = wasteland
+	state_category = rural
 	
 	resources={
 		steel=8

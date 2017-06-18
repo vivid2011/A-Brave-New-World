@@ -12,8 +12,8 @@ state={
 		buildings = {
 			infrastructure = 2
 			2489 = {
-				naval_base = 6
-				coastal_bunker = 5
+				naval_base = 3
+				coastal_bunker = 2
 			}
 			13028 = {
 				naval_base = 1
@@ -22,12 +22,6 @@ state={
 				naval_base = 1
 			}
 			13031 = {
-				naval_base = 1
-			}
-			13032 = {
-				naval_base = 1
-			}
-			13034 = {
 				naval_base = 1
 			}
 		}

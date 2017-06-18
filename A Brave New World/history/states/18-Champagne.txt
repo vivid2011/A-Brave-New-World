@@ -15,10 +15,18 @@ state={
 			13011 5 
 		}
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4
 			industrial_complex = 1
-			air_base = 10
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 7
+				industrial_complex = 1
+				air_base = 10
+			}
+		}
+		
 		add_core_of = FRA
 	}
 

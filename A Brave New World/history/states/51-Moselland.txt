@@ -19,12 +19,20 @@ state={
 			587 5 
 		}
 		buildings = {
-			infrastructure = 8
-			arms_factory = 4
+			infrastructure = 7
+			arms_factory = 3
 			industrial_complex = 2
-			air_base = 3
-
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 8
+				arms_factory = 4
+				industrial_complex = 2
+				air_base = 3
+			}
+		}
+		
 		add_core_of = GER
 
 		1939.1.1 = {

@@ -20,14 +20,27 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
-			air_base = 5
 			1145 = {
-				naval_base = 2
+				naval_base = 1
 			}
 			7132 = {
-				naval_base = 6
+				naval_base = 4
 			}
 		}
+		
+		1919.6.28 ={
+			buildings = {
+				infrastructure = 4
+				air_base = 5
+				1145 = {
+					naval_base = 2
+				}
+				7132 = {
+					naval_base = 6
+				}
+			}
+		}
+		
 	}
 
 	provinces={

@@ -10,8 +10,16 @@ state={
 		owner = ENG
 		buildings = {
 			infrastructure = 6
-			industrial_complex = 3
+			industrial_complex = 2
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 6
+				industrial_complex = 3
+			}
+		}
+		
 		victory_points = {
 			7394 1 
 		}

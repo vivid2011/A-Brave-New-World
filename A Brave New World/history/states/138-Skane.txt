@@ -15,18 +15,35 @@ state={
 			11215 1 
 		}
 		buildings = {
-			infrastructure = 5
+			infrastructure = 3
 			industrial_complex = 1
 			dockyard = 1
 			11215 = {
-				naval_base = 5
-				coastal_bunker = 3
+				naval_base = 4
+				coastal_bunker = 1
 			}
 			9279 = {
-				naval_base = 5
+				naval_base = 3
 				coastal_bunker = 1
 			}
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 5
+				industrial_complex = 1
+				dockyard = 1
+				11215 = {
+					naval_base = 5
+					coastal_bunker = 3
+				}
+				9279 = {
+					naval_base = 5
+					coastal_bunker = 1
+				}
+			}
+		}
+		
 		add_core_of = SWE
 	}
 

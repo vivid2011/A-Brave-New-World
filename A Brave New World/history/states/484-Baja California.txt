@@ -8,14 +8,24 @@ state = {
 		owner = MEX
 		buildings = {
 			infrastructure = 3
-			air_base = 3
 			1892 = {
 				naval_base = 2
 			}
-			12736 = {
-				naval_base = 1
+		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 3
+				air_base = 3
+				1892 = {
+					naval_base = 2
+				}
+				12736 = {
+					naval_base = 1
+				}
 			}
 		}
+		
 		add_core_of = MEX
 
 	}

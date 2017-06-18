@@ -15,12 +15,22 @@ state={
 		owner = TUR
 		add_core_of = TUR
 		buildings = {
-			infrastructure = 4
-			air_base = 3
+			infrastructure = 2
 			9805 = {
 				naval_base = 1
 			}
 		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 4
+				air_base = 3
+				9805 = {
+					naval_base = 1
+				}
+			}
+		}
+		
 		add_core_of = GRE
 	}
 
