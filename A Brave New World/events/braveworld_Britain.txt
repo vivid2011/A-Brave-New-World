@@ -349,3 +349,76 @@ country_event = {
 		}
 	}
 }
+
+#Independence of New Zealand
+country_event = {
+	id = britain.33
+    title = britain.33.t
+    desc = britain.33.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = ENG
+		date > 1907.9.5
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+	
+	option = {
+		ai_chance = {
+			factor = 100
+			modifier = {
+				has_government = fascism
+				factor = 10
+			}
+			modifier = {
+				has_government = communism
+				factor = 10
+			}
+		}
+		name = britain.33.a
+			NZL = { 
+				transfer_state = 284
+				transfer_state = 723
+			}
+			
+			ENG = {
+				if = {
+					limit = {
+						has_dlc = "Together for Victory"
+					}
+						set_autonomy = {
+							target = NZL
+							autonomous_state = autonomy_integrated_puppet
+						}
+					else = {
+						puppet = NZL
+						#set_autonomy = {
+						#	target = SAF
+						#	autonomous_state = autonomy_puppet
+						#}
+					}
+				}
+			}
+	}
+	
+    option = {
+		ai_chance = {
+			factor = 0
+			modifier = {
+				has_government = fascism
+				factor = 90
+			}
+			modifier = {
+				has_government = communism
+				factor = 90
+			}
+		}
+		name = britain.33.b
+        add_political_power = -250
+	}
+}

@@ -8,7 +8,7 @@ set_technology = {
 }
 
 add_ideas = {
-### None Yet
+	nation_of_two_souls
 }
 
 set_research_slots = 3
