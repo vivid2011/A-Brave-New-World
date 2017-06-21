@@ -12,6 +12,13 @@ set_technology = {
 	early_heavy_cruiser = 1
 }
 
+add_ideas = {
+	GEN_backwards_empire
+	GEN_Decadence
+	GEN_industrializing
+	GEN_disjointed_military
+}
+
 1936.1.1 = {
 	# Starting tech
 	set_technology = {

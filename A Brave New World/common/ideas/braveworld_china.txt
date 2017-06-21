@@ -2,6 +2,48 @@ ideas = {
 
 	country = {
 		
+		effects_of_opium = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = -0.05
+				conscription = -0.025
+				training_time_factor = 0.2
+			}
+			
+			research_bonus = {
+				research_time_factor = 0.05
+			}
+		}
+		
+		economic_dumping_ground = {
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = -0.51
+			}
+			
+			research_bonus = {
+				research_time_factor = 0.05
+			}
+		}
+		
 		supported_boxers = {
 			allowed = {
 				always = no

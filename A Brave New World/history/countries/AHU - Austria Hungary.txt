@@ -9,6 +9,11 @@ set_technology = {
 
 add_ideas = {
 	nation_of_two_souls
+	GEN_declining_nation
+	GEN_disjointed_military
+	GEN_Decadence
+	GEN_industrialized
+	GEN_fractured_empire
 }
 
 set_research_slots = 3

@@ -246,4 +246,35 @@ ideas = {
 				communism_drift = -0.02
 			}
 		}
+		GEN_disjointed_military = {
+			allowed = {
+				always = no
+			}
+		
+			removal_cost = -1
+			
+			modifier = {
+				conscription = -0.025
+				training_time_factor = 0.05
+				supply_consumption_factor = 0.025
+				army_attack_factor = -0.025
+				army_defence_factor = -0.025
+				army_speed_factor = -0.025
+			}
+		}
+		
+		GEN_declining_nation = {
+			allowed = {
+				always = no
+			}
+		
+			removal_cost = -100
+			
+			modifier = {
+				unity_factor = -0.25
+				political_power_gain = -0.25
+				political_power_cost = -0.25
+			}
+		}
+	}
 }
