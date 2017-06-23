@@ -151,15 +151,48 @@
  # MEXICO
  
  # NEWS EVENTS
- 
+ news.297.t:0 "Columbia Prepares for War!"
+ news.297.d:0 "Following the cession of Panama from the Republic of Columbia, the former government and overlords of the fledling nation threaten war against them. The Panamanians seek help from the United States to keep their state safe from the Columbian forces. Only time will tell of the resolution."
+ news.297.a:0 "May the Panamanians and Columbians resolve this peacefully."
+ news.297.b:0 "Did I hear New Spanish Empire?"
+ news.297.c:0 "The Panamians will be back in our territory before Christmas."
+ news.298.t:0 "Columbia Cedes Panama its Independence"
+ news.298.d:0 "The Columbian government, although begrudgingly, has accepted Panama's request to withdraw from their nation. The small country will not have claims on their lands by their former controllers and it appears the United States is pleased with the decision. Negotiations between the newly formed state and the United States apppear to be going well at this time."
+ news.298.a:0 "Luckily no war broke out"
+ news.298.b:0 "No New Spanish Empire this year..."
+ news.299.t:0 "USA Backs Panama!"
+ news.299.d:0 "Following Columbian aggression against the newly formed Panamanian state, the United States has sent equipment and men to support the Panamanians. The United States will keep troops in the nation until the Panamanians request they leave or the Columbian government cedes the nation its independence."
+ news.299.a:0 "Hopefully the Columbians will do what is right"
+ news.300.t:0 "USA Backs Down from Panama!"
+ news.300.d:0 "Following Columbian aggression against the newly formed Panamanian state, the United States has elected to back away from the small government. While it will protect the nation from non-American states, it will not defend Panama from the Columbian government."
+ news.300.a:0 "May God save the Panamanians"
+ news.300.b:0 "Cowards!"
+ news.301.t:0 "Columbia Backs Down!"
+ news.301.d:0 "Following the assertion of the United States to defend Panama, the Columbian government has backed down. They have ceded all claims to the land and have formally recognized the Panamanian government as legitimate and independent from the Columbian nation."
+ news.301.a:0 "A smart resolution to end what would have continued violence"
+ news.301.b:0 "Pack your bags boys, we got some empire-ing to do!"
+ news.302.t:0 "Austria-Hungary Subjugates Bosnia-Herznegovina!"
+ news.302.d:0 "Following military action by the Austro-Hungarian government, the Ottoman Empire has ceded it's puppet to its enemy. The puppet government now has Austrians/Hungarians in charge instead of Turkish officials. Only time will tell what the Austro-Hungarians decide to do with their new Balkan territory."
+ news.302.a:0 "Interesting developments..."
+ news.303.t:0 "Austria-Hungary joins Central Powers!"
+ news.303.d:0 "The Austro-Hungarian government has decided to join the Germans in the Central Powers. Following increasing tensions, this could further exasperate French, British, and Russian fears and lead to further instability in Europe. Only time will tell what happens in Europe at this point."
+ news.303.a:0 "Could this be the end of peace?"
+ news.304.t:0 "Italy Cedes Northern Alpine!"
+ news.304.d:0 "Following intense pressure by the Austro-Hungarian government, the Italians have ceded all territory in their Alpine Region to the Austrians. The Italians continue to beligerize and intensify the situation with guerilla fighters in said region claiming the exchange was imbalanced and should be not recognized as a legitimate territorial exchange by the international community. Issues and reports have risen from the area that guerilla bands have been raiding Austro-Hungarian columns in the area."
+ news.304.a:0 "The Austrians are a belligerent force that need to be reigned in!"
  # NEWS EVENTS
  
  # PANAMA
- 
+ panama.1.t:0 "USA Offers Treaty"
+ panama.1.d:0 "In exchange for equipment and manpower, as well as the guarentee of our defense, the United States wish for us to cede a small bit of land on the isthmus of our nation. It is small but the United States says it has a plan to be able to bring our nation into a new age of economic expansion. This could be good for not only the economy but for our national defense as we sorely lack weaponry of any kind."
+ panama.1.a:0 "Accept the Treaty"
+ panama.1.b:0 "Decline the Treaty"
  # PANAMA
  
  # POLITICAL EVENTS
- 
+ political.29.t:0 "Monarchist Coup in [Root.GetName]!"
+ political.29.d:0 "The Monarchist Party in [Root.GetName] has grown in enough power and strength to be able to overthrow the government. [Root.Capital.GetName] no longer has the emblems and flags of the various parties of [Root.GetName], but the eblems and flags of the royal family! [Root.GetLeader] has been guillotined by the new rulers of the nation, only time will tell what the royals have in store for the nation."
+ political.29.a:0 "Long live the royal family!"
  # POLITICAL EVENTS
  
  # SERBIA

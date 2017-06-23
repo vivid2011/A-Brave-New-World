@@ -10,16 +10,16 @@ add_namespace = news
 
 #Possible Columbia war for Panama
 news_event={
-	id=news.289
-	title=news.289.t
-	desc=news.289.d
+	id=news.297
+	title=news.297.t
+	desc=news.297.d
 	
 	is_triggered_only = yes
 	
 	major = yes
 	
 	option ={
-		name = news.289.a
+		name = news.297.a
 		trigger={
 			NOT={
 				TAG=SPR
@@ -29,13 +29,13 @@ news_event={
 	}
 	
 	option={
-		name=news.289.b
+		name=news.297.b
 		trigger={
 			TAG=SPR
 		}
 	}
 	option={
-		name=news.289.c
+		name=news.297.c
 		trigger={
 			TAG=COL
 		}
@@ -44,16 +44,16 @@ news_event={
 
 #Columbia cedes Panama
 news_event={
-	id=news.290
-	title=news.290.t
-	desc=news.290.d
+	id=news.298
+	title=news.298.t
+	desc=news.298.d
 	
 	is_triggered_only = yes
 	
 	major = yes
 	
 	option ={
-		name = news.290.a
+		name = news.298.a
 		trigger={
 			NOT={
 				TAG=SPR
@@ -62,7 +62,7 @@ news_event={
 	}
 	
 	option={
-		name=news.290.b
+		name=news.298.b
 		trigger={
 			TAG=SPR
 		}
@@ -71,31 +71,31 @@ news_event={
 
 #USA backs Panama
 news_event={
-	id=news.291
-	title=news.291.t
-	desc=news.291.d
+	id=news.299
+	title=news.299.t
+	desc=news.299.d
 	
 	is_triggered_only = yes
 	
 	major = yes
 	
 	option ={
-		name = news.291.a
+		name = news.299.a
 	}
 }
 
 #USA backs down
 news_event={
-	id=news.292
-	title=news.292.t
-	desc=news.292.d
+	id=news.300
+	title=news.300.t
+	desc=news.300.d
 	
 	is_triggered_only = yes
 	
 	major = yes
 	
 	option ={
-		name = news.292.a
+		name = news.300.a
 		trigger = {
 			NOT={
 				TAG = PAN
@@ -107,22 +107,22 @@ news_event={
 		trigger = {
 			TAG = PAN
 		}
-		name = news.292.b
+		name = news.300.b
 	}
 }
 
 #Part 2 of Panama: Columbia backs down
 news_event={
-	id=news.293
-	title=news.293.t
-	desc=news.293.d
+	id=news.301
+	title=news.301.t
+	desc=news.301.d
 	
 	is_triggered_only = yes
 	
 	major = yes
 	
 	option ={
-		name = news.293.a
+		name = news.301.a
 		trigger = {
 			NOT={
 				TAG = USA
@@ -134,7 +134,7 @@ news_event={
 		trigger = {
 			TAG = USA
 		}
-		name = news.293.b
+		name = news.301.b
 		
 		USA={
 			give_guarantee = COL
@@ -145,45 +145,45 @@ news_event={
 
 #Austria Subjugates Bosnia
 news_event={
-	id=news.294
-	title=news.294.t
-	desc=news.294.d
+	id=news.302
+	title=news.302.t
+	desc=news.302.d
 
 	is_triggered_only = yes
 
 	major = yes
 
 	option ={
-		name = news.294.b
+		name = news.302.a
 	}
 }
 
 #Austria joins the Central Powers
 news_event = {
-	id=news.295
-	title=news.295.t
-	desc=news.295.d
+	id=news.303
+	title=news.303.t
+	desc=news.303.d
 	
 	is_triggered_only = yes
 
 	major = yes
 
 	option ={
-		name = news.295.a
+		name = news.303.a
 	}
 }
 
 #Austria gains Northern Italy
 news_event = {
-	id=news.296
-	title = news.296.t
-	desc = news.296.d 
+	id=news.304
+	title = news.304.t
+	desc = news.304.d 
 	
 	is_triggered_only = yes
 	
 	major = yes
 	
 	option = {
-		name = news.296.a
+		name = news.304.a
 	}
 }
