@@ -5,12 +5,13 @@ state={
 		2220 
 	}
 	history={
-		owner = CFS
+		
+	
+		owner = GER
 		buildings = {
 			infrastructure = 2
-
 		}
-		add_core_of = CFS
+		#add_core_of = CFS
 
 	}
 	manpower=1000000
