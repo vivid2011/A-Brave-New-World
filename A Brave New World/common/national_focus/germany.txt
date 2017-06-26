@@ -1,4 +1,4 @@
-focus_tree = {
+_focus_tree = {
 	id = german_focus
 	
 	country = {
@@ -1658,6 +1658,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0.5
 			}
+				mutually_exclusive = {
+						     focus = GER_move_right
+						     focus = GER_centrism
+						     }
 		available = {
 			NOT = { has_government = fascism }
 		}
@@ -1677,6 +1681,10 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0.5
 			}
+		mutually_exclusive = {
+				     focus = GER_centrism
+				     
+				     }
 		available = {
 			NOT = { has_government = communism }
 		}
@@ -1696,6 +1704,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0.5
 		}
+		mutually_exclusive = {
+				     focus = GER_embrace_democratic
+				     }
 		completion_reward = {
 			add_ideas = { GEN_communism_drift }
 		}
@@ -1712,6 +1723,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0.5
 		}
+		mutually_exclusive = {
+				     focus = GER_embrace_communism
+				     }
 		completion_reward = {
 			add_ideas = { GEN_democratic_drift }
 		}
@@ -1728,6 +1742,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0.5
 		}
+		mutually_exclusive = {
+				     focus = GER_embrace_fascism
+				     }
 		completion_reward = {
 			add_ideas = { GEN_monarchist_drift }
 		}
@@ -1744,6 +1761,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0.5
 		}
+		mutually_exclusive = {
+				     focus = GER_embrace_monarchist
+				     }
 		completion_reward = {
 			add_ideas = { GEN_fascism_drift }
 		}
@@ -1796,6 +1816,9 @@ focus_tree = {
 		ai_will_do = {
 			factor = 0.5
 		}
+		mutually_exclusive = {
+				     focus = GER_leninism
+				     }
 		available = {
 			has_government = communism
 		}
