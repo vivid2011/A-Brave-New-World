@@ -1,0 +1,66 @@
+equipments = {
+
+	armored_equipment = {
+		year = 1911
+
+		is_archetype = yes
+		picture = archetype_motorized_equipment		
+		is_buildable = no
+		type = {
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		maximum_speed = 4
+		reliability = 0.55
+		hardness = 0.05
+		
+		defense = 6
+		breakthrough = 2
+		hardness = 0.3
+		armor_value = 5
+
+		#Offensive Abilities
+		ap_attack = 2
+		soft_attack = 8
+		hard_attack = 0.5
+		air_attack = 0
+		
+		#Space taken in convoy
+		lend_lease_cost = 5
+
+		build_cost_ic = 1.5
+		resources = {
+			oil = 1
+			rubber = 1
+			steel = 1
+		}
+	}
+
+	armored_equipment_1 = {
+		year = 1912
+
+		archetype = armored_equipment
+		parent = armored_equipment
+		priority = 30			
+	}
+	
+	armored_equipment_2 = {
+		year = 1914
+
+		archetype = armored_equipment
+		parent = armored_equipment_1
+		priority = 30
+	}
+	
+	armored_equipment_3 = {
+		year = 1916
+
+		archetype = armored_equipment
+		parent = armored_equipment_2
+		priority = 30
+	}
+
+}
