@@ -1,0 +1,212 @@
+﻿l_english:
+ ## NOTE: Please leave generic equipment at the top of the section ##
+
+ ## 1870 ##
+ powderless_equipment:0 "Powderless Guns"
+ 
+ ## 1900 INF EQ ##
+ USA_infantry_1900_equipment:0 "Browning Auto-5"
+ ENG_infantry_1900_equipment:0 "Lee-Speed"
+ SOV_infantry_1900_equipment:0 "Arisaka Type 30"
+ FRA_infantry_1900_equipment:0 "Meunier Rifle"
+ GER_infantry_1900_equipment:0 "Gewehr 88"
+ ITA_infantry_1900_equipment:0 "Carcano"
+ JAP_infantry_1900_equipment:0 "Arisaka Type 30"
+ TUR_infantry_1900_equipment:0 "Gewehr 88"
+ AHU_infantry_1900_equipment:0 "Mannlicher Model 1900"
+ infantry_1900_equipment:0 "1900 Model Weapons"
+ 
+ ## 1904 INF EQ ##
+ USA_infantry_1904_equipment:0 "Springfield Model 1"
+ ENG_infantry_1904_equipment:0 "Webley & Scott Model 1905"
+ JAP_infantry_1904_equipment:0 "Arisaka Type 38"
+ AHU_infantry_1904_equipment:0 "Mauser M1903"
+ SOV_infantry_1904_equipment:0 "Arisaka Type 38"
+ GER_infantry_1904_equipment:0 "Madsen"
+ FRA_infantry_1904_equipment:0 "Puteaux Model APX 1905"
+ ITA_infantry_1904_equipment:0 "Maxim 1906"
+ TUR_infantry_1904_equipment:0 "Mauser M1905"
+ infantry_1904_equipment:0 "1904 Model Weapons"
+ 
+ ## 1908 INF EQ ##
+ USA_infantry_1908_equipment:0 "Remington Model 10"
+ FRA_infantry_1908_equipment:0 "Hotchkiss Model 1909"
+ AHU_infantry_1908_equipment:0 "Maschinengewehr 08"
+ GER_infantry_1908_equipment:0 "Maschinengewehr 08"
+ ITA_infantry_1908_equipment:0 "Perino 1908"
+ SOV_infantry_1908_equipment:0 "Winchester Model 1907"
+ ENG_infantry_1908_equipment:0 "Winchester Model 1907"
+ infantry_1908_equipment:0 "1908 Model Weapons"
+ 
+ ## 1912 INF EQ ##
+ infantry_1912_equipment:0 "1912 Model Weapons"
+ AHU_infantry_1912_equipment:0 "Mauser M1912"
+ ENG_infantry_1912_equipment:0 "Lee-Enfield Mk III"
+ FRA_infantry_1912_equipment:0 "Remington Model 8"
+ ITA_infantry_1912_equipment:0 "Vickers Mk I"
+ JAP_infantry_1912_equipment:0 "Arisaka Type 44"
+ USA_infantry_1912_equipment:0 "Winchester Model 1912"
+ GER_infantry_1912_equipment:0 "Parabellum MG14"
+ SOV_infantry_1912_equipment:0 "Winchester Model 1910"
+ 
+ ## 1914 INF EQ ##
+ infantry_1914_equipment:0 "1914 Model Weapons"
+ AHU_infantry_1914_equipment:0 "Skoda M1913"
+ ENG_infantry_1914_equipment:0 "Lewis Gun"
+ GER_infantry_1914_equipment:0 "Mauser M1915"
+ JAP_infantry_1914_equipment:0 "Type 3 Machine Gun"
+ USA_infantry_1914_equipment:0 "Colt-Vickers M1915"
+ FRA_infantry_1914_equipment:0 "Remington Rolling Block Rifle 1914"
+ SOV_infantry_1914_equipment:0 "Fedorov Avtomat"
+ 
+ ## 1916 INF EQ ##
+ infantry_1916_equipment:0 "1916 Model Weapons"
+ ENG_infantry_1916_equipment:0 "Lee-Enfield Pattern 1917"
+ ITA_infantry_1916_equipment:0 "Beretta OVP"
+ USA_infantry_1916_equipment:0 "Stevens Model 520"
+ GER_infantry_1916_equipment:0 "Bergmann MG 15"
+ FRA_infantry_1916_equipment:0 "Chauchat"
+ 
+ ## 1918 INF EQ ##
+ infantry_1918_equipment:0 "1918 Model Weapons"
+ AHU_infantry_1918_equipment:0 "Frommer Stop"
+ ENG_infantry_1918_equipment:0 "M1917 Browning Machine Gun"
+ SOV_infantry_1918_equipment:0 "Lewis M1917"
+ GER_infantry_1918_equipment:0 "MP 18"
+ ITA_infantry_1918_equipment:0 "Beretta M1918"
+ USA_infantry_1918_equipment:0 "Browning M1918"
+ FRA_infantry_1918_equipment:0 "Fusil Automatique Modele 1917"
+ 
+ ## 1920 INF EQ ##
+ infantry_1920_equipment:0 "1920 Model Weapons"
+ FRA_infantry_1920_equipment:0 "Darne Modele 1918"
+ 
+ ## 1924 INF EQ ##
+ infantry_1924_equipment:0 "1924 Model Weapons"
+ 
+ ## 1928 INF EQ ##
+ infantry_1928_equipment:0 "1928 Model Weapons"
+ USA_infantry_1928_equipment:0 "Stevens Model 620"
+ 
+ ## 1914 TANKS ##
+ # LIGHT #
+ 
+ ## 1916 TANKS ##
+ # MEDIUM #
+ # HEAVY #
+ 
+ ## 1918 TANKS ##
+ # MEDIUM #
+ # HEAVY #
+ 
+ ## 1920 TANKS ##
+ # MEDIUM #
+ # HEAVY #
+ 
+ ## 1924 TANKS ##
+ 
+ 
+ ## 1928 TANKS ##
+ 
+ 
+ ## 1932 TANKS -- OVERRIDE BASE GAME ##
+ 
+ ## 1870 ARTY ##
+ 
+ 
+ ## 1900 ARTY ##
+ 
+ 
+ ## 1904 ARTY ##
+ 
+ 
+ ## 1908 ARTY ##
+ 
+ 
+ ## 1912 ARTY ##
+ 
+ 
+ ## 1915 ARTY ##
+ 
+ 
+ ## 1918 ARTY ##
+ 
+ 
+ ## 1870 HORSE DRAWN ##
+ horse_drawn_equipment:0 "Horse-Drawn Equipment"
+ horse_drawn_equipment_1:0 "Horse & Train Travel"
+ 
+ ## 1904 CARS ##
+ basic_car_transport:0 "Shit Cars"
+ basic_car_transport_1:0 "Pre-Militarized Cars"
+ 
+ ## 1911 ARMORED CARS ##
+ armored_equipment:0 "Armored Car Equipment"
+ 
+ ## 1912 ARMORED CARS ##
+ armored_equipment_1:0 "M1912 Armored Cars"
+ 
+ ## 1914 ARMORED CARS ##
+ armored_equipment_2:0 "M1914 Armored Cars"
+ 
+ ## 1916 ARMORED CARS ##
+ armored_equipment_3:0 "M1916 Armored Cars"
+ 
+ ## 1918 ARMORED CARS ##
+ motorized_equipment_1918:0 "M1918 Motorized Cars"
+ 
+ ## 1920 MOTORIZED ##
+ motorized_equipment_1920:0 "M1920 Motorized Cars"
+ 
+ ## 1924 MOTORIZED ##
+ motorized_equipment_1924:0 "M1924 Motorized Cars"
+ 
+ ## 1928 MOTORIZED ##
+ motorized_equipment_1928:0 "M1928 Motorized Cars"
+ 
+ ## 1900 SUPPORT EQUIPMENT ##
+ support_weapons_1900:0 "Side Arms"
+ 
+ ## 1904 SUPPORT WEAPONS ##
+ support_weapons_1904:0 "Fixed Carried MGs"
+ 
+ ## 1908 SUPPORT WEAPONS ##
+ support_weapons_1908:0 "Heavy Mobile MGs"
+ 
+ ## 1912 SUPPORT WEAPONS ##
+ support_weapons_1912:0 "Light Machine Guns"
+ 
+ ## 1914 SUPPORT WEAPONS ##
+ support_weapons_1914:0 "Early Grenades and Sub-MGs"
+ 
+ ## 1915 SUPPORT WEAPONS ##
+ support_weapons_1915:0 "Gas Masks"
+ 
+ ## 1916 SUPPORT WEAPONS ##
+ support_weapons_1916:0 "Gas Grenades"
+ 
+ ## 1918 SUPPORT WEAPONS ##
+ support_weapons_1918:0 "Early AT Personnel Weaponry"
+ 
+ ## 1920 SUPPORT WEAPONS ##
+ support_weapons_1920:0 "Scopes"
+ 
+ ## 1928 SUPPORT WEAPONS ##
+ support_weapons_1928:0 "Interwar Equipment"
+ 
+ ## MOUNTAINEERS ##
+ tech_mountaineers_theory:0 "Mountaineers Theory"
+ tech_mountaineers_1912:0 "WWI Mountaineers I"
+ tech_mountaineers_1914:0 "WWI Mountaineers II"
+ tech_mountaineers_1916:0 "WWI Mountaineers III"
+ tech_mountaineers_1918:0 "WWI Mountaineers IV"
+ 
+ ## MARINES ##
+ marines_theory:0 "Marines Theory"
+ marines_1912:0 "WWI Marines I"
+ marines_1914:0 "WWI Marines II"
+ marines_1916:0 "WWI Marines III"
+ 
+ ## PARATROOPERS ##
+ paratroopers_theory:0 "Paratroopers Theory"
+ 
