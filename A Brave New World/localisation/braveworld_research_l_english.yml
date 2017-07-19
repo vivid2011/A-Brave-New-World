@@ -5,6 +5,8 @@
  
  ## ACTUAL TECHNOLOGY ##
  #WW1#
+ 
+ #Support
  tech_field_hospital_1908:0 "WWI Field Hospitals I"
  tech_field_hospital_1912:0 "WWI Field Hospitals II"
  tech_field_hospital_1914:0 "WWI Field Hospitals III"
@@ -18,11 +20,16 @@
  tech_trench_fighters_2:0 "Trench Fighters II"
  tech_trench_fighters_3:0 "Trench Fighters III"
  
+ 
  #INTERWAR#
+ 
+ #Support
  tech_interwar_flamethrowers:0 "Interwar Flamethrower Company I"
  tech_interwar_flamethrowers_2:0 "Interwar Flamethrower Company II"
  
  #WW2#
+ 
+ #Support
  tech_field_hospital:0 "WWII Field Hospital I"
  tech_field_hospital_desc:0 "A casualty doesn't need to mean a dead soldier. Having immediate medical attention available for our wounded brought back to the rear is the first step towards ensuring this."
  tech_field_hospital2:0 "WWII Field Hospital II"
