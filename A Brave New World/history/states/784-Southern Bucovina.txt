@@ -1,14 +1,14 @@
 state=
 {
-	id=79
-	name="STATE_79"
-	manpower = 2160928
+	id=784
+	name="STATE_784"
+	manpower = 645472
 	
 	state_category = rural
 	
 	history=
 	{
-		owner = ROM
+		owner = AHU
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -18,16 +18,13 @@ state=
 			buildings = {
 				infrastructure = 5
 				industrial_complex = 1
-				air_base = 2
+				air_base = 1
 			}
 		}
-		
-		victory_points = {
-			9716 1 
-		}
+
+		add_core_of = AHU	
 		add_core_of = ROM
 	}
 	provinces=
-	{
-723 744 3728 3741 6584 6706 6729 6747 9701 9716 11534 11652 11655 11672 	}
+	{ 6761 11689 }
 }
