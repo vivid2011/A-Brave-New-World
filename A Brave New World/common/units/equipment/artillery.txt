@@ -1,7 +1,7 @@
 equipments = {
 
 	artillery_equipment = {
-		year = 1934
+		year = 1444
 
 		is_archetype = yes
 		picture = archetype_artillery_equipment		
@@ -38,11 +38,203 @@ equipments = {
 			steel = 2
 		}
 	}
+	
+	artillery_1869 = {
+		year = 1869
+		
+		archetype = artillery_equipment
+		priority = 50
+		visual_level = 1
 
+		defense = 2
+		breakthrough = 0.5
+		soft_attack = 3
+		
+		build_cost_ic = 6
+		resources = {
+			steel = 1
+		}
+	}
+	
+	artillery_1870 = {
+		year = 1870
+		
+		archetype = artillery_equipment
+		parent = artillery_1869
+		priority = 50
+		visual_level = 1
+
+		defense = 4
+		breakthrough = 1
+		soft_attack = 5
+		
+		build_cost_ic = 8
+		resources = {
+			steel = 1
+		}
+	}
+	
+	artillery_1900 = {
+		year = 1900
+		
+		archetype = artillery_equipment
+		parent = artillery_1870
+		priority = 50
+		visual_level = 1
+
+		defense = 6
+		breakthrough = 2.5
+		soft_attack = 8
+		
+		build_cost_ic = 8
+		resources = {
+			steel = 1
+		}
+	}
+	
+	artillery_1905 = {
+		year = 1905
+		
+		archetype = artillery_equipment
+		parent = artillery_1900
+		priority = 50
+		visual_level = 1
+
+		defense = 7
+		breakthrough = 3
+		soft_attack = 12
+		
+		build_cost_ic = 7
+		resources = {
+			steel = 1
+		}
+	}
+	
+	artillery_1912 = {
+		year = 1912
+		
+		archetype = artillery_equipment
+		parent = artillery_1905
+		priority = 50
+		visual_level = 1
+
+		defense = 8
+		breakthrough = 3.75
+		soft_attack = 15
+		
+		build_cost_ic = 7
+		resources = {
+			steel = 2
+		}
+	}
+	
+	artillery_1914 = {
+		year = 1914
+		
+		archetype = artillery_equipment
+		parent = artillery_1912
+		priority = 50
+		visual_level = 1
+
+		defense = 6
+		breakthrough = 12
+		soft_attack = 28
+		
+		build_cost_ic = 9
+		resources = {
+			tungsten = 1
+			steel = 2
+		}
+	}
+	
+	artillery_1916 = {
+		year = 1916
+		
+		archetype = artillery_equipment
+		parent = artillery_1914
+		priority = 50
+		visual_level = 1
+
+		defense = 4
+		breakthrough = 10
+		soft_attack = 36
+		
+		build_cost_ic = 13
+		resources = {
+			tungsten = 2
+			steel = 3
+		}
+	}
+	
+	artillery_1918 = {
+		year = 1918
+		
+		archetype = artillery_equipment
+		parent = artillery_1916
+		priority = 50
+		visual_level = 1
+
+		defense = 5
+		breakthrough = 11
+		soft_attack = 30
+		
+		build_cost_ic = 13
+		resources = {
+			tungsten = 1
+			steel = 3
+		}
+	}
+	
+	artillery_1924 = {
+		year = 1924
+		
+		archetype = artillery_equipment
+		parent = artillery_1918
+		priority = 50
+		visual_level = 1
+
+		defense = 5.5
+		breakthrough = 9
+		soft_attack = 25
+		
+		build_cost_ic = 11
+	}
+	
+	artillery_1928 = {
+		year = 1928
+		
+		archetype = artillery_equipment
+		parent = artillery_1924
+		priority = 50
+		visual_level = 1
+
+		defense = 5.5
+		breakthrough = 9
+		soft_attack = 25
+		
+		build_cost_ic = 10
+	}
+	
+	artillery_1932 = {
+		year = 1932
+		
+		archetype = artillery_equipment
+		parent = artillery_1928
+		priority = 50
+		visual_level = 1
+
+		defense = 6
+		breakthrough = 8
+		soft_attack = 26
+		
+		build_cost_ic = 10
+	}
+	
 	artillery_equipment_1 = {
 		year = 1934
 
 		archetype = artillery_equipment
+		parent = artillery_1932
 		priority = 50
 		visual_level = 0
 	}

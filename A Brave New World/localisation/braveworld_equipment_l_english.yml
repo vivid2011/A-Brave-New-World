@@ -244,10 +244,10 @@
  
  ## ----------------- ARTILLERY ----------------- ##
  ## <1870 ARTILLERY ##
- iron_breech_cannon:0 "Iron Breech-Loaded Cannons"
+ artillery_1869:0 "Iron Breech-Loaded Cannons"
  
  ## 1870 ARTILLERY ##
- steel_breech_cannon:0 "Steel Breech-Loaded Cannons"
+ artillery_1870:0 "Steel Breech-Loaded Cannons"
  
  ## 1900 ARTILLERY ##
  artillery_1900:0 "1900 Model Artillery"
@@ -285,5 +285,14 @@
  USA_artillery_1918:0 "M1918 155 GPF"
  GER_artillery_1918:0 "21cm/24cm Paris-Geschutz (Paris Gun)"
  FRA_artillery_1918:0 "Canon de 155 GPF mle 1917"
+ 
+ ## 1924 ARTILLERY ##
+ artillery_1924:0 "1924 Model Artillery"
+ 
+ ## 1928 ARTILLERY ##
+ artillery_1928:0 "1928 Model Artillery"
+ 
+ ## 1932 ARTILLERY ##
+ artillery_1932:0 "1932 Model Artillery"
  ## ----------------- ARTILLERY ----------------- ##
  
