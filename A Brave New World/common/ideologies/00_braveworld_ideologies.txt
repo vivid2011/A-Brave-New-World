@@ -15,7 +15,6 @@ ideologies = {
 			"FACTION_NAME_MONARCHIST_3"
 			"FACTION_NAME_MONARCHIST_4"
 			"FACTION_NAME_MONARCHIST_5"
-			"FACTION_NAME_MONARCHIST_6"
 		}
 		
 		color = { 89 54 119 }
@@ -44,8 +43,59 @@ ideologies = {
 		}
 		
 		faction_modifiers = {
-			faction_trade_opinion_factor = 0.10 #plus 50% trade opinion
+			faction_trade_opinion_factor = 0.10 #plus 10% trade opinion
 		}
 		ai_fascist = yes
 	}
+	
+	fundamentalist = { #Your extremes
+	
+		types = {
+			religious = {}
+			right_wing = {}
+			left_wing = {}
+			authoritarian = {}
+			libertarian = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_MONARCHIST_1"
+			"FACTION_NAME_MONARCHIST_2"
+			"FACTION_NAME_MONARCHIST_3"
+			"FACTION_NAME_MONARCHIST_4"
+			"FACTION_NAME_MONARCHIST_5"
+		}
+		
+		color = { 89 54 119 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = no
+			can_lower_tension = no
+			can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+		
+		war_impact_on_world_tension = 4
+		faction_impact_on_world_tension = 1
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 1.50
+			lend_lease_tension = 1.00
+			send_volunteers_tension = 1.00
+			guarantee_tension = 0.25
+			take_states_cost_factor = 0.25
+			annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = -0.20 #minus 20% trade opinion
+		}
+		
+		ai_fascist = yes
+	}
+	
 }

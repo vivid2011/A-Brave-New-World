@@ -1,4 +1,7 @@
 ﻿l_english:
+ ## FOLDERS ##
+ electronics_folder:0 "STEM"
+
  ## TITLES ##
  INFANTRY_TITLE_ARMORED_CARS:0 "ARMORED CARS"
  INFANTRY_TITLE_HORSE_DRAWN:0 "PRE-CARS"

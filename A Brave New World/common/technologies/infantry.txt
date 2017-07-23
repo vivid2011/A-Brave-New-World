@@ -212,31 +212,7 @@ technologies = {
 		}
 	}
 	
-	infantry_1916_equipment = {
-		enable_equipments = {
-			infantry_1916_equipment
-		}
-		
-		path = {
-			leads_to_tech = infantry_1918_equipment
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1918
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1916 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
+	# Removed 1916 duplicate -- check it #
 	
 	infantry_1918_equipment = {
 		enable_equipments = {
@@ -819,29 +795,6 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = @1908 }
-		}
-		
-		categories = {
-			marine_tech
-		}
-		
-		ai_will_do = {
-			factor = 0.7
-		}
-	}
-	
-	marines_1912 = {
-		
-		path = {
-			leads_to_tech = marines
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1912
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1912 }
 		}
 		
 		categories = {
@@ -1464,6 +1417,10 @@ technologies = {
 		}
 	}
 	
+	
+	## INTERWAR ##
+	
+	## SPECIAL FORCES
 	paratroopers_theory = {
 
 		enable_subunits = {
@@ -2029,10 +1986,6 @@ technologies = {
 	
 	marines = {
 
-		enable_subunits = {
-			marine
-		}
-		
 		on_research_complete = {
 			limit = {
 				NOT = {
