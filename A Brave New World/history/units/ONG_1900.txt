@@ -55,35 +55,6 @@ units = {
 		start_experience_factor = 0.8
 	}	
 
-
-	division= {	
-		name = "7th Orange Infantry Division"
-		location = 12648
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}
-
-	division= {	
-		name = "8th Orange Infantry Division"
-		location = 12648
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}
-
-	division= {	
-		name = "9th Orange Infantry Division"
-		location = 12648
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}
-
-	division= {	
-		name = "10th Orange Infantry Division"
-		location = 12648
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}
-	
 	#########################
 	## STARTING PRODUCTION ##
 	#########################

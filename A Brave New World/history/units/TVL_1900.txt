@@ -55,6 +55,34 @@ units = {
 		start_experience_factor = 0.8
 	}
 	
+	division= {	
+		name = "7th Transvaal Infantry Division"
+		location = 10400
+		division_template = "Boer Militia"
+		start_experience_factor = 0.8
+	}
+
+	division= {	
+		name = "8th Transvaal Infantry Division"
+		location = 10400
+		division_template = "Boer Militia"
+		start_experience_factor = 0.8
+	}
+
+	division= {	
+		name = "9th Transvaal Infantry Division"
+		location = 10400
+		division_template = "Boer Militia"
+		start_experience_factor = 0.8
+	}	
+
+	division= {	
+		name = "10th Transvaal Infantry Division"
+		location = 10400
+		division_template = "Boer Militia"
+		start_experience_factor = 0.8
+	}
+	
 	#########################
 	## STARTING PRODUCTION ##
 	#########################
