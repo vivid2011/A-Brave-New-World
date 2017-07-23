@@ -75,6 +75,4 @@ sub_units = {
 			movement = -0.1
 		}
 	}
-
-	}
 }
