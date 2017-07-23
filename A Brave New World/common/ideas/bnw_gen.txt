@@ -10,7 +10,7 @@ ideas = {
 			removal_cost = -1000
 			
 			modifier = {
-				conscription_factor = 0.2
+				conscription_factor = 0.075
 				research_time_factor = 0.35
 				political_power_cost = 0.05
 				political_power_gain = -0.5
@@ -58,7 +58,7 @@ ideas = {
 			
 			modifier = {
 				unity_factor = 0.2
-				conscription_factor = -0.025
+				conscription_factor = -0.01
 				army_attack_factor = -0.02
 				army_defence_factor = 0.02
 				political_power_cost = 0.1
@@ -254,7 +254,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				conscription = -0.025
+				conscription = -0.01
 				training_time_factor = 0.05
 				supply_consumption_factor = 0.025
 				army_attack_factor = -0.025

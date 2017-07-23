@@ -1,0 +1,46 @@
+﻿l_english:
+ ## FOLDERS ##
+ electronics_folder:0 "STEM"
+
+ ## TITLES ##
+ INFANTRY_TITLE_ARMORED_CARS:0 "ARMORED CARS"
+ INFANTRY_TITLE_HORSE_DRAWN:0 "PRE-CARS"
+ 
+ ## ACTUAL TECHNOLOGY ##
+ #WW1#
+ 
+ #Support
+ tech_field_hospital_1908:0 "WWI Field Hospitals I"
+ tech_field_hospital_1912:0 "WWI Field Hospitals II"
+ tech_field_hospital_1914:0 "WWI Field Hospitals III"
+ tech_field_hospital_1916:0 "WWI Field Hospitals IV"
+ tech_ww1_flamethrowers:0 "WWI Flamethrower Company I"
+ tech_ww1_flamethrowers_2:0 "WWI Flamethrower Company II"
+ tech_recon_1914:0 "WWI Recon Company I"
+ tech_recon_1918:0 "WWI Recon Company II"
+ tech_engineers_1916:0 "WWI Engineer Company I"
+ tech_trench_fighters:0 "Trench Fighters I"
+ tech_trench_fighters_2:0 "Trench Fighters II"
+ tech_trench_fighters_3:0 "Trench Fighters III"
+ 
+ 
+ #INTERWAR#
+ 
+ #Support
+ tech_interwar_flamethrowers:0 "Interwar Flamethrower Company I"
+ tech_interwar_flamethrowers_2:0 "Interwar Flamethrower Company II"
+ 
+ #WW2#
+ 
+ #Support
+ tech_field_hospital:0 "WWII Field Hospital I"
+ tech_field_hospital_desc:0 "A casualty doesn't need to mean a dead soldier. Having immediate medical attention available for our wounded brought back to the rear is the first step towards ensuring this."
+ tech_field_hospital2:0 "WWII Field Hospital II"
+ tech_field_hospital2_desc:0 "By establishing the use of portable hospitals, bringing the medical care to where it is needed, we can stop many unnecessary deaths and permanent injuries."
+ tech_field_hospital3:0 "WWII Field Hospital III"
+ tech_field_hospital3_desc:0 "Surgery is among the most common emergency procedures needed in the field. Procedures and tools for this must be available closer to the front, and we must ensure that skilled surgeons are part of the military medical units."
+ tech_field_hospital4:0 "WWII Field Hospital IV"
+ tech_field_hospital4_desc:0 "Although many improvements have been made in field medicine, many advances are improvised and we lack an established doctrine. With more experience, we can explain the role of these units more clearly and make improvised innovations permanent fixtures."
+ tech_ww2_flamethrowers:0 "WWII Flamethrower Company I"
+ tech_ww2_flamethrowers_2:0 "WWII Flamethrower Company II"
+ 
