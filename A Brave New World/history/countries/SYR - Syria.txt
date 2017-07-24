@@ -2,8 +2,30 @@
 
 # Starting tech
 set_technology = {
+	powderless_equipment = 1
+	infantry_1900_equipment = 1
+	infantry_1904_equipment = 1
+	infantry_1908_equipment = 1
+	infantry_1912_equipment = 1
+	infantry_1914_equipment = 1
+	infantry_1916_equipment = 1
+	infantry_1916_equipment = 1
+	infantry_1918_equipment = 1
+	infantry_1920_equipment = 1
+	infantry_1924_equipment = 1
+	infantry_1928_equipment = 1
 	infantry_weapons = 1
-	gwtank = 1
+	
+	model_1915_vl_tank = 1
+	model_1916_vl_tank = 1
+	
+	model_1916_l_tank = 1
+	model_1917_l_tank = 1
+	model_1918_l_tank = 1
+	
+	model_1916_m_tank = 1
+	model_1917_m_tank = 1
+	model_1918_m_tank = 1
 }
 
 set_convoys = 5
@@ -27,6 +49,19 @@ set_convoys = 5
 		tech_support = 1
 		tech_recon = 1
 		support_weapons = 1
+		
+		#artillery
+		artillery_1869 = 1
+		artillery_1870 = 1
+		artillery_1900 = 1
+		artillery_1905 = 1
+		artillery_1912 = 1
+		artillery_1914 = 1
+		artillery_1916 = 1
+		artillery_1918 = 1
+		artillery_1924 = 1
+		artillery_1928 = 1
+		artillery_1932 = 1
 		gw_artillery = 1
 
 		#doctrines

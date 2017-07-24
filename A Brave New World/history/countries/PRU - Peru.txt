@@ -1,22 +1,95 @@
 ﻿capital = 303
 
-oob = "PRU_1936"
+oob = "PRU_1900"
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	gw_artillery = 1
-	early_fighter = 1
-	cv_early_fighter = 1
-	early_bomber = 1
-	CAS1 = 1
-	early_submarine = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
+	powderless_equipment = 1
+	artillery_1869 = 1
 }
+
 set_country_flag = monroe_doctrine
 
 set_convoys = 5
+
+create_country_leader = {
+	name = "President Eduardo López de Romaña"
+	desc = ""
+	picture = "gfx/leaders/PRU/Romana.dds"
+	expire = "1903.9.8"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+set_politics = {
+	parties = {
+		democratic = { 
+			popularity = 80
+		}
+
+			fascism = {
+			popularity = 20
+		}
+		
+		communism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1899.9.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+1936.1.1 = {
+	#oob = "PRU_1936"
+	set_technology = {
+		infantry_weapons = 1
+		gw_artillery = 1
+		early_fighter = 1
+		cv_early_fighter = 1
+		early_bomber = 1
+		CAS1 = 1
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+	}
+	
+	set_politics = {
+		parties = {
+			democratic = { 
+				popularity = 80
+			}
+
+				fascism = {
+				popularity = 20
+			}
+			
+			communism = {
+				popularity = 0
+			}
+		}
+		
+		ruling_party = democratic
+		last_election = "1931.10.11"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+	
+	create_country_leader = {
+		name = "Óscar Benavides"
+		desc = "POLITICS_OSCAR_BENAVIDES_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {
+			#
+		}
+	}
+}
 
 1939.1.1 = {
 
@@ -33,7 +106,7 @@ set_convoys = 5
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "PRU_1939"
+	#oob = "PRU_1939"
 	set_technology = {
 		tactical_bomber1 = 1
 		interwar_artillery = 1
@@ -65,43 +138,7 @@ set_convoys = 5
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
-}
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 80
-		}
-
-		fascism = {
-			popularity = 20
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = democratic
-	last_election = "1931.10.11"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
-create_country_leader = {
-	name = "Óscar Benavides"
-	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_2.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
 	set_politics = {
 
 		parties = {
@@ -134,18 +171,5 @@ create_country_leader = {
 		traits = {
 			#
 		}
-	}
-}
-
-### BRAVEWORLD LEADERS ###
-
-create_country_leader = {
-	name = "President Eduardo López de Romaña"
-	desc = ""
-	picture = "gfx/leaders/PRU/Romana.dds"
-	expire = "1903.9.8"
-	ideology = liberalism
-	traits = {
-		#
 	}
 }

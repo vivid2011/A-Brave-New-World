@@ -1,6 +1,6 @@
 ﻿capital = 41
 
-oob = "SPR_1936"
+oob = "SPR_1900"
 
 set_research_slots = 3
 
@@ -9,35 +9,15 @@ add_ideas = {
 }
 
 set_technology = {
-	infantry_weapons = 1
-	gw_artillery = 1
+	powderless_equipment = 1
+	
+	artillery_1869 = 1
+	
+	horse_drawn_equipment_1 = 1
 	early_destroyer = 1
 	early_light_cruiser = 1
 	early_heavy_cruiser = 1
 	early_battleship = 1
-}
-
-1936.1.1 ={
-	set_technology = {
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		tech_recon = 1
-		tech_support = 1		
-		tech_engineers = 1
-		tech_mountaineers = 1
-		gw_artillery = 1
-		early_fighter = 1
-		early_bomber = 1
-		naval_bomber1 = 1
-		early_submarine = 1
-		early_destroyer = 1
-		basic_destroyer = 1
-		early_light_cruiser = 1
-		early_heavy_cruiser = 1
-		basic_heavy_cruiser = 1
-		early_battleship = 1
-		transport = 1
-	}
 }
 
 set_politics = {
@@ -69,6 +49,115 @@ set_politics = {
 set_convoys = 150
 set_national_unity = 0.5
 
+create_country_leader = {
+	name = "Prime Minister Francisco Silvela"
+	desc = ""
+	picture = "gfx/leaders/SPR/Silvela.dds"
+	expire = "1900.10.24"
+	ideology = imperial
+	traits = {
+		#
+	}
+}
+
+1936.1.1 = {
+	#oob = "SPR_1936"
+	
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_recon = 1
+		tech_support = 1		
+		tech_engineers = 1
+		tech_mountaineers = 1
+		gw_artillery = 1
+		early_fighter = 1
+		early_bomber = 1
+		naval_bomber1 = 1
+		early_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		transport = 1
+	}
+	
+	create_equipment_variant = {
+		name = "C Class"
+		type = submarine_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			sub_engine_upgrade = 1
+			sub_stealth_upgrade = 1
+			sub_torpedo_upgrade = 1
+		}
+	}
+
+	create_equipment_variant = {
+		name = "Príncipe Alfonso Class"
+		type = light_cruiser_1
+		upgrades = {
+			ship_reliability_upgrade = 1
+			ship_engine_upgrade = 1
+			ship_gun_upgrade = 1
+			ship_anti_air_upgrade = 1
+		}
+	}
+	
+	create_country_leader = {
+		name = "Manuel Azana"
+		desc = "POLITICS_MANUEL_AZANA_DESC"
+		picture = "Portrait_Spain_Manuel_Azana.dds"
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "José Díaz"
+		desc = "POLITICS_JOSE_DIAZ_DESC"
+		picture = "Portrait_Spain_Jose_Diaz.dds"
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "Francisco Franco"
+		desc = "POLITICS_FRANCISCO_FRANCO_DESC"
+		picture = "Portrait_Spain_Francisco_Franco.dds"
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "Alejandro Lerroux"
+		desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+		expire = "1965.1.1"
+		ideology = centrism
+		traits = {
+			#
+		}
+	}
+
+	create_field_marshal = {
+		name = "José Asensio Torrado"
+		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+		traits = { defensive_doctrine }
+		skill = 2
+	}
+}
+
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -84,7 +173,7 @@ set_national_unity = 0.5
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "SPA_1939"
+	#oob = "SPA_1939"
 	load_oob = "unlock_tanks"
 	set_technology = {
 		fighter1 = 1
@@ -154,93 +243,4 @@ set_national_unity = 0.5
 
 	set_global_flag = scw_over
 	add_timed_idea = { idea = SPA_recovering_from_civil_war days = 1095 }
-}
-
-create_country_leader = {
-	name = "Manuel Azana"
-	desc = "POLITICS_MANUEL_AZANA_DESC"
-	picture = "Portrait_Spain_Manuel_Azana.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "José Díaz"
-	desc = "POLITICS_JOSE_DIAZ_DESC"
-	picture = "Portrait_Spain_Jose_Diaz.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Francisco Franco"
-	desc = "POLITICS_FRANCISCO_FRANCO_DESC"
-	picture = "Portrait_Spain_Francisco_Franco.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Alejandro Lerroux"
-	desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "José Asensio Torrado"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { defensive_doctrine }
-	skill = 2
-}
-
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "C Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		sub_engine_upgrade = 1
-		sub_stealth_upgrade = 1
-		sub_torpedo_upgrade = 1
-	}
-}
-
-create_equipment_variant = {
-	name = "Príncipe Alfonso Class"
-	type = light_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		ship_engine_upgrade = 1
-		ship_gun_upgrade = 1
-		ship_anti_air_upgrade = 1
-	}
-}
-
-###	BRAVEWORLD LEADERS ###
-
-create_country_leader = {
-	name = "Prime Minister Francisco Silvela"
-	desc = ""
-	picture = "gfx/leaders/SPR/Silvela.dds"
-	expire = "1900.10.24"
-	ideology = imperial
-	traits = {
-		#
-	}
 }

@@ -1,10 +1,10 @@
 ﻿capital = 327
 
-oob = "PHI_1936"
+oob = "PHI_1900"
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
+	powderless_equipment = 1
 }
 
 add_ideas = {
@@ -12,19 +12,103 @@ add_ideas = {
 	GEN_reb_gov
 }
 
-1936.1.1 ={
-	set_technology = {
-		infantry_weapons = 1
-		infantry_weapons1 = 1
-		tech_support = 1		
-		tech_engineers = 1
-		gw_artillery = 1
-		early_fighter = 1
-		early_bomber = 1
+set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 82
+		}
+
+		fascism = {
+			popularity = 9
+		}
+		
+		communism = {
+			popularity = 9
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1935.9.15"
+	election_frequency = 72
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "President Emilio Aguinaldo"
+	desc = ""
+	picture = "gfx/leaders/PHI/Aguinaldo.dds"
+	expire = "1901.4.23"
+	ideology = conservatism
+	traits = {
+		#
 	}
 }
 
-set_convoys = 5
+1936.1.1 ={
+	#oob = "PHI_1936"
+	set_technology = {
+		infantry_1900_equipment = 1
+		infantry_1904_equipment = 1
+		infantry_1908_equipment = 1
+		infantry_1912_equipment = 1
+		infantry_1914_equipment = 1
+		infantry_1916_equipment = 1
+		infantry_1916_equipment = 1
+		infantry_1918_equipment = 1
+		infantry_1920_equipment = 1
+		infantry_1924_equipment = 1
+		infantry_1928_equipment = 1
+		infantry_weapons = 1
+		
+		tech_support = 1
+		
+		tech_engineers = 1
+		
+		artillery_1869 = 1
+		artillery_1870 = 1
+		artillery_1900 = 1
+		artillery_1905 = 1
+		artillery_1912 = 1
+		artillery_1914 = 1
+		artillery_1916 = 1
+		artillery_1918 = 1
+		artillery_1924 = 1
+		artillery_1928 = 1
+		artillery_1932 = 1
+		gw_artillery = 1
+		
+		early_fighter = 1
+		
+		early_bomber = 1
+	}
+	
+	create_country_leader = {
+		name = "Manuel Luis Quezón"
+		desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
+		picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "Pedro P. Baguisa"
+		desc = "POLITICS_PEDRO_BAGUISA_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
+		expire = "1965.1.1"
+		ideology = marxism
+		traits = {
+			#
+		}
+	}
+
+}
 
 1939.1.1 = {
 
@@ -41,7 +125,7 @@ set_convoys = 5
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "PHI_1939"
+	#oob = "PHI_1939"
 	set_technology = {
 		gwtank = 1
 		basic_light_tank = 1
@@ -76,54 +160,7 @@ set_convoys = 5
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
-}
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 82
-		}
-
-		fascism = {
-			popularity = 9
-		}
-		
-		communism = {
-			popularity = 9
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = democratic
-	last_election = "1935.9.15"
-	election_frequency = 72
-	elections_allowed = yes
-}
-
-create_country_leader = {
-	name = "Manuel Luis Quezón"
-	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Pedro P. Baguisa"
-	desc = "POLITICS_PEDRO_BAGUISA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
 	set_politics = {
 
 		parties = {
@@ -145,18 +182,5 @@ create_country_leader = {
 		last_election = "1935.9.15"
 		election_frequency = 72
 		elections_allowed = yes
-	}
-}
-
-### BRAVEWORLD LEADERS ###
-
-create_country_leader = {
-	name = "President Emilio Aguinaldo"
-	desc = ""
-	picture = "gfx/leaders/PHI/Aguinaldo.dds"
-	expire = "1901.4.23"
-	ideology = conservatism
-	traits = {
-		#
 	}
 }

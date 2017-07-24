@@ -1,21 +1,93 @@
 ﻿capital = 70
 
-oob = "SLO_1939"
+#oob = "SLO_1939"
 
 set_technology = {
-	gw_artillery = 1
-	interwar_artillery = 1
-	interwar_antiair = 1
-	gwtank = 1
-	basic_light_tank = 1
+	powderless_equipment = 1
+	infantry_1900_equipment = 1
+	infantry_1904_equipment = 1
+	infantry_1908_equipment = 1
+	infantry_1912_equipment = 1
+	infantry_1914_equipment = 1
+	infantry_1916_equipment = 1
+	infantry_1916_equipment = 1
+	infantry_1918_equipment = 1
+	infantry_1920_equipment = 1
+	infantry_1924_equipment = 1
+	infantry_1928_equipment = 1
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	infantry_weapons2 = 1
+	
+	horse_drawn_equipment_1 = 1
+	basic_car_transport_1 = 1
+	armored_equipment_1 = 1
+	armored_equipment_2 = 1
+	armored_equipment_3 = 1
+	motorized_equipment_1918 = 1
+	motorized_equipment_1920 = 1
+	motorized_equipment_1924 = 1
+	motorized_equipment_1928 = 1
+	
+	artillery_1869 = 1
+	artillery_1870 = 1
+	artillery_1900 = 1
+	artillery_1905 = 1
+	artillery_1912 = 1
+	artillery_1914 = 1
+	artillery_1916 = 1
+	artillery_1918 = 1
+	artillery_1924 = 1
+	artillery_1928 = 1
+	artillery_1932 = 1
+	gw_artillery = 1
+	interwar_artillery = 1
+	
+	interwar_antiair = 1
+	
+	model_1915_vl_tank = 1
+	model_1916_vl_tank = 1
+	model_1917_vl_tank = 1
+	model_1918_vl_tank = 1
+	
+	model_1916_l_tank = 1
+	model_1917_l_tank = 1
+	model_1918_l_tank = 1
+	model_1924_l_tank = 1
+	model_1928_l_tank = 1
+	model_1932_l_tank = 1
+	basic_light_tank = 1
+	
+	support_weapons_1900 = 1
+	support_weapons_1904 = 1
+	support_weapons_1908 = 1
+	support_weapons_1912 = 1
+	support_weapons_1914 = 1
+	support_weapons_1915 = 1
+	support_weapons_1916 = 1
+	support_weapons_1918 = 1
+	support_weapons_1920 = 1
+	support_weapons_1928 = 1
 	support_weapons = 1
+	
 	tech_support = 1
+	
+	tech_recon_1914
+	tech_recon_1918
 	tech_recon = 1
+	
+	tech_mountaineers_theory
+	tech_mountaineers_1912
+	tech_mountaineers_1914
+	tech_mountaineers_1916
+	tech_mountaineers_1918
 	tech_mountaineers = 1
+	
+	paratroopers_theory = 1
+	
+	tech_engineers_1916 = 1
 	tech_engineers = 1
+	
 	early_fighter = 1
 	early_bomber = 1
 	CAS1 = 1

@@ -1,14 +1,62 @@
 ﻿capital = 544
 
-oob = "MZB_1936"
+oob = "MZB_1900"
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	tech_mountaineers = 1
+	powderless_equipment = 1
 }
 
 set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		neutrality = { 
+			popularity = 100
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1900.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+1936.1.1 = {
+	#oob = "MZB_1936"
+	create_country_leader = {
+		name = "Eduardo Tsonga"
+			picture = "gfx//leaders//Africa//Portrait_Africa_Generic__land_2.dds"
+			expire = "1965.1.1"
+			ideology = despotism
+			traits = {
+				#
+			}
+		}
+	}
+	
+	create_corps_commander = {
+		name = "Seyoum Mengesha"
+		portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+		traits = {  desert_fox }
+		skill = 2
+	}
+	
+}
 
 1939.1.1 = {
 	#generic focuses
@@ -45,52 +93,7 @@ set_convoys = 5
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
-}
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 100
-		}
-	}
 	
-	ruling_party = neutrality
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-create_country_leader = {
-	
-	
-	name = "Eduardo Tsonga"
-	picture = "gfx//leaders//Africa//Portrait_Africa_Generic__land_2.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-
-}
-
-
-
-1939.1.1 = {
 	set_politics = {
 
 		parties = {
@@ -117,11 +120,4 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = no
 	}
-}
-
-create_corps_commander = {
-	name = "Seyoum Mengesha"
-	portrait_path = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
-	traits = {  desert_fox }
-	skill = 2
 }

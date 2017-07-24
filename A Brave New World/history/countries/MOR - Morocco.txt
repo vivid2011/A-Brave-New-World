@@ -1,10 +1,8 @@
 ﻿capital = 461
 
-
-
 # Starting Tech
 set_technology = {
-	infantry_weapons = 1
+	powderless_equipment = 1
 }
 
 set_research_slots = 2

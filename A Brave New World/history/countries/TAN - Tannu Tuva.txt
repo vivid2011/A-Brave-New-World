@@ -1,15 +1,46 @@
 ﻿capital = 329
 
-oob = "TAN_1936"
+#oob = "TAN_1936"
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
+	powderless_equipment = 1
+	infantry_1900_equipment = 1
+	infantry_1904_equipment = 1
+	infantry_1908_equipment = 1
+	infantry_1912_equipment = 1
+	infantry_1914_equipment = 1
+	infantry_1916_equipment = 1
 }
 
 add_ideas = {
 	limited_conscription
 }
+
+set_politics = {
+	parties = {
+		democratic = { 
+			popularity = 0
+			banned = yes
+		}
+
+		fascism = {
+			popularity = 0
+			banned = yes
+		}
+		
+		communism = {
+			popularity = 100
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
 
 1939.1.1 = {
 
@@ -27,7 +58,7 @@ add_ideas = {
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "TAN_1939"
+	#oob = "TAN_1939"
 	set_technology = {
 		infantry_weapons = 1
 
@@ -52,45 +83,18 @@ add_ideas = {
 		concentrated_industry = 1
 		concentrated_industry2 = 1
 	}
-}
-
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-			banned = yes
-		}
-
-		fascism = {
-			popularity = 0
-			banned = yes
-		}
-		
-		communism = {
-			popularity = 100
-			#banned = no #default is no
-		}
-	}
 	
-	ruling_party = communism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Salchak Toka"
-	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
+	create_country_leader = {
+		name = "Salchak Toka"
+		desc = "POLITICS_SALCHAK_TOKA_DESC"
+		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+		expire = "1965.1.1"
+		ideology = stalinism
+		traits = {
+			#
+		}
 	}
-}
 
-1939.1.1 = {
 	set_politics = {
 
 		parties = {

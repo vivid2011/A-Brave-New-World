@@ -1,20 +1,100 @@
 ﻿capital = 289
 
-oob = "SIA_1936"
+oob = "SIA_1900"
+
+create_country_leader = {
+	name = "King Rama VI"
+	desc = ""
+	picture = "gfx/leaders/SIA/RamaVI.dds"
+	expire = "1910.10.23"
+	ideology = imperial
+	traits = {
+		#
+	}
+}
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	gw_artillery = 1
-	early_fighter = 1
-	CAS1 = 1
-	early_submarine = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	early_heavy_cruiser = 1
+	powderless_equipment = 1
+	
+	artillery_1869 = 1
 }
 
 set_convoys = 15
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 20
+		}
+		
+		communism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		neutrality = {
+			popularity = 0
+		}
+		
+		monarchist = {
+			popularity = 80
+		}
+	}
+	
+	ruling_party = monarchist
+	last_election = "None"
+	election_frequency = 0
+	elections_allowed = no
+}
+
+1936.1.1 = {
+	#oob = "SIA_1936"
+	
+	set_technology = {
+		infantry_1900_equipment = 1
+		infantry_1904_equipment = 1
+		infantry_1908_equipment = 1
+		infantry_1912_equipment = 1
+		infantry_1914_equipment = 1
+		infantry_1916_equipment = 1
+		infantry_1916_equipment = 1
+		infantry_1918_equipment = 1
+		infantry_1920_equipment = 1
+		infantry_1924_equipment = 1
+		artillery_1870 = 1
+		artillery_1900 = 1
+		artillery_1905 = 1
+		artillery_1912 = 1
+		artillery_1914 = 1
+		artillery_1916 = 1
+		artillery_1918 = 1
+		artillery_1924 = 1
+		artillery_1928 = 1
+		early_fighter = 1
+		CAS1 = 1
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+	}
+
+	create_country_leader = {
+		name = "Phraya Phahon"
+		desc = "POLITICS_PHRAYA_PHAHON_DESC"
+		picture = "Portrait_Siam_Phraya_Phahon.dds"
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {
+			#
+		}
+	}
+}
 
 1939.1.1 = {
 
@@ -31,7 +111,7 @@ set_convoys = 15
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "SIA_1939"
+	#oob = "SIA_1939"
 	set_technology = {
 		gwtank = 1
 		tech_support = 1
@@ -65,52 +145,7 @@ set_convoys = 15
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
-}
 
-
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 20
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		neutrality = {
-			popularity = 0
-		}
-		
-		monarchist = {
-			popularity = 80
-		}
-	}
-	
-	ruling_party = monarchist
-	last_election = "None"
-	election_frequency = 0
-	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Phraya Phahon"
-	desc = "POLITICS_PHRAYA_PHAHON_DESC"
-	picture = "Portrait_Siam_Phraya_Phahon.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
 	set_politics = {
 
 		parties = {
@@ -143,18 +178,5 @@ create_country_leader = {
 		traits = {
 			#
 		}
-	}
-}
-
-### BRAVEWORLD LEADERS ###
-
-create_country_leader = {
-	name = "King Rama VI"
-	desc = ""
-	picture = "gfx/leaders/SIA/RamaVI.dds"
-	expire = "1910.10.23"
-	ideology = imperial
-	traits = {
-		#
 	}
 }
