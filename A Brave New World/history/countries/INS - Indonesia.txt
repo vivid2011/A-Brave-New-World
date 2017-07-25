@@ -1,24 +1,13 @@
 ﻿capital = 335 #Jakarta
 
-oob = "INS_1936"
+oob = "INS_1900"
 
 set_research_slots = 2
 
 # Starting tech
-# clone of Holland
 set_technology = {
-	infantry_weapons = 1
-	tech_support = 1		
-	tech_recon = 1
-	early_fighter = 1
-	early_bomber = 1
-	early_submarine = 1
-	basic_destroyer = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	basic_light_cruiser = 1
-	early_heavy_cruiser = 1
-	transport = 1
+	artillery_1869 = 1
+	powderless_equipment = 1
 }
 
 set_convoys = 25
@@ -51,57 +40,86 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Sukarno"
+	name = "Governor-General Willem Rooseboom"
 	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
-	expire = "1953.3.1"
-	ideology = socialism #Marhaenism his own unique mix of stuff
+	picture = "gfx/leaders/MAL/Roosebloom.dds"
+	expire = "1904.6.15"
+	ideology = imperial
 	traits = {
 		
 	}
 }
 
-create_country_leader = {
-	name = "A. T. van Starkenborgh Stachouwer"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
-	ideology = conservatism 
-	traits = {
-		
+1936.1.1 = {
+	#oob = "INS_1936"
+	set_technology = {
+		infantry_weapons = 1
+		tech_support = 1		
+		tech_recon = 1
+		early_fighter = 1
+		early_bomber = 1
+		early_submarine = 1
+		basic_destroyer = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		transport = 1
 	}
-}
-
-create_country_leader = {
-	name = "Amir Sjarifuddin Harahap"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
-	expire = "1953.3.1"
-	ideology = marxism
-	traits = {
-		
+	
+	create_country_leader = {
+		name = "Sukarno"
+		desc = ""
+		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+		expire = "1953.3.1"
+		ideology = socialism #Marhaenism his own unique mix of stuff
+		traits = {
+			
+		}
 	}
-}
 
-create_country_leader = {
-	name = "Suharto"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology # except for no connection to catholicism, this party perfectly fits into falangism 
-	traits = {
-		
+	create_country_leader = {
+		name = "A. T. van Starkenborgh Stachouwer"
+		desc = ""
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+		expire = "1953.3.1"
+		ideology = conservatism 
+		traits = {
+			
+		}
 	}
-}
 
-create_country_leader = {
-	name = "Sutan Sjahrir"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	expire = "1953.3.1"
-	ideology = moderatism
-	traits = {
-		
+	create_country_leader = {
+		name = "Amir Sjarifuddin Harahap"
+		desc = ""
+		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
+		expire = "1953.3.1"
+		ideology = marxism
+		traits = {
+			
+		}
+	}
+
+	create_country_leader = {
+		name = "Suharto"
+		desc = ""
+		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
+		expire = "1953.3.1"
+		ideology = fascism_ideology # except for no connection to catholicism, this party perfectly fits into falangism 
+		traits = {
+			
+		}
+	}
+
+	create_country_leader = {
+		name = "Sutan Sjahrir"
+		desc = ""
+		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+		expire = "1953.3.1"
+		ideology = moderatism
+		traits = {
+			
+		}
 	}
 }
 
@@ -110,7 +128,7 @@ set_cosmetic_tag = INS_HOL # Netherlands East Indies
 1939.1.1 = {
 	add_political_power = 1198
 
-	oob = "INS_1939" #straight copy of INS 1936
+	#oob = "INS_1939" #straight copy of INS 1936
 
 	#generic focuses
 	complete_national_focus = army_effort
@@ -156,18 +174,5 @@ set_cosmetic_tag = INS_HOL # Netherlands East Indies
 		construction2 = 1
 		dispersed_industry = 1
 		dispersed_industry2 = 1
-	}
-}
-
-### BRAVEWORLD LEADERS ###
-
-create_country_leader = {
-	name = "Governor-General Willem Rooseboom"
-	desc = ""
-	picture = "gfx/leaders/MAL/Roosebloom.dds"
-	expire = "1904.6.15"
-	ideology = imperial
-	traits = {
-		
 	}
 }

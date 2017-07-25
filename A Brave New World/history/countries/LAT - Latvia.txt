@@ -1,6 +1,6 @@
 ﻿capital = 12
 
-oob = "LAT_1936"
+#oob = "LAT_1936"
 
 add_ideas = {
 	limited_conscription
@@ -17,7 +17,55 @@ set_research_slots = 3
 
 set_convoys = 10
 
-1939.1.1 = {
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 30
+		}
+
+		fascism = {
+			popularity = 15
+		}
+		
+		communism = {
+			popularity = 15
+		}
+		
+		neutrality = { 
+			popularity = 50
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1931.10.3"
+	election_frequency = 108
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Karlis Ulmanis"
+	desc = "POLITICS_KARLIS_ULMANIS_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gustavs Celmiņš"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+1939.1.1 = { # probably needs some adjustment before nazi occupation in 1940
 
 	add_political_power = 1198
 	
@@ -32,7 +80,7 @@ set_convoys = 10
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "LAT_1939"
+	#oob = "LAT_1939"
 	set_technology = {
 		tech_support = 1		
 		tech_engineers = 1
@@ -68,35 +116,7 @@ set_convoys = 10
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
-}
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 30
-		}
-
-		fascism = {
-			popularity = 15
-		}
-		
-		communism = {
-			popularity = 15
-		}
-		
-		neutrality = { 
-			popularity = 50
-		}
-	}
-	
-	ruling_party = neutrality
-	last_election = "1931.10.3"
-	election_frequency = 108
-	elections_allowed = no
-}
-
-1939.1.1 = {# probably needs some adjustment before nazi occupation in 1940
 	set_politics = {
 
 		parties = {
@@ -121,27 +141,5 @@ set_politics = {
 		last_election = "1931.10.3"
 		election_frequency = 108
 		elections_allowed = no
-	}
-}
-
-create_country_leader = {
-	name = "Karlis Ulmanis"
-	desc = "POLITICS_KARLIS_ULMANIS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Gustavs Celmiņš"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
 	}
 }

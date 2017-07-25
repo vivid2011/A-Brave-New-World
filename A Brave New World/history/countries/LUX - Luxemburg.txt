@@ -1,15 +1,70 @@
 ﻿capital = 8
 
-oob = "LUX_1936"
+oob = "LUX_1900"
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	gw_artillery = 1
-	tech_support = 1		
-	tech_engineers = 1
-	early_fighter = 1
+	powderless_equipment = 1
+	artillery_1869 = 1
+	horse_drawn_equipment_1 = 1
+}
+
+create_country_leader = {
+	name = "Prime Minister Paul Eyschen"
+	desc = ""
+	picture = "gfx/leaders/LUX/Eyschen.dds"
+	expire = "1915.10.11"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 92
+		}
+
+		fascism = {
+			popularity = 3
+		}
+		
+		communism = {
+			popularity = 5
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1896.10.25"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+1936.1.1 = {
+	#oob = "LUX_1936"
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		gw_artillery = 1
+		tech_support = 1		
+		tech_engineers = 1
+		early_fighter = 1
+	}
+	
+	#Pierre Dupong from 37
+	create_country_leader = {
+		name = "Joseph Bech"
+		desc = "POLITICS_JOSEPH_BECH_DESC"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {
+			#
+		}
+	}
+	
 }
 
 1939.1.1 = {
@@ -28,7 +83,7 @@ set_technology = {
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "LUX_1939"
+	#oob = "LUX_1939"
 	set_technology = {
 		tech_recon = 1
 		fighter1 = 1
@@ -59,31 +114,7 @@ set_technology = {
 		concentrated_industry = 1
 		concentrated_industry2 = 1
 	}
-}
-
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 92
-		}
-
-		fascism = {
-			popularity = 3
-		}
-		
-		communism = {
-			popularity = 5
-		}
-	}
 	
-	ruling_party = democratic
-	last_election = "1934.6.3"
-	election_frequency = 36
-	elections_allowed = yes
-}
-
-1939.1.1 = {
 	set_politics = {
 
 		parties = {
@@ -115,29 +146,5 @@ set_politics = {
 		traits = {
 			#
 		}
-	}
-}
-#Pierre Dupong from 37
-create_country_leader = {
-	name = "Joseph Bech"
-	desc = "POLITICS_JOSEPH_BECH_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-### BRAVEWORLD LEADERS ###
-
-create_country_leader = {
-	name = "Prime Minister Paul Eyschen"
-	desc = ""
-	picture = "gfx/leaders/LUX/Eyschen.dds"
-	expire = "1915.10.11"
-	ideology = conservatism
-	traits = {
-		#
 	}
 }

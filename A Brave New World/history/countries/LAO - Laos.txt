@@ -1,6 +1,6 @@
 ﻿capital = 670 #today Vientiane in 1945 Luang Prabang sel proclaimed indie Laos 
 
-oob = "LAO_1936"
+#oob = "LAO_1936"
 
 set_research_slots = 3
 
@@ -93,4 +93,4 @@ create_country_leader = {
 	}
 }
 
-#couldnt find historical fascists
+#couldnt find historical fascists < rip

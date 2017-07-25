@@ -1,6 +1,6 @@
 ﻿capital = 11
 
-oob = "LIT_1936"
+#oob = "LIT_1936"
 
 set_research_slots = 3
 
@@ -15,6 +15,65 @@ set_technology = {
 }
 
 set_convoys = 10
+
+create_country_leader = {
+	name = "Antanas Smetona"
+	desc = "POLITICS_ANTANAS_SMETONA_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = oligarchism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Antanas Snieckus"
+	desc = "POLITICS_ANTANAS_SNIECKUS_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	expire = "1965.1.1"
+	ideology = stalinism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Augustinas Voldemaras"
+	desc = ""
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 30
+		}
+
+		fascism = {
+			popularity = 15
+		}
+		
+		communism = {
+			popularity = 15
+		}
+		
+		neutrality = { 
+			popularity = 50
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1926.5.8"
+	election_frequency = 120
+	elections_allowed = no
+}
 
 1939.1.1 = {
 
@@ -31,7 +90,7 @@ set_convoys = 10
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "LIT_1939"
+	#oob = "LIT_1939"
 	set_technology = {
 		tech_support = 1		
 		tech_engineers = 1
@@ -68,35 +127,7 @@ set_convoys = 10
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
-}
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 30
-		}
-
-		fascism = {
-			popularity = 15
-		}
-		
-		communism = {
-			popularity = 15
-		}
-		
-		neutrality = { 
-			popularity = 50
-		}
-	}
-	
-	ruling_party = neutrality
-	last_election = "1926.5.8"
-	election_frequency = 120
-	elections_allowed = no
-}
-
-1939.1.1 = {
 	set_politics = {
 
 		parties = {
@@ -121,38 +152,5 @@ set_politics = {
 		last_election = "1936.6.10"
 		election_frequency = 120
 		elections_allowed = no
-	}
-}
-
-create_country_leader = {
-	name = "Antanas Smetona"
-	desc = "POLITICS_ANTANAS_SMETONA_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Antanas Snieckus"
-	desc = "POLITICS_ANTANAS_SNIECKUS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Augustinas Voldemaras"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
 	}
 }
