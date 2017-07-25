@@ -1,8 +1,8 @@
 ﻿capital = 13
 
-oob = "EST_1936"
+#oob = "EST_1936"
 
-set_research_slots = 3
+set_research_slots = 2
 
 add_ideas = {
 	limited_conscription
@@ -16,6 +16,44 @@ set_technology = {
 }
 
 set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 20
+		}
+
+		fascism = {
+			popularity = 15
+		}
+		
+		communism = {
+			popularity = 5
+			#banned = no #default is no
+		}
+		
+		neutrality = { 
+			popularity = 60
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1932.5.21"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Konstantin Päts"
+	desc = "POLITICS_KONSTANTIN_PATS_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
 
 1939.1.1 = {
 
@@ -32,7 +70,7 @@ set_convoys = 5
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "EST_1939"
+	#oob = "EST_1939"
 	set_technology = {
 		tech_recon = 1
 		tech_support = 1		
@@ -74,36 +112,7 @@ set_convoys = 5
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
-}
-
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 20
-		}
-
-		fascism = {
-			popularity = 15
-		}
-		
-		communism = {
-			popularity = 5
-			#banned = no #default is no
-		}
-		
-		neutrality = { 
-			popularity = 60
-		}
-	}
 	
-	ruling_party = neutrality
-	last_election = "1932.5.21"
-	election_frequency = 48
-	elections_allowed = no
-}
-
-1939.1.1 = {
 	set_politics = {
 
 		parties = {
@@ -129,16 +138,5 @@ set_politics = {
 		last_election = "1938.2.25"
 		election_frequency = 48
 		elections_allowed = no
-	}
-}
-
-create_country_leader = {
-	name = "Konstantin Päts"
-	desc = "POLITICS_KONSTANTIN_PATS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
 	}
 }

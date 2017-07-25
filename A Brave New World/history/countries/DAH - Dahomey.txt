@@ -3,7 +3,7 @@
 oob = "DAH_1900"
 
 set_technology = {
-	infantry_weapons = 1
+	powderless_equipment = 1
 }
 
 set_politics = {
@@ -35,8 +35,6 @@ set_politics = {
 	election_frequency = 0
 	elections_allowed = no
 }
-
-### BRAVEWORLD LEADERS ###
 
 create_country_leader={
 	name = "King Agoli-agbo"

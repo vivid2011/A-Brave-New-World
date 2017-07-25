@@ -1,14 +1,63 @@
 ﻿capital = 316
 
-oob = "COS_1936"
+oob = "COS_1900"
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
+	powderless_equipment = 1
 }
 set_country_flag = monroe_doctrine
 
 set_convoys = 10
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 98
+		}
+
+		fascism = {
+			popularity = 2
+		}
+		
+		communism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1932.2.14"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "President Rafael Yglesias Castro"
+	desc = ""
+	picture = "gfx/leaders/COS/Castro.dds"
+	expire = "1902.5.8"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
+
+1936.1.1 = {
+	#oob = "COS_1936"
+	
+	create_country_leader = {
+		name = "Ricardo Jiménez Oreamuno"
+		desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_5.dds"
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {
+			#
+		}
+	}
+}
 
 1939.1.1 = {
 
@@ -25,7 +74,7 @@ set_convoys = 10
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "COS_1939"
+	#oob = "COS_1939"
 	set_technology = {
 		infantry_weapons1 = 1
 
@@ -53,43 +102,7 @@ set_convoys = 10
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
-}
-
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 98
-		}
-
-		fascism = {
-			popularity = 2
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-	}
 	
-	ruling_party = democratic
-	last_election = "1932.2.14"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
-create_country_leader = {
-	name = "Ricardo Jiménez Oreamuno"
-	desc = "POLITICS_RICARDO_JIMENEZ_OREAMUNO_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_5.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
 	set_politics = {
 
 		parties = {
@@ -122,18 +135,5 @@ create_country_leader = {
 		traits = {
 			#
 		}
-	}
-}
-
-### BRAVEWORLD LEADERS ### 
-
-create_country_leader = {
-	name = "President Rafael Yglesias Castro"
-	desc = ""
-	picture = "gfx/leaders/COS/Castro.dds"
-	expire = "1902.5.8"
-	ideology = liberalism
-	traits = {
-		#
 	}
 }

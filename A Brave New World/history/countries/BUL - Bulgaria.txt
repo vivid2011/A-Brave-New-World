@@ -1,18 +1,131 @@
 ﻿capital = 48
 
-oob = "BUL_1936"
-
+oob = "BUL_1900"
+set_research_slots = 2
 add_ideas = {
 	limited_conscription
 }
 
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	motorised_infantry = 1
-	early_fighter = 1
+	powderless_equipment = 1
+	horse_drawn_equipment_1 = 1
+	artillery_1869 = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 5
+		}
+
+		fascism = {
+			popularity = 35
+		}
+		
+		communism = {
+			popularity = 0
+			banned = yes
+		}
+		
+		neutrality = { 
+			popularity = 0
+		}
+		
+		monarchist = { 
+			popularity = 60
+		}
+	}
+	
+	ruling_party = monarchist
+	last_election = "None"
+	election_frequency = 0
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Tsar Ferdinand I"
+	desc = ""
+	picture = "gfx/leaders/BUL/Ferdinand_I.dds"
+	expire = "1908.10.5"
+	ideology = imperial
+	traits = {
+		#
+	}
+}
+
+1936.1.1 = {
+	#oob = "BUL_1936"
+	set_research_slots = 3
+	
+	set_technology = {
+		infantry_weapons = 1
+		infantry_weapons1 = 1
+		tech_support = 1		
+		tech_engineers = 1
+		motorised_infantry = 1
+		early_fighter = 1
+	}
+	
+	create_country_leader = {
+		name = "Boris III"
+		desc = "POLITICS_BORIS_III_DESC"
+		picture = "Portrait_Bulgaria_Boris_III.dds"
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "Georgi Dimitrov"
+		desc = "POLITICS_GEORGI_DIMITROV_DESC"
+		picture = "Portrait_Bulgaria_Georgi_Dimitrov.dds"
+		expire = "1965.1.1"
+		ideology = leninism
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "Zivko Topalovic"
+		desc = "POLITICS_ZIVCO_TOPALOVIC_DESC"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "Hristo Lukov"
+		desc = "POLITICS_HRISTO_LUKOV_DESC"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {
+			#
+		}
+	}
+
+	create_corps_commander = {
+		name = "Vasil Tenev Boydev"
+		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+		traits = { panzer_leader }
+		skill = 3
+	}
+
+	create_field_marshal = {
+		name = "Georgi Nikolov Popov"
+		portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+		traits = { defensive_doctrine }
+		skill = 4
+	}
 }
 
 1939.1.1 = {
@@ -29,7 +142,7 @@ set_technology = {
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 	
-	oob = "BUL_1939"
+	#oob = "BUL_1939"
 	set_technology = {
 		fighter1 = 1
 		early_bomber = 1
@@ -72,136 +185,30 @@ set_technology = {
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
-}
-
-set_convoys = 5
-
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 5
-		}
-
-		fascism = {
-			popularity = 35
-		}
-		
-		communism = {
-			popularity = 0
-			banned = yes
-		}
-		
-		neutrality = { 
-			popularity = 0
-		}
-		
-		monarchist = { 
-			popularity = 60
-		}
-	}
 	
-	ruling_party = monarchist
-	last_election = "None"
-	election_frequency = 0
-	elections_allowed = no
-}
-
-1939.1.1 = {
 	set_politics = {
 
-	parties = {
-		democratic = { 
-			popularity = 5
-		}
+		parties = {
+			democratic = { 
+				popularity = 5
+			}
 
-		fascism = {
-			popularity = 35
+			fascism = {
+				popularity = 35
+			}
+			
+			communism = {
+				popularity = 0
+				banned = yes
+			}
+			neutrality = { 
+				popularity = 60
+			}
 		}
 		
-		communism = {
-			popularity = 0
-			banned = yes
-		}
-		neutrality = { 
-			popularity = 60
-		}
-	}
-	
-	ruling_party = neutrality
-	last_election = "1938.3.27"
-	election_frequency = 48
-	elections_allowed = no
-}
-}
-
-create_country_leader = {
-	name = "Boris III"
-	desc = "POLITICS_BORIS_III_DESC"
-	picture = "Portrait_Bulgaria_Boris_III.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Georgi Dimitrov"
-	desc = "POLITICS_GEORGI_DIMITROV_DESC"
-	picture = "Portrait_Bulgaria_Georgi_Dimitrov.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Zivko Topalovic"
-	desc = "POLITICS_ZIVCO_TOPALOVIC_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Hristo Lukov"
-	desc = "POLITICS_HRISTO_LUKOV_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Vasil Tenev Boydev"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	traits = { panzer_leader }
-	skill = 3
-}
-
-create_field_marshal = {
-	name = "Georgi Nikolov Popov"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-	traits = { defensive_doctrine }
-	skill = 4
-}
-
-### BRAVEWORLD LEADERS ###
-
-create_country_leader = {
-	name = "Tsar Ferdinand I"
-	desc = ""
-	picture = "gfx/leaders/BUL/Ferdinand_I.dds"
-	expire = "1908.10.5"
-	ideology = imperial
-	traits = {
-		#
+		ruling_party = neutrality
+		last_election = "1938.3.27"
+		election_frequency = 48
+		elections_allowed = no
 	}
 }

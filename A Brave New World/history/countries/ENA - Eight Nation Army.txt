@@ -1,5 +1,14 @@
 ﻿set_technology = {
-	infantry_weapons = 1
+	powderless_equipment = 1
+	infantry_1900_equipment = 1
+	
+	horse_drawn_equipment_1 = 1
+	
+	support_weapons_1900 = 1
+	
+	artillery_1869 = 1
+	artillery_1870 = 1
+	artillery_1900 = 1
 }
 
 set_research_slots = 1

@@ -2,20 +2,6 @@
 
 oob = "TUR_1900"
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"	
-	}
-	
-	set_autonomy = {
-		target = BHZ
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = BHZ
-	}
-}
-
 set_research_slots = 3
 
 add_ideas = {

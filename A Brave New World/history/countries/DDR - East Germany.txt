@@ -123,6 +123,7 @@ set_politics = {
 
 		fascism = {
 			popularity = 10
+			banned = yes
 		}
 		
 		communism = {

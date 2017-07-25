@@ -1,15 +1,83 @@
 ﻿capital = 315
 
-oob = "CUB_1936"
+oob = "CUB_1900"
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	early_fighter = 1
+	powderless_equipment = 1
 }
 set_country_flag = monroe_doctrine
 
 set_convoys = 20
+
+create_country_leader = {
+		name = "President Tomás Estrada Palma"
+		desc = ""
+		picture = "gfx/leaders/CUB/Palma.dds"
+		expire = "1906.9.28"
+		ideology = conservatism
+		traits = {
+			#
+		}
+	}
+	
+create_country_leader = {
+	name = "Military Governor Leonard Wood"
+	desc = ""
+	picture = "gfx/leaders/CUB/Wood.dds"
+	expire = "1902.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
+
+set_politics = {
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 0
+			#banned = no #default is no
+		}
+		
+		neutrality = {
+			popularity = 100
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "None"
+	election_frequency = 0  
+	elections_allowed = no
+}
+
+1936.1.1 ={
+	set_technology = {
+		infantry_weapons = 1
+		early_fighter = 1
+	}
+	
+	#oob = "CUB_1936"
+	
+	create_country_leader = {
+		name = "José Agripino Barnet"
+		desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {
+			#
+		}
+	}
+
+}
 
 1939.1.1 = {
 
@@ -56,50 +124,7 @@ set_convoys = 20
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
-}
-
-set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-			
-			neutrality = {
-				popularity = 100
-			}
-		}
-		
-		ruling_party = neutrality
-		last_election = "None"
-		election_frequency = 0  
-		elections_allowed = no
-	}
-
-
-
 	
-create_country_leader = {
-	name = "José Agripino Barnet"
-	desc = "POLITICS_JOSE_AGRIPINO_BARNET_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		#
-	}
-}
-
-1939.1.1 = {
 	set_politics = {
 
 		parties = {
@@ -136,26 +161,3 @@ create_country_leader = {
 	}
 }
 
-### BRAVEWORLD LEADERS ###
-
-create_country_leader = {
-		name = "President Tomás Estrada Palma"
-		desc = ""
-		picture = "gfx/leaders/CUB/Palma.dds"
-		expire = "1906.9.28"
-		ideology = conservatism
-		traits = {
-			#
-		}
-	}
-	
-create_country_leader = {
-	name = "Military Governor Leonard Wood"
-	desc = ""
-	picture = "gfx/leaders/CUB/Wood.dds"
-	expire = "1902.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}

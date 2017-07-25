@@ -1,11 +1,9 @@
 ﻿
-1902.1.1 = {
-	capital = 608
-}
+capital = 608 # Beijing
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
+	powderless_equipment = 1
 }
 
 set_convoys = 0
@@ -14,7 +12,8 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 5
+			popularity = 0
+			banned = yes
 		}
 
 		fascism = {
@@ -33,7 +32,11 @@ set_politics = {
 		}
 		
 		monarchist = { 
-			popularity = 95
+			popularity = 75
+		}
+		
+		fundamentalist = {
+			popularity = 25
 		}
 	}
 	
