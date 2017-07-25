@@ -16,7 +16,7 @@ X.Y-beta : The build for GitHub is primarily about bug fixes and minor additions
 
 X.Y-release : The build for GitHub is now mostly stabel. Bug testing is currently being done at this stage to try and catch any bugs before the release hits the Workshop
 
-#The Team Behind ABNW
+# The Team Behind ABNW
 IMakeMods (Michael)  - Lead Developer and Programmer, Project Manager
 
 Vividjam2011 (Nick)  - Vice Manager, Programmer and Researcher
