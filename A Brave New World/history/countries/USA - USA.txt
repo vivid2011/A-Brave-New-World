@@ -64,6 +64,10 @@ if = {
 	}
 }
 
+declare_war_on={
+	target=PHI
+	type=puppet_wargoal_focus
+}
 
 set_convoys = 400
 set_national_unity = 0.6
