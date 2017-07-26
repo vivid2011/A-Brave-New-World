@@ -17,6 +17,10 @@ set_technology = {
 set_convoys = 100
 set_national_unity = 0.9
 
+add_ideas = {
+	cultural_disunity
+}
+
 if = {
 	limit = { has_dlc = "Together for Victory" }
 	add_ideas = CAN_great_depression_1

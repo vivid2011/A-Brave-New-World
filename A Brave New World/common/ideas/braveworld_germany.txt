@@ -79,6 +79,76 @@ ideas = {
 				army_speed_factor = 0.01
 			}
 		}
+		
+		admirality_memos_i = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				battleship = {
+					max_organisation = 5
+					
+				}
+				battle_cruiser = {
+					max_organisation = 5
+				}
+				heavy_cruiser = {
+					max_organisation = 5
+				}
+				destroyer = {
+					max_organisation = 5
+				}
+				light_cruiser = {
+					max_organisation = 5
+				}
+				
+				#ironclad
+				#protected cruisers
+				#armored cruisers
+				#Unprotected cruisers
+				#corvettes
+				#torpedo boats
+				
+			}
+		}
+		
+		admirality_memos_ii = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				battleship = {
+					max_organisation = 10
+					
+				}
+				battle_cruiser = {
+					max_organisation = 10
+				}
+				heavy_cruiser = {
+					max_organisation = 10
+				}
+				destroyer = {
+					max_organisation = 10
+				}
+				light_cruiser = {
+					max_organisation = 10
+				}
+				
+				#ironclad
+				#protected cruisers
+				#armored cruisers
+				#Unprotected cruisers
+				#corvettes
+				#torpedo boats
+			}
+		}
+		
 	}
 	
 	political_advisor = {

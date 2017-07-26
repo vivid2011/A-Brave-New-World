@@ -10,7 +10,7 @@ ideas = {
 			
 			modifier = {
 				unity_factor = 0.1
-				conscription = 0.01
+				conscription_factor = 0.01
 			}
 		}
 		
@@ -49,6 +49,30 @@ ideas = {
 			
 			modifier = {
 				conscription_factor = 0.01
+			}
+		}
+		
+		range_wars = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -100
+			
+			modifier = {
+				political_power_factor = -0.01
+			}
+		}
+		
+		gold_standard = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -100
+			
+			modifier = {
+				political_power_gain = 0.15
 			}
 		}
 	

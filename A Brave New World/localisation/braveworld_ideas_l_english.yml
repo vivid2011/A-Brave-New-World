@@ -63,6 +63,12 @@
  GEN_disjointed_military:0 "Disjointed Military"
  GEN_declining_nation:0 "Declining Nation"
  GEN_reb_gov:0 "Rebel Government"
+ GEN_globalist:0 "Globalist Nation"
+ GEN_chinese_open_door:0 "Chinese Open Door Policy"
+ GEN_non_modern_african_nation:0 "Non-Modern African Nation"
+ GEN_non_modern_asian_nation:0 "Non-Modern Asian Nation"
+ GEN_non_modern_middle_east_nation:0 "Non-Modern Middle Eastern Nation"
+ GEN_agrarian:0 "Agrarian"
  #GENERIC#
  
  #UNITED STATES#
@@ -70,6 +76,8 @@
  land_of_innovation:0 "Land of Innovation"
  idealism:0 "Idealism"
  nat_of_img:0 "Nation of Immigration"
+ range_wars:0 "Range Wars"
+ gold_standard:0 "Gold Standard Act"
  #UNITED STATES#
  
  #FRANCE#
@@ -100,6 +108,8 @@
  german_powerhouse:0 "German Powerhouse"
  prussian_militarism:0 "Prussian Militarism"
  clausewitz_ghost:0 "Ghost of Clausewitz"
+ admirality_memos_i:0 "Admirality Memos"
+ admirality_memos_ii:0 "Admirality Memos"
  #GERMANY#
  
  #CHINA#
@@ -130,3 +140,12 @@
  #ITALY#
  Umberto_I:0 "King Umberto I 'the Good'"
  #ITALY#
+ 
+ #CANADA#
+ cultural_disunity:0 "Cultural Disunity"
+ #CANADA#
+ 
+ #ETHIOPIA#
+ protected_by_europe:0 "Protected by Europe"
+ #ETHIOPIA#
+ 

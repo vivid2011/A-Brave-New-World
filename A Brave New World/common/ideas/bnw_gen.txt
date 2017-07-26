@@ -25,6 +25,7 @@ ideas = {
 			
 			modifier = {
 				industrial_capacity_factory = -0.5
+				research_time_factor = 0.1
 			}
 		}
 		GEN_industrializing = {
@@ -35,7 +36,8 @@ ideas = {
 			removal_cost = -100
 			
 			modifier = {
-				industrial_capacity_factory = -0.1
+				industrial_capacity_factory = -0.25
+				research_time_factor = 0.05
 			}
 		}
 		GEN_industrialized = {
@@ -276,5 +278,82 @@ ideas = {
 				political_power_cost = -0.25
 			}
 		}
+		
+		GEN_globalist = {
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -100
+			
+			modifier = {
+				unity_factor = -0.05
+				industrial_capacity_factory = 0.1
+				consumer_goods_factor = 0.05
+				political_power_gain = -0.25
+			}
+		}
+		
+		GEN_chinese_open_door = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		GEN_non_modern_african_nation = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1000
+			modifier = {
+				research_time_factor = 0.04
+			}
+		}
+		
+		GEN_non_modern_asian_nation = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1000
+			modifier = {
+				research_time_factor = 0.03
+			}
+		}
+		
+		GEN_non_modern_middle_east_nation = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1000
+			modifier = {
+				research_time_factor = 0.03
+			}
+		}
+		
+		GEN_agrarian = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1000
+			
+			modifier = {
+				conscription_factor = 0.005
+				MONTHLY_POPULATION = 0.25
+				research_time_factor = 0.03
+				industrial_capacity_factory = -0.25
+			}
+		}
+		
 	}
 }

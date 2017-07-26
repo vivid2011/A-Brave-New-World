@@ -1,0 +1,71 @@
+ideas = {
+
+	country = {
+		protected_by_europe = {
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				army_core_attack_factor = 0.04
+				army_core_defence_factor = 0.04
+			}
+		}
+	
+	}
+	
+	
+	
+	
+	political_advisor = {
+		
+	}
+	
+
+	army_chief = {
+		
+	}
+	
+	air_chief = {
+		
+	}
+	
+	navy_chief = {
+		
+	}
+	
+	
+	high_command = {
+		
+	}
+		
+	tank_manufacturer = { 
+	
+	}
+	
+	naval_manufacturer = { 
+		
+	}
+	
+	aircraft_manufacturer = { 
+		
+	}
+	
+	
+	materiel_manufacturer = {
+		
+	}
+	
+
+	
+	industrial_concern = {
+		
+	}
+	
+	
+	theorist = {
+		
+	}
+}

@@ -1,0 +1,70 @@
+ideas = {
+
+	country = {
+		cultural_disunity = {
+			allowed = {
+				always = yes
+			}
+			
+			removal_cost = -1
+			
+			modifier = {
+				unity_factor = -0.15
+			}
+		}
+	
+	}
+	
+	
+	
+	
+	political_advisor = {
+		
+	}
+	
+
+	army_chief = {
+		
+	}
+	
+	air_chief = {
+		
+	}
+	
+	navy_chief = {
+		
+	}
+	
+	
+	high_command = {
+		
+	}
+		
+	tank_manufacturer = { 
+	
+	}
+	
+	naval_manufacturer = { 
+		
+	}
+	
+	aircraft_manufacturer = { 
+		
+	}
+	
+	
+	materiel_manufacturer = {
+		
+	}
+	
+
+	
+	industrial_concern = {
+		
+	}
+	
+	
+	theorist = {
+		
+	}
+}

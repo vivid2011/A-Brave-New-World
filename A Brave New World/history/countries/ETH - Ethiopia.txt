@@ -18,6 +18,13 @@ create_country_leader = {
 	}
 }
 
+add_ideas = {
+	protected_by_europe
+	GEN_agrarian
+	GEN_non_modern_african_nation
+	GEN_non_industrialized
+}
+
 set_convoys = 5
 
 set_politics = {
