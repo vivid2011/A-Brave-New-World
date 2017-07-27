@@ -46,7 +46,7 @@ division_template = {
 division_template = {
 	name = "German Infantry Volunteers"
 	
-	# TODO: Change to elite infantry varient
+	# TODO: Change to elite infantry variant
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -442,7 +442,7 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_0
+			type = powderless_equipment
 			creator = "ENA"
 		}
 		requested_factories = 6

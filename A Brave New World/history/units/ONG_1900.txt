@@ -5,7 +5,7 @@
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-        infantry = { x = 1 y = 0 }
+        	infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 	}
@@ -19,41 +19,6 @@ units = {
 		division_template = "Boer Militia"
 		start_experience_factor = 0.8
 	}
-	
-	division= {	
-		name = "2nd Orange Infantry Division"
-		location = 12648
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}
-
-	division= {	
-		name = "3rd Orange Infantry Division"
-		location = 12648
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}	
-
-	division= {	
-		name = "4th Orange Infantry Division"
-		location = 12648
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}
-
-	division= {	
-		name = "5th Orange Infantry Division"
-		location = 12648
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}
-
-	division= {	
-		name = "6th Orange Infantry Division"
-		location = 12648
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}	
 
 	#########################
 	## STARTING PRODUCTION ##
@@ -61,8 +26,8 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_1
-			creator = "HOL"
+			type = powderless_equipment
+			creator = "ONG"
 		}
 		requested_factories = 1
 		progress = 0.1

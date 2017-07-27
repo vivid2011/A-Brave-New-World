@@ -1,11 +1,11 @@
 ﻿division_template = {
-	name = "Boer Militia"
+	name = "Transvaal Militia"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
 		infantry = { x = 0 y = 2 }
-        infantry = { x = 1 y = 0 }
+        	infantry = { x = 1 y = 0 }
 		infantry = { x = 1 y = 1 }
 		infantry = { x = 1 y = 2 }
 	}
@@ -16,81 +16,18 @@ units = {
 	division= {	
 		name = "1st Transvaal Infantry Division"
 		location = 10400
-		division_template = "Boer Militia"
+		division_template = "Transvaal Militia"
 		start_experience_factor = 0.8
 	}
 
-	division= {	
-		name = "2nd Transvaal Infantry Division"
-		location = 10400
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}
-
-	division= {	
-		name = "3rd Transvaal Infantry Division"
-		location = 10400
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}
-
-	division= {	
-		name = "4th Transvaal Infantry Division"
-		location = 10400
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}
-
-	division= {	
-		name = "5th Transvaal Infantry Division"
-		location = 10400
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}
-
-	division= {	
-		name = "6th Transvaal Infantry Division"
-		location = 10400
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}
-	
-	division= {	
-		name = "7th Transvaal Infantry Division"
-		location = 10400
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}
-
-	division= {	
-		name = "8th Transvaal Infantry Division"
-		location = 10400
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}
-
-	division= {	
-		name = "9th Transvaal Infantry Division"
-		location = 10400
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}	
-
-	division= {	
-		name = "10th Transvaal Infantry Division"
-		location = 10400
-		division_template = "Boer Militia"
-		start_experience_factor = 0.8
-	}
-	
 	#########################
 	## STARTING PRODUCTION ##
 	#########################
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_1
-			creator = "HOL"
+			type = powderless_equipment
+			creator = "TVL"
 		}
 		requested_factories = 1
 		progress = 0.1

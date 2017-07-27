@@ -2,7 +2,7 @@ NDefines = {
 
 NGame = {
 	START_DATE = "1900.1.1.12",
-	END_DATE = "2020.1.1.1",
+	END_DATE = "2035.12.31.23",
 	MAP_SCALE_PIXEL_TO_KM = 7.114,	-- Yes, we did the math
 	SAVE_VERSION = 3,
 	LAG_DAYS_FOR_LOWER_SPEED = 10,		-- Days of client lag for decrease of gamespeed
