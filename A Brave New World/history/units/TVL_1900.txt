@@ -19,6 +19,7 @@ units = {
 		division_template = "Transvaal Militia"
 		start_experience_factor = 0.8
 	}
+}
 
 	#########################
 	## STARTING PRODUCTION ##
