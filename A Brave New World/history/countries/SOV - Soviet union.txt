@@ -63,7 +63,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/SOV/Vladimir_Lenin.dds"
 	expire = "1924.1.21"
-	ideology = imperial
+	ideology = stalinism
 	traits = {}
 }
 

@@ -39,6 +39,10 @@
  TUR_monarchist:0 "Ottoman Empire"
  TUR_monarchist_DEF:0 "Ottoman Empire"
  TUR_monarchist_ADJ:0 "Ottoman"
+ #United Kingdom
+ ENG_monarchist:0 "United Kingdom"
+ ENG_monarchist_DEF:0 "United Kingdom"
+ ENG_monarchist_ADJ:0 "British"
  # GERMANY
  GER_monarchist:0 "German Empire"
  GER_monarchist_DEF:0 "German Empire"
