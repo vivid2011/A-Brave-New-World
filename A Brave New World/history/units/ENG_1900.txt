@@ -10,7 +10,6 @@
 		infantry = { x = 1 y = 2 }
 	}
 	support = {
-       	engineer = { x = 0 y = 0 }
        	artillery = { x = 0 y = 1 }
 	}
 }
@@ -388,7 +387,7 @@ units = {
 	division= {	
 		name = "1st Cavalry Division"
 		location = 7564 # Brisbane
-		division_template = "Cavalry Division"
+		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -431,7 +430,7 @@ units = {
 	division= {	
 		name = "2nd Cavalry Division"
 		location = 7798 # Melbourne
-		division_template = "Cavalry Division"
+		division_template = "Cavalry Brigade"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -439,7 +438,7 @@ units = {
 	
 	##### NAVAL UNITS #####
 	### HOME COMMAND ###
-	navy = {		
+	#navy = {		
 		## EXAMPLE!
 		#navy = {				
 		#	name = "4th Submarine Flotilla"			
@@ -462,7 +461,7 @@ units = {
 		#	ship = { name = "HMS Rainbow" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }	
 		#	ship = { name = "HMS Regulus" definition = submarine equipment = { submarine_1 = { amount = 1 owner = ENG version_name = "O/P/R Class" } } }	
 		#}				
-	}
+	#}
 
 	#########################
 	## STARTING PRODUCTION ##
