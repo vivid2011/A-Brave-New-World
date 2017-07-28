@@ -46,9 +46,6 @@ equipments = {
 		
 		archetype = infantry_equipment
 		#picture = 
-		is_buildable = no
-		type = infantry
-		group_by = archetype
 		
 		interface_category = interface_category_land
 		active = yes
@@ -108,10 +105,7 @@ equipments = {
 		archetype = infantry_equipment
 		parent = infantry_1900_equipment
 		
-		picture = archetype_infantry_equipment		
-		is_buildable = no
-		type = infantry
-		group_by = archetype
+		#picture = archetype_infantry_equipment		
 		
 		interface_category = interface_category_land
 		
@@ -147,10 +141,7 @@ equipments = {
 		archetype = infantry_equipment
 		parent = infantry_1904_equipment
 		
-		picture = archetype_infantry_equipment		
-		is_buildable = no
-		type = infantry
-		group_by = archetype
+		#picture = archetype_infantry_equipment
 		
 		interface_category = interface_category_land
 		
@@ -186,10 +177,7 @@ equipments = {
 		archetype = infantry_equipment
 		parent = infantry_1908_equipment
 		
-		picture = archetype_infantry_equipment		
-		is_buildable = no
-		type = infantry
-		group_by = archetype
+		#picture = archetype_infantry_equipment
 		
 		interface_category = interface_category_land
 		
@@ -225,10 +213,7 @@ equipments = {
 		archetype = infantry_equipment
 		parent = infantry_1912_equipment
 		
-		picture = archetype_infantry_equipment		
-		is_buildable = no
-		type = infantry
-		group_by = archetype
+		#picture = archetype_infantry_equipment
 		
 		interface_category = interface_category_land
 		
@@ -264,10 +249,7 @@ equipments = {
 		archetype = infantry_equipment
 		parent = infantry_1914_equipment
 		
-		picture = archetype_infantry_equipment		
-		is_buildable = no
-		type = infantry
-		group_by = archetype
+		#picture = archetype_infantry_equipment
 		
 		interface_category = interface_category_land
 		
@@ -303,10 +285,7 @@ equipments = {
 		archetype = infantry_equipment
 		parent = infantry_1918_equipment
 		
-		picture = archetype_infantry_equipment		
-		is_buildable = no
-		type = infantry
-		group_by = archetype
+		#picture = archetype_infantry_equipment
 		
 		interface_category = interface_category_land
 		
@@ -342,10 +321,7 @@ equipments = {
 		archetype = infantry_equipment
 		parent = infantry_1918_equipment
 		
-		picture = archetype_infantry_equipment		
-		is_buildable = no
-		type = infantry
-		group_by = archetype
+		#picture = archetype_infantry_equipment
 		
 		interface_category = interface_category_land
 		
@@ -381,10 +357,7 @@ equipments = {
 		archetype = infantry_equipment
 		parent = infantry_1920_equipment
 		
-		picture = archetype_infantry_equipment		
-		is_buildable = no
-		type = infantry
-		group_by = archetype
+		#picture = archetype_infantry_equipment
 		
 		interface_category = interface_category_land
 		
@@ -420,10 +393,7 @@ equipments = {
 		archetype = infantry_equipment
 		parent = infantry_1924_equipment
 		
-		picture = archetype_infantry_equipment		
-		is_buildable = no
-		type = infantry
-		group_by = archetype
+		#picture = archetype_infantry_equipment
 		
 		interface_category = interface_category_land
 		
