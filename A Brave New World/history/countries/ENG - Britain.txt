@@ -22,13 +22,15 @@ add_ideas = {
 
 set_convoys = 800
 
-declare_war_on = {
-	target = TVL
-	type = take_state
-}
-declare_war_on = {
-	target = ONG
-	type = take_state
+create_country_leader = {
+	name = "Queen Victoria"
+	desc = ""
+	picture = "gfx/leaders/ENG/Queen_Victoria.dds"
+	expire = "1901.1.22"
+	ideology = imperial
+	traits = {
+		#
+	}
 }
 
 create_country_leader = {
@@ -83,7 +85,7 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 90
+			popularity = 18
 		}
 
 		fascism = {
@@ -95,11 +97,11 @@ set_politics = {
 		}
 		
 		monarchist = {
-			popularity = 7
+			popularity = 79
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = monarchist
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = yes ##suspended through duration of war, which is handled via event

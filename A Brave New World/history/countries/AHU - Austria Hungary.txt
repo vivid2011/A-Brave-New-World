@@ -68,8 +68,19 @@ set_politics = {
 create_country_leader = {
 	name = "Emperor Franz Joseph I"
 	desc = ""
-	picture = "gfx/leaders/AHU/FranzJoseph.dds"
+	picture = "gfx/leaders/AHU/Francis_Joseph.dds"
 	expire = "1916.11.21"
+	ideology = imperial
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Emperor Charles I"
+	desc = ""
+	picture = "gfx/leaders/AHU/Charles_I.dds"
+	expire = "1922.4.1"
 	ideology = imperial
 	traits = {
 		#

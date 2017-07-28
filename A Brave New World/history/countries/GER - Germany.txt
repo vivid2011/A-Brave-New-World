@@ -27,11 +27,11 @@ set_politics = {
 
 	parties = {
 		democratic = { 
-			popularity = 15
+			popularity = 33
 		}
 
 		fascism = {
-			popularity = 20
+			popularity = 2
 		}
 		
 		communism = {
@@ -61,11 +61,33 @@ add_ideas = {
 }
 
 create_country_leader = {
+	name = "Kaiser Wilhelm II"
+	desc = ""
+	picture = "gfx/leaders/GER/Wilhelm_II.dds"
+	expire = "1941.6.4"
+	ideology = imperial
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
 	name = "Chancellor Prince Chlodwig zu Hohenlohe-Schillingsfürst"
 	desc = ""
 	picture = "gfx/leaders/GER/Chlodwig.dds"
 	expire = "1900.10.17"
 	ideology = imperial
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Otto Wels"
+	desc = ""
+	picture = "gfx/leaders/GER/Otto_Wels.dds"
+	expire = "1939.9.16"
+	ideology = liberalism
 	traits = {
 		#
 	}

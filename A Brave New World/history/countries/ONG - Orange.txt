@@ -49,6 +49,11 @@ set_politics = {
 	
 }
 
+declare_war_on = {
+	target = ENG
+	type = take_state
+}
+
 create_country_leader = {
 	name = "President Martinus Theunis Steyn"
 	picture = "gfx/leaders/ONG/MarthinusTheunisSteyn.dds"

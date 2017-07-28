@@ -47,6 +47,11 @@ set_politics = {
 	
 }
 
+declare_war_on = {
+	target = ENG
+	type = take_state
+}
+
 create_country_leader = {
 	name = "President Paul Kruger"
 	picture = gfx/leaders/TVL/Kruger.dds
