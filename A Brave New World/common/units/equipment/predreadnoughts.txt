@@ -1,11 +1,11 @@
 equipments = {
 
-	pre_dreadnought = {
-		year = 1889
+	light_cruiser = {
+		year = 1922
 
 		is_archetype = yes
 		is_buildable = no
-		type = capital_ship
+		type = screen_ship
 		
 		upgrades = {
 			ship_reliability_upgrade
@@ -14,52 +14,58 @@ equipments = {
 			ship_anti_air_upgrade
 		}
 		
-		#interface_category = interface_category_screen_ships
+		interface_category = interface_category_screen_ships
 
-		ap_attack = 16
-		attack = 14
-		fire_range = 22
-		torpedo_attack = 1
-		sub_attack = 1
+		ap_attack = 5.5
+		attack = 6
+		fire_range = 18
+		torpedo_attack = 5
+		sub_attack = 2
 		
-		anti_air_attack = 1
+		anti_air_attack = 3
 		
-		armor_value = 8
-		evasion = 12
+		armor_value = 5
+		evasion = 50
 		
-		surface_detection = 20
-		sub_detection = 2
-		surface_visibility = 25
-		naval_speed = 16
+		surface_detection = 15
+		sub_detection = 20
+		surface_visibility = 15
+		naval_speed = 28
 		reliability = 0.8
 		
-		naval_range = 1800
+		naval_range = 2400
 		
-		max_strength = 250		
+		max_strength = 100		
 		
 		port_capacity_usage = 1
 		
-		build_cost_ic = 7100
+		build_cost_ic = 3100
 		resources = {
-			oil = 2
+			oil = 1
 			steel = 2
 		}
 		
-		manpower = 3450
+		manpower = 600
 	}
 
-	pre_dreadnought_0 = {
-		year = 1890
+	light_cruiser_1 = {
+		year = 1922
 
-		archetype = pre_dreadnought
+		archetype = light_cruiser
 		priority = 30
+
+		type = { 
+			screen_ship
+			anti_air
+		}
+
 	}
 	
-	pre_dreadnought_1 = {
-		year = 1900
+	light_cruiser_2 = {
+		year = 1936
 
-		archetype = pre_dreadnought
-		parent = pre_dreadnoughts_0
+		archetype = light_cruiser
+		parent = light_cruiser_1
 		priority = 30
 		
 		ap_attack = 7
@@ -71,32 +77,36 @@ equipments = {
 		anti_air_attack = 9
 		
 		armor_value = 6
-		evasion = 8
+		evasion = 60
 		
 		surface_detection = 20
 		sub_detection = 25
-		naval_speed = 20
+		naval_speed = 30
 		reliability = 0.85
 
-		naval_range = 2000
+		naval_range = 3000
 		
-		max_strength = 300
+		max_strength = 120
 		
-		port_capacity_usage = 2
+		port_capacity_usage = 1
 		
+		type = { 
+			screen_ship
+			anti_air
+		}
 		build_cost_ic = 3400
 		resources = {
-			oil = 2
+			oil = 1
 			steel = 3
 		}
-		manpower = 3450
+		manpower = 800
 	}
 	
-	pre_dreadnought_2 = {
-		year = 1905
+	light_cruiser_3 = {
+		year = 1940
 
-		archetype = pre_dreadnought
-		parent = pre_dreadnought_2
+		archetype = light_cruiser
+		parent = light_cruiser_2
 		priority = 30
 		
 		ap_attack = 8
@@ -105,28 +115,74 @@ equipments = {
 		torpedo_attack = 9
 		sub_attack = 6
 		
-		anti_air_attack = 2
+		anti_air_attack = 14
 		
-		armor_value = 20
+		armor_value = 7
 		evasion = 68
 		
 		surface_detection = 50
 		sub_detection = 50
-		naval_speed = 24
+		naval_speed = 32
 		reliability = 0.90
 
-		naval_range = 2200
+		naval_range = 4000
 		
-		max_strength = 325
+		max_strength = 140
 		
-		port_capacity_usage = 2
+		port_capacity_usage = 1
 		
-		build_cost_ic = 7600
+		type = { 
+			screen_ship
+			anti_air
+		}
+		build_cost_ic = 3700
 		resources = {
 			oil = 2
-			steel = 2
+			steel = 3
+		}
+		manpower = 960
+	}
+	
+	light_cruiser_4 = {
+		year = 1944
+
+		archetype = light_cruiser
+		parent = light_cruiser_3
+		priority = 30
+		
+		ap_attack = 9
+		attack = 11
+		fire_range = 21
+		torpedo_attack = 10
+		sub_attack = 8
+		
+		anti_air_attack = 17
+		
+		armor_value = 8
+		evasion = 75
+		
+		surface_detection = 70
+		sub_detection = 60
+		naval_speed = 34
+		reliability = 0.92
+
+		naval_range = 4500
+		
+		max_strength = 160
+		
+		port_capacity_usage = 1
+		
+		type = { 
+			screen_ship
+			anti_air
+		}
+		build_cost_ic = 4000
+		resources = {
+			oil = 2
+			steel = 4
 			chromium = 1
 		}
-		manpower = 3900
+		manpower = 1140
 	}
+	
 }
