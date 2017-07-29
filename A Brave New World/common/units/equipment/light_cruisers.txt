@@ -1,7 +1,7 @@
 equipments = {
 
 	light_cruiser = {
-		year = 1922
+		year = 1870
 
 		is_archetype = yes
 		is_buildable = no
@@ -14,7 +14,7 @@ equipments = {
 			ship_anti_air_upgrade
 		}
 		
-		interface_category = interface_category_screen_ships
+		#interface_category = interface_category_screen_ships
 
 		ap_attack = 5.5
 		attack = 6
@@ -47,11 +47,182 @@ equipments = {
 		
 		manpower = 600
 	}
+	
+	light_cruiser_1900 = {
+		year = 1900
+		
+		archetype = light_cruiser
+		priority = 30
 
+		type = { 
+			screen_ship
+			anti_air
+		}
+		
+		ap_attack = 3.5
+		attack = 3
+		fire_range = 12
+		torpedo_attack = 2
+		sub_attack = 1
+		
+		anti_air_attack = 0
+		
+		armor_value = 5
+		evasion = 10
+		
+		surface_detection = 15
+		sub_detection = 2
+		surface_visibility = 15
+		naval_speed = 20
+		reliability = 0.8
+		
+		naval_range = 1000
+		
+		max_strength = 50
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 2000
+		resources = {
+			oil = 1
+			steel = 1
+		}
+		
+		manpower = 300
+	}
+	
+	light_cruiser_1905 = {
+		year = 1905
+		
+		archetype = light_cruiser
+		parent = light_cruiser_1900
+		priority = 30
+
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		
+		ap_attack = 4
+		attack = 6
+		fire_range = 14
+		torpedo_attack = 2
+		sub_attack = 1
+		
+		anti_air_attack = 0
+		
+		armor_value = 5
+		evasion = 20
+		
+		surface_detection = 15
+		sub_detection = 2
+		surface_visibility = 15
+		naval_speed = 20
+		reliability = 0.8
+		
+		naval_range = 1250
+		
+		max_strength = 50
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 2300
+		resources = {
+			oil = 1
+			steel = 1
+		}
+		
+		manpower = 400
+	}
+	
+	light_cruiser_1914 = {
+		year = 1914
+		
+		archetype = light_cruiser
+		parent = light_cruiser_1905
+		priority = 30
+
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		
+		ap_attack = 4.5
+		attack = 6
+		fire_range = 16
+		torpedo_attack = 2
+		sub_attack = 1
+		
+		anti_air_attack = 0
+		
+		armor_value = 5
+		evasion = 35
+		
+		surface_detection = 15
+		sub_detection = 4
+		surface_visibility = 15
+		naval_speed = 22
+		reliability = 0.8
+		
+		naval_range = 1250
+		
+		max_strength = 70
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 2600
+		
+		manpower = 500
+	}
+	
+	light_cruiser_1918 = {
+		year = 1918
+		
+		archetype = light_cruiser
+		parent = light_cruiser_1914
+		priority = 30
+
+		type = { 
+			screen_ship
+			anti_air
+		}
+
+		
+		ap_attack = 4.5
+		attack = 6
+		fire_range = 18
+		torpedo_attack = 2
+		sub_attack = 1
+		
+		anti_air_attack = 0
+		
+		armor_value = 5
+		evasion = 45
+		
+		surface_detection = 15
+		sub_detection = 4
+		surface_visibility = 15
+		naval_speed = 24
+		reliability = 0.8
+		
+		naval_range = 1250
+		
+		max_strength = 85
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 2900
+		
+		manpower = 550
+	}
+	
 	light_cruiser_1 = {
 		year = 1922
 
 		archetype = light_cruiser
+		parent = light_cruiser_1918
 		priority = 30
 
 		type = { 

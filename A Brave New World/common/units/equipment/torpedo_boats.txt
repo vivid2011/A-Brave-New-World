@@ -1,0 +1,212 @@
+equipments = {
+
+	torpedo_boat = { 
+		year = 1865
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		group_by = archetype
+		
+		#interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_armor_upgrade
+			ship_gun_upgrade
+		}
+
+		ap_attack = 16
+		attack = 12
+		fire_range = 17
+		torpedo_attack = 2
+		shore_bombardment = 2
+		
+		anti_air_attack = 0
+		
+		armor_value = 26
+		evasion = 10
+		
+		surface_detection = 10
+		sub_detection = 2
+		surface_visibility = 30
+		naval_speed = 20
+		reliability = 0.65
+
+		naval_range = 1000
+		
+		max_strength = 225
+		port_capacity_usage = 2
+		
+		build_cost_ic = 8000
+		resources = {
+			oil = 1
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 1200
+	}
+
+	torpedo_boat_0 = {
+		year = 1870
+
+		archetype = torpedo_boat
+		priority = 60
+
+	}
+	
+	torpedo_boat_1 = {
+		year = 1880
+
+		archetype = torpedo_boat
+		priority = 60
+		parent = torpedo_boat_0
+		
+		ap_attack = 20
+		attack = 14
+		fire_range = 19
+		torpedo_attack = 3
+		shore_bombardment = 2
+		
+		anti_air_attack = 0
+		
+		armor_value = 26
+		evasion = 10
+		
+		surface_detection = 10
+		sub_detection = 2
+		surface_visibility = 30
+		naval_speed = 20
+
+		naval_range = 1200
+		
+		max_strength = 250
+		port_capacity_usage = 2
+		
+		build_cost_ic = 8200
+		resources = {
+			oil = 1
+			steel = 1
+			chromium = 1
+		}
+
+		manpower = 1300
+	}
+	
+	torpedo_boat_2 = {
+		year = 1900
+
+		archetype = torpedo_boat
+		priority = 60
+		parent = torpedo_boat_1
+		
+		ap_attack = 23
+		attack = 15
+		fire_range = 20
+		torpedo_attack = 3.5
+		shore_bombardment = 2
+		
+		anti_air_attack = 0
+		
+		armor_value = 28
+		evasion = 10
+		
+		surface_detection = 10
+		sub_detection = 2
+		surface_visibility = 30
+		naval_speed = 21
+
+		naval_range = 1800
+		
+		max_strength = 300
+		port_capacity_usage = 2
+		
+		build_cost_ic = 8600
+		resources = {
+			oil = 1
+			steel = 2
+			chromium = 1
+		}
+
+		manpower = 1500
+	}
+	
+	torpedo_boat_3 = {
+		year = 1905
+
+		archetype = torpedo_boat
+		priority = 60
+		parent = torpedo_boat_2
+		
+		ap_attack = 29
+		attack = 21
+		fire_range = 22
+		torpedo_attack = 4
+		shore_bombardment = 2
+		
+		anti_air_attack = 0
+		
+		armor_value = 28
+		evasion = 10
+		
+		surface_detection = 10
+		sub_detection = 2
+		surface_visibility = 30
+		naval_speed = 23
+
+		naval_range = 2100
+		
+		max_strength = 300
+		port_capacity_usage = 2
+		
+		build_cost_ic = 9000
+		resources = {
+			oil = 1
+			steel = 2
+			chromium = 2
+		}
+
+		manpower = 1700
+	}
+	
+	torpedo_boat_4 = {
+		year = 1910
+
+		archetype = torpedo_boat
+		priority = 60
+		parent = torpedo_boat_3
+		
+		ap_attack = 29
+		attack = 21
+		fire_range = 22
+		torpedo_attack = 4
+		shore_bombardment = 2
+		
+		anti_air_attack = 0
+		
+		armor_value = 28
+		evasion = 10
+		
+		surface_detection = 10
+		sub_detection = 2
+		surface_visibility = 30
+		naval_speed = 24
+
+		naval_range = 2600
+		
+		max_strength = 300
+		port_capacity_usage = 2
+		
+		build_cost_ic = 9400
+		resources = {
+			oil = 1
+			steel = 2
+			chromium = 2
+		}
+
+		manpower = 1700
+	}
+
+}

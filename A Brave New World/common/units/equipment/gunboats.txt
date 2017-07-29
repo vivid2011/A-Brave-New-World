@@ -1,0 +1,123 @@
+equipments = {
+
+	gunboats = { 
+		year = 1860
+
+		is_archetype = yes
+		is_buildable = no
+		type = screen_ship
+		group_by = archetype
+		
+		#interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			ship_reliability_upgrade
+			ship_engine_upgrade
+			ship_armor_upgrade
+			ship_gun_upgrade
+		}
+
+		ap_attack = 16
+		attack = 10
+		fire_range = 16
+		torpedo_attack = 0
+		shore_bombardment = 4
+		
+		anti_air_attack = 0
+		
+		armor_value = 14
+		evasion = 4
+		
+		surface_detection = 12
+		sub_detection = 0
+		surface_visibility = 30
+		naval_speed = 20
+		reliability = 0.65
+
+		naval_range = 1000
+		
+		max_strength = 350
+		port_capacity_usage = 2
+		
+		build_cost_ic = 8000
+		resources = {
+			oil = 1
+			steel = 1
+		}
+
+		manpower = 1200
+	}
+
+	gunboats_0 = {
+		year = 1870
+		archetype = gunboats
+		priority = 60
+	}
+	
+	gunboats_1 = {
+		year = 1880
+		archetype = gunboats
+		priority = 60
+		parent = gunboats_1
+		
+		ap_attack = 16
+		attack = 14
+		fire_range = 16
+		torpedo_attack = 0
+		shore_bombardment = 6
+		
+		armor_value = 15
+		evasion = 4
+		
+		surface_detection = 12
+		surface_visibility = 30
+		naval_speed = 15
+
+		naval_range = 1300
+		
+		max_strength = 250
+		port_capacity_usage = 2
+		
+		build_cost_ic = 8200
+		resources = {
+			oil = 1
+			steel = 1
+		}
+
+		manpower = 1500
+	}
+	
+	gunboats_2 = {
+		year = 1898
+		archetype = gunboats
+		parent = gunboats_1
+		priority = 60
+		
+		ap_attack = 16
+		attack = 17
+		fire_range = 18
+		torpedo_attack = 0
+		shore_bombardment = 8
+		
+		armor_value = 17
+		evasion = 4
+		
+		surface_detection = 12
+		surface_visibility = 30
+		naval_speed = 18
+
+		naval_range = 1500
+		
+		max_strength = 300
+		port_capacity_usage = 2
+		
+		build_cost_ic = 8500
+		resources = {
+			oil = 1
+			steel = 2
+		}
+
+		manpower = 1700
+	}
+	
+}

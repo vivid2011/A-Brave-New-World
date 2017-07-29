@@ -1,7 +1,7 @@
 equipments = {
 
 	carrier = {
-		year = 1922
+		year = 1915 # Laid down 1915 by the UK, planned in 1915 by Germany but never built
 
 		is_archetype = yes
 		is_buildable = no
@@ -24,6 +24,55 @@ equipments = {
 		torpedo_attack = 0
 		carrier_size = 45
 		
+		anti_air_attack = 6
+		
+		armor_value = 5
+		evasion = 6
+		
+		surface_detection = 10
+		sub_detection = 5
+		surface_visibility = 30
+		naval_speed = 26
+		reliability = 0.70
+		
+		naval_range = 2000
+		
+		max_strength = 250
+		
+		port_capacity_usage = 2
+
+		# (Describes combat behaviour - hidden stat)
+		offensive_weapons = no
+		
+		build_cost_ic = 12000
+		resources = {
+			oil = 1
+			steel = 2
+			chromium = 1
+		}
+		
+		manpower = 4000
+	}
+	
+	carrier_0 = {
+		year = 1916
+		archetype = carrier
+		priority = 70
+	}
+	
+	carrier_1 = {
+		year = 1922
+
+		archetype = carrier
+		parent = carrier_0
+		priority = 70
+		
+		ap_attack = 0
+		attack = 1
+		fire_range = 15
+		torpedo_attack = 0
+		carrier_size = 55
+		
 		anti_air_attack = 8
 		
 		armor_value = 7
@@ -33,32 +82,21 @@ equipments = {
 		sub_detection = 5
 		surface_visibility = 30
 		naval_speed = 26
-		reliability = 0.70
-		
+		reliability = 0.80
+
 		naval_range = 3000
 		
 		max_strength = 250
 		
 		port_capacity_usage = 2
 
-		# (Describes combat behaviour - hidden stat)
-		offensive_weapons = no
-		
-		build_cost_ic = 8750
+		build_cost_ic = 10000
 		resources = {
 			oil = 1
 			steel = 3
 			chromium = 1
 		}
-		
 		manpower = 4500
-	}
-
-	carrier_1 = {
-		year = 1922
-
-		archetype = carrier
-		priority = 70
 	}
 
 	carrier_2 = {
