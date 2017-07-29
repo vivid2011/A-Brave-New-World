@@ -1,0 +1,41 @@
+﻿division_template = {
+	name = "Infantrie Division"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }		
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }		
+	}
+}
+
+units = {
+	#German Commandant
+	division= {	
+		name = "1st Infantrie Division"
+		location = 6521
+		division_template = "Infantrie Division"
+		start_experience_factor = 0.2
+	}
+}
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = powderless_equipment
+			creator = "GER"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 10
+	}	
+}
+	#####################
