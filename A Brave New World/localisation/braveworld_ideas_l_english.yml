@@ -40,6 +40,8 @@
  # DON'T EXIST IN THE MOD YET #
 
  #GENERIC#
+ GEN_boxer_rebellion_no_calls_to_arms:0 "Boxer Rebellion"
+ GEN_boxer_rebellion_no_calls_to_arms_desc:0 "It would be best for our nation to show the world that we dont use our subjects to bail us out of a foreign rebellion." 
  GEN_leftist_ethos:0 "Leftist Ethos"
  GEN_authoritarian_ethos:0 "Authoritarian Ethos"
  GEN_communism_drift:0 "Communist Drift"
