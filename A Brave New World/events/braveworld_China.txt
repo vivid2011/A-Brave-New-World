@@ -55,11 +55,11 @@ country_event = {
 	
 	trigger = {
 		tag = CHI
-		date > 1900.1.15
+		date > 1900.1.2
 	}
 	
 	mean_time_to_happen = {
-		days = 3
+		days = 1
 	}
 	
 	# Support the Boxers
@@ -124,88 +124,120 @@ country_event = {
 	fire_only_once = yes
 	trigger = {
 		#date > 1900.5.11
-		date > 1900.1.30
+		date > 1900.1.4
 		has_idea = supported_boxers
 	}
+	
+	mean_time_to_happen = {
+		days = 1
+	}	
 	
 	option = {
 		name = china.207.a
 		hidden_effect = {
-			ENA = {
-				transfer_state = 594
-				transfer_state = 591
-				transfer_state = 599
-				transfer_state = 593
+			ENG = {
 				transfer_state = 592
-				transfer_state = 597
-				transfer_state = 614
-				transfer_state = 609
-				transfer_state = 610
-				transfer_state = 595
+			    transfer_state = 593
+		        add_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }				
+			}
+			SOV = {
+				transfer_state = 329
 				transfer_state = 330
-				set_capital = 594
-				
-				add_manpower = 25000000
-				load_oob = "ENA_oob"
+				transfer_state = 714
+				transfer_state = 717
+		        add_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }						
 			}
-			
-			594 = {
-				add_core_of = ENA
+			FRA = {
+				transfer_state = 591
+				transfer_state = 594
+		        add_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }						
 			}
-			
-			591 = {
-				add_core_of = ENA
+			JAP = {
+				transfer_state = 595
+				transfer_state = 596
+		        add_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }						
 			}
-			
-			599 = {
-				add_core_of = ENA
+			GER = {
+				transfer_state = 597
+				transfer_state = 598
+		        add_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }						
 			}
-			
-			593 = {
-				add_core_of = ENA
+			USA = {
+				transfer_state = 613
+		        add_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }						
 			}
-			
-			592 = {
-				add_core_of = ENA
+			AHU = {
+				transfer_state = 614
+		        add_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }						
 			}
-			
-			597 = {
-				add_core_of = ENA
-			}
-			
-			614 = {
-				add_core_of = ENA
-			}
-			
-			609 = {
-				add_core_of = ENA
-			}
-			
-			610 = {
-				add_core_of = ENA
-			}
-			
-			595 = {
-				add_core_of = ENA
-			}
-			
-			330 = {
-				add_core_of = ENA
-			}
-				
-			add_equipment_to_stockpile = {
-				type = infantry_equipment_0
-				amount = 10000000
-				producer = ENA
-			}
+			ITA = {
+				transfer_state = 609
+		        add_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }						
+			}			
+				#set_capital = 594				
+				#add_manpower = 25000000
+				#load_oob = "ENA_oob"				
+			#592 = {
+				#add_core_of = ENA
+			#}
+		
+			#add_equipment_to_stockpile = {
+				#type = infantry_equipment_0
+				#amount = 10000000
+				#producer = ENA
+			#} I'm leaving stuff here to help out the other programmers have example codes. -Duel_Obliteration
 			
 		}
 		
 		CHI = {
 			declare_war_on = {
-				target = ENA
-				type = annex_everything
+				target = ENG
+				type = take_state
 			}
+			declare_war_on = {
+				target = SOV
+				type = take_state
+			}
+			declare_war_on = {
+				target = FRA
+				type = take_state
+			}
+			declare_war_on = {
+				target = JAP
+				type = take_state
+			}
+			declare_war_on = {
+				target = GER
+				type = take_state
+			}
+			declare_war_on = {
+				target = USA
+				type = take_state
+			}	
+			declare_war_on = {
+				target = AHU
+				type = take_state
+			}
+			declare_war_on = {
+				target = ITA
+				type = take_state
+			}			
 			set_national_unity = 0.8
 		}
 	}
@@ -219,7 +251,7 @@ country_event = {
 	
 	trigger = {
 		#date > 1900.5.11
-		date > 1900.1.30
+		date > 1900.1.4
 		has_idea = chinese_betrayer
 	}
 	
@@ -309,67 +341,93 @@ country_event = {
 				is_historical_focus_on = no
 			}
 		}
-		white_peace = ENA
+		white_peace = ENG
+		white_peace = SOV
+		white_peace = FRA
+		white_peace = JAP
+		white_peace = GER
+		white_peace = USA
+		white_peace = AHU
+		white_peace = ITA		
+
 		CHI = {
-			transfer_state = 594
-			transfer_state = 591
-			transfer_state = 599
-			transfer_state = 593
-			transfer_state = 592
-			transfer_state = 597
-			transfer_state = 614
-			transfer_state = 609
-			transfer_state = 610
-			transfer_state = 595
+                country_event = { id = china.211 hours = 2}
 		
-			594 = {
-				remove_core_of = ENA
-			}
-			
-			591 = {
-				remove_core_of = ENA
-			}
-			
-			599 = {
-				remove_core_of = ENA
-			}
-			
-			593 = {
-				remove_core_of = ENA
-			}
-			
-			592 = {
-				remove_core_of = ENA
-			}
-			
-			597 = {
-				remove_core_of = ENA
-			}
-			
-			614 = {
-				remove_core_of = ENA
-			}
-			
-			609 = {
-				remove_core_of = ENA
-			}
-			
-			610 = {
-				remove_core_of = ENA
-			}
-			
-			595 = {
-				remove_core_of = ENA
-			}
-			
-			330 = {
-				remove_core_of = ENA
-			}
+		        transfer_state = 592
+			    transfer_state = 593
+				transfer_state = 329
+				transfer_state = 330
+				transfer_state = 714
+				transfer_state = 717				
+				transfer_state = 591
+				transfer_state = 594
+				transfer_state = 595
+				transfer_state = 596
+				transfer_state = 597
+				transfer_state = 598				
+				transfer_state = 613
+				transfer_state = 614
+				transfer_state = 609
+				
+			#transfer_state = 594
+			#transfer_state = 591
+			#transfer_state = 599
+			#transfer_state = 593
+			#transfer_state = 592
+			#transfer_state = 597
+			#transfer_state = 614
+			#transfer_state = 609
+			#transfer_state = 610
+			#transfer_state = 595
+				
+			#594 = {
+			#	remove_core_of = ENA
+			#} I'm leaving more stuff here to help out the other programmers have example codes. -Duel_Obliteration
+
 		}
-		
-		SOV = {
-			transfer_state = 330
-		}
+
+			ENG = {
+		        remove_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }				
+			}
+			SOV = {
+				transfer_state = 716
+		        remove_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }						
+			}
+			FRA = {
+		        remove_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }						
+			}
+			JAP = {
+		        remove_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }						
+			}
+			GER = {
+		        remove_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }						
+			}
+			USA = {
+		        remove_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }						
+			}
+			AHU = {
+		        remove_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }						
+			}
+			ITA = {
+		        remove_ideas = {
+			       GEN_boxer_rebellion_no_calls_to_arms
+		        }						
+			}
+
 		every_country = {
 			limit = {
 				NOT = {
@@ -384,7 +442,7 @@ country_event = {
 	}
 	
 	option = {
-		name = china.210
+		name = china.210.b
 		ai_chance = {
 			base = 0
 			modifier = {
@@ -406,9 +464,121 @@ country_event = {
 	
 	trigger = {
 		NOT = {
-			country_exists = ENA
+
+       #pre boer colonies not occupied by qing condition	
+		748 = {
+			controller = {
+				tag = CHI
+			}
 		}
-		330 = {
+		747 = {
+			controller = {
+				tag = CHI
+			}
+		}
+		728 = {
+			controller = {
+				tag = CHI
+			}
+		}
+		729 = {
+			controller = {
+				tag = CHI
+			}
+		}
+		326 = {
+			controller = {
+				tag = CHI
+			}
+		}
+
+	   #states not owned by anti boxer alliance countries as demand event is accepted
+       #england
+	    592 = {
+			controller = {
+				tag = ENG
+			}
+		}
+		593 = {
+			controller = {
+				tag = ENG
+			}
+		}
+       #russia		
+		329 = {
+			controller = {
+				tag = SOV  
+			}              
+		}                  
+		330 = {            
+			controller = {
+				tag = SOV
+			}
+		}
+		714 = {
+			controller = {
+				tag = SOV
+			}
+		}
+		717 = {
+			controller = {
+				tag = SOV
+			}
+		}		
+       #france
+		591 = {            
+			controller = {
+				tag = FRA
+			}
+		}
+		594 = {
+			controller = {
+				tag = FRA
+			}
+		}
+       #japan
+		595 = {            
+			controller = {
+				tag = JAP
+			}
+		}
+		596 = {
+			controller = {
+				tag = JAP
+			}
+		}
+       #germany
+		597 = {            
+			controller = {
+				tag = GER
+			}
+		}
+		598 = {
+			controller = {
+				tag = GER
+			}
+		}
+       #united states
+		613 = {            
+			controller = {
+				tag = USA
+			}
+		}
+       #austria hungary	
+		614 = {
+			controller = {
+				tag = AHU
+			}
+		}	
+       #italy	
+		609 = {
+			controller = {
+				tag = ITA
+			}
+		}			
+	}
+ #not a not statement anymore	
+		716 = {
 			controller = {
 				tag = SOV
 			}
@@ -416,13 +586,16 @@ country_event = {
 	}
 	
 	option = {
-		name = china.211
+		name = china.211.a
 		add_ideas = {
 			slaves_of_west
 		}
 	}
 	
 }
+		#NOT = { #^^^^^^^^^^^^^ not statement
+			#country_exists = ENA
+		#}
 
 # ENA loses
 

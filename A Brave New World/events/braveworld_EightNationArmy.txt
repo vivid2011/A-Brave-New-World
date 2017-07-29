@@ -16,11 +16,13 @@ country_event={
 		CHI = {
 			has_war = yes
 		}
-		608 = {
+		NOT = {
+		 608 = {
 			controller ={ 
-				tag = ENA
+				tag = CHI
 			}
-		}
+		 }
+	  }
 	}
 	
 	#Demand to Capitulate
@@ -41,11 +43,16 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		608 = {
-			controller ={
-				tag = ENA
-			}
+		CHI = {
+			has_war = yes
 		}
+		NOT = {
+		 608 = {
+			controller ={ 
+				tag = CHI
+			}
+		 }
+	  }
 	}
 	
 	# Burn Palace

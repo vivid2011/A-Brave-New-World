@@ -1,7 +1,23 @@
 ideas = {
 
 	country = {
-		
+
+		GEN_boxer_rebellion_no_calls_to_arms = {
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -1000
+			
+			modifier = {
+		        ai_call_ally_desire_factor = -1000
+		        ai_join_ally_desire_factor = -1000
+
+		        ai_will_do = {
+			        factor = 1
+		        }
+			}
+		}	
 		GEN_backwards_empire = {
 			allowed = {
 				always = no
