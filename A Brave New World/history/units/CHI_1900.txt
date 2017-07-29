@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Infantry Brigade"
+	name = "Bùbīng lǚ"
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -14,7 +14,7 @@ units = {
 	division= {	
 		name = "1st Royal Guards Division"
 		location = 9843
-		division_template = "Infantry Brigade"
+		division_template = "Bùbīng lǚ"
 		start_experience_factor = 0.2
 	}
 }
