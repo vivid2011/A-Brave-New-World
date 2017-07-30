@@ -1,4 +1,4 @@
-#reload countrycolors
+﻿#reload countrycolors
 
 GER = {
 	color = HSV { 0.1 0.15 0.4 }
@@ -32,10 +32,6 @@ HOL = {	color = rgb { 203 138 74 }
 }
 CZE = {	color = rgb { 54 167 156 }
 		color_ui = rgb { 70 217 203 }
-}
-PRB = {
-	color = rgb { 108 128 135 }
-	color_ui = rgb { 108 128 135 }
 }
 POL = {
 	color = rgb { 197 92 106 }
