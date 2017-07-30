@@ -34,8 +34,8 @@ CZE = {	color = rgb { 54 167 156 }
 		color_ui = rgb { 70 217 203 }
 }
 PRB = {
-	color = rgb { 76 118 133 }
-	color_ui = rgb { 76 118 133 }
+	color = rgb { 108 128 135 }
+	color_ui = rgb { 108 128 135 }
 }
 POL = {
 	color = rgb { 197 92 106 }
