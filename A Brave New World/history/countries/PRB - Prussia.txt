@@ -1,0 +1,84 @@
+﻿capital = 64
+
+oob = "PRB_1900"
+
+# Starting tech
+set_technology = {
+	powderless_equipment = 1
+	
+	horse_drawn_equipment_1 = 1
+	
+	artillery_1869 = 1
+	artillery_1870 = 1
+}
+
+set_research_slots = 3
+set_convoys = 200
+set_national_unity = 0.9
+
+#Trade
+create_import = {
+	resource = tungsten
+	factories = 1
+	exporter = SWE
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 33
+		}
+
+		fascism = {
+			popularity = 2
+		}
+		
+		communism = {
+			popularity = 5
+			banned = yes #default is no
+		}
+		
+		monarchist = {
+			popularity = 60
+		}
+	}
+	
+	ruling_party = monarchist
+	last_election = "None"
+	election_frequency = 0
+	elections_allowed = no
+
+}
+
+add_ideas = {
+	winner_franco_prussian
+	german_powerhouse
+	prussian_militarism
+	clausewitz_ghost
+	german_engineering
+	prussian_discipline
+}
+
+create_country_leader = {
+	name = "Kaiser Wilhelm II"
+	desc = ""
+	picture = "gfx/leaders/PRB/Wilhelm_II.dds"
+	expire = "1941.6.4"
+	ideology = imperial
+	traits = {
+		#
+	}
+}
+
+
+create_country_leader = {
+	name = "Otto Wels"
+	desc = ""
+	picture = "gfx/leaders/PRB/Otto_Wels.dds"
+	expire = "1939.9.16"
+	ideology = liberalism
+	traits = {
+		#
+	}
+}
