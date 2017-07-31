@@ -7,7 +7,7 @@ Projected Beta: January/February
 
 Current Version (Steam): 0.5
 
-Current Version (GitHub): 0.6-beta
+Current Version (GitHub): 0.6-release
 
 # Designations
 X.Y-alpha : The build for GitHub is in an early phase, there is no guarante for stability.
@@ -46,3 +46,8 @@ Umer Zaidi			  - Research, Writer
 AnBrazilianHistorian - Graphics/Art, Brazilian Portuguese translator
 
 Deds (Jorje)		 - Head of Translation, Spanish Translator, Researcher, Graphics
+
+# Past Team Members
+Evan				 - Programming, Head of Programming
+
+JoshGH (Josh)		 - Artist, Head of Graphics/Art	

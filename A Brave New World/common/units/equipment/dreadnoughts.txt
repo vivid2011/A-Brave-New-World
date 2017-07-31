@@ -128,7 +128,7 @@ equipments = {
 	}
 	
 	dreadnought_3 = {
-		year = 1916
+		year = 1918
 
 		archetype = dreadnought
 		parent = dreadnought_2
