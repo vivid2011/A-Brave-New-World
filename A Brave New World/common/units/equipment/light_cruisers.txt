@@ -1,7 +1,7 @@
 equipments = {
 
 	light_cruiser = {
-		year = 1870
+		year = 1898
 
 		is_archetype = yes
 		is_buildable = no
@@ -14,7 +14,7 @@ equipments = {
 			ship_anti_air_upgrade
 		}
 		
-		#interface_category = interface_category_screen_ships
+		interface_category = interface_category_screen_ships
 
 		ap_attack = 5.5
 		attack = 6

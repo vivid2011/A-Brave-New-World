@@ -18,6 +18,101 @@ equipments = {
 
 		ap_attack = 1
 		attack = 1
+		fire_range = 10
+		torpedo_attack = 2
+		sub_attack = 8
+		
+		anti_air_attack = 1
+		
+		armor_value = 0
+		evasion = 50
+		
+		surface_detection = 20
+		sub_detection = 30
+		surface_visibility = 10
+		naval_speed = 28
+		reliability = 0.80
+		
+		naval_range = 1000
+		
+		max_strength = 20
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 700
+		resources = {
+			oil = 1
+			steel = 2
+		}
+		
+		manpower = 150
+	}
+	
+	destroyer_1914 = {
+		year = 1918
+		archetype = destroyer
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+	}
+	
+	destroyer_1918 = {
+		year = 1918
+		archetype = destroyer
+		parent = destroyer_1914
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+		
+		ap_attack = 1
+		attack = 1
+		fire_range = 12
+		torpedo_attack = 2
+		sub_attack = 9
+		
+		anti_air_attack = 1.25
+		
+		armor_value = 0
+		evasion = 60
+		
+		surface_detection = 20
+		sub_detection = 30
+		surface_visibility = 10
+		naval_speed = 30
+		reliability = 0.80
+		
+		naval_range = 1000
+		
+		max_strength = 20
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 800
+		resources = {
+			oil = 1
+			steel = 2
+		}
+		
+		manpower = 200
+	}
+
+	destroyer_1 = {
+		year = 1922
+
+		archetype = destroyer
+		parent = destroyer_1918
+		priority = 20
+		type = { 
+			screen_ship
+			anti_air
+		}
+		
+		ap_attack = 1
+		attack = 1
 		fire_range = 14
 		torpedo_attack = 3
 		sub_attack = 10
@@ -46,18 +141,6 @@ equipments = {
 		}
 		
 		manpower = 250
-	}
-
-	destroyer_1 = {
-		year = 1922
-
-		archetype = destroyer
-		priority = 20
-		type = { 
-			screen_ship
-			anti_air
-		}
-
 	}
 	
 	destroyer_2 = {

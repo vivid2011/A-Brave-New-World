@@ -87,37 +87,4 @@ equipments = {
 		manpower = 1500
 	}
 	
-	gunboats_2 = {
-		year = 1898
-		archetype = gunboats
-		parent = gunboats_1
-		priority = 60
-		
-		ap_attack = 16
-		attack = 17
-		fire_range = 18
-		torpedo_attack = 0
-		shore_bombardment = 8
-		
-		armor_value = 17
-		evasion = 4
-		
-		surface_detection = 12
-		surface_visibility = 30
-		naval_speed = 18
-
-		naval_range = 1500
-		
-		max_strength = 300
-		port_capacity_usage = 2
-		
-		build_cost_ic = 8500
-		resources = {
-			oil = 1
-			steel = 2
-		}
-
-		manpower = 1700
-	}
-	
 }

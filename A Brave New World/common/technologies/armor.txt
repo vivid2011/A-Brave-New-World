@@ -223,7 +223,7 @@ technologies = {
 		
 		path = {
 			leads_to_tech = model_1916_m_tank
-			research_cost_coeff = 1
+			research_cost = 1
 		}
 		
 		ai_will_do = {

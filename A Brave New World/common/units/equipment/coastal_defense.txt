@@ -1,14 +1,14 @@
 equipments = {
 
 	coastal_defense = { 
-		year = 1889
+		year = 1880
 
 		is_archetype = yes
 		is_buildable = no
 		type = capital_ship
 		group_by = archetype
 		
-		#interface_category = interface_category_capital_ships
+		interface_category = interface_category_capital_ships
 		
 		upgrades = {
 			ship_reliability_upgrade
@@ -54,43 +54,6 @@ equipments = {
 		archetype = coastal_defense
 		priority = 60
 
-	}
-	
-	coastal_defense_1 = {
-		year = 1895
-
-		archetype = coastal_defense
-		parent = coastal_defense_0
-		priority = 60
-		
-		ap_attack = 26
-		attack = 18
-		fire_range = 28
-		torpedo_attack = 0
-		shore_bombardment = 12
-		
-		anti_air_attack = 10
-		
-		armor_value = 16
-		evasion = 8
-		
-		surface_detection = 15
-		sub_detection = 1
-		surface_visibility = 30
-		naval_speed = 20
-
-		naval_range = 3000
-
-		max_strength = 325		
-		port_capacity_usage = 2
-
-		build_cost_ic = 9150
-		resources = {
-			oil = 2
-			steel = 2
-		}
-		manpower = 4500
-		
 	}
 
 }

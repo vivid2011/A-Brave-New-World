@@ -1,7 +1,7 @@
 equipments = {
 
 	heavy_cruiser = {
-		year = 1922
+		year = 1916
 
 		is_archetype = yes
 		is_buildable = no
@@ -16,7 +16,54 @@ equipments = {
 			ship_armor_upgrade
 			ship_gun_upgrade
 		}
+		
+		ap_attack = 10
+		attack = 9.5
+		fire_range = 22
+		torpedo_attack = 0
+		shore_bombardment = 2
+		
+		anti_air_attack = 4.5
+		
+		armor_value = 8
+		evasion = 15
+		
+		surface_detection = 12
+		sub_detection = 3
+		surface_visibility = 20
+		naval_speed = 20
+		reliability = 0.75
+		
+		naval_range = 2700
+		
+		max_strength = 150
+		
+		port_capacity_usage = 1
+		
+		build_cost_ic = 3900
+		resources = {
+			oil = 1
+			steel = 2
+		}
+		
+		manpower = 1500
+		
+	}
+	
+	heavy_cruiser_0 = {
+		year = 1918
 
+		archetype = heavy_cruiser
+		priority = 40
+	}
+	
+	heavy_cruiser_1 = {
+		year = 1922
+
+		archetype = heavy_cruiser
+		parent = heavy_cruiser_0
+		priority = 40
+		
 		ap_attack = 11
 		attack = 10
 		fire_range = 24
@@ -47,13 +94,6 @@ equipments = {
 		}
 		
 		manpower = 1500
-	}
-
-	heavy_cruiser_1 = {
-		year = 1922
-
-		archetype = heavy_cruiser
-		priority = 40
 		
 	}
 	

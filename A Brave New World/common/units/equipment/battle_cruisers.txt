@@ -1,7 +1,7 @@
 equipments = {
 
 	battle_cruiser = {
-		year = 1922
+		year = 1905
 
 		is_archetype = yes
 		is_buildable = no
@@ -17,6 +17,204 @@ equipments = {
 			ship_gun_upgrade
 		}
 
+		ap_attack = 24
+		attack = 13
+		fire_range = 27
+		torpedo_attack = 0
+		shore_bombardment = 4
+
+		anti_air_attack = 3
+		
+		armor_value = 17
+		evasion = 12
+		
+		surface_detection = 12
+		sub_detection = 3
+		surface_visibility = 25
+		naval_speed = 23
+		reliability = 0.70
+
+		naval_range = 2400
+		
+		max_strength = 250
+		
+		port_capacity_usage = 1.5
+		
+		build_cost_ic = 6000
+		resources = {
+			oil = 1
+			steel = 2
+		}
+		
+		manpower = 2500
+	}
+	
+	battle_cruiser_1900 = {
+		year = 1900
+		
+		archetype = battle_cruiser
+		priority = 50
+	}
+	
+	battle_cruiser_1905 = {
+		year = 1905
+		parent = battle_cruiser_1900
+		archetype = battle_cruiser
+		priority = 50
+		
+		ap_attack = 26
+		attack = 14
+		fire_range = 27
+		torpedo_attack = 0
+		shore_bombardment = 4
+
+		anti_air_attack = 3
+		
+		armor_value = 17
+		evasion = 12
+		
+		surface_detection = 12
+		sub_detection = 3
+		surface_visibility = 25
+		naval_speed = 24
+		reliability = 0.75
+
+		naval_range = 2600
+		
+		max_strength = 275
+		
+		port_capacity_usage = 1.5
+		
+		build_cost_ic = 6300
+		resources = {
+			oil = 1
+			steel = 2
+		}
+		
+		manpower = 2700
+	}
+	
+	battle_cruiser_1910 = {
+		year = 1910
+		parent = battle_cruiser_1905
+		archetype = battle_cruiser
+		priority = 50
+		
+		ap_attack = 28
+		attack = 16
+		fire_range = 29
+		torpedo_attack = 0
+		shore_bombardment = 4
+
+		anti_air_attack = 3
+		
+		armor_value = 19
+		evasion = 12
+		
+		surface_detection = 12
+		sub_detection = 3
+		surface_visibility = 25
+		naval_speed = 25
+		reliability = 0.75
+
+		naval_range = 2700
+		
+		max_strength = 300
+		
+		port_capacity_usage = 1.5
+		
+		build_cost_ic = 6900
+		resources = {
+			oil = 1
+			steel = 2
+		}
+		
+		manpower = 2900
+	}
+	
+	battle_cruiser_1914 = {
+		year = 1914
+		parent = battle_cruiser_1910
+		archetype = battle_cruiser
+		priority = 50
+		
+		ap_attack = 28
+		attack = 16
+		fire_range = 29
+		torpedo_attack = 0
+		shore_bombardment = 4
+
+		anti_air_attack = 3
+		
+		armor_value = 19
+		evasion = 13
+		
+		surface_detection = 12
+		sub_detection = 3
+		surface_visibility = 25
+		naval_speed = 27
+		reliability = 0.75
+
+		naval_range = 2700
+		
+		max_strength = 325
+		
+		port_capacity_usage = 1.5
+		
+		build_cost_ic = 7200
+		resources = {
+			oil = 1
+			steel = 2
+		}
+		
+		manpower = 3200
+	}
+	
+	battle_cruiser_1918 = {
+		year = 1918
+		parent = battle_cruiser_1914
+		archetype = battle_cruiser
+		priority = 50
+		
+		ap_attack = 28
+		attack = 16
+		fire_range = 29
+		torpedo_attack = 0
+		shore_bombardment = 4
+
+		anti_air_attack = 3
+		
+		armor_value = 19
+		evasion = 13
+		
+		surface_detection = 12
+		sub_detection = 3
+		surface_visibility = 25
+		naval_speed = 27
+		reliability = 0.75
+
+		naval_range = 2900
+		
+		max_strength = 325
+		
+		port_capacity_usage = 1.5
+		
+		build_cost_ic = 7400
+		resources = {
+			oil = 1
+			steel = 3
+		}
+		
+		manpower = 3400
+	}
+	
+	battle_cruiser_1 = {
+		year = 1922
+
+		archetype = battle_cruiser
+		parent = battle_cruiser_1918
+		priority = 50
+		
 		ap_attack = 30
 		attack = 16
 		fire_range = 32
@@ -48,13 +246,6 @@ equipments = {
 		}
 		
 		manpower = 3500
-	}
-	
-	battle_cruiser_1 = {
-		year = 1922
-
-		archetype = battle_cruiser
-		priority = 50
 	}
 	
 	battle_cruiser_2 = {

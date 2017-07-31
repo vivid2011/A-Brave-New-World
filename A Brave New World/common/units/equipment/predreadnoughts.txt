@@ -14,12 +14,12 @@ equipments = {
 			ship_anti_air_upgrade
 		}
 		
-		#interface_category = interface_category_screen_ships
+		interface_category = interface_category_capital_ships
 
 		ap_attack = 16
 		attack = 14
 		fire_range = 22
-		torpedo_attack = 1
+		torpedo_attack = 0
 		sub_attack = 1
 		
 		anti_air_attack = 1
@@ -35,7 +35,7 @@ equipments = {
 		
 		naval_range = 1800
 		
-		max_strength = 250		
+		max_strength = 200		
 		
 		port_capacity_usage = 1
 		
@@ -59,13 +59,13 @@ equipments = {
 		year = 1900
 
 		archetype = pre_dreadnought
-		parent = pre_dreadnoughts_0
+		parent = pre_dreadnought_0
 		priority = 30
 		
 		ap_attack = 7
 		attack = 8
 		fire_range = 19
-		torpedo_attack = 8
+		torpedo_attack = 0
 		sub_attack = 5
 		
 		anti_air_attack = 9
@@ -80,7 +80,7 @@ equipments = {
 
 		naval_range = 2000
 		
-		max_strength = 300
+		max_strength = 240
 		
 		port_capacity_usage = 2
 		
@@ -96,19 +96,19 @@ equipments = {
 		year = 1905
 
 		archetype = pre_dreadnought
-		parent = pre_dreadnought_2
+		parent = pre_dreadnought_1
 		priority = 30
 		
 		ap_attack = 8
 		attack = 9
 		fire_range = 20
-		torpedo_attack = 9
+		torpedo_attack = 0
 		sub_attack = 6
 		
 		anti_air_attack = 2
 		
 		armor_value = 20
-		evasion = 68
+		evasion = 8
 		
 		surface_detection = 50
 		sub_detection = 50
@@ -117,7 +117,7 @@ equipments = {
 
 		naval_range = 2200
 		
-		max_strength = 325
+		max_strength = 260
 		
 		port_capacity_usage = 2
 		

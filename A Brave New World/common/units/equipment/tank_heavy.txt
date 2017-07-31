@@ -148,8 +148,8 @@ equipments = {
 		armor_value = 30
 
 		#Offensive Abilities
-		soft_attack = 8
-		hard_attack = 8
+		soft_attack = 9
+		hard_attack = 10
 		ap_attack = 25
 		air_attack = 0
 
@@ -217,6 +217,45 @@ equipments = {
 		upgrades = {  }
 		
 		#Misc Abilities
+		maximum_speed = 4
+		reliability = 0.6
+
+		#Defensive Abilities
+		defense = 7.2
+		breakthrough = 34
+		armor_value = 50
+
+		#Offensive Abilities
+		soft_attack = 15
+		hard_attack = 20
+		ap_attack = 52
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 14
+		
+		build_cost_ic = 28
+		resources = {
+			oil = 1
+			steel = 3
+			chromium = 3
+		}
+	}
+	
+	model_1928_m_tank = {
+		year = 1928
+
+		archetype = heavy_tank_equipment
+		priority = 90
+		visual_level = 1
+		parent = model_1924_m_tank
+		is_convertable = yes
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {  }
+		
+		#Misc Abilities
 		maximum_speed = 5
 		reliability = 0.8
 
@@ -226,8 +265,8 @@ equipments = {
 		armor_value = 75
 
 		#Offensive Abilities
-		soft_attack = 26
-		hard_attack = 38
+		soft_attack = 23
+		hard_attack = 34
 		ap_attack = 60
 		air_attack = 0
 
@@ -262,7 +301,7 @@ equipments = {
 		#Offensive Abilities
 		soft_attack = 26
 		hard_attack = 38
-		ap_attack = 60
+		ap_attack = 80
 		air_attack = 0
 
 		#Space taken in convoy
