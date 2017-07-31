@@ -23,11 +23,13 @@ state={
 		1936.1.1 = {
 			owner = MAN
 			add_core_of = MAN
-			infrastructure = 4
-			arms_factory = 3
-			air_base = 5
-			1150 = {
-				naval_base = 6
+				buildings = {
+				infrastructure = 4
+				arms_factory = 3
+				air_base = 5
+				1150 = {
+					naval_base = 6
+				}
 			}
 		}
 		
