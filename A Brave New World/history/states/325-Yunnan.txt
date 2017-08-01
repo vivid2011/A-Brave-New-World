@@ -29,6 +29,10 @@ state={
 			industrial_complex = 2
 		}
 		
+		1912.2.12 = {
+			owner = YUN
+		}
+		
 		1938.10.25 = {
 			owner = CHI
 		}

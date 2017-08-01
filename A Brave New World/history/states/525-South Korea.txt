@@ -27,6 +27,10 @@ state=
 			}
 		}
 		
+		1910.8.29 = {
+			owner = JAP
+		}
+		
 		victory_points = {
 			4056 1 
 		}

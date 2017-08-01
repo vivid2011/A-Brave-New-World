@@ -1,0 +1,92 @@
+bookmarks = {
+	bookmark = {
+		name = "DRUMSOFWAR_NAME"
+		desc = "DRUMSOFWAR_DESC"
+		date = 1914.7.1.1
+		picture = "GFX_select_date_1900"
+		default_country = "AHU"
+	
+		FRA = {
+			history = FRA_DRUMSOFWAR_DESC
+			ideology = democratic
+			ideas={
+				#loser_francoprussian_war
+				#paris_commune_effects
+			}
+		}
+		USA = {
+			history = ENG_DRUMSOFWAR_DESC
+			ideology = democratic
+			ideas = {
+				home_of_the_free
+			}
+		}
+		ENG = {
+			history = ENG_DRUMSOFWAR_DESC
+			ideology = democratic
+			ideas = {
+				#pax_britannia
+				#britannia_rules_waves
+				#economic_boom
+			}
+			
+		}
+		GER = {
+			history = GER_DRUMSOFWAR_DESC
+			ideology = monarchist
+			ideas={
+				#winner_francoprussian_war
+				#economic_boom
+				#german_milit_excellence
+			}
+		}
+		AHU = {
+			history = AHU_DRUMSOFWAR_DESC
+			ideology = monarchist
+			ideas={
+				#franz_ferdinad
+				#empire_in_decline
+				#divided_empire
+			}			
+		}
+		ITA={
+			history = ITA_DRUMSOFWAR_DESC
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		SOV = {
+			history = SOV_DRUMSOFWAR_DESC
+			ideology = monarchist
+			ideas = {
+				#modernizing
+				#absolute_monarchy
+			}
+		}
+
+		"---"={
+			history = "OTHER_DRUMSOFWAR_DESC"
+		}
+		
+		"JAP"={
+			minor = yes
+			history = "JAP_DRUMSOFWAR_DESC"
+			ideology = monarchist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

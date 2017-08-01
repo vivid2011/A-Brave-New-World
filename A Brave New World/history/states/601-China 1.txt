@@ -18,6 +18,10 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
+		
+		1912.2.12 = {
+			owner = TIB
+		}
 
 		1939.1.1 = {
 			buildings = {

@@ -21,6 +21,10 @@ state={
 			}
 		}
 		
+		1912.2.12 = {
+			owner = GXC
+		}
+		
 		1919.6.28 = {
 			buildings = {
 				infrastructure = 2

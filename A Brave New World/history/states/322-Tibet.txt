@@ -21,6 +21,11 @@ state={
 		victory_points = {
 			5033 5 
 		}
+		
+		1912.2.12 = {
+			owner = TIB
+		}
+		
 		add_core_of = TIB
 	}
 

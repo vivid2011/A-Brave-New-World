@@ -21,6 +21,10 @@ state={
 			}
 		}
 		
+		1903.11.3 = {
+			owner = PAN
+		}
+		
 		1919.6.28 = {
 			buildings = {
 				infrastructure = 4

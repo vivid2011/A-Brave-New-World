@@ -14,7 +14,11 @@ state={
 		buildings = {
 			infrastructure = 1
 		}
-
+		
+		1912.2.12= {
+			owner = SIK
+		}
+		
 	}
 
 	provinces={

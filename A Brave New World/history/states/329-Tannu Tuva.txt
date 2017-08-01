@@ -18,6 +18,11 @@ state={
 			arms_factory = 1
 			industrial_complex = 1
 		}
+		
+		1912.2.12 = {
+			owner = TAN
+		}
+		
 		victory_points = {
 			10627 3
 		}

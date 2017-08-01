@@ -17,6 +17,10 @@ state={
 			}
 		}
 		
+		1903.1.22 = {
+			owner = USA
+		}
+		
 		1919.6.28 = {
 			buildings = {
 				infrastructure = 4

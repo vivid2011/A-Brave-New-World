@@ -18,7 +18,11 @@ state={
 		
 		victory_points = {
 			4052 1
-		}	
+		}
+		
+		1910.8.29 = {
+			owner = JAP
+		}
 
 		add_core_of = KOR
 	}

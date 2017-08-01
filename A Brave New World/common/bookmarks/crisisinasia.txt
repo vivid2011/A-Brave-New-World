@@ -1,0 +1,93 @@
+bookmarks = {
+	bookmark = {
+		name = "CRISISINASIA_NAME"
+		desc = "CRISISINASIA_DESC"
+		date = 1904.2.1.1
+		picture = "GFX_select_date_1900"
+		default_country = "JAP"
+	
+		FRA = {
+			history = FRA_CRISISINASIA_DESC
+			ideology = democratic
+			ideas={
+				#loser_francoprussian_war
+				#paris_commune_effects
+			}
+		}
+		USA = {
+			history = USA_CRISISINASIA_DESC
+			ideology = democratic
+			ideas = {
+				home_of_the_free
+			}
+		}
+		ENG = {
+			history = ENG_CRISISINASIA_DESC
+			ideology = democratic
+			ideas = {
+				#pax_britannia
+				#britannia_rules_waves
+				#economic_boom
+			}
+			
+		}
+		GER = {
+			history = GER_CRISISINASIA_DESC
+			ideology = monarchist
+			ideas={
+				#winner_francoprussian_war
+				#economic_boom
+				#german_milit_excellence
+			}
+		}
+		AHU = {
+			history = AHU_CRISISINASIA_DESC
+			ideology = monarchist
+			ideas={
+				#franz_ferdinad
+				#empire_in_decline
+				#divided_empire
+			}			
+		}
+		JAP={
+			history = JAP_CRISISINASIA_DESC
+			ideology = monarchist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		SOV = {
+			history = SOV_CRISISINASIA_DESC
+			ideology = monarchist
+			ideas = {
+				#modernizing
+				#absolute_monarchy
+				#
+			}
+		}
+
+		"---"={
+			history = "OTHER_CRISISINASIA_DESC"
+		}
+		
+		"ITA"={
+			minor = yes
+			history = "ITA_CRISISINASIA_DESC"
+			ideology = monarchist
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}
