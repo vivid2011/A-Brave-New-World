@@ -17,7 +17,7 @@ state={
 				infrastructure = 6
 			}
 		}
-		
+		add_core_of = BAV
 		add_core_of = GER
 	}
 
