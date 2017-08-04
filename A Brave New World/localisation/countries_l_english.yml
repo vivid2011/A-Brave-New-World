@@ -119,6 +119,10 @@
  ITA_monarchist:0 "Kingdom of Italy"
  ITA_monarchist_DEF:0 "Kingdom of Italy"
  ITA_monarchist_ADJ:0 "Italian"
+ # DENMARK
+ DEN_monarchist:0 "Kingdom of Denmark"
+ DEN_monarchist_DEF:0 "Kingdom of Denmark"
+ DEN_monarchist_ADJ:0 "Danish"
  #QING
  CHI_monarchist:0 "Qing Empire"
  CHI_monarchist_DEF:0 "Qing Empire"
