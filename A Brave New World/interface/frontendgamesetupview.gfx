@@ -184,34 +184,20 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_select_date_1914"
+		texturefile = "gfx/interface/select_date_1914.dds"
+	}
+	
+	#1919
+	
+	spriteType = {
 		name = "GFX_select_date_1936"
 		texturefile = "gfx/interface/select_date_1936.dds"
 	}
 	
-	spriteType = {
-		name = "GFX_select_date_1946"
-		texturefile = "gfx/interface/select_date_1946.dds"
-	}
-
-	spriteType = {
-		name = "GFX_select_date_1962"
-		texturefile = "gfx/interface/select_date_1962.dds"
-	}
-
-	spriteType = {
-		name = "GFX_select_date_1975"
-		texturefile = "gfx/interface/select_date_1975.dds"
-	}
-
-	spriteType = {
-		name = "GFX_select_date_1991"
-		texturefile = "gfx/interface/select_date_1991.dds"
-	}
-
-	spriteType = {
-		name = "GFX_select_date_2011"
-		texturefile = "gfx/interface/select_date_2011.dds"
-	}
+	#1945
+	
+	#1999
 
 	spriteType = {
 		name = "GFX_disconnected_button"
