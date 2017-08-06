@@ -1,4 +1,4 @@
-sub_units = {
+equipments = {
 	
 	
 	very_light_armor = {

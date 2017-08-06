@@ -1,4 +1,4 @@
-sub_units = {
+equipments = {
 
 	medium_armor = {
 		sprite = "medium_armor"

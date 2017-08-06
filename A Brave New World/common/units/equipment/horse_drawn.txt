@@ -45,12 +45,5 @@ equipments = {
 		archetype = armored_equipment
 		priority = 30			
 	}
-	
-	horse_drawn_equipment_2 = {
-		year = 1900
-
-		archetype = armored_equipment
-		priority = 30
-	}
 
 }
