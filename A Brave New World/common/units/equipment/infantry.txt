@@ -45,7 +45,7 @@ equipments = {
 		year = 1870
 		
 		archetype = infantry_equipment
-		#picture = 
+		#picture = GFX_infantry1870_weapon
 		
 		interface_category = interface_category_land
 		active = yes
@@ -283,7 +283,7 @@ equipments = {
 	infantry_1918_equipment = {
 		year = 1918
 		archetype = infantry_equipment
-		parent = infantry_1918_equipment
+		parent = infantry_1916_equipment
 		
 		#picture = archetype_infantry_equipment
 		
