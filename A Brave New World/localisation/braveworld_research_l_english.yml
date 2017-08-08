@@ -9,6 +9,26 @@
  ## ACTUAL TECHNOLOGY ##
  #WW1#
  
+ #Air
+ dirt_runway:0 "Dirt Runway"
+ smooth_runway:0 "Smooth Runway"
+ paved_runway:0 "Paved Runway"
+ organized_flight_patterns:0 "Organized Flight Patterns"
+ air_traffic_control:0 "Air Traffic Control"
+ radio_atc:0 "Raido ATC"
+ modern_airbase:0 "Modern Airbases"
+ 
+ anti_air_1:0 "MG AA I"
+ anti_air_2:0 "MG AA II"
+ anti_air_3:0 "AA Cannons"
+ anti_air_4:0 "SAMs"
+ anti_air_5:0 "Guided SAMs"
+ 
+ early_concept_and_engine:0 "Early Concepts"
+ flight_duration_improvements_1:0 "Flight Duration I"
+ flight_duration_improvements_2:0 "Flight Duration II"
+ 
+ 
  #Support
  tech_field_hospital_1908:0 "WWI Field Hospitals I"
  tech_field_hospital_1912:0 "WWI Field Hospitals II"

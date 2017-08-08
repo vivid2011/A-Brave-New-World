@@ -109,7 +109,7 @@ equipments = {
 	}
 	
 	cv_interwar_fighter_equipment_0 = {
-		year = 1928
+		year = 1924
 
 		archetype = interwar_fighter_equipment
 		parent = interwar_fighter_equipment_0

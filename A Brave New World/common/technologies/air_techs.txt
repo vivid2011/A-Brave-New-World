@@ -630,7 +630,7 @@ technologies = {
 	interwar_fighter_plane_1 = {
 		
 		enable_equipments = {
-			interwar_fighter_plane_0
+			interwar_fighter_equipment_0
 		}
 		
 		research_cost = 1
@@ -682,7 +682,7 @@ technologies = {
 	interwar_fighter_plane_2 = {
 		
 		enable_equipments = {
-			interwar_fighter_plane_1
+			interwar_fighter_equipment_1
 		}
 		
 		research_cost = 1
@@ -2008,9 +2008,9 @@ technologies = {
 		}
 		
 		categories = {
-			medium_air
-			tactical_bomber
+			heavy_air
 			air_equipment
+			cat_strategic_bomber
 		}
 		
 		ai_will_do = {
@@ -2036,9 +2036,9 @@ technologies = {
 		}
 		
 		categories = {
-			medium_air
-			tactical_bomber
+			heavy_air
 			air_equipment
+			cat_strategic_bomber
 		}
 		
 		ai_will_do = {
@@ -2049,7 +2049,7 @@ technologies = {
 	interwar_strat_bomber_plane_1 = {
 		
 		enable_equipments = {
-			interwar_strat_bomber_plane_0
+			interwar_strat_bomber_equipment_0
 		}
 		
 		research_cost = 1
@@ -2065,9 +2065,9 @@ technologies = {
 		}
 		
 		categories = {
-			medium_air
-			tactical_bomber
+			heavy_air
 			air_equipment
+			cat_strategic_bomber
 		}
 		
 		ai_will_do = {
@@ -2078,7 +2078,7 @@ technologies = {
 	interwar_strat_bomber_plane_2 = {
 		
 		enable_equipments = {
-			interwar_strat_bomber_plane_1
+			interwar_strat_bomber_equipment_1
 		}
 		
 		research_cost = 1
@@ -2094,9 +2094,9 @@ technologies = {
 		}
 		
 		categories = {
-			medium_air
-			tactical_bomber
+			heavy_air
 			air_equipment
+			cat_strategic_bomber
 		}
 		
 		ai_will_do = {

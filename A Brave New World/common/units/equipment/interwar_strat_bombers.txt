@@ -59,7 +59,7 @@ equipments = {
 	}
 	
 	interwar_strat_bomber_equipment_1 = {
-		year = 1924
+		year = 1928
 
 		archetype = interwar_strat_bomber_equipment
 		parent = interwar_strat_bomber_equipment_0
