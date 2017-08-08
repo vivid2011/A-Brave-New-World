@@ -16,6 +16,10 @@ state={
 			9914 5 
 		}
 		
+		1913.5.30 = {
+			owner = ALB
+		}
+		
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -26,7 +30,6 @@ state={
 		}
 		
 		1919.6.28 = {
-			owner = ALB
 			buildings = {
 				infrastructure = 3
 				arms_factory = 1

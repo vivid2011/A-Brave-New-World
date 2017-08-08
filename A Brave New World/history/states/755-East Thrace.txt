@@ -14,8 +14,12 @@ state={
 			infrastructure = 3
 		}
 		
-		1919.6.28={
+		1913.5.30 = {
 			owner = BUL
+		}
+		
+		1919.6.28={
+			owner = GRE
 			buildings = {
 				infrastructure = 2
 			}
