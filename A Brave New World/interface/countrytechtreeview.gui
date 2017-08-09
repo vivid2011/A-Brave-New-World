@@ -2250,7 +2250,7 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "light_cruiser_1900_tree"
-				position = { x = 150 y = 350}
+				position = { x = 2250 y = 350}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"

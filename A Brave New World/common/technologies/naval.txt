@@ -415,7 +415,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1905
+		start_year = 1900
 		
 		folder = {
 			name = naval_folder
@@ -454,7 +454,7 @@ technologies = {
 		
 		research_cost = 1.5
 
-		start_year = 1910
+		start_year = 1905
 		
 		folder = {
 			name = naval_folder
@@ -497,7 +497,7 @@ technologies = {
 		
 		folder = {
 			name = naval_folder
-			position = { x = 0 y = 13 }
+			position = { x = 0 y = 19 }
 		}
 		
 		ai_will_do = {
@@ -536,7 +536,7 @@ technologies = {
 		
 		folder = {
 			name = naval_folder
-			position = { x = 0 y = 19 }
+			position = { x = 0 y = 25 }
 		}
 		
 		ai_will_do = {
@@ -581,7 +581,7 @@ technologies = {
 		
 		folder = {
 			name = naval_folder
-			position = { x = 0 y = 25 }
+			position = { x = 0 y = 31 }
 		}
 		
 		ai_will_do = {
@@ -626,7 +626,7 @@ technologies = {
 		
 		folder = {
 			name = naval_folder
-			position = { x = 0 y = 31 }
+			position = { x = 0 y = 37 }
 		}
 		
 		ai_will_do = {
@@ -670,7 +670,7 @@ technologies = {
 		
 		folder = {
 			name = naval_folder
-			position = { x = 0 y = 37 }
+			position = { x = 0 y = 43 }
 		}
 		
 		ai_will_do = {
@@ -710,7 +710,7 @@ technologies = {
 		
 		folder = {
 			name = naval_folder
-			position = { x = 0 y = 43 }
+			position = { x = 0 y = 49 }
 		}
 		
 		ai_will_do = {
