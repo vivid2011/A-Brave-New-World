@@ -10,6 +10,8 @@ set_technology = {
 	
 	torpedo_boat_0 = 1
 	gunboat_0 = 1
+	
+	dirt_runway = 1
 }
 
 set_country_flag = monroe_doctrine

@@ -11,6 +11,7 @@ state={
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 3
+			air_base = 1
 		}
 		
 		1919.6.28 = {

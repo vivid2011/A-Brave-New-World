@@ -23,6 +23,8 @@ set_technology = {
 	ironclad_1 = 1
 	
 	pre_1900_landing_craft = 1
+	
+	dirt_runway = 1
 }
 
 #Monroe Doctrine

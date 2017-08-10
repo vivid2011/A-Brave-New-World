@@ -20,6 +20,7 @@ state={
 			5112 = {
 				naval_base = 1
 			}
+			air_base = 1
 		}
 		
 		1919.6.28 = {
