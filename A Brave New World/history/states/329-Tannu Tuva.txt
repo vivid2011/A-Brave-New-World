@@ -20,7 +20,11 @@ state={
 		}
 		
 		1912.2.12 = {
-			owner = TAN
+			owner = SOV
+		}
+		
+		1919.1.1 = {
+			owner = TAN # Move to date SOV fell apart
 		}
 		
 		victory_points = {

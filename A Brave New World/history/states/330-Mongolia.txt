@@ -25,10 +25,11 @@ state={
 		}
 		
 		1912.2.12 = {
-			owner = MON
+			owner = SOV
 		}
 		
 		1919.6.28 ={
+			owner = MON # Move to date Monarchy collapsed
 			buildings = {
 				infrastructure = 2
 				arms_factory = 1
