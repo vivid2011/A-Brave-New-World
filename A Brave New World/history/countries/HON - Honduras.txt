@@ -6,6 +6,7 @@ oob = "HON_1900"
 set_technology = {
 	powderless_equipment = 1
 }
+
 set_country_flag = monroe_doctrine
 
 set_convoys = 10
@@ -50,7 +51,7 @@ create_country_leader = {
 	create_country_leader = {
 		name = "Tiburcio Carías Andino"
 		desc = "POLITICS_TIBURCIO_CARIAS_ANDINO_DESC"
-		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		picture = "gfx/leaders/SouthAmerica/Portrait_South_America_Generic_2.dds"
 		expire = "1965.1.1"
 		ideology = conservatism
 		traits = {

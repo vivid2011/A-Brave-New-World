@@ -5,6 +5,7 @@ oob = "PAR_1900"
 # Starting tech
 set_technology = {
 	powderless_equipment = 1
+	
 	artillery_1869 = 1
 }
 

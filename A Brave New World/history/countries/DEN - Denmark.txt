@@ -12,6 +12,10 @@ set_technology = {
 	horse_drawn_equipment_1  = 1
 	
 	artillery_1869 = 1
+	
+	torpedo_boat_0 = 1
+	light_cruiser_1900 = 1
+	gunboat_0 = 1
 }
 
 create_country_leader = {
@@ -137,7 +141,6 @@ create_country_leader = {
 	#oob = "DEN_1939"
 	set_technology = {
 		early_bomber = 1
-		gw_artillery = 1
 		interwar_artillery = 1
 		interwar_antiair = 1
 		infantry_weapons2 = 1

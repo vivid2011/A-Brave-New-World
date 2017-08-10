@@ -7,6 +7,7 @@ set_research_slots = 3
 # Starting tech
 set_technology = {
 	powderless_equipment = 1
+	
 	artillery_1869 = 1
 }
 
@@ -78,3 +79,4 @@ create_country_leader = {
 	traits = {
 		
 	}
+}

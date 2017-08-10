@@ -4,7 +4,6 @@
 set_technology = {
 	powderless_equipment = 1
 	infantry_weapons = 1
-	gwtank = 1
 }
 
 set_convoys = 20

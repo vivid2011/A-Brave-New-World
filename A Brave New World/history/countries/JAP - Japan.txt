@@ -15,8 +15,18 @@ add_ideas = {
 
 set_technology = {
 	powderless_equipment = 1
+	
 	artillery_1869 = 1
+	
 	horse_drawn_equipment_1 = 1
+	
+	torpedo_boat_0 = 1
+	torpedo_boat_1 = 1
+	light_cruiser_1900 = 1
+	gunboat_0  = 1
+	ironclad_0 = 1
+	
+	pre_1900_landing_craft = 1
 }
 
 create_import = {
@@ -76,7 +86,6 @@ create_country_leader = {
 		motorised_infantry = 1
 		marines  = 1
 		gw_artillery = 1
-		gwtank = 1
 		basic_light_tank = 1
 		#basic_heavy_tank = 1  # PLACEHOLDER
 		#basic_medium_tank = 1 # PLACEHOLDER

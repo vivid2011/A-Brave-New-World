@@ -4,7 +4,7 @@
 
 # Starting tech
 set_technology = {
-	powderless_equipment
+	powderless_equipment = 1
 	infantry_1900_equipment = 1
 	infantry_1904_equipment = 1
 	infantry_1908_equipment = 1

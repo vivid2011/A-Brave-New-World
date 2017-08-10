@@ -18,6 +18,8 @@ set_technology = {
 	powderless_equipment = 1
 	
 	artillery_1869 = 1
+	
+	torpedo_boat_0 = 1
 }
 
 set_convoys = 15
@@ -113,7 +115,6 @@ set_politics = {
 	
 	#oob = "SIA_1939"
 	set_technology = {
-		gwtank = 1
 		tech_support = 1
 		tech_recon = 1
 		support_weapons = 1

@@ -6,9 +6,16 @@ set_research_slots = 3
 
 set_technology = {
 	powderless_equipment = 1
+	
 	horse_drawn_equipment_1 = 1
+	
 	artillery_1869 = 1
 	artillery_1870 = 1
+	
+	ironclad_0 = 1
+	gunboat_0 = 1
+	light_cruiser_1900 = 1
+	torpedo_boat_0 = 1
 }
 
 set_convoys = 50

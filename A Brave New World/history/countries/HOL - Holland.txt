@@ -21,6 +21,12 @@ set_technology = {
 	horse_drawn_equipment_1 = 1
 	
 	artillery_1869 = 1
+	
+	torpedo_boat_0 = 1
+	light_cruiser_1900 = 1
+	gunboat_0 = 1
+	
+	pre_1900_landing_craft = 1
 }
 
 set_convoys = 500

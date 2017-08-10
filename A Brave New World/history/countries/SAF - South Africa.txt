@@ -63,20 +63,58 @@ set_technology = {
 	
 	basic_light_tank = 1
 	
+	early_concept_and_engine = 1
+	flight_duration_improvements_1 = 1
+	flight_duration_improvements_2 = 1
+	
+	ww1_fighter_plane_1 = 1
+	ww1_fighter_plane_2 = 1
+	ww1_fighter_plane_3 = 1
+	cv_ww1_fighter_plane_3 = 1
+	interwar_fighter_plane_1 = 1
+	cv_interwar_fighter_plane_1 = 1
+	interwar_fighter_plane_2 = 1
+	cv_interwar_fighter_plane_2 = 1
 	early_fighter = 1
 	cv_early_fighter = 1
 	
+	ww1_tac_bomber_plane_1 = 1
+	ww1_tac_bomber_plane_2 = 1
+	ww1_tac_bomber_plane_3 = 1
+	interwar_tact_bomber_plane_1 = 1
+	interwar_tact_bomber_plane_2 = 1
 	cv_naval_bomber1 = 1
 	naval_bomber1 = 1
 	early_bomber = 1
 	
 	CAS1 = 1
 	
+	torpedo_boat_0 = 1
+	torpedo_boat_1 = 1
+	torpedo_boat_2 = 1
+	torpedo_boat_3 = 1
+	torpedo_boat_4 = 1
+
+	destroyer_1914 = 1
+	destroyer_1918 = 1
 	early_destroyer = 1
 	
+	pre_1900_landing_craft = 1
+	pre_ww1_landing_craft = 1
+	ww1_landing_craft = 1
+	ww1_landing_craft_2 = 1
 	transport = 1
 	
+	dirt_runway = 1
+	smooth_runway = 1
+	paved_runway = 1
+	organized_flight_patterns = 1
+	air_traffic_control = 1
+	
 	trench_warfare = 1
+	
+	anti_air_1 = 1
+	anti_air_2 = 1
 	
 	fleet_in_being = 1
 }

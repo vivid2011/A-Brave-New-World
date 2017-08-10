@@ -2,7 +2,7 @@
 
 oob = "ENG_1900"
 
-set_research_slots = 4
+set_research_slots = 3
 
 set_national_unity = 0.6
 
@@ -10,8 +10,20 @@ set_national_unity = 0.6
 set_technology = {
 	powderless_equipment = 1
 	horse_drawn_equipment_1  = 1
+	
 	artillery_1869 = 1
 	artillery_1870 = 1
+	
+	ironclad_0 = 1
+	ironclad_1 = 1
+	coastal_defense_0 = 1
+	gunboat_0 = 1
+	gunboat_1 = 1
+	light_cruiser_1900 = 1
+	torpedo_boat_0 = 1
+	torpedo_boat_1 = 1
+
+	pre_1900_landing_craft = 1
 }
 
 add_ideas = {

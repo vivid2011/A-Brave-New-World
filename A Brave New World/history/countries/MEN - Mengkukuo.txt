@@ -15,7 +15,6 @@ set_technology = {
 	infantry_1920_equipment = 1
 	infantry_1924_equipment = 1
 	infantry_1928_equipment = 1
-	
 }
 
 set_politics = {

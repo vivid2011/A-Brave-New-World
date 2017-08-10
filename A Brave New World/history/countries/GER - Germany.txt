@@ -10,6 +10,15 @@ set_technology = {
 	
 	artillery_1869 = 1
 	artillery_1870 = 1
+	
+	torpedo_boat_0
+	torpedo_boat_1
+	light_cruiser_1900 = 1
+	gunboat_0 = 1
+	coastal_defense_0 = 1
+	ironclad_0 = 1
+	sumbarine_1900 = 1
+	pre_1900_landing_craft = 1
 }
 
 set_research_slots = 3

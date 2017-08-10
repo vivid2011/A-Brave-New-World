@@ -7,7 +7,9 @@ set_research_slots = 2
 
 set_technology = {
 	powderless_equipment = 1
+	
 	horse_drawn_equipment_1 = 1
+	
 	artillery_1869 = 1
 	artillery_1870 = 1
 }

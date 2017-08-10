@@ -8,8 +8,12 @@ add_ideas = {
 
 set_technology = {
 	powderless_equipment = 1
+	
 	horse_drawn_equipment_1 = 1
+	
 	artillery_1869 = 1
+	
+	torpedo_boat_0 = 1
 }
 
 set_convoys = 5
@@ -147,7 +151,6 @@ create_country_leader = {
 		fighter1 = 1
 		early_bomber = 1
 		tactical_bomber1 = 1
-		gwtank = 1
 		basic_light_tank = 1
 		gw_artillery = 1
 		interwar_artillery = 1

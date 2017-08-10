@@ -4,8 +4,68 @@
 
 # Starting tech
 set_technology = {
+	powderless_equipment = 1
+	infantry_1900_equipment = 1
+	infantry_1904_equipment = 1
+	infantry_1908_equipment = 1
+	infantry_1912_equipment = 1
+	infantry_1914_equipment = 1
+	infantry_1916_equipment = 1
+	infantry_1916_equipment = 1
+	infantry_1918_equipment = 1
+	infantry_1920_equipment = 1
+	infantry_1924_equipment = 1
+	infantry_1928_equipment = 1
 	infantry_weapons = 1
-	mass_assault = 1
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 0
+		}
+
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 100
+			#banned = no #default is no
+		}
+	}
+	
+	ruling_party = communism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+add_ideas = {
+	closed_economy
+	service_by_requirement
+	tot_economic_mobilisation
+}
+
+add_opinion_modifier = { target = CHI modifier = hostile_status }
+
+create_country_leader = {
+	name = "Mao Zedong"
+	desc = "POLITICS_MAO_ZEDONG_DESC"
+	picture = "gfx/leaders/CHI/Portrait_China_Mao_Zedong.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		cornered_fox
+	}
+}
+
+create_field_marshal = {
+	name = "Mao Zedong"
+	portrait_path = "gfx/leaders/CHI/Portrait_China_Mao_Zedong.dds"
+	traits = { defensive_doctrine }
+	skill = 4
 }
 
 1939.1.1 = {
@@ -86,29 +146,6 @@ set_technology = {
 	}
 }
 
-set_politics = {
-
-	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
-			popularity = 0
-		}
-		
-		communism = {
-			popularity = 100
-			#banned = no #default is no
-		}
-	}
-	
-	ruling_party = communism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-
 1939.1.1 = {
 	set_politics = {
 
@@ -132,30 +169,4 @@ set_politics = {
 		election_frequency = 48
 		elections_allowed = no
 	}
-}
-
-add_ideas = {
-	closed_economy
-	service_by_requirement
-	tot_economic_mobilisation
-}
-
-add_opinion_modifier = { target = CHI modifier = hostile_status }
-
-create_country_leader = {
-	name = "Mao Zedong"
-	desc = "POLITICS_MAO_ZEDONG_DESC"
-	picture = "gfx/leaders/CHI/Portrait_China_Mao_Zedong.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		cornered_fox
-	}
-}
-
-create_field_marshal = {
-	name = "Mao Zedong"
-	portrait_path = "gfx/leaders/CHI/Portrait_China_Mao_Zedong.dds"
-	traits = { defensive_doctrine }
-	skill = 4
 }

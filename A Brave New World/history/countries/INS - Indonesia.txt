@@ -8,6 +8,10 @@ set_research_slots = 2
 set_technology = {
 	artillery_1869 = 1
 	powderless_equipment = 1
+	
+	gunboat_0 = 1
+	torpedo_boat_0 = 1
+	pre_1900_landing_craft = 1
 }
 
 set_convoys = 25
@@ -142,7 +146,6 @@ set_cosmetic_tag = INS_HOL # Netherlands East Indies
 	complete_national_focus = production_effort
 	
 	set_technology = {
-		gwtank = 1
 		basic_light_tank = 1
 		interwar_artillery = 1
 		interwar_antiair = 1

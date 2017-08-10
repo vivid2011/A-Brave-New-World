@@ -14,6 +14,15 @@ set_technology = {
 	
 	artillery_1869 = 1
 	artillery_1870 = 1
+	
+	torpedo_boat_0 = 1
+	torpedo_boat_1 = 1
+	light_cruiser_1900 = 1
+	gunboat_0 = 1
+	ironclad_0 = 1
+	ironclad_1 = 1
+	
+	pre_1900_landing_craft = 1
 }
 
 #Monroe Doctrine

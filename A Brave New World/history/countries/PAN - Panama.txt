@@ -6,6 +6,7 @@
 set_technology = {
 	powderless_equipment = 1
 }
+
 set_country_flag = monroe_doctrine
 
 set_convoys = 10
