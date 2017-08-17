@@ -1,19 +1,20 @@
 
 state={
-	id=106
-	name="STATE_106"
+	id=789
+	name="STATE_789" # Debar
 	resources={
-		chromium=116.000
-		aluminium=32.000
+		chromium=20
+		aluminium=32
 	}
 
 	history={
 		owner = TUR
-
+		
+		add_core_of = YUG
 		add_core_of = SER
 		add_core_of = BUL
-		add_core_of = GRE
-		add_core_of = YUG		
+		add_core_of = GRE		
+		add_core_of = ALB
 		
 		buildings = {
 			infrastructure = 2
@@ -33,17 +34,13 @@ state={
 				air_base = 2
 			}
 		}
-		victory_points = {
-			3882 1 
-		}
-		#add_core_of = MCE
 
 	}
 
 	provinces={
-		974 3865 3882 11832 11856
+		833 867
 	}
-	manpower=594942
+	manpower=384515
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

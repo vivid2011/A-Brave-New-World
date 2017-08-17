@@ -1,10 +1,10 @@
 state= {
-	id=341
-	name="STATE_341"
-	manpower = 1404509
+	id=793
+	name="STATE_793"
+	manpower = 371481
 	resources={
-		chromium= 21
-		steel = 5
+		chromium = 63
+		steel = 15
 	}
 	
 	state_category = city
@@ -16,31 +16,23 @@ state= {
 			9833 20
 		}
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			industrial_complex = 1
-			dockyard = 1
-			arms_factory = 1
-			9833 = {
-				naval_base = 5
-			}
 		}
 		
 		1919.6.28 = {
 			buildings = {
-				infrastructure = 5
+				infrastructure = 4
 				industrial_complex = 1
 				dockyard = 1
-				arms_factory = 2
-				air_base = 4
-				9833 = {
-					naval_base = 8
-				}
+				air_base = 1
 			}
 		}
 		
 		add_core_of = TUR
 	}
-	provinces=
-	{
-9833 11829 	}
+	provinces={
+    849 922 3879 3893 6895 11842 	
+   }
+
 }

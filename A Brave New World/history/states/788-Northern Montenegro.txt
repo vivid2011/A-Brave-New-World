@@ -1,26 +1,20 @@
+
 state={
-	id=751
-	name="STATE_751" # Prizren
-	provinces={
-		6940 9849 9874
-	}
-	manpower = 595500
+	id=788
+	name="STATE_788" # Northern Montenegro
+	manpower = 395104
 	
 	state_category = rural
 	
 	resources={
-		chromium=12
-		aluminium=36
+		chromium=2
+		aluminium=6
 	}
 
 	history={
 		owner = TUR
 		add_core_of = SER
-		add_core_of = ALB		
-		
-		1913.5.30 = {
-			owner = SER
-		}
+		add_core_of = MNT
 	
 		1918.12.1 = {
 			owner = YUG
@@ -37,5 +31,9 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 		}
+	}
+
+	provinces={
+		937 3922 6913
 	}
 }
