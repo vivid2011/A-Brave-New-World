@@ -2,7 +2,7 @@
 state={
 	id=792
 	name="STATE_792" # Southern Bulgaria
-	manpower = 191276
+	manpower = 591276
 
 
 	state_category = town
