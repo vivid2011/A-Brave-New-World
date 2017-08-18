@@ -2,7 +2,7 @@
 state={
 	id=787
 	name="STATE_787"# Pristina
-	manpower = 1531297
+	manpower = 571279
 	
 	state_category = town
 	
