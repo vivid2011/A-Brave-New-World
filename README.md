@@ -5,9 +5,9 @@ State of the Mod: Alpha
 
 Projected Beta: January/February
 
-Current Version (Steam): 0.6
+Current Version (Steam): 0.65
 
-Current Version (ModDB): 0.6
+Current Version (ModDB): 0.65
 
 Current Version (GitHub): 0.7-alpha
 
