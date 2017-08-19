@@ -20,6 +20,11 @@ set_technology = {
 	early_destroyer = 1
 	early_submarine = 1	
 	trench_warfare = 1
+	
+	individual_craft = 1
+	family_based_crafts = 1
+	artisans = 1
+	craftsman = 1
 }
 
 1939.1.1 = {

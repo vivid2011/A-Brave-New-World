@@ -3,6 +3,9 @@
 # Starting Tech
 set_technology = {
 	powderless_equipment = 1
+	
+	individual_craft = 1
+	family_based_crafts = 1
 }
 
 set_research_slots = 2

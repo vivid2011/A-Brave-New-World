@@ -12,6 +12,10 @@ set_technology = {
 	gunboat_0 = 1
 	torpedo_boat_0 = 1
 	pre_1900_landing_craft = 1
+	
+	individual_craft = 1
+	family_based_crafts = 1
+	artisans = 1
 }
 
 set_convoys = 25

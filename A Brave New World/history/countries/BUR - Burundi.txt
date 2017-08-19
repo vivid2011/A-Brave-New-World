@@ -4,6 +4,11 @@ oob = "BUR_1900"
 
 set_technology = {
 	powderless_equipment = 1
+	
+	individual_craft = 1
+	family_based_crafts = 1
+	artisans = 1
+	craftsman = 1
 }
 
 set_politics = {

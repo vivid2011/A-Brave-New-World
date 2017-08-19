@@ -25,6 +25,11 @@ set_technology = {
 	pre_1900_landing_craft = 1
 	
 	dirt_runway = 1
+	
+	individual_craft = 1
+	family_based_crafts = 1
+	artisans = 1
+	craftsman = 1
 }
 
 #Monroe Doctrine

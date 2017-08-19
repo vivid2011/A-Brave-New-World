@@ -9,7 +9,12 @@ set_technology = {
 	horse_drawn_equipment_1  = 1
 	
 	artillery_1869 = 1
+	
+	individual_craft = 1
+	family_based_crafts = 1
+	artisans = 1
 }
+
 set_country_flag = monroe_doctrine
 
 set_convoys = 10

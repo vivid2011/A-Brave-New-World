@@ -17,6 +17,11 @@ set_technology = {
 	infantry_1924_equipment = 1
 	infantry_1928_equipment = 1
 	infantry_weapons = 1
+	
+	individual_craft = 1
+	family_based_crafts = 1
+	artisans = 1
+	craftsman = 1
 }
 
 set_politics = {

@@ -4,6 +4,8 @@ oob = "NEP_1900"
 
 set_technology = {
 	powderless_equipment = 1
+	
+	individual_craft = 1
 }
 
 create_country_leader = {

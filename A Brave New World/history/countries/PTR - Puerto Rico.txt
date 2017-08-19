@@ -6,6 +6,9 @@ oob = "PTR_1900"
 set_technology = {
 	powderless_equipment = 1
 	artillery_1869 = 1
+	individual_craft = 1
+	family_based_crafts = 1
+	artisans = 1
 }
 
 set_convoys = 5

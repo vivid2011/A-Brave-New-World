@@ -7,6 +7,9 @@ set_technology = {
 	artillery_1869 = 1
 	
 	powderless_equipment = 1
+	
+	individual_craft = 1
+	family_based_crafts = 1
 }
 
 set_convoys = 10

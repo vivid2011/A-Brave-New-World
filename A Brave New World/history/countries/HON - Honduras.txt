@@ -5,6 +5,10 @@ oob = "HON_1900"
 # Starting tech
 set_technology = {
 	powderless_equipment = 1
+	
+	individual_craft = 1
+	family_based_crafts = 1
+	artisans = 1
 }
 
 set_country_flag = monroe_doctrine

@@ -26,6 +26,11 @@ set_technology = {
 	model_1916_m_tank = 1
 	model_1917_m_tank = 1
 	model_1918_m_tank = 1
+	
+	individual_craft = 1
+	family_based_crafts = 1
+	artisans = 1
+	craftsman = 1
 }
 
 set_convoys = 5
