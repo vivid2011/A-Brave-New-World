@@ -1,8 +1,200 @@
 technologies = {
-
+	
+	individual_craft = {
+		production_factory_max_efficiency_factor = 0.02
+		
+		path = {
+			leads_to_tech = family_based_crafts 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 0
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	
+	family_based_crafts = {
+		production_factory_max_efficiency_factor = 0.02
+		
+		path = {
+			leads_to_tech = artisans 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 500
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	
+	artisans = {
+		production_factory_max_efficiency_factor = 0.075
+		
+		path = {
+			leads_to_tech = craftsman 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1670
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	
+	craftsman = {
+		production_factory_max_efficiency_factor = 0.07375
+		
+		path = {
+			leads_to_tech = hand_assembly 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1760
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	
+	hand_assembly = {
+		production_factory_max_efficiency_factor = 0.07375
+		
+		path = {
+			leads_to_tech = organized_assembly 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1800
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	
+	organized_assembly = {
+		production_factory_max_efficiency_factor = 0.07375
+		
+		path = {
+			leads_to_tech = assembly_line 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1870
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 20 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	
+	assembly_line = {
+		production_factory_max_efficiency_factor = 0.07375
+		
+		path = {
+			leads_to_tech = mechanized_assembly 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1870
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 24 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	
+	mechanized_assembly = {
+		production_factory_max_efficiency_factor = 0.07375
+		
+		path = {
+			leads_to_tech = basic_machine_tools 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1870
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 28 }
+		}
+		
+		ai_will_do = {
+			factor = 50
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	
 	basic_machine_tools = {
 	
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.07375
 
 		
 		path = {
@@ -24,7 +216,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 0 }
+			position = { x = 0 y = 32 }
 		}
 		
 		ai_will_do = {
@@ -39,7 +231,7 @@ technologies = {
 	#Machine tools branch	
 	improved_machine_tools = {
 	
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.07375
 
 		path = {
 			leads_to_tech = advanced_machine_tools 
@@ -56,7 +248,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 36 }
 		}
 		
 		ai_will_do = {
@@ -75,7 +267,7 @@ technologies = {
 	
 	advanced_machine_tools = {
 	
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.07375
 		
 		path = {
 			leads_to_tech = assembly_line_production 
@@ -87,7 +279,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 40 }
 		}
 		
 		ai_will_do = {
@@ -106,7 +298,7 @@ technologies = {
 	
 	assembly_line_production = {
 	
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.07375
 		
 		#path = {
 		#	leads_to_tech = improved_machine_tools 
@@ -129,7 +321,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 0 y = 8 }
+			position = { x = 0 y = 44 }
 		}
 		
 		ai_will_do = {
@@ -148,7 +340,7 @@ technologies = {
 	
 	flexible_line = {
 
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.07375
 		line_change_production_efficiency_factor = 0.2
 		
 		research_cost = 2.5
@@ -158,9 +350,14 @@ technologies = {
 			streamlined_line
 		}
 		
+		path = {
+			leads_to_tech = automated_assembly
+			research_cost_coeff = 1
+		}
+		
 		folder = {
 			name = industry_folder
-			position = { x = -1 y = 10 }
+			position = { x = -1 y = 48 }
 		}
 		
 		ai_will_do = {
@@ -179,7 +376,7 @@ technologies = {
 	
 	streamlined_line = {
 
-		production_factory_max_efficiency_factor = 0.1
+		production_factory_max_efficiency_factor = 0.07375
 		production_factory_efficiency_gain_factor = 0.1
 			
 		research_cost = 2.5
@@ -189,9 +386,14 @@ technologies = {
 			flexible_line
 		}
 		
+		path = {
+			leads_to_tech = automated_assembly
+			research_cost_coeff = 1
+		}
+		
 		folder = {
 			name = industry_folder
-			position = { x = 1 y = 10 }
+			position = { x = 1 y = 48 }
 		}
 		
 		ai_will_do = {
@@ -200,6 +402,67 @@ technologies = {
 			modifier = {
 				factor = 10
 				date > "1943.1.1"
+			}
+			
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	
+	automated_assembly = {
+
+		production_factory_max_efficiency_factor = 0.07375
+		production_factory_efficiency_gain_factor = 0.1
+			
+		research_cost = 2.5
+		start_year = 1950
+		
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 52 }
+		}
+		
+		path = {
+			leads_to_tech = robotic_assembly
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 20
+			
+			modifier = {
+				factor = 10
+				date > "1950.1.1"
+			}
+			
+		}
+		
+		categories = {
+			industry
+		}
+	}
+	
+	robotic_assembly = {
+
+		production_factory_max_efficiency_factor = 0.07375
+		production_factory_efficiency_gain_factor = 0.1
+			
+		research_cost = 2.5
+		start_year = 1990
+		
+		folder = {
+			name = industry_folder
+			position = { x = 0 y = 56 }
+		}
+		
+		ai_will_do = {
+			factor = 20
+			
+			modifier = {
+				factor = 10
+				date > "1990.1.1"
 			}
 			
 		}
