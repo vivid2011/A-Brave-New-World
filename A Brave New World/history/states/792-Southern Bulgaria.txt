@@ -1,39 +1,37 @@
 
 state={
-	id=211
-	name="STATE_211"
-	manpower = 1575499
+	id=792
+	name="STATE_792" # Southern Bulgaria
+	manpower = 591276
 
 
 	state_category = town
 
 	history={
-		owner = BUL
-		victory_points = {
-			9783 5
-		}
+		owner = TUR
+
+		add_core_of = BUL		
+		
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-			9783 = {
-				naval_base = 1
-			}
 		}
 		
 		1919.6.28 = {
+		
+		owner = BUL		
+		
 			buildings = {
 				infrastructure = 4
 				industrial_complex = 2
-				9783 = {
-					naval_base = 3
-				}
+				9902 = {
+					naval_base = 1
+				}				
 			}
 		}
-		
-		add_core_of = BUL
 	}
 
 	provinces={
-		649 6967 9612 9769 9783 9919 
+		6857 9818 3937 11813 893 9862 9888 9902
 	}
 }

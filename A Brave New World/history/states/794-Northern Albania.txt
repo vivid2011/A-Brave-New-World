@@ -1,20 +1,17 @@
 
 state={
-	id=44
-	name="STATE_44"
-	manpower = 401200
+	id=794
+	name="STATE_794" # Northern Albania
+	manpower = 301400
 	resources={
-		aluminium=2
-		chromium=2
+		aluminium=4
+		chromium=6
 	}
 	
 	state_category = town
 	
 	history={
 		owner = TUR
-		victory_points = {
-			9914 5 
-		}
 		
 		1913.5.30 = {
 			owner = ALB
@@ -22,26 +19,15 @@ state={
 		
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 1
-			9914 = {
-				naval_base = 2
-			}
 		}
 		
 		1919.6.28 = {
 			buildings = {
 				infrastructure = 3
-				arms_factory = 1
-				industrial_complex = 2 
-				air_base = 3
-				9914 = {
-					naval_base = 4
-				}
+				air_base = 1
 			}
 		}
 		add_core_of = ALB
-		add_core_of = SER
 		
 		1936.1.1 = {
 			add_claim_by = ITA
@@ -55,6 +41,6 @@ state={
 	}
 
 	provinces={
-		9875 9914 
+		3896 9780 11762
 	}
 }

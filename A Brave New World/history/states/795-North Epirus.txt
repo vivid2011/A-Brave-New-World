@@ -1,20 +1,17 @@
 
 state={
-	id=44
-	name="STATE_44"
-	manpower = 401200
+	id=795
+	name="STATE_795" # North Epirus
+	manpower = 301400
 	resources={
-		aluminium=2
-		chromium=2
+		aluminium=6
+		chromium=4
 	}
 	
 	state_category = town
 	
 	history={
 		owner = TUR
-		victory_points = {
-			9914 5 
-		}
 		
 		1913.5.30 = {
 			owner = ALB
@@ -22,26 +19,18 @@ state={
 		
 		buildings = {
 			infrastructure = 2
-			arms_factory = 1
-			industrial_complex = 1
-			9914 = {
-				naval_base = 2
-			}
+		    industrial_complex = 1				
 		}
 		
 		1919.6.28 = {
 			buildings = {
 				infrastructure = 3
-				arms_factory = 1
-				industrial_complex = 2 
-				air_base = 3
-				9914 = {
-					naval_base = 4
-				}
+				industrial_complex = 1				
+				air_base = 1
 			}
 		}
 		add_core_of = ALB
-		add_core_of = SER
+		add_core_of = GRE		
 		
 		1936.1.1 = {
 			add_claim_by = ITA
@@ -55,6 +44,6 @@ state={
 	}
 
 	provinces={
-		9875 9914 
+		914 3448 3884 6900 11767 
 	}
 }

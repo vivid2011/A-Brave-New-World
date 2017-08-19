@@ -44,649 +44,647 @@ country_event={
 }
 
 # BOXER REBELLION EVENTS
-
-country_event = {
-	id = china.206
-	title = china.206.t
-	desc = china.206.d
-	#picture = GFX_XX
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = CHI
-		date > 1900.1.2
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-	
-	# Support the Boxers
-	option = {
-		name = china.206.a
-		
-		ai_chance = {
-			base = 1
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = no
-			}
-		}
-		
-		every_country = {
-			limit = {
-				NOT = { tag = CHI }
-			}
-			add_opinion_modifier = {
-				target = CHI
-				modifier = boxer_rebels_support
-			}
-		}
-		add_manpower = -250000
-		add_ideas = supported_boxers
-	}
-	
-	# Support West
-	option = {
-		name = china.206.b
-		
-		ai_chance = {
-			base = 0
-			modifier = {
-				add = 0.5
-				is_historical_focus_on = no
-			}
-		}
-		
-		every_country = {
-			limit = {
-				NOT = { tag = CHI }
-			}
-			add_opinion_modifier = {
-				target = CHI
-				modifier = boxer_rebels_denounced
-			}
-		}
-		
-		add_ideas = chinese_betrayer
-		
-	}
-	
-}
-
+#
+#country_event = {
+#	id = china.206
+#	title = china.206.t
+#	desc = china.206.d
+#	#picture = GFX_XX
+#	
+#	fire_only_once = yes
+#	
+#	trigger = {
+#		tag = CHI
+#		date > 1900.1.2
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}
+#	
+#	# Support the Boxers
+#	option = {
+#		name = china.206.a
+#		
+#		ai_chance = {
+#			base = 1
+#			modifier = {
+#				factor = 0.5
+#				is_historical_focus_on = no
+#			}
+#		}
+#		
+#		every_country = {
+#			limit = {
+#				NOT = { tag = CHI }
+#			}
+#			add_opinion_modifier = {
+#				target = CHI
+#				modifier = boxer_rebels_support
+#			}
+#		}
+#		add_manpower = -250000
+#		add_ideas = supported_boxers
+#	}
+#	
+#	# Support West
+#	option = {
+#		name = china.206.b
+#		
+#		ai_chance = {
+#			base = 0
+#			modifier = {
+#				add = 0.5
+#				is_historical_focus_on = no
+#			}
+#		}
+#		
+#		every_country = {
+#			limit = {
+#				NOT = { tag = CHI }
+#			}
+#			add_opinion_modifier = {
+#				target = CHI
+#				modifier = boxer_rebels_denounced
+#			}
+#		}
+#		
+#		add_ideas = chinese_betrayer
+#		
+#	}
+#	
+#}
+#
 # Support Boxer Decision
-country_event = {
-	id = china.207
-	title = china.207.t
-	desc = china.207.d
-	
-	fire_only_once = yes
-	trigger = {
-		#date > 1900.5.11
-		date > 1900.1.4
-		has_idea = supported_boxers
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}	
-	
-	option = {
-		name = china.207.a
-		hidden_effect = {
-			ENG = {
-				transfer_state = 592
-			    transfer_state = 593
-		        add_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }				
-			}
-			SOV = {
-				transfer_state = 329
-				transfer_state = 330
-				transfer_state = 714
-				transfer_state = 717
-		        add_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }						
-			}
-			FRA = {
-				transfer_state = 591
-				transfer_state = 594
-		        add_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }						
-			}
-			JAP = {
-				transfer_state = 595
-				transfer_state = 596
-		        add_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }						
-			}
-			GER = {
-				transfer_state = 597
-				transfer_state = 598
-		        add_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }						
-			}
-			USA = {
-				transfer_state = 613
-		        add_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }						
-			}
-			AHU = {
-				transfer_state = 614
-		        add_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }						
-			}
-			ITA = {
-				transfer_state = 609
-		        add_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }						
-			}			
-				#set_capital = 594				
-				#add_manpower = 25000000
-				#load_oob = "ENA_oob"				
-			#592 = {
-				#add_core_of = ENA
-			#}
-		
-			#add_equipment_to_stockpile = {
-				#type = infantry_equipment_0
-				#amount = 10000000
-				#producer = ENA
-			#} I'm leaving stuff here to help out the other programmers have example codes. -Duel_Obliteration
-			
-		}
-		
-		CHI = {
-			declare_war_on = {
-				target = ENG
-				type = take_state
-			}
-			declare_war_on = {
-				target = SOV
-				type = take_state
-			}
-			declare_war_on = {
-				target = FRA
-				type = take_state
-			}
-			declare_war_on = {
-				target = JAP
-				type = take_state
-			}
-			declare_war_on = {
-				target = GER
-				type = take_state
-			}
-			declare_war_on = {
-				target = USA
-				type = take_state
-			}	
-			declare_war_on = {
-				target = AHU
-				type = take_state
-			}
-			declare_war_on = {
-				target = ITA
-				type = take_state
-			}			
-			set_national_unity = 0.8
-		}
-	}
-}
-
+#country_event = {
+#	id = china.207
+#	title = china.207.t
+#	desc = china.207.d
+#	
+#	fire_only_once = yes
+#	trigger = {
+#		#date > 1900.5.11
+#		date > 1900.1.4
+#		has_idea = supported_boxers
+#	}
+#	
+#	mean_time_to_happen = {
+#		days = 1
+#	}	
+#	
+#	option = {
+#		name = china.207.a
+#		hidden_effect = {
+#			ENG = {
+#				transfer_state = 592
+#			    transfer_state = 593
+#		        add_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }				
+#			}
+#			SOV = {
+#				transfer_state = 329
+#				transfer_state = 330
+#				transfer_state = 714
+#				transfer_state = 717
+#		        add_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }						
+#			}
+#			FRA = {
+#				transfer_state = 591
+#				transfer_state = 594
+#		        add_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }						
+#			}
+#			JAP = {
+#				transfer_state = 595
+#				transfer_state = 596
+#		        add_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }						
+#			}
+#			GER = {
+#				transfer_state = 597
+#				transfer_state = 598
+#		        add_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }						
+#			}
+#			USA = {
+#				transfer_state = 613
+#		        add_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }						
+#			}
+#			AHU = {
+#				transfer_state = 614
+#		        add_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }						
+#			}
+#			ITA = {
+#				transfer_state = 609
+#		        add_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }						
+#			}			
+#				#set_capital = 594				
+#				#add_manpower = 25000000
+#				#load_oob = "ENA_oob"				
+#			#592 = {
+#				#add_core_of = ENA
+#			#}
+#		
+#			#add_equipment_to_stockpile = {
+#				#type = infantry_equipment_0
+#				#amount = 10000000
+#				#producer = ENA
+#			#} I'm leaving stuff here to help out the other programmers have example codes. -Duel_Obliteration
+#			
+#		}
+#		
+#		CHI = {
+#			declare_war_on = {
+#				target = ENG
+#				type = take_state
+#			}
+#			declare_war_on = {
+#				target = SOV
+#				type = take_state
+#			}
+#			declare_war_on = {
+#				target = FRA
+#				type = take_state
+#			}
+#			declare_war_on = {
+#				target = JAP
+#				type = take_state
+#			}
+#			declare_war_on = {
+#				target = GER
+#				type = take_state
+#			}
+#			declare_war_on = {
+#				target = USA
+#				type = take_state
+#			}	
+#			declare_war_on = {
+#				target = AHU
+#				type = take_state
+#			}
+#			declare_war_on = {
+#				target = ITA
+#				type = take_state
+#			}			
+#			set_national_unity = 0.8
+#		}
+#
+#	}
+#}
+#
 # Support West Decision
-country_event = {
-	id = china.208
-	title = china.208.t
-	desc = china.208.d
-	
-	trigger = {
-		#date > 1900.5.11
-		date > 1900.1.4
-		has_idea = chinese_betrayer
-	}
-	
-	fire_only_once = yes
-	
-	option = {
-		name = china.208.a
-		hidden_effect = {
-			BOX = {
-				transfer_state = 287
-				transfer_state = 730
-				transfer_state = 604
-				transfer_state = 615
-				transfer_state = 618
-				transfer_state = 283
-				transfer_state = 620
-				transfer_state = 617
-				transfer_state = 605
-				transfer_state = 622
-				transfer_state = 619
-				transfer_state = 603
-				transfer_state = 616
-				transfer_state = 602
-				transfer_state = 621
-				transfer_state = 322
-				transfer_state = 600
-				transfer_state = 611
-				transfer_state = 606
-				transfer_state = 607
-				transfer_state = 330
-				set_capital = 287
-				load_oob = "BOX_oob"
-				set_equipment_fraction = 0.7
-				set_national_unity = 0.9
-					
-				287 = {add_core_of = BOX}
-				730 = {add_core_of = BOX}
-				604 = {add_core_of = BOX}
-				615 = {add_core_of = BOX}
-				618 = {add_core_of = BOX}
-				283 = {add_core_of = BOX}
-				620 = {add_core_of = BOX}
-				617 = {add_core_of = BOX}
-				605 = {add_core_of = BOX}
-				622 = {add_core_of = BOX}
-				619 = {add_core_of = BOX}
-				603 = {add_core_of = BOX}
-				616 = {add_core_of = BOX}
-				602 = {add_core_of = BOX}
-				621 = {add_core_of = BOX}
-				322 = {add_core_of = BOX}
-				600 = {add_core_of = BOX}
-				611 = {add_core_of = BOX}
-				606 = {add_core_of = BOX}
-				607 = {add_core_of = BOX}
-				330 = {add_core_of = BOX}
-				
-			}
-			#news_event = { hours = 6 id = news.XXX }
-			#set_global_flag = spanish_civil_war
-			CHI = {
-				declare_war_on = {
-					target = BOX
-					type = annex_everything
-				}
-				set_national_unity = 0.8
-			}
-		}
-	}
-}
-
+#country_event = {
+#	id = china.208
+#	title = china.208.t
+#	desc = china.208.d
+#	
+#	trigger = {
+#		#date > 1900.5.11
+#		date > 1900.1.4
+#		has_idea = chinese_betrayer
+#	}
+#	
+#	fire_only_once = yes
+#	
+#	option = {
+#		name = china.208.a
+#		hidden_effect = {
+#			BOX = {
+#				transfer_state = 287
+#				transfer_state = 730
+#				transfer_state = 604
+#				transfer_state = 615
+#				transfer_state = 618
+#				transfer_state = 283
+#				transfer_state = 620
+#				transfer_state = 617
+#				transfer_state = 605
+#				transfer_state = 622
+#				transfer_state = 619
+#				transfer_state = 603
+#				transfer_state = 616
+#				transfer_state = 602
+#				transfer_state = 621
+#				transfer_state = 322
+#				transfer_state = 600
+#				transfer_state = 611
+#				transfer_state = 606
+#				transfer_state = 607
+#				transfer_state = 330
+#				set_capital = 287
+#				load_oob = "BOX_oob"
+#				set_equipment_fraction = 0.7
+#				set_national_unity = 0.9
+#					
+#				287 = {add_core_of = BOX}
+#				730 = {add_core_of = BOX}
+#				604 = {add_core_of = BOX}
+#				615 = {add_core_of = BOX}
+#				618 = {add_core_of = BOX}
+#				283 = {add_core_of = BOX}
+#				620 = {add_core_of = BOX}
+#				617 = {add_core_of = BOX}
+#				605 = {add_core_of = BOX}
+#				622 = {add_core_of = BOX}
+#				619 = {add_core_of = BOX}
+#				603 = {add_core_of = BOX}
+#				616 = {add_core_of = BOX}
+#				602 = {add_core_of = BOX}
+#				621 = {add_core_of = BOX}
+#				322 = {add_core_of = BOX}
+#				600 = {add_core_of = BOX}
+#				611 = {add_core_of = BOX}
+#				606 = {add_core_of = BOX}
+#				607 = {add_core_of = BOX}
+#				330 = {add_core_of = BOX}
+#				
+#			}
+#			#news_event = { hours = 6 id = news.XXX }
+#			#set_global_flag = spanish_civil_war
+#			CHI = {
+#				declare_war_on = {
+#					target = BOX
+#					type = annex_everything
+#				}
+#				set_national_unity = 0.8
+#			}
+#		}
+#	}
+#}
+#
 # ENA makes demands
-country_event = {
-	id = china.210
-	title = china.210.t
-	desc = china.210.d
-	
-	is_triggered_only = yes
-	
-	option = {
-		name = china.210.a
-		
-		ai_chance = {
-			base = 1
-			modifier = {
-				factor = 0.5
-				is_historical_focus_on = no
-			}
-		}
-		white_peace = ENG
-		white_peace = SOV
-		white_peace = FRA
-		white_peace = JAP
-		white_peace = GER
-		white_peace = USA
-		white_peace = AHU
-		white_peace = ITA		
-
-		CHI = {
-                country_event = { id = china.211 hours = 2}
-		
-		        transfer_state = 592
-			    transfer_state = 593
-				transfer_state = 329
-				transfer_state = 330
-				transfer_state = 714
-				transfer_state = 717				
-				transfer_state = 591
-				transfer_state = 594
-				transfer_state = 595
-				transfer_state = 596
-				transfer_state = 597
-				transfer_state = 598				
-				transfer_state = 613
-				transfer_state = 614
-				transfer_state = 609
-				
-			#transfer_state = 594
-			#transfer_state = 591
-			#transfer_state = 599
-			#transfer_state = 593
-			#transfer_state = 592
-			#transfer_state = 597
-			#transfer_state = 614
-			#transfer_state = 609
-			#transfer_state = 610
-			#transfer_state = 595
-				
-			#594 = {
-			#	remove_core_of = ENA
-			#} I'm leaving more stuff here to help out the other programmers have example codes. -Duel_Obliteration
-
-		}
-
-			ENG = {
-		        remove_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }				
-			}
-			SOV = {
-				transfer_state = 716
-		        remove_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }						
-			}
-			FRA = {
-		        remove_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }						
-			}
-			JAP = {
-		        remove_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }						
-			}
-			GER = {
-		        remove_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }						
-			}
-			USA = {
-		        remove_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }						
-			}
-			AHU = {
-		        remove_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }						
-			}
-			ITA = {
-		        remove_ideas = {
-			       GEN_boxer_rebellion_no_calls_to_arms
-		        }						
-			}
-
-		every_country = {
-			limit = {
-				NOT = {
-					tag = CHI
-				}
-			}
-			remove_opinion_modifier = {
-				modifier = boxer_rebels_support
-			}
-		}
-		
-	}
-	
-	option = {
-		name = china.210.b
-		ai_chance = {
-			base = 0
-			modifier = {
-				add = 0.5
-				is_historical_focus_on = no
-			}
-		}
-	}
-	
-}
-
-# ENA wins
-country_event = {
-	id = china.211
-	title = china.211.t
-	desc = china.211.d
-	
-	is_triggered_only = yes
-	
-	trigger = {
-		NOT = {
-
-       #pre boer colonies not occupied by qing condition	
-		748 = {
-			controller = {
-				tag = CHI
-			}
-		}
-		747 = {
-			controller = {
-				tag = CHI
-			}
-		}
-		728 = {
-			controller = {
-				tag = CHI
-			}
-		}
-		729 = {
-			controller = {
-				tag = CHI
-			}
-		}
-		326 = {
-			controller = {
-				tag = CHI
-			}
-		}
-
-	   #states not owned by anti boxer alliance countries as demand event is accepted
-       #england
-	    592 = {
-			controller = {
-				tag = ENG
-			}
-		}
-		593 = {
-			controller = {
-				tag = ENG
-			}
-		}
-       #russia		
-		329 = {
-			controller = {
-				tag = SOV  
-			}              
-		}                  
-		330 = {            
-			controller = {
-				tag = SOV
-			}
-		}
-		714 = {
-			controller = {
-				tag = SOV
-			}
-		}
-		717 = {
-			controller = {
-				tag = SOV
-			}
-		}		
-       #france
-		591 = {            
-			controller = {
-				tag = FRA
-			}
-		}
-		594 = {
-			controller = {
-				tag = FRA
-			}
-		}
-       #japan
-		595 = {            
-			controller = {
-				tag = JAP
-			}
-		}
-		596 = {
-			controller = {
-				tag = JAP
-			}
-		}
-       #germany
-		597 = {            
-			controller = {
-				tag = GER
-			}
-		}
-		598 = {
-			controller = {
-				tag = GER
-			}
-		}
-       #united states
-		613 = {            
-			controller = {
-				tag = USA
-			}
-		}
-       #austria hungary	
-		614 = {
-			controller = {
-				tag = AHU
-			}
-		}	
-       #italy	
-		609 = {
-			controller = {
-				tag = ITA
-			}
-		}			
-	}
- #not a not statement anymore	
-		716 = {
-			controller = {
-				tag = SOV
-			}
-		}
-	}
-	
-	option = {
-		name = china.211.a
-		add_ideas = {
-			slaves_of_west
-		}
-	}
-	
-}
-		#NOT = { #^^^^^^^^^^^^^ not statement
-			#country_exists = ENA
-		#}
-
-# ENA loses
-
-
-# CHI wins against BOX
-
-# Surrender after occupation of Beijing
-country_event={
-	id=china.212
-	title=china.212.t
-	desc=china.212.d
-	
-	fire_only_once = yes
-	
-	trigger = {
-		CHI = {
-			has_war = yes
-		}
-		NOT = {
-		 608 = {
-			controller ={ 
-				tag = CHI
-			}
-		 }
-	  }
-	}
-	
-	#Demand to Capitulate
-	option={
-		name=china.212.a
-		
-		CHI = { country_event = { id = china.210 hours = 2} }
-	
-	}
-}
-
-# Burning of Summer Palace
-country_event = {
-	id = china.213
-	title = china.213.t
-	desc  = china.213.d
-	
-	fire_only_once = yes
-	
-	trigger = {
-		CHI = {
-			has_war = yes
-		}
-		NOT = {
-		 608 = {
-			controller ={ 
-				tag = CHI
-			}
-		 }
-	  }
-	}
-	
-	# Burn Palace
-	option = {
-		name = china.213.a
-		ai_chance = {
-			base = 1
-			modifier = {
-				factor = 0.75
-				is_historical_focus_on = no
-			}
-		}
-		CHI = {
-			country_event = { id = china.210 hours = 2 }
-		}
-		#set_global_flag = summer_palace_burned
-	}
-	
-	# Keep Palace
-	option = {
-		name = china.213.a
-		ai_chance = {
-			base = 0
-			modifier = {
-				add = 0.25
-				is_historical_focus_on = no
-			}
-		}
-		CHI = {
-			country_event = { id = china.210 hours = 2 }
-		}
-		#set_global_flag = summer_palace_safe
-		
-	}
-	
-}
-
-
-
+#country_event = {
+#	id = china.210
+#	title = china.210.t
+#	desc = china.210.d
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = china.210.a
+#		
+#		ai_chance = {
+#			base = 1
+#			modifier = {
+#				factor = 0.5
+#				is_historical_focus_on = no
+#			}
+#		}
+#		white_peace = ENG
+#		white_peace = SOV
+#		white_peace = FRA
+#		white_peace = JAP
+#		white_peace = GER
+#		white_peace = USA
+#		white_peace = AHU
+#		white_peace = ITA		
+#
+#		CHI = {
+#                country_event = { id = china.211 hours = 2}
+#		
+#		        transfer_state = 592
+#			    transfer_state = 593
+#				transfer_state = 329
+#				transfer_state = 330
+#				transfer_state = 714
+#				transfer_state = 717				
+#				transfer_state = 591
+#				transfer_state = 594
+#				transfer_state = 595
+#				transfer_state = 596
+#				transfer_state = 597
+#				transfer_state = 598				
+#				transfer_state = 613
+#				transfer_state = 614
+#				transfer_state = 609
+#				
+#			#transfer_state = 594
+#			#transfer_state = 591
+#			#transfer_state = 599
+#			#transfer_state = 593
+#			#transfer_state = 592
+#			#transfer_state = 597
+#			#transfer_state = 614
+#			#transfer_state = 609
+#			#transfer_state = 610
+#			#transfer_state = 595
+#				
+#			#594 = {
+#			#	remove_core_of = ENA
+#			#} I'm leaving more stuff here to help out the other programmers have example codes. -Duel_Obliteration
+#
+#		}
+#
+#			ENG = {
+#		        remove_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }				
+#			}
+#			SOV = {
+#				transfer_state = 716
+#		        remove_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }						
+#			}
+#			FRA = {
+#		        remove_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }						
+#			}
+#			JAP = {
+#		        remove_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }						
+#			}
+#			GER = {
+#		        remove_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }						
+#			}
+#			USA = {
+#		        remove_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }						
+#			}
+#			AHU = {
+#		        remove_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }						
+#			}
+#			ITA = {
+#		        remove_ideas = {
+#			       GEN_boxer_rebellion_no_calls_to_arms
+#		        }						
+#			}
+#
+#		every_country = {
+#			limit = {
+#				NOT = {
+#					tag = CHI
+#				}
+#			}
+#			remove_opinion_modifier = {
+#				modifier = boxer_rebels_support
+#			}
+#		}
+#		
+#	}
+#	
+#	option = {
+#		name = china.210.b
+#		ai_chance = {
+#			base = 0
+#			modifier = {
+#				add = 0.5
+#				is_historical_focus_on = no
+#			}
+#		}
+#	}
+#	
+#}
+#
+## ENA wins
+#country_event = {
+#	id = china.211
+#	title = china.211.t
+#	desc = china.211.d
+#	
+#	is_triggered_only = yes
+#	
+#	trigger = {
+#		NOT = {
+#
+#       #pre boer colonies not occupied by qing condition	
+#		748 = {
+#			controller = {
+#				tag = CHI
+#			}
+#		}
+#		747 = {
+#			controller = {
+#				tag = CHI
+#			}
+#		}
+#		728 = {
+#			controller = {
+#				tag = CHI
+#			}
+#		}
+#		729 = {
+#			controller = {
+#				tag = CHI
+#			}
+#		}
+#		326 = {
+#			controller = {
+#				tag = CHI
+#			}
+#		}
+#
+#	   #states not owned by anti boxer alliance countries as demand event is accepted
+#       #england
+#	    592 = {
+#			controller = {
+#				tag = ENG
+#			}
+#		}
+#		593 = {
+#			controller = {
+#				tag = ENG
+#			}
+#		}
+#       #russia		
+#		329 = {
+#			controller = {
+#				tag = SOV  
+#			}              
+#		}                  
+#		330 = {            
+#			controller = {
+#				tag = SOV
+#			}
+#		}
+#		714 = {
+#			controller = {
+#				tag = SOV
+#			}
+#		}
+#		717 = {
+#			controller = {
+#				tag = SOV
+#			}
+#		}		
+#       #france
+#		591 = {            
+#			controller = {
+#				tag = FRA
+#			}
+#		}
+#		594 = {
+#			controller = {
+#				tag = FRA
+#			}
+#		}
+#       #japan
+#		595 = {            
+#			controller = {
+#				tag = JAP
+#			}
+#		}
+#		596 = {
+#			controller = {
+#				tag = JAP
+#			}
+#		}
+#       #germany
+#		597 = {            
+#			controller = {
+#				tag = GER
+#			}
+#		}
+#		598 = {
+#			controller = {
+#				tag = GER
+#			}
+#		}
+#       #united states
+#		613 = {            
+#			controller = {
+#				tag = USA
+#			}
+#		}
+#       #austria hungary	
+#		614 = {
+#			controller = {
+#				tag = AHU
+#			}
+#		}	
+#       #italy	
+#		609 = {
+#			controller = {
+#				tag = ITA
+#			}
+#		}			
+#	}
+# #not a not statement anymore	
+#		716 = {
+#			controller = {
+#				tag = SOV
+#			}
+#		}
+#	}
+#	
+#	option = {
+#		name = china.211.a
+#		add_ideas = {
+#			slaves_of_west
+#		}
+#	}
+#	
+#}
+#		#NOT = { #^^^^^^^^^^^^^ not statement
+#			#country_exists = ENA
+#		#}
+#
+## ENA loses
+#
+#
+## CHI wins against BOX
+#
+## Surrender after occupation of Beijing
+#country_event={
+#	id=china.212
+#	title=china.212.t
+#	desc=china.212.d
+#	
+#	fire_only_once = yes
+#	
+#	trigger = {
+#		CHI = {
+#			has_war = yes
+#		}
+#		NOT = {
+#		 608 = {
+#			controller ={ 
+#				tag = CHI
+#			}
+#		 }
+#	  }
+#	}
+#	
+#	#Demand to Capitulate
+#	option={
+#		name=china.212.a
+#		
+#		CHI = { country_event = { id = china.210 hours = 2} }
+#	
+#	}
+#}
+#
+## Burning of Summer Palace
+#country_event = {
+#	id = china.213
+#	title = china.213.t
+#	desc  = china.213.d
+#	
+#	fire_only_once = yes
+#	
+#	trigger = {
+#		CHI = {
+#			has_war = yes
+#		}
+#		NOT = {
+#		 608 = {
+#			controller ={ 
+#				tag = CHI
+#			}
+#		 }
+#	  }
+#	}
+#	
+#	# Burn Palace
+#	option = {
+#		name = china.213.a
+#		ai_chance = {
+#			base = 1
+#			modifier = {
+#				factor = 0.75
+#				is_historical_focus_on = no
+#			}
+#		}
+#		CHI = {
+#			country_event = { id = china.210 hours = 2 }
+#		}
+#		#set_global_flag = summer_palace_burned
+#	}
+#	
+#	# Keep Palace
+#	option = {
+#		name = china.213.a
+#		ai_chance = {
+#			base = 0
+#			modifier = {
+#				add = 0.25
+#				is_historical_focus_on = no
+#			}
+#		}
+#		CHI = {
+#			country_event = { id = china.210 hours = 2 }
+#		}
+#		#set_global_flag = summer_palace_safe
+#		
+#	}
+#	
+#}

@@ -64,6 +64,21 @@ set_politics = {
 	last_election = "None"
 	election_frequency = 0
 	elections_allowed = yes
+	
+# DIPLOMACY
+if = {
+	limit = {
+		has_dlc = "Together for Victory"
+	}
+	set_autonomy = {
+		target = BUL
+		autonomous_state = autonomy_dominion
+	}
+	else = {
+		puppet = BUL
+	}
+}	
+	
 }
 
 set_convoys = 20

@@ -29,17 +29,17 @@ ideologies = {
 			can_guarantee_other_ideologies = no
 		}
 		
-		war_impact_on_world_tension = 1.25
+		war_impact_on_world_tension = 0.90
 		faction_impact_on_world_tension = 0.25
 		
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 1.50
-			lend_lease_tension = 1.00
-			send_volunteers_tension = 1.00
-			guarantee_tension = 0.25
+			generate_wargoal_tension = 0.4
+			join_faction_tension = 0.75
+			lend_lease_tension = 0.25
+			send_volunteers_tension = 0.65
+			guarantee_tension = 0.30
 			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
+			annex_cost_factor = 2.2
 		}
 		
 		faction_modifiers = {
