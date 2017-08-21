@@ -460,14 +460,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name ="gamesetup_scenario_window"
-		size = { width = 100%% height = 512 }
-		#size = { width = 1568 height = 512 }
+		size = { width = 1560 height = 512 }
 		clipping = no
 		orientation = center
 		origo = center
 		moveable = yes
-		#horizontalScrollbar = "bottom_horizontal_slider"
-		#drag_scroll = { left }
 		
 		instantTextBoxType = {
 			name = "title"
@@ -489,10 +486,8 @@ guiTypes = {
 		containerWindowType = {
 			name ="bookmarks"
 			position = { x = 13 y = 55 }
-			size = { width = -10 height = 220}
-			horizontalScrollbar = "bottom_horizontal_slider"
-			drag_scroll = { left }
-		
+			size = { width = -10 height = 120}
+			
 			gridboxType = {
 				name ="bookmarks_grid"
 				position = { x = 0 y = 0 }
@@ -501,7 +496,6 @@ guiTypes = {
 				add_horizontal = yes
 				max_slots_vertical = 1
 				format = "UPPER_LEFT"
-				
 			}
 		}
 		

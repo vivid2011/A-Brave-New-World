@@ -3,7 +3,7 @@ bookmarks = {
 		name = "DRUMSOFWAR_NAME"
 		desc = "DRUMSOFWAR_DESC"
 		date = 1914.7.1.1
-		picture = "GFX_select_date_1900"
+		picture = "GFX_select_date_1914"
 		default_country = "AHU"
 	
 		FRA = {

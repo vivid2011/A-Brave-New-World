@@ -15,7 +15,11 @@ state={
 		owner = TUR
 		add_core_of = SER
 		add_core_of = MNT
-	
+		
+		1913.5.30 = {
+			owner = MNT
+		}
+		
 		1918.12.1 = {
 			owner = YUG
 			add_core_of = YUG

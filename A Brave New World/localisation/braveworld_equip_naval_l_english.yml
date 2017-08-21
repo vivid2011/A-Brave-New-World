@@ -1,7 +1,9 @@
 ﻿l_english:
  ## Corvettes ##
  corvette_0:0 "Corvette Model 1860"
+ corvette_0_desc:0 ""
  corvette_1:0 "Corvette Model 1880"
+ corvette_1_desc:0 ""
  
  ## Gunboats ##
  gunboats_0:0 "Gunboat Model 1870"
@@ -11,57 +13,91 @@
  
  ## Torpedo Boats ##
  torpedo_boat_0:0 "Torpedo Boat Model 1870"
+ torpedo_boat_0_desc:0 ""
  torpedo_boat_1:0 "Torpedo Boat Model 1880"
+ torpedo_boat_1_desc:0 ""
  torpedo_boat_2:0 "Torpedo Boat Model 1900"
+ torpedo_boat_2_desc:0 ""
  torpedo_boat_3:0 "Torpedo Boat Model 1905"
+ torpedo_boat_3_desc:0 ""
  torpedo_boat_4:0 "Torpedo Boat Model 1910"
+ torpedo_boat_4_desc:0 ""
  
  ## Destroyers ##
  destroyer_1914:0 "Destroyer Model 1914"
+ destroyer_1914_desc:0 ""
  destroyer_1918:0 "Destroyer Model 1918"
+ destroyer_1918_desc:0 ""
  
  ## Submarine ##
  submarine_1900:0 "Submarine Model 1900"
+ submarine_1900_desc:0 ""
  submarine_1905:0 "Submarine Model 1905"
+ submarine_1905_desc:0 ""
  submarine_1910:0 "Submarine Model 1910"
+ submarine_1910_desc:0 ""
  submarine_1914:0 "Submarine Model 1914"
+ submarine_1914_desc:0 ""
  submarine_1918:0 "Submarine Model 1918"
+ submarine_1918_desc:0 ""
  
  ## Light Cruisers ##
  light_cruiser_1900:0 "Light Cruiser Model 1900"
+ light_cruiser_1900_desc:0 ""
  light_cruiser_1905:0 "Light Cruiser Model 1905"
+ light_cruiser_1905_desc:0 ""
  light_cruiser_1910:0 "Light Cruiser Model 1910"
+ light_cruiser_1910_desc:0 ""
  light_cruiser_1914:0 "Light Cruiser Model 1914"
+ light_cruiser_1914_desc:0 ""
  light_cruiser_1918:0 "Light Cruiser Model 1918"
+ light_cruiser_1918_desc:0 ""
  
  ## Heavy Cruiser ##
  heavy_cruiser_0:0 "Heavy Cruiser Model 1918"
+ heavy_cruiser_0_desc:0 ""
  
  ## Ironclads ##
  ironclad_0:0 "Ironclad Model 1870"
+ ironclad_0_desc:0 ""
  ironclad_1:0 "Ironclad Model 1890"
+ ironclad_1_desc:0 ""
  
  ## Pre-Dreadnought ##
  pre_dreadnought_0:0 "Pre-Dreadnought Model 1890"
+ pre_dreadnought_0_desc:0 ""
  pre_dreadnought_1:0 "Pre-Dreadnought Model 1900"
+ pre_dreadnought_1_desc:0 ""
  pre_dreadnought_2:0 "Pre-Dreadnought Model 1905"
+ pre_dreadnought_2_desc:0 ""
  
  ## Dreadnought ##
  dreadnought_0:0 "Dreadnought Model 1905"
+ dreadnought_0_desc:0 ""
  dreadnought_1:0 "Dreadnought Model 1910"
+ dreadnought_1_desc:0 ""
  dreadnought_2:0 "Dreadnought Model 1914"
+ dreadnought_2_desc:0 ""
  dreadnought_3:0 "Dreadnought Model 1918"
+ dreadnought_3_desc:0 ""
  
  ## Coastal Defense ##
  coastal_defense_0:0 "Coastal Defense Model 1890"
+ coastal_defense_0_desc:0 ""
  
  ## Battle Cruisers ##
  battle_cruiser_1900:0 "Battle Cruiser Model 1900"
+ battle_cruiser_1900_desc:0 ""
  battle_cruiser_1905:0 "Battle Cruiser Model 1905"
+ battle_cruiser_1905_desc:0 ""
  battle_cruiser_1910:0 "Battle Cruiser Model 1910"
+ battle_cruiser_1910_desc:0 ""
  battle_cruiser_1914:0 "Battle Cruiser Model 1914"
+ battle_cruiser_1914_desc:0 ""
  battle_cruiser_1918:0 "Battle Cruiser Model 1918"
+ battle_cruiser_1918_desc:0 ""
  
  ## Carriers ##
  carrier_0:0 "Carrier Model 1916"
+ carrier_0_desc:0 ""
  

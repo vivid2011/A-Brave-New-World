@@ -2,39 +2,59 @@
  ## WW1 ##
  # Fighters #
  ww1_fighter_equipment_0:0 "Fighter Model 1914"
+ ww1_fighter_equipment_0_desc:0 ""
  ww1_fighter_equipment_1:0 "Fighter Model 1916"
+ ww1_fighter_equipment_1_desc:0 ""
  ww1_fighter_equipment_2:0 "Fighter Model 1918"
+ ww1_fighter_equipment_2_desc:0 ""
  
  # Carrier Variants #
  cv_ww1_fighter_equipment_2:0 "CV Fighter Model 1918"
+ cv_ww1_fighter_equipment_2_desc:0 ""
  
  # Recon #
  ww1_scout_equipment_0:0 "Air Recon Model 1914"
+ ww1_scout_equipment_0_desc:0 ""
  ww1_scout_equipment_1:0 "Air Recon Model 1916"
+ ww1_scout_equipment_1_desc:0 ""
  ww1_scout_equipment_2:0 "Air Recon Model 1918"
+ ww1_scout_equipment_2_desc:0 ""
  
  # Tact. Bombers #
  ww1_tac_bomber_equipment_0:0 "Tactical Bomber M. 1914"
+ ww1_tac_bomber_equipment_0_desc:0 ""
  ww1_tac_bomber_equipment_1:0 "Tactical Bomber M. 1916"
+ ww1_tac_bomber_equipment_1_desc:0 ""
  ww1_tac_bomber_equipment_2:0 "Tactical Bomber M. 1918"
+ ww1_tac_bomber_equipment_2_desc:0 ""
  
  # Strat. Bomber #
  ww1_strat_bomber_equipment_0:0 "Strategic Bomber M. 1914"
+ ww1_strat_bomber_equipment_0_desc:0 ""
  ww1_strat_bomber_equipment_1:0 "Strategic Bomber M. 1918"
+ ww1_strat_bomber_equipment_1_desc:0 ""
  
  ## INTERWAR ##
  # Fighters #
  interwar_fighter_equipment_0:0 "Fighter Model 1924"
+ interwar_fighter_equipment_0_desc:0 ""
  interwar_fighter_equipment_1:0 "Fighter Model 1928"
+ interwar_fighter_equipment_1_desc:0 ""
  
  # Carrier Variants #
  cv_interwar_fighter_equipment_0:0 "CV Fighter Model 1925"
+ cv_interwar_fighter_equipment_0_desc:0 ""
  cv_interwar_fighter_equipment_1:0 "CV Fighter Model 1929"
+ cv_interwar_fighter_equipment_1_desc:0 ""
  
  # Tact. Bombers #
  interwar_tac_bomber_equipment_0:0 "Tactical Bomber M. 1924"
+ interwar_tac_bomber_equipment_0_desc:0 ""
  interwar_tac_bomber_equipment_1:0 "Tactical Bomber M. 1928"
+ interwar_tac_bomber_equipment_1_desc:0 ""
  
  # Strat. Bombers #
  interwar_strat_bomber_equipment_0:0 "Strategic Bomber M. 1924"
+ interwar_strat_bomber_equipment_0_desc:0 ""
  interwar_strat_bomber_equipment_1:0 "Strategic Bomber M. 1928"
+ interwar_strat_bomber_equipment_1_desc:0 ""
