@@ -86,17 +86,6 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Chancellor Prince Chlodwig zu Hohenlohe-Schillingsfürst"
-	desc = ""
-	picture = "gfx/leaders/GER/Chlodwig.dds"
-	expire = "1900.10.17"
-	ideology = imperial
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
 	name = "Otto Wels"
 	desc = ""
 	picture = "gfx/leaders/GER/Otto_Wels.dds"

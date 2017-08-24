@@ -38,10 +38,20 @@ set_technology = {
 set_convoys = 200
 set_national_unity = 0.6
 
-create_country_leader = { #TODO: Replace with Umberto as head of state as opposed to PMs
-	name = "Prime Minister Luigi Pelloux"
+create_country_leader = {
+	name = "Victor Emmanuel III"
 	desc = ""
-	picture = "gfx/leaders/ITA/Luigi_Pelloux.dds"
+	picture = "gfx/leaders/ITA/Victor_Emmanuel_III.dds"
+	expire = "1947.6.26"
+	ideology = imperial
+	traits = {}
+}
+
+
+create_country_leader = {
+	name = "King Umberto I"
+	desc = ""
+	picture = "gfx/leaders/ITA/Umberto_I.dds"
 	expire = "1900.6.26"
 	ideology = imperial
 	traits = {}
