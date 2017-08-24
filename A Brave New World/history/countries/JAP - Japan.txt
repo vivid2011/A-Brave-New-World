@@ -2,6 +2,20 @@
 
 oob = "JAP_1900"
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"	
+	}
+	
+	set_autonomy = {
+		target = KOR
+		autonomous_state = autonomy_puppet
+	}
+	else = {
+		puppet = KOR
+	}
+}
+
 set_national_unity = 0.65
 
 set_research_slots = 3
