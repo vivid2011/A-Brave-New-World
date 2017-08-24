@@ -1,6 +1,6 @@
 state={
 	id=754
-	name="STATE_754" # Outer Antofagasta
+	name="STATE_754" # Atacama
 	
 	state_category = town
 	
@@ -9,17 +9,13 @@ state={
 		victory_points = {
 			12994 1
 		}
-		owner = BOL
+		owner = CHL
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 			12994 = {
 				naval_base = 1
 			}
-		}
-		
-		1904.1.1 = {
-			owner = CHL
 		}
 		
 		1936.1.1 ={
@@ -33,7 +29,7 @@ state={
 	}
 	
 	provinces={
-		5146 8217 8231 12994 
+		5171 11000 5192 5228 12914
 	}
-	manpower=83605
+	manpower=283605
 }

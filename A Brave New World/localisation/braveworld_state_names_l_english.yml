@@ -17,7 +17,7 @@
  STATE_751:0 "Prizren"
  STATE_752:0 "North Cyprus"
  STATE_753:0 "North Schleswig"
- STATE_754:0 "Outer Antofagasta"
+ STATE_754:0 "Atacama"
  STATE_755:0 "East Thrace"
  STATE_756:0 "East Samoa"
  STATE_757:0 "South Epirus"
@@ -61,4 +61,5 @@
  STATE_795:0 "North Epirus"
  STATE_796:0 "Central Gangwon"
  STATE_797:0 "Southern Hwangwe"
+ STATE_798:0 "Tarapaca"
  
