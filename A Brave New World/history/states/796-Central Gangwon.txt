@@ -1,0 +1,34 @@
+state=
+{
+	id=796
+	name="STATE_796"
+	manpower = 284105
+	
+	state_category = town
+	history=
+	{
+		owner = KOR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		
+		1919.6.28 = {
+			buildings = {
+				infrastructure = 4
+				arms_factory = 1
+				dockyard = 1
+			}
+		}
+		
+		1910.8.29 = {
+			owner = JAP
+		}
+
+		add_core_of = KOR
+
+	}
+	provinces={
+		12040 9981 4004 11958 1148
+	}
+}

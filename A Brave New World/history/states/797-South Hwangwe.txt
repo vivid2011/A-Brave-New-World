@@ -1,0 +1,29 @@
+
+state={
+	id=797
+	name="STATE_797"
+	manpower = 274200
+	state_category = town
+	resources={
+		steel=4
+		tungsten=2
+	}
+
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		
+		1910.8.29 = {
+			owner = JAP
+		}
+
+		add_core_of = KOR
+	}
+
+	provinces={
+		1003 4107
+	}
+}
