@@ -1,20 +1,18 @@
 
 state={
-	id=42
-	name="STATE_42"
+	id=799
+	name="STATE_799"
 	resources={
-		steel=80.000
-		aluminium=18.000
+		steel=20.000
+		aluminium=6.000
 	}
 
 	history={
 		owner = GER
-		victory_points = {
-			11435 10 
-		}
+
 		buildings = {
-			infrastructure = 5
-			industrial_complex = 2
+			infrastructure = 4
+			industrial_complex = 1
 
 		}
 		add_core_of = GER
@@ -26,8 +24,8 @@ state={
 		1936.3.7 = {
 			set_demilitarized_zone = no
 			buildings = {
-				infrastructure = 7
-				industrial_complex = 3
+				infrastructure = 6
+				industrial_complex = 2
 
 			}
 
@@ -35,7 +33,7 @@ state={
 		1939.1.1 = {
 			buildings = {
 				radar_station = 1
-				synthetic_refinery = 3
+				synthetic_refinery = 2
 
 			}
 
@@ -44,9 +42,9 @@ state={
 	}
 
 	provinces={
-		563 3423 3558 11435 11470 11494 11547 
+		9575 11531 
 	}
-	manpower=3014532
+	manpower=27739
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=town
 }
