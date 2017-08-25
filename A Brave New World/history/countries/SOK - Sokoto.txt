@@ -1,0 +1,55 @@
+﻿capital = 558
+
+oob = "SOK_1900"
+
+set_technology = {
+	powderless_equipment = 1
+}
+
+add_ideas = {
+	GEN_non_industrialized
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 16
+		}
+
+		fascism = {
+			popularity = 2
+		}
+		
+		communism = {
+			popularity = 2
+		}
+		
+		neutrality = { 
+			popularity = 5
+		}
+		
+		monarchist = {
+			popularity = 75
+		}
+	}
+	
+	ruling_party = monarchist
+	last_election = "1.1.1899"
+	election_frequency = 24
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Muhammadu Attahiru I"
+	picture = "gfx/leaders/DAH/AgoliAgbo.dds"
+	expire = "1903.1.8"
+	ideology = imperial
+}
+
+create_country_leader = {
+	name = "Abdur Rahman Atiku"
+	picture = "gfx/leaders/DAH/AgoliAgbo.dds"
+	expire = "1902.1.10"
+	ideology = imperial
+}

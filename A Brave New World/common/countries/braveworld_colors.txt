@@ -44,3 +44,8 @@ SEY = {
 	color = rgb { 255 0 255 }
 	color_ui = rgb { 255 0 255 }
 }
+
+SOK = {
+	color = rgb { 80 145 102 }
+	color_ui = rgb { 80 145 102 }
+}
