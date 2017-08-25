@@ -444,8 +444,8 @@ KEN = {
 	color_ui = rgb { 145 103 14 }
 }
 KOR = {
-	color = rgb { 52 24 40 }
-	color_ui = rgb { 52 24 40 }
+	color = rgb { 62 82 150 }
+	color_ui = rgb { 62 82 150 }
 }
 ZIM = {
 	color = rgb { 7 7 239 }
