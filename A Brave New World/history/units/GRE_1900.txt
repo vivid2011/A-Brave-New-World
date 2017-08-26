@@ -15,7 +15,7 @@ units = {
 	#French Armie
 	division= {	
 		name = "1st Tmíma Pezikoú"
-		location = 11586
+		location = 4109
 		division_template = "Tmíma Pezikoú"
 		start_experience_factor = 0.2
 	}
