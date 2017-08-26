@@ -1,0 +1,35 @@
+﻿division_template = {
+	name = "Pješadijska brigada"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	#French Armie
+	division= {	
+		name = "1st Pješadijska brigada"
+		location = 11899
+		division_template = "Pješadijska brigada"
+		start_experience_factor = 0.2
+	}
+}
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = powderless_equipment
+			creator = "BHZ"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 6
+	}	
+}
+	#####################
