@@ -1,0 +1,35 @@
+﻿division_template = {
+	name = "Piyade Bölümü"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+units = {
+	#Ottoman Army
+	division= {	
+		name = "1st Royal Guards Division"
+		location = 9833
+		division_template = "Piyade Bölümü"
+		start_experience_factor = 0.2
+	}
+}
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = powderless_equipment
+			creator = "TUR"
+		}
+		requested_factories = 10
+		progress = 0.25
+		efficiency = 10
+	}	
+}
+	#####################

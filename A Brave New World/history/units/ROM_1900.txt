@@ -1,0 +1,37 @@
+﻿division_template = {
+	name = "Departamentul de Infanterie"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+units = {
+	#French Armie
+	division= {	
+		name = "1st Departamentul de Infanterie"
+		location = 11586
+		division_template = "Departamentul de Infanterie"
+		start_experience_factor = 0.2
+	}
+}
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = powderless_equipment
+			creator = "ROM"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 6
+	}	
+}
+	#####################

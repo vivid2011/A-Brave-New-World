@@ -1,0 +1,37 @@
+﻿division_template = {
+	name = "Pekhotna diviziya"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+}
+
+units = {
+	#Bulgarian Armie
+	division= {	
+		name = "1st Pekhotna diviziya"
+		location = 949
+		division_template = "Pekhotna diviziya"
+		start_experience_factor = 0.2
+	}
+}
+	#########################
+	## STARTING PRODUCTION ##
+	#########################
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = powderless_equipment
+			creator = "BUL"
+		}
+		requested_factories = 1
+		progress = 0.1
+		efficiency = 6
+	}	
+}
+	#####################
