@@ -2,6 +2,20 @@
 
 oob = "TUR_1900"
 
+if = {
+	limit = {
+		has_dlc = "Together for Victory"	
+	}
+	
+	set_autonomy = {
+		target = BUL
+		autonomous_state = autonomy_dominion
+	}
+	else = {
+		puppet = BUL
+	}
+}
+
 set_research_slots = 3
 
 add_ideas = {
@@ -73,22 +87,7 @@ set_politics = {
 	ruling_party = monarchist
 	last_election = "None"
 	election_frequency = 0
-	elections_allowed = yes
-	
-# DIPLOMACY
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = BUL
-		autonomous_state = autonomy_dominion
-	}
-	else = {
-		puppet = BUL
-	}
-}	
-	
+	elections_allowed = yes	
 }
 
 set_convoys = 20
