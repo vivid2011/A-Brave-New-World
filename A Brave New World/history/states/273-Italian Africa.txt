@@ -6,6 +6,8 @@ state={
 	
 	state_category = wasteland
 
+	impassable = yes		
+	
 	history={
 		owner = TUR
 		1912.10.18 = {
