@@ -52,7 +52,7 @@ create_country_leader = {
 	name = "King Umberto I"
 	desc = ""
 	picture = "gfx/leaders/ITA/Umberto_I.dds"
-	expire = "1900.6.26"
+	expire = "1900.7.29"
 	ideology = imperial
 	traits = {}
 }

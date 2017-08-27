@@ -60,6 +60,8 @@ create_country_leader = {
 		#
 	}
 }
+#BEL guarentee
+give_guarantee = BEL
 
 # DIPLOMACY
 if = {
