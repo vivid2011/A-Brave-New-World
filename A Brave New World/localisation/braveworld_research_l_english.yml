@@ -113,3 +113,19 @@
  robotic_assembly:0 "Robotic Assembly"
  robotic_assembly_desc:0 ""
  
+ ## SCIENCE ##
+ science:0 "General Science"
+ science_desc:0 ""
+ newtonian_physics:0 "Newtonian Physics"
+ newtonian_physics_desc:0 ""
+ electricity:0 "Electricity"
+ electricity_desc:0 ""
+ nuclear_physics:0 "Nuclear Physics"
+ nuclear_physics_desc:0 ""
+ magnetism:0 "Magnetism"
+ magnetism_desc:0 ""
+ quantum_physics:0 "Quantum Physics"
+ quantum_physics_desc:0 "Quantum Physics"
+ splitting_atom:0 "Splitting of the Atom"
+ splitting_atom_desc:0 ""
+ 

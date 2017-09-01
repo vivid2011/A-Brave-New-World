@@ -760,6 +760,10 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		dependencies = {
+			splitting_atom = 1
+		}
+		
 		start_year = 1940
 		research_cost = 5
 		
@@ -850,4 +854,181 @@ technologies = {
 			nuclear
 		}
 	}
+	
+	## ABNW ##
+	science = {
+		start_year = 0
+		research_cost = 5
+		
+		#research_time_factor = -0.02
+		
+		path = {
+			leads_to_tech = newtonian_physics 
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+	
+	newtonian_physics = {
+		start_year = 1670
+		research_cost = 5
+		
+		research_time_factor = -0.02
+		
+		path = {
+			leads_to_tech = electricity 
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+	
+	electricity = {
+		start_year = 1760
+		research_cost = 5
+		
+		research_time_factor = -0.02
+		
+		path = {
+			leads_to_tech = nuclear_physics 
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+	
+	nuclear_physics = {
+		start_year = 1900
+		research_cost = 5
+		
+		research_time_factor = -0.02
+		
+		path = {
+			leads_to_tech = magnetism 
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+	
+	magnetism = {
+		start_year = 1906
+		research_cost = 5
+		
+		research_time_factor = -0.02
+		
+		path = {
+			leads_to_tech = quantum_physics 
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+	
+	quantum_physics = {
+		start_year = 1912
+		research_cost = 5
+		
+		research_time_factor = -0.02
+		
+		path = {
+			leads_to_tech = splitting_atom 
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+	
+	splitting_atom = {
+		start_year = 1920
+		research_cost = 5
+		
+		research_time_factor = -0.02
+		
+		#path = {
+		#	leads_to_tech = atomic_research 
+		#	research_cost_coeff = 1
+		#}
+		
+		folder = {
+			name = electronics_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			electronics
+		}
+	}
+	
 }

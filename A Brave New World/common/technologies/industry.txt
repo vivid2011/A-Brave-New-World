@@ -564,7 +564,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 2 }
+			position = { x = 4 y = 32 }
 		}
 		
 		ai_will_do = {
@@ -631,7 +631,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 4 }
+			position = { x = 4 y = 34 }
 		}
 		
 		ai_will_do = {
@@ -669,7 +669,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 6 }
+			position = { x = 4 y = 36 }
 		}
 		
 		ai_will_do = {
@@ -706,7 +706,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 8 }
+			position = { x = 4 y = 38 }
 		}
 		
 		ai_will_do = {
@@ -738,7 +738,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 4 y = 10 }
+			position = { x = 4 y = 40 }
 		}
 		
 		ai_will_do = {
@@ -787,7 +787,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 2 }
+			position = { x = 6 y = 32 }
 		}
 		
 		ai_will_do = {
@@ -857,7 +857,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 4 }
+			position = { x = 6 y = 34 }
 		}
 		
 		ai_will_do = {
@@ -897,7 +897,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 6 }
+			position = { x = 6 y = 36 }
 		}
 		
 		ai_will_do = {
@@ -937,7 +937,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 8 }
+			position = { x = 6 y = 38 }
 		}
 		
 		ai_will_do = {
@@ -973,7 +973,7 @@ technologies = {
 		
 		folder = {
 			name = industry_folder
-			position = { x = 6 y = 10 }
+			position = { x = 6 y = 40 }
 		}
 		
 		ai_will_do = {
