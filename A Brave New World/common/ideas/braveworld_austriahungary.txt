@@ -1,6 +1,8 @@
 ideas = {
 
 	country = {
+	
+		#1900 Start Ideas#
 		nation_of_two_souls = {
 			allowed = {
 				always = no
@@ -9,15 +11,53 @@ ideas = {
 			removal_cost = -10
 			
 			modifier = {
-				unity_factor = -0.15
+				unity_factor = -0.2
+				political_power_cost = 0.05
+				political_power_gain = -0.5
+
+				}
+
+			picture = generic_disjointed_gov
+			
 			}
 			
-			research_bonus ={
-				research_time_factor = -0.3
+		a_divided_military_base
+			allowed = {
+				always = no
+			}
+			
+			removal_cost = -10
+			
+			modifier = {
+				unity_factor = -0.1
+				conscription_factor = 0.075
+				training_time_factor = 0.05
+				supply_consumption_factor = 0.025
+				}
+
+			picture = BNW_idea_AHU_a_divided_military
+			
+			}
+		
+		
+		#Ideas by Focus#
+		
+		centralization_effort = {
+			allowed = {
+				always = no
+				}
+			
+			removal_cost = -10
+			
+			modifier = {
+				political_power_cost = 1
+				production_speed_buildings_factor = -0.5
+				}
+			
+			picture = soviet_german_friendship
+			
 			}
 		}
-		
-	}
 	
 	political_advisor = {
 		
