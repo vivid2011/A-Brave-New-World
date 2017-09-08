@@ -187,3 +187,21 @@ news_event = {
 		name = news.338.a
 	}
 }
+
+#1900 Galveston Hurricane
+news_event = {
+	id=news.339
+	title = news.339.t
+	desc = news.339.d 
+
+	trigger = {
+		date > 1900.9.5
+		date < 1900.9.17
+		country_exists = USA
+	}
+	major = yes
+	
+	option = {
+		name = news.339.a
+	}
+}
