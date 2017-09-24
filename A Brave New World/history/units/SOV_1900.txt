@@ -20,15 +20,6 @@
 	}
 }
 
-units = {
-	#Russian Army
-	division= {	
-		name = "1st Pekhotnyy korpus"
-		location = 6380
-		division_template = "Pekhotnyy korpus"
-		start_experience_factor = 0.2
-	}
-}
 	#########################
 	## STARTING PRODUCTION ##
 	#########################

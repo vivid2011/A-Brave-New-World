@@ -20,11 +20,11 @@ state={
 		}
 		
 		1912.2.12 = {
-			owner = SOV
+			owner = RUS
 		}
 		
 		1919.1.1 = {
-			owner = TAN # Move to date SOV fell apart
+			owner = TAN # Move to date SOV forms
 		}
 		
 		victory_points = {
@@ -32,7 +32,7 @@ state={
 		}
 		add_core_of = CHI
 		add_core_of = TAN
-		add_core_of = SOV
+		add_core_of = RUS
 	}
 
 	provinces={

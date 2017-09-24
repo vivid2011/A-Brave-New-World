@@ -1,0 +1,77 @@
+﻿capital = 195
+
+oob = "RUS_1900"
+
+set_research_slots = 3
+
+set_technology = {
+	powderless_equipment = 1
+	
+	artillery_1869 = 1
+	
+	horse_drawn_equipment_1 = 1
+	
+	ironclad_0 = 1
+	gunboat_0  = 1
+	torpedo_boat_0 = 1
+	
+	individual_craft = 1
+	family_based_crafts = 1
+	artisans = 1
+	craftsman = 1
+}
+
+add_ideas = {
+	GEN_backwards_empire
+	GEN_Decadence
+	GEN_industrializing
+	GEN_disjointed_military
+}
+
+
+set_convoys = 50
+set_national_unity = 0.55
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 30 #shared between all parties, should add to 100
+		}
+		
+		fascism = {
+			popularity = 1
+		}
+		
+		communism = {
+			popularity = 5
+			banned = no
+		}
+		monarchist = {
+			popularity = 64
+		}
+	}
+	
+	ruling_party = monarchist
+	last_election = "Never"
+	election_frequency = 0
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Tsar Nicholas II"
+	desc = ""
+	picture = "gfx/leaders/RUS/Nicholas.dds"
+	expire = "1928.3.1"
+	ideology = imperial
+	traits = {}
+}
+
+create_country_leader = {
+	name = "Vladimir Lenin"
+	desc = ""
+	picture = "gfx/leaders/RUS/Vladimir_Lenin.dds"
+	expire = "1924.1.21"
+	ideology = stalinism
+	traits = {}
+}
