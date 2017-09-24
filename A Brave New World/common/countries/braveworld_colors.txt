@@ -1,5 +1,10 @@
 #reload countrycolors
 
+RUS = {
+	color = rgb { 1 79 4 }
+	color_ui = rgb { 1 79 4 }
+}
+
 BAV = {
 	color = rgb { 0 152 212 }
 	color_ui = rgb { 0 152 212 }
