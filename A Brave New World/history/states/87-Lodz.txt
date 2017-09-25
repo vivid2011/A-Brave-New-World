@@ -6,16 +6,12 @@ state={
 	state_category = town
 	history={
 		owner = RUS
-		add_core_of = POL
-		add_core_of = RUS
-
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
 		
 		1919.6.28 = {
-		owner = POL
 			buildings = {
 				infrastructure = 6
 				industrial_complex = 2
@@ -25,6 +21,8 @@ state={
 		victory_points = {
 			9508 1
 		}
+		add_core_of = POL
+		add_core_of = RUS
 
 		1939.1.1 = {
 			buildings = {

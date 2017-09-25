@@ -7,9 +7,6 @@ state={
 	
 	history={
 		owner = RUS
-		add_core_of = POL
-		add_core_of = BLR
-		add_core_of = RUS
 		victory_points = {
 			3320 1
 		}
@@ -26,9 +23,9 @@ state={
 			}
 		}
 		
-		1922.1.1 = {
-		owner = POL		
-		}
+		add_core_of = POL
+		add_core_of = BLR
+		add_core_of = RUS
 	}
 
 	provinces={

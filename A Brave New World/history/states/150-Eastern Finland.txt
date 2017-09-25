@@ -10,13 +10,13 @@ state={
 		steel=4
 	}
 	history={
-		owner = SOV
+		owner = RUS
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 		}
 		add_core_of = FIN
-		add_core_of = SOV
+		add_core_of = RUS
 	}
 
 	provinces={

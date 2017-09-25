@@ -8,9 +8,6 @@ state={
 
 	history={
 		owner = RUS
-		add_core_of = RUS
-		add_core_of = UKR
-		
 		buildings = {
 			infrastructure = 3
 		}
@@ -21,12 +18,9 @@ state={
 				air_base = 8
 			}
 		}
-
-		1924.1.1 = {
-		owner = SOV
-		add_core_of = SOV
-		}			
 		
+		add_core_of = RUS
+		add_core_of = UKR
 	}
 
 	provinces={

@@ -6,9 +6,6 @@ state={
 	state_category = rural
 	history={
 		owner = RUS
-		add_core_of = POL
-		add_core_of = UKR
-		add_core_of = RUS
 		buildings = {
 			infrastructure = 4
 		}
@@ -20,9 +17,9 @@ state={
 			}
 		}
 		
-		1922.1.1 = {
-		owner = POL		
-		}
+		add_core_of = POL
+		add_core_of = BLR
+		add_core_of = RUS
 	}
 
 	provinces={

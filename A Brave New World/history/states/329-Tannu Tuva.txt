@@ -24,7 +24,7 @@ state={
 		}
 		
 		1919.1.1 = {
-			owner = TAN # Move to date SOV forms
+			owner = TAN # Move to date RUS fell apart
 		}
 		
 		victory_points = {

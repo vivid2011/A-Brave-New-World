@@ -25,7 +25,7 @@ state={
 		}
 		
 		1912.2.12 = {
-			owner = SOV
+			owner = RUS
 		}
 		
 		1919.6.28 ={

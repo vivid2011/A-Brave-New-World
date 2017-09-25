@@ -9,8 +9,8 @@ state={
 
 
 	history={
-		owner = SOV
-		add_core_of = SOV
+		owner = RUS
+		add_core_of = RUS
 		add_core_of = CHI
 		add_core_of = JAP
 		#add_core_of = PRC
@@ -23,7 +23,7 @@ state={
 		}
 		
 		1905.1.1 = {
-			owner = SOV
+			owner = RUS
 		}
 		
 		1936.1.1 = {

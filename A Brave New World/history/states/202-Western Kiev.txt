@@ -12,9 +12,6 @@ state={
 
 	history={
 		owner = RUS
-		add_core_of = RUS
-		add_core_of = UKR
-		
 		victory_points = {
 			525 25
 		}
@@ -32,12 +29,9 @@ state={
 				air_base = 8
 			}
 		}
-
-		1924.1.1 = {
-		owner = SOV
-		add_core_of = SOV
-		}			
-
+		
+		add_core_of = RUS
+		add_core_of = UKR
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 4

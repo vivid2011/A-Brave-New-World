@@ -7,9 +7,6 @@ state={
 
 	history={
 		owner = RUS
-		add_core_of = POL
-		add_core_of = RUS
-
 		victory_points = {
 			3544 20 
 		}
@@ -20,7 +17,6 @@ state={
 		}
 		
 		1919.6.28 = {
-		owner = POL
 			buildings = {
 				infrastructure = 7
 				arms_factory = 6
@@ -30,6 +26,8 @@ state={
 			}
 		}
 		
+		add_core_of = POL
+		add_core_of = RUS
 	}
 
 	provinces={
