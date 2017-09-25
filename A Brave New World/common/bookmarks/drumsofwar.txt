@@ -5,6 +5,16 @@ bookmarks = {
 		date = 1914.7.1.1
 		picture = "GFX_select_date_1914"
 		default_country = "AHU"
+
+		RUS = {
+			history = RUS_TURNOFCENTURY_DESC
+			ideology = monarchist
+			ideas = {
+				#modernizing
+				#absolute_monarchy
+				#
+			}
+		}		
 	
 		FRA = {
 			history = FRA_DRUMSOFWAR_DESC
@@ -57,14 +67,6 @@ bookmarks = {
 			}
 			focuses = {
 				
-			}
-		}
-		SOV = {
-			history = SOV_DRUMSOFWAR_DESC
-			ideology = monarchist
-			ideas = {
-				#modernizing
-				#absolute_monarchy
 			}
 		}
 

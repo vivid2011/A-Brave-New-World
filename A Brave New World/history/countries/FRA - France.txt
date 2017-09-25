@@ -33,7 +33,7 @@ puppet = DAH
 
 create_faction = Franco_Russian_Alliance
 add_to_faction = FRA
-add_to_faction = SOV
+add_to_faction = RUS
 
 set_politics = {
 

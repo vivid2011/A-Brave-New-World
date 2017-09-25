@@ -6,6 +6,16 @@ bookmarks = {
 		picture = "GFX_select_date_1900"
 		default_country = "ENG"
 	
+		RUS = {
+			history = RUS_TURNOFCENTURY_DESC
+			ideology = monarchist
+			ideas = {
+				#modernizing
+				#absolute_monarchy
+				#
+			}
+		}	
+	
 		FRA = {
 			history = FRA_TURNOFCENTURY_DESC
 			ideology = democratic
@@ -56,15 +66,6 @@ bookmarks = {
 				#empire_in_decline
 				#
 			}			
-		}
-		SOV = {
-			history = SOV_TURNOFCENTURY_DESC
-			ideology = monarchist
-			ideas = {
-				#modernizing
-				#absolute_monarchy
-				#
-			}
 		}
 
 		"---"={

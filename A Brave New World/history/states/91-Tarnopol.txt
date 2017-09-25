@@ -7,6 +7,9 @@ state={
 	
 	history={
 		owner = AHU
+		add_core_of = AHU		
+		add_core_of = POL
+		add_core_of = UKR
 		victory_points = {
 			11479 5 
 		}
@@ -16,16 +19,14 @@ state={
 		}
 		
 		1919.6.28 = {
+		owner = POL
+			remove_core_of = AHU
 			buildings = {
 				infrastructure = 6
 				industrial_complex = 3
 				air_base = 5
 			}
 		}
-
-		add_core_of = AHU		
-		add_core_of = POL
-		add_core_of = UKR
 	}
 
 	provinces={
