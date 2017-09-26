@@ -4,6 +4,9 @@ state={
 
 	history={
 		owner = RUS
+		add_core_of = POL
+		add_core_of = UKR
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 3
 
@@ -11,9 +14,10 @@ state={
 		victory_points = {
 			3392 1 
 		}
-		add_core_of = POL
-		add_core_of = BLR
-		add_core_of = RUS
+
+		1922.1.1 = {
+		owner = POL		
+		}		
 	}
 
 	provinces={
