@@ -1,0 +1,13 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_a_divided_military_base"
+		texturefile = "gfx/interface/ideas/BNW_idea_AHU_a_divided_military.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_Umberto_I"
+		texturefile = "gfx/interface/ideas/umberto_I.dds"
+	}
+	
+}
