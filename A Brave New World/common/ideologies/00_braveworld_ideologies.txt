@@ -21,19 +21,19 @@ ideologies = {
 		
 		rules = {
 			can_force_government = no
-			can_send_volunteers = no
+			can_send_volunteers = yes
 			can_puppet = yes
 		}
 		
-		war_impact_on_world_tension = 0.90
+		war_impact_on_world_tension = 0.75
 		faction_impact_on_world_tension = 0.25
 		
 		modifiers = {
 			generate_wargoal_tension = 0.15
 			join_faction_tension = 0.20
-			lend_lease_tension = 1.0
-			send_volunteers_tension = 1.0
-			guarantee_tension = 0.50
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.75
+			guarantee_tension = 0.45
 			drift_defence_factor = 0.5
 		}
 		
@@ -43,7 +43,7 @@ ideologies = {
 		ai_fascist = yes
 	}
 	
-	fundamentalist = { #Your extremes
+	fundamentalist = { #Your extremes #pretty much extreme fascists
 	
 		types = {
 			religious = {}
@@ -65,17 +65,17 @@ ideologies = {
 		
 		rules = {
 			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
+			can_send_volunteers = yes
+			can_puppet = yes
 		}
 		
 		war_impact_on_world_tension = 4
-		faction_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 6
 		
 		modifiers = {
 			join_faction_tension = 0.50
-			lend_lease_tension = 1.00
-			send_volunteers_tension = 1.00
+			lend_lease_tension = 0.25
+			send_volunteers_tension = 0.20
 			guarantee_tension = 0.50
 			take_states_cost_factor = -0.35
 			annex_cost_factor = -0.8

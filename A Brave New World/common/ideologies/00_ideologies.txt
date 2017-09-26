@@ -85,13 +85,13 @@ ideologies = {
 		
 		color = { 255 0 0 }
 		
-		war_impact_on_world_tension = 1.2		#communist more threatening than nazism
-		faction_impact_on_world_tension = 1.0
+		war_impact_on_world_tension = 0.82		#communist more threatening than nazism #so so...
+		faction_impact_on_world_tension = 1.1
 		
 		ai_communist = yes # normal communist ai
 		
 		rules = {
-			can_force_government = no
+			can_force_government = yes
 			can_send_volunteers = yes
 			can_puppet = yes
 		}
@@ -131,15 +131,15 @@ ideologies = {
 			"FACTION_NAME_FASCIST_5"
 		}
 		
-		color = { 150 75 0 }
+		color = { 16 16 16 }
 		
-		war_impact_on_world_tension = 0.8			#less of a threat than socialism
+		war_impact_on_world_tension = 0.85			#less of a threat than socialism #are you high brazilian?
 		faction_impact_on_world_tension = 1.2
 		
 		rules = {
 			can_force_government = yes
 			can_send_volunteers = yes
-			can_puppet = no
+			can_puppet = yes
 		}
 		
 		modifiers = {
@@ -174,7 +174,7 @@ ideologies = {
 			"FACTION_NAME_NONALIGNED_5"
 		}
 		
-		color = { 124 124 124 }
+		color = { 100 100 100 }
 		
 		
 		war_impact_on_world_tension = 0.25		#no major danger
@@ -182,7 +182,7 @@ ideologies = {
 		
 		rules = {
 			can_force_government = no
-			can_puppet = no
+			can_puppet = yes
 			can_send_volunteers = yes
 		}
 		
