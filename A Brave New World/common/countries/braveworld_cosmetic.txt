@@ -1,0 +1,5 @@
+
+RUS_WHITE = {	
+	color = rgb { 160 190 190 }
+	color_ui = rgb { 160 190 190 }
+}

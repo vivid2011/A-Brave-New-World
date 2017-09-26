@@ -25,6 +25,10 @@ state={
 				air_base = 4
 			}
 		}
+
+	    1924.1.1 = {
+		owner = LIT	
+		}
 		
 		add_core_of = LIT
 		add_core_of = RUS
