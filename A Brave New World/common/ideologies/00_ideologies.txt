@@ -39,14 +39,13 @@ ideologies = {
 		faction_impact_on_world_tension = -0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 0.90
-			join_faction_tension = 0.60
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.75
+			generate_wargoal_tension = 0.80
+			join_faction_tension = 0.50
+			lend_lease_tension = 0.40
+			send_volunteers_tension = 0.40
+			guarantee_tension = 0.35
 			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
-		    puppet_cost_factor = -0.8
+			annex_cost_factor = -0.3
 		}
 		
 		faction_modifiers = {
@@ -194,13 +193,14 @@ ideologies = {
 			lend_lease_tension = 0.4
 			send_volunteers_tension = 0.4
 			guarantee_tension = 1.0
-			drift_defence_factor = -0.5
+			drift_defence_factor = -0.3
 		}
 		
 		faction_modifiers = {
 		}
 
 		can_be_boosted = yes
+                can_collaborate = yes
 
 		ai_neutral = yes # 
 	}
