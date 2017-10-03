@@ -1,13 +1,13 @@
 bookmarks = {
 	bookmark = {
-		name = "DRUMSOFWAR_NAME"
-		desc = "DRUMSOFWAR_DESC"
+		name = "JULYCRISIS_NAME"
+		desc = "JULYCRISIS_DESC"
 		date = 1914.7.1.1
 		picture = "GFX_select_date_1914"
 		default_country = "AHU"
 
 		RUS = {
-			history = RUS_TURNOFCENTURY_DESC
+			history = RUS_JULYCRISIS_DESC
 			ideology = monarchist
 			ideas = {
 				#modernizing
@@ -17,7 +17,7 @@ bookmarks = {
 		}		
 	
 		FRA = {
-			history = FRA_DRUMSOFWAR_DESC
+			history = FRA_JULYCRISIS_DESC
 			ideology = democratic
 			ideas={
 				#loser_francoprussian_war
@@ -25,14 +25,14 @@ bookmarks = {
 			}
 		}
 		USA = {
-			history = ENG_DRUMSOFWAR_DESC
+			history = ENG_JULYCRISIS_DESC
 			ideology = democratic
 			ideas = {
 				home_of_the_free
 			}
 		}
 		ENG = {
-			history = ENG_DRUMSOFWAR_DESC
+			history = ENG_JULYCRISIS_DESC
 			ideology = democratic
 			ideas = {
 				#pax_britannia
@@ -42,7 +42,7 @@ bookmarks = {
 			
 		}
 		GER = {
-			history = GER_DRUMSOFWAR_DESC
+			history = GER_JULYCRISIS_DESC
 			ideology = monarchist
 			ideas={
 				#winner_francoprussian_war
@@ -51,7 +51,7 @@ bookmarks = {
 			}
 		}
 		AHU = {
-			history = AHU_DRUMSOFWAR_DESC
+			history = AHU_JULYCRISIS_DESC
 			ideology = monarchist
 			ideas={
 				#franz_ferdinad
@@ -60,7 +60,7 @@ bookmarks = {
 			}			
 		}
 		ITA={
-			history = ITA_DRUMSOFWAR_DESC
+			history = ITA_JULYCRISIS_DESC
 			ideology = neutrality
 			ideas = {
 				
@@ -71,12 +71,12 @@ bookmarks = {
 		}
 
 		"---"={
-			history = "OTHER_DRUMSOFWAR_DESC"
+			history = "OTHER_JULYCRISIS_DESC"
 		}
 		
 		"JAP"={
 			minor = yes
-			history = "JAP_DRUMSOFWAR_DESC"
+			history = "JAP_JULYCRISIS_DESC"
 			ideology = monarchist
 			ideas = {
 				
@@ -84,6 +84,16 @@ bookmarks = {
 			focuses = {
 				
 			}
+		}
+		
+		TUR = {
+			minor = yes
+			history = TUR_JULYCRISIS_DESC
+			ideology = monarchist
+			ideas={
+				#empire_in_decline
+				#
+			}			
 		}
 
 		effect = {

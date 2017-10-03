@@ -192,8 +192,8 @@
  POR_monarchist_DEF:0 "Kingdom of Portugal"
  POR_monarchist_ADJ:0 "Portugese"
  #SPAIN
- SPR_monarchist:0 "Spainish Empire"
- SPR_monarchist_DEF:0 "Empire of Spain"
+ SPR_monarchist:0 "Kingdom Of Spain"
+ SPR_monarchist_DEF:0 "The Kingdom of Spain"
  SPR_monarchist_ADJ:0 "Spanish"
  #MOROCCO
  MOR_monarchist:0 "Kingdom of Morocco"
