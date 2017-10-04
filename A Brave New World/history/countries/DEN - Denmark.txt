@@ -23,12 +23,37 @@ set_technology = {
 	craftsman = 1
 }
 
+set_politics = {
+		parties = {
+			democratic = { 
+				popularity = 13
+			}
+
+			fascism = {
+				popularity = 1
+			}
+			
+			communism = {
+				popularity = 2
+			}
+			
+			monarchist = {
+				popularity = 80
+			}
+		}
+		
+		ruling_party = monarchist
+		last_election = "None"
+		election_frequency = 48
+		elections_allowed = no
+	}
+	
 create_country_leader = {
-	name = "Council President Hugo Egmont Hørring"
+	name = "King Christian IX"
 	desc = ""
-	picture = "gfx/leaders/DEN/Horring.dds"
-	expire = "1900.4.27"
-	ideology = socialism
+	picture = "gfx/leaders/DEN/Christian9.dds"
+	expire = "1906.1.29"
+	ideology = imperial
 	traits = {
 		#
 	}
