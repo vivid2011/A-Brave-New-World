@@ -5,10 +5,12 @@
  ## 1870 ##
  powderless_equipment:0 "Powderless Guns"
  powderless_equipment_desc:0 ""
+ ENG_powderless_equipment:0 "Martini-Henry Rifle"
+ ENG_powderless_equipment_desc:0 "The Martini–Henry was a breech-loading single-shot lever-actuated rifle. It first entered service in 1871, eventually replacing the Snider–Enfield, a muzzle-loader converted to the cartridge system. Martini–Henry variants were used throughout the British Empire for 30 years. "
  
  ## 1900 INF EQ ##
  USA_infantry_1900_equipment:0 "Browning Auto-5"
- ENG_infantry_1900_equipment:0 "Lee-Speed"
+ ENG_infantry_1900_equipment:0 "Lee-Metford Rifle"
  SOV_infantry_1900_equipment:0 "Arisaka Type 30"
  FRA_infantry_1900_equipment:0 "Meunier Rifle"
  GER_infantry_1900_equipment:0 "Gewehr 88"
@@ -18,10 +20,11 @@
  AHU_infantry_1900_equipment:0 "Mannlicher Model 1900"
  infantry_1900_equipment:0 "1900 Model Weapons"
  infantry_1900_equipment_desc:0 ""
+ ENG_infantry_1900_equipment_desc:0 "The Lee–Metford rifle was a bolt action British army service rifle, combining a rear-locking bolt system and detachable magazine with an innovative seven groove rifled barrel designed by William Metford. It replaced the Martini–Henry rifle in 1888, following nine years of development and trials, but remained in service for only a short time until replaced by the similar Lee–Enfield."
  
  ## 1904 INF EQ ##
  USA_infantry_1904_equipment:0 "Springfield Model 1"
- ENG_infantry_1904_equipment:0 "Webley & Scott Model 1905"
+ ENG_infantry_1904_equipment:0 "Lee-Enfield Mk 1"
  JAP_infantry_1904_equipment:0 "Arisaka Type 38"
  AHU_infantry_1904_equipment:0 "Mauser M1903"
  SOV_infantry_1904_equipment:0 "Arisaka Type 38"
@@ -31,6 +34,7 @@
  TUR_infantry_1904_equipment:0 "Mauser M1905"
  infantry_1904_equipment:0 "1904 Model Weapons"
  infantry_1904_equipment_desc:0 ""
+ ENG_infantry_1904_equipment_desc:0 "A redesign of the Lee–Metford, the Lee–Enfield superseded the earlier Martini–Henry and Lee–Metford rifles. It featured a ten-round box magazine which was loaded with the .303 British cartridge manually from the top. The Lee–Enfield was the standard issue weapon to rifle companies of the British Army until its replacement in 1954, and the Mk 1 model was replaced in 1907."
  
  ## 1908 INF EQ ##
  USA_infantry_1908_equipment:0 "Remington Model 10"
@@ -42,12 +46,14 @@
  ENG_infantry_1908_equipment:0 "Winchester Model 1907"
  infantry_1908_equipment:0 "1908 Model Weapons"
  infantry_1908_equipment_desc:0 ""
+ ENG_infantry_1908_equipment_desc:0 "The Winchester Model 1907 is a blowback-operated, semi-automatic rifle produced in 1906. It fired a cartridge of intermediate power, cycled through a semi-automatic operating mechanism, fed by a detachable magazine. It was fed from a 5, 10, or 15 round detachable box magazine located immediately forward of the trigger guard. In size and handling, it is much like an M1 carbine, though the 1907 is heavier and fires a much harder hitting round."
  
  ## 1912 INF EQ ##
  infantry_1912_equipment:0 "1912 Model Weapons"
  infantry_1912_equipment_desc:0 ""
+ ENG_infantry_1912_equipment_desc:0 "The iconic Lee–Enfield rifle, the SMLE Mk III, was introduced on 26 January 1907, along with a Pattern 1907 sword bayonet and featured a simplified rear sight arrangement and a fixed, rather than a bolt-head-mounted sliding, charger guide. The design of the handguards and the magazine were also improved, and the chamber was adapted to fire the new Mk VII High Velocity spitzer .303 ammunition."
  AHU_infantry_1912_equipment:0 "Mauser M1912"
- ENG_infantry_1912_equipment:0 "Lee-Enfield Mk III"
+ ENG_infantry_1912_equipment:0 "Lee-Enfield Mk III*"
  FRA_infantry_1912_equipment:0 "Remington Model 8"
  ITA_infantry_1912_equipment:0 "Vickers Mk I"
  JAP_infantry_1912_equipment:0 "Arisaka Type 44"
@@ -58,20 +64,21 @@
  ## 1914 INF EQ ##
  infantry_1914_equipment:0 "1914 Model Weapons"
  infantry_1914_equipment_desc:0 ""
+ ENG_infantry_1914_equipment_desc:0 "The Lewis gun is a light machine gun of US design that was perfected and mass-produced in the United Kingdom, and widely used by British Empire troops during the war. With its distinctive barrel cooling shroud and top-mounted pan magazine, the Lewis served to the end of the Korean War. It was also widely used as an aircraft machine gun, almost always with the cooling shroud removed, during both world wars."
  AHU_infantry_1914_equipment:0 "Skoda M1913"
  ENG_infantry_1914_equipment:0 "Lewis Gun"
  GER_infantry_1914_equipment:0 "Mauser M1915"
  JAP_infantry_1914_equipment:0 "Type 3 Machine Gun"
- USA_infantry_1914_equipment:0 "Colt-Vickers M1915"
+ USA_infantry_1914_equipment:0 "Pattern 1914 Rifle"
  FRA_infantry_1914_equipment:0 "Remington Rolling Block Rifle 1914"
  SOV_infantry_1914_equipment:0 "Fedorov Avtomat"
  
  ## 1916 INF EQ ##
  infantry_1916_equipment:0 "1916 Model Weapons"
  infantry_1916_equipment_desc:0 ""
- ENG_infantry_1916_equipment:0 "Lee-Enfield Pattern 1917"
+ ENG_infantry_1916_equipment:0 "1916 Model Weapons"
  ITA_infantry_1916_equipment:0 "Beretta OVP"
- USA_infantry_1916_equipment:0 "Stevens Model 520"
+ USA_infantry_1916_equipment:0 "M1917 Enfield Rifle"
  GER_infantry_1916_equipment:0 "Bergmann MG 15"
  FRA_infantry_1916_equipment:0 "Chauchat"
  
@@ -79,7 +86,7 @@
  infantry_1918_equipment:0 "1918 Model Weapons"
  infantry_1918_equipment_desc:0 ""
  AHU_infantry_1918_equipment:0 "Frommer Stop"
- ENG_infantry_1918_equipment:0 "M1917 Browning Machine Gun"
+ ENG_infantry_1918_equipment:0 "1918 Model Weapons"
  SOV_infantry_1918_equipment:0 "Lewis M1917"
  GER_infantry_1918_equipment:0 "MP 18"
  ITA_infantry_1918_equipment:0 "Beretta M1918"
@@ -106,63 +113,67 @@
  horse_drawn_equipment_1:0 "Horse & Train Travel"
  horse_drawn_equipment_1_desc:0 ""
  
- ## 1904 CARS ##
+ ## 1908 CARS ##
  basic_car_transport:0 "Shit Cars"
  basic_car_transport_desc:0 "Yep."
  basic_car_transport_1:0 "Pre-Militarized Cars"
- basic_car_transport_1_desc:0 ""
+ basic_car_transport_1_desc:0 "These vehicles would transport information as well as officers and other officals from headquarters to the front. Some were used as ambulances."
  
  ## 1911 ARMORED CARS ##
  armored_equipment:0 "Armored Car Equipment"
  armored_equipment_desc:0 ""
  
  ## 1912 ARMORED CARS ##
- armored_equipment_1:0 "M1912 Armored Cars"
+ armored_equipment_1:0 "1912 Armored Cars"
  armored_equipment_1_desc:0 ""
  
  ## 1914 ARMORED CARS ##
- armored_equipment_2:0 "M1914 Armored Cars"
+ armored_equipment_2:0 "1914 Armored Cars"
  armored_equipment_2_desc:0 ""
  
  ## 1916 ARMORED CARS ##
- armored_equipment_3:0 "M1916 Armored Cars"
+ armored_equipment_3:0 "1916 Armored Cars"
  armored_equipment_3_desc:0 ""
  
  ## 1918 ARMORED CARS ##
- motorized_equipment_1918:0 "M1918 Motorized Cars"
+ motorized_equipment_1918:0 "1918 Motorized Cars"
  motorized_equipment_1918_desc:0 ""
  
  ## 1920 MOTORIZED ##
- motorized_equipment_1920:0 "M1920 Motorized Cars"
+ motorized_equipment_1920:0 "1920 Motorized Cars"
  motorized_equipment_1920_desc:0 ""
  
  ## 1924 MOTORIZED ##
- motorized_equipment_1924:0 "M1924 Motorized Cars"
+ motorized_equipment_1924:0 "1924 Motorized Cars"
  motorized_equipment_1924_desc:0 ""
  
  ## 1928 MOTORIZED ##
- motorized_equipment_1928:0 "M1928 Motorized Cars"
+ motorized_equipment_1928:0 "1928 Motorized Cars"
  motorized_equipment_1928_desc:0 ""
  
  ## 1900 SUPPORT EQUIPMENT ##
  support_weapons_1900:0 "Side Arms"
  support_weapons_1900_desc:0 ""
+ ENG_support_weapons_1900:0 "Webley Revolver"
+ ENG_support_weapons_1900_desc:0 "The Webley Revolver was, in various marks, a standard issue service pistol for the armed forces of the British Empire from 1887 until 1963. It was a reliable and long-lasting staple of officers and other special troops."
  
  ## 1904 SUPPORT WEAPONS ##
  support_weapons_1904:0 "Fixed Carried MGs"
  support_weapons_1904_desc:0 ""
+ ENG_support_weapons_1904:0 "Maxim Gun"
+ ENG_support_weapons_1904_desc:0 "The Maxim gun was a weapon invented by American-British inventor Hiram Stevens Maxim in 1883: it was the first recoil-operated machine gun. It has been called "the weapon most associated with the British imperial conquest."
  
  ## 1908 SUPPORT WEAPONS ##
  support_weapons_1908:0 "Heavy Mobile MGs"
  support_weapons_1908_desc:0 ""
- 
+ ENG_support_weapons_1908:0 "Vickers Machine Gun"
+ ENG_support_weapons_1908_desc:0 "The Vickers machine gun is a water-cooled .303 British machine gun. The machine gun typically required a six to eight-man team to operate: one fired, one fed the ammunition, the rest helped to carry the weapon, its ammunition, and spare parts. It was in service from before the First World War until the 1960s, with air-cooled versions of it on many Allied World War I fighter aircraft."
+
  ## 1912 SUPPORT WEAPONS ##
- support_weapons_1912:0 "Light Machine Guns"
- support_weapons_1912_desc:0 ""
- 
- ## 1914 SUPPORT WEAPONS ##
  support_weapons_1914:0 "Early Grenades and Sub-MGs"
  support_weapons_1914_desc:0 ""
+ ENG_support_weapons_1914:0 "Mills Bomb No. 5 Mk 1"
+ ENG_support_weapons_1914_desc:0 "Mills bomb is the popular name for a series of prominent British hand grenades. They were the first modern fragmentation grenades used by the British Army and saw widespread use in World War I."
  
  ## 1915 SUPPORT WEAPONS ##
  support_weapons_1915:0 "Gas Masks"

@@ -4005,4 +4005,29 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/Horse_And_Train.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_support_weapons_1900_medium"
+		texturefile = "gfx/interface/technologies/sidearm1900.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_support_weapons_1904_medium"
+		texturefile = "gfx/interface/technologies/support1904.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_support_weapons_1908_medium"
+		texturefile = "gfx/interface/technologies/support1908.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_support_weapons_1914_medium"
+		texturefile = "gfx/interface/technologies/support1914.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_basic_car_transport_1_medium"
+		texturefile = "gfx/interface/technologies/mobile1908.dds"
+	}
+	
 }

@@ -379,10 +379,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1900
+		start_year = 1908
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1900 }
+			position = { x = 0 y = @1908 }
 		}
 		
 		folder = {
@@ -930,10 +930,6 @@ technologies = {
 			defense = 0.02
 			breakthrough = 0.01
 		}
-		cavalry = {
-			defense = -0.05
-			breakthrough = 0.015
-		}
 		
 		path = {
 			leads_to_tech = support_weapons_1908
@@ -984,7 +980,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = support_weapons_1912
+			leads_to_tech = support_weapons_1914
 			research_cost_coeff = 1
 		}
 
@@ -1019,55 +1015,8 @@ technologies = {
 		}
 	}
 	
-	support_weapons_1912 = {
-
-		infantry = {
-			soft_attack = 0.08
-			defense = 0.04
-			breakthrough = 0.02
-		}
-		cavalry = {
-			defense = -0.05
-			breakthrough = -0.015
-		}
-		
-		path = {
-			leads_to_tech = support_weapons_1914
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1912
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1912 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1912.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1913.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1914.1.1"
-			}
-		}
-	}
 	
-	support_weapons_1914 = {
+	support_weapons_1914 = {  #Actually 1912
 
 		infantry = {
 			soft_attack = 0.20
