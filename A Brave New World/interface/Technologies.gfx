@@ -4030,4 +4030,14 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/mobile1908.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_model_1915_vl_tank_medium"
+		texturefile = "gfx/interface/technologies/infantrytank1915.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_model_1916_m_tank_medium"
+		texturefile = "gfx/interface/technologies/heavytank1916.dds"
+	}
+	
 }
