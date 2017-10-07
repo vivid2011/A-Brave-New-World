@@ -3960,6 +3960,7 @@ spriteTypes = {
 	}
 	
 	### ABNW Technology Images ###
+	
 	SpriteType = {
 		name = "GFX_powderless_equipment_medium"
 		texturefile = "gfx/interface/technologies/infantry1870.dds"
@@ -4059,6 +4060,26 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_model_1916_m_tank_medium"
 		texturefile = "gfx/interface/technologies/heavytank1916.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_model_1917_m_tank_medium"
+		texturefile = "gfx/interface/technologies/heavytank1917.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_model_1918_m_tank_medium"
+		texturefile = "gfx/interface/technologies/heavytank1918.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_model_1916_1_tank_medium"
+		texturefile = "gfx/interface/technologies/mediumtank1916.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_model_1916_v1_tank_medium"
+		texturefile = "gfx/interface/technologies/lighttank1916.dds"
 	}
 	
 }
