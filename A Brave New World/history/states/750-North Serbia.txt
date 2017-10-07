@@ -17,11 +17,6 @@ state={
 		add_core_of = YUG
 		add_core_of = SER
 		add_core_of = AHU
-		
-		1919.6.28 = {
-		owner = YUG
-		}		
-		
 	}
 
 }

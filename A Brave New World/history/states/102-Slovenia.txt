@@ -14,7 +14,6 @@ state=
 		}
 		
 		1919.6.28 = {
-		owner = AHU
 			remove_core_of = AHU
 			buildings = {
 				infrastructure = 6

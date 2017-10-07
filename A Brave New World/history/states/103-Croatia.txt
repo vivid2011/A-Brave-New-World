@@ -22,7 +22,6 @@ state={
 		}
 		
 		1919.6.28 = {
-		owner = YUG
 			buildings = {
 				infrastructure = 5
 				dockyard = 1

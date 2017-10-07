@@ -175,17 +175,17 @@
  ENG_support_weapons_1914:0 "Mills Bomb No. 5 Mk 1"
  ENG_support_weapons_1914_desc:0 "Mills bomb is the popular name for a series of prominent British hand grenades. They were the first modern fragmentation grenades used by the British Army and saw widespread use in World War I."
  
- ## 1915 SUPPORT WEAPONS ##
- support_weapons_1915:0 "Gas Masks"
- support_weapons_1915_desc:0 ""
- 
  ## 1916 SUPPORT WEAPONS ##
- support_weapons_1916:0 "Gas Grenades"
- support_weapons_1916_desc:0 ""
+ support_weapons_1915:0 "Early Gas Masks"
+ support_weapons_1915_desc:0 "American chemist and inventor James Bert Garner is credited by American sources with the invention of the gas mask in April 1915. Reading a newspaper article describing a gas attack on British forces which he thought had employed chlorine gas, Garner remembered experiments he had performed while teaching at the University of Chicago, thus he set about creating the first gas mask, which he tested on two of his associates in a gas filled chamber. Following the success of the test, he provided the results to the British government. In America thousands of gas masks were produced for American as well as Allied troops."
+ 
+ ## 1917 SUPPORT WEAPONS ##
+ support_weapons_1916:0 "Mustard Gas"
+ support_weapons_1916_desc:0 "Mustard agent was first used effectively in World War I by the German army against British and Canadian soldiers near Ypres, Belgium, in 1917 and later also against the French Second Army. The Allies did not use mustard agent until November 1917 at Cambrai, France, after the armies had captured a stockpile of German mustard-gas shells. It took the British more than a year to develop their own mustard agent weapon. This was used first in September 1918 during the breaking of the Hindenburg Line."
  
  ## 1918 SUPPORT WEAPONS ##
- support_weapons_1918:0 "Early AT Personnel Weaponry"
- support_weapons_1918_desc:0 ""
+ support_weapons_1918:0 "Late WWI Gas Masks"
+ support_weapons_1918_desc:0 "The first use of poison gas on the Western Front was on 22 April 1915, by the Germans at Ypres, against Canadian and French colonial troops. The initial response was to equip troops with cotton mouth pads for protection. Soon afterwards the British added a long cloth which was used to tie chemical-soaked mouth pads into place. Dr. Cluny MacPherson of Newfoundland Regiment brought the idea of a mask made of chemical absorbing fabric and which fitted over the entire head to England, and this was developed into the British Hypo helmet of June 1915. This primitive type of mask went through several stages of development before being superseded in 1916 by the canister gas mask. This had a mask connected to a tin can containing the absorbent materials by a hose."
  
  ## 1920 SUPPORT WEAPONS ##
  support_weapons_1920:0 "Scopes"

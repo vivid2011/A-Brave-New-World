@@ -12,7 +12,6 @@ state={
 			infrastructure = 4
 		}
 		1919.6.28 = {
-		owner = AHU
 			buildings = {
 				infrastructure = 6
 			}

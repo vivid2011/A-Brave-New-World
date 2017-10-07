@@ -17,12 +17,7 @@ state={
 		}
 		add_core_of = SER 
 		add_core_of = ALB
-		add_core_of = YUG	
-
-		1919.6.28 = {
-		owner = YUG
-		}
-		
+		add_core_of = YUG		
 	}
 
 	provinces={

@@ -3991,6 +3991,11 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
+		name = "GFX_ENG_infantry_1914_equipment_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantry1914.dds"
+	}
+	
+	SpriteType = {
 		name = "GFX_infantry_1916_equipment_medium"
 		texturefile = "gfx/interface/technologies/infantry1915.dds"
 	}
@@ -3999,6 +4004,7 @@ spriteTypes = {
 		name = "GFX_infantry_1918_equipment_medium"
 		texturefile = "gfx/interface/technologies/infantry1918.dds"
 	}
+	
 	
 	SpriteType = {
 		name = "GFX_horse_drawn_equipment_1_medium"
@@ -4018,6 +4024,21 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_support_weapons_1908_medium"
 		texturefile = "gfx/interface/technologies/support1908.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_support_weapons_1915_medium"
+		texturefile = "gfx/interface/technologies/support1915.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_support_weapons_1916_medium"
+		texturefile = "gfx/interface/technologies/support1917.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_support_weapons_1918_medium"
+		texturefile = "gfx/interface/technologies/support1918.dds"
 	}
 	
 	SpriteType = {

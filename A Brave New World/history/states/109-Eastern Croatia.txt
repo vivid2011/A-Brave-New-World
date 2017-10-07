@@ -14,7 +14,6 @@ state={
 		}
 		
 		1919.6.28 = {
-		owner = AHU
 			buildings = {
 				infrastructure = 4
 				industrial_complex = 2
