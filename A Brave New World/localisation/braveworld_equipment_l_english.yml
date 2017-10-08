@@ -122,28 +122,20 @@
  ## 1914 ARMORED CARS ##
  armored_equipment_2:0 "1914 Armored Cars"
  armored_equipment_2_desc:0 ""
- ENG_armored_equiptment_2:0 "Rolls Royce Armored Car"
- ENG_armored_equiptment_2_desc:0 "The Royal Naval Air Service raised the first British armoured car squadron during 1914. The designed superstructure consisted of armoured bodywork and a single fully rotating turret holding a regular water cooled Vickers machine gun."
- 
- ## 1916 ARMORED CARS ##
- armored_equipment_3:0 "1916 Armored Cars"
- armored_equipment_3_desc:0 ""
+ ENG_armored_equipment_2:0 "Rolls Royce Armored Car"
+ ENG_armored_equipment_2_desc:0 "The Royal Naval Air Service raised the first British armoured car squadron during 1914. The designed superstructure consisted of armoured bodywork and a single fully rotating turret holding a regular water cooled Vickers machine gun."
  
  ## 1918 ARMORED CARS ##
- motorized_equipment_1918:0 "1918 Motorized Cars"
+ motorized_equipment_1918:0 "1918 Armored Cars"
  motorized_equipment_1918_desc:0 ""
- 
- ## 1920 MOTORIZED ##
- motorized_equipment_1920:0 "1920 Motorized Cars"
- motorized_equipment_1920_desc:0 ""
- 
- ## 1924 MOTORIZED ##
- motorized_equipment_1924:0 "1924 Motorized Cars"
- motorized_equipment_1924_desc:0 ""
+ ENG_motorized_equipment_1918:0 "Austin Series 3 Armored Car"
+ ENG_motorized_equipment_1918_desc:0 "The last batch of Austins were exclusively used by the 17th Battalion of the British Tank Corps. This unit was active in France from March 1918 until the German surrender. These vehicles distinguished themselves at the Battle of Amiens, capturing a German headquarters 10 miles into enemy territory and creating havoc within reserve and support units."
  
  ## 1928 MOTORIZED ##
- motorized_equipment_1928:0 "1928 Motorized Cars"
+ motorized_equipment_1928:0 "1928 Armored Cars"
  motorized_equipment_1928_desc:0 ""
+ ENG_motorized_equipment_1928:0 "Lanchester 6x4 Armored Car"
+ ENG_motorized_equipment_1928_desc:0 "The Lanchester 6x4 armoured car was a British armoured car with a 6x4 drivetrain produced in limited numbers in the late 1920s and early 1930s. A heavier, more rugged development of the earlier Lanchester 4x2 armoured car, it remained in service with Territorial and colonial units until the early 1940s and saw action in the Battle of Malaya."
  
  ## 1900 SUPPORT EQUIPMENT ##
  support_weapons_1900:0 "Side Arms"
@@ -229,50 +221,62 @@
  ## 1916 ##
  model_1916_vl_tank:0 "1916 Model Light Tank"
  model_1916_vl_tank_desc:0 ""
- ENG_model_1916_vl_tank:0 "Char d'Assault St. Chamond Assault Gun"
  FRA_model_1916_vl_tank:0 "Char d'Assault St. Chamond Assault Gun"
  
  ## 1917 ##
  model_1917_vl_tank:0 "1917 Model Light Tank"
  model_1917_vl_tank_desc:0 ""
- ENG_model_1917_vl_tank:0 "Renault FT-17"
  FRA_model_1917_vl_tank:0 "Renault FT-17"
  
  ## 1918 ##
  model_1918_vl_tank:0 "1918 Model Light Tank"
  model_1918_vl_tank_desc:0 ""
- ENG_model_1918_vl_tank:0 "M1917 6-ton"
+ USA_model_1918_vl_tank:0 "M1917 6-ton"
  GER_model_1918_vl_tank:0 "Sturmpanzerwagen Oberschlesien"
  
  ## WW1 MEDIUM ##
  ## 1916 ##
  model_1916_l_tank:0 "1916 Model Medium Tank"
  model_1916_l_tank_desc:0 ""
- ENG_model_1916_l_tank:0 "Char d'Assault Schneider Assault Tank"
  FRA_model_1916_l_tank:0 "Char d'Asaault Schneider Assault Tank"
  
  ## 1917 ##
  model_1917_l_tank:0 "1917 Model Medium Tank"
  model_1917_l_tank_desc:0 ""
- ENG_model_1917_l_tank:0 "Tank Mk II"
  
  ## 1918 ##
  model_1918_l_tank:0 "1918 Model Medium Tank"
  model_1918_l_tank_desc:0 ""
- ENG_model_1918_l_tank:0 "Whippet"
+ ENG_model_1918_l_tank:0 "Mark A 'Whippet'"
+ ENG_model_1918_l_tank_desc:0 "The Medium Mark A Whippet was intended to complement the slower British heavy tanks by using its relative mobility and speed in exploiting any break in the enemy lines. Whippets later took part in several of the British Army's postwar actions, notably in Ireland, North Russia and Manchuria."
  GER_model_1918_l_tank:0 "Leichter Kampfwagen II (LKII)"
  
  ## 1924 ##
  model_1924_l_tank:0 "1924 Model Medium Tank"
  model_1924_l_tank_desc:0 ""
+ ENG_model_1924_l_tank:0 "Vickers Medium Mk I"
+ ENG_model_1924_l_tank_desc:0 "After the First World War Britain disbanded most of its tank units leaving only five tank battalions equipped with the Mark V and the Medium Mark C. At first a large budget was made available for tank design but this was all spent on the failed development of the Medium Mark D. When the government design bureau, the Tank Design Department, was closed in 1923 any direct official involvement in tank development was terminated. However private enterprise in the form of the Vickers-Armstrong company built two prototypes of a new tank in 1921."
+ 
  
  ## 1928 ##
  model_1928_l_tank:0 "1928 Model Medium Tank"
  model_1928_l_tank_desc:0 ""
+ ENG_model_1928_l_tank:0 "Vickers Medium Mk II"
+ ENG_model_1928_l_tank_desc:0 "The Medium Mark II was developed to replace the last of the Medium Mark Cs still in use. Production and rebuilding ran from 1925 until 1934. It featured several improvements over the Vickers Mark I: a higher superstructure with the driver's visor on top of it instead of in front of it; an improved suspension protected by armour skirts; and Rackham clutches, providing a primitive form of mechanical servo-control. Due to a slightly higher weight its rated speed was somewhat slower than that of the Medium Mark I, at 13 mph compared to 15 mph."
  
  ## 1932 ##
  model_1932_l_tank:0 "1932 Model Light Tank"
  model_1932_l_tank_desc:0 ""
+ ENG_model_1932_l_tank:0 "Vickers 6-Ton"
+ ENG_model_1932_l_tank_desc:0 "The Vickers 6-Ton Tank or Vickers Mark E was a British light tank designed as a private project at Vickers. It was not purchased by the British Army, but was picked up by a large number of foreign armed forces. It was licensed by the Soviets as the T-26. It was also the direct predecessor of the Polish 7TP tank."
+ POL_model_1932_l_tank:0 "Vickers 6-Ton"
+ POL_model_1932_l_tank_desc:0 "The Vickers 6-Ton Tank or Vickers Mark E was a British light tank designed as a private project at Vickers. It was not purchased by the British Army, but was picked up by a large number of foreign armed forces. It was licensed by the Soviets as the T-26. It was also the direct predecessor of the Polish 7TP tank."
+ FIN_model_1932_l_tank:0 "Vickers 6-Ton"
+ FIN_model_1932_l_tank_desc:0 "The Vickers 6-Ton Tank or Vickers Mark E was a British light tank designed as a private project at Vickers. It was not purchased by the British Army, but was picked up by a large number of foreign armed forces. It was licensed by the Soviets as the T-26. It was also the direct predecessor of the Polish 7TP tank."
+ 
+ ## 1934 ##
+ ENG_basic_light_tank:0 "Cruiser Mk II"
+ ENG_basic_light_tank_desc:0 "The Cruiser Mk II (A10), was a cruiser tank developed alongside the Cruiser Mk I, and was intended to be a heavier, infantry tank version of that type. In practice, it was not deemed suitable for the infantry tank role and was classified as a 'heavy cruiser'."
  
  ## WW1 HEAVY ##
  ## 1916 ##
@@ -300,10 +304,16 @@
  ## 1928 ##
  model_1928_m_tank:0 "1928 Model Heavy Tank"
  model_1928_m_tank_desc:0 ""
+ ENG_model_1928_m_tank:0 "Vickers A1E1 'Independent'"
+ ENG_model_1928_m_tank_desc:0 "The Independent A1E1 is a multi-turreted tank that was designed by the British armaments manufacturer Vickers. Although it only ever reached the prototype stage and only a single example was built, it influenced many other tank designs."
  
  ## 1932 ##
  model_1932_m_tank:0 "1932 Model Heavy Tank"
  model_1932_m_tank_desc:0 ""
+ 
+ ##1934##
+ ENG_basic_heavy_tank:0 "Matilda I Infantry Tank"
+ ENG_basic_heavy_tank_desc:0 "Matilda I Infantry Tank A11 was a British infantry tank of the Second World War. Despite being slow, cramped and only armed with a single machine gun, the Matilda I had some success in the Battle of France in 1940, owing to its heavy armour which was proof against the standard German anti-tank guns. It is not to be confused with the later model Tank, Infantry Mk II (A12), also known as the "Matilda II", which took over the "Matilda" name after the Matilda I was withdrawn from combat service in 1940. They were completely separate designs."
  
  ## ----------------- TANKS ----------------- ##
  

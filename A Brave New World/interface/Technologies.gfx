@@ -4087,4 +4087,39 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/armored1914.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_motorized_equipment_1918_medium"
+		texturefile = "gfx/interface/technologies/armored1918.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_motorized_equipment_1928_medium"
+		texturefile = "gfx/interface/technologies/mechanized1928.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_model_1918_l_tank_medium"
+		texturefile = "gfx/interface/technologies/mediumtank1918.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_model_1924_l_tank_medium"
+		texturefile = "gfx/interface/technologies/mediumtank1924.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_model_1928_l_tank_medium"
+		texturefile = "gfx/interface/technologies/mediumtank1928.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_model_1932_l_tank_medium"
+		texturefile = "gfx/interface/technologies/mediumtank1932.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_model_1928_m_tank_medium"
+		texturefile = "gfx/interface/technologies/heavytank1928.dds"
+	}
+	
 }
