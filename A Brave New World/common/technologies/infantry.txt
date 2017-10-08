@@ -220,7 +220,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = infantry_1920_equipment
+			leads_to_tech = infantry_1924_equipment
 			research_cost_coeff = 1
 		}		
 
@@ -240,39 +240,13 @@ technologies = {
 		}
 	}
 	
-	infantry_1920_equipment = {
-		enable_equipments = {
-			infantry_1920_equipment
-		}
-		
-		path = {
-			leads_to_tech = infantry_1924_equipment
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1920
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1920}
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
 	infantry_1924_equipment = {
 		enable_equipments = {
 			infantry_1924_equipment
 		}
 		
 		path = {
-			leads_to_tech = infantry_1928_equipment
+			leads_to_tech = infantry_weapons
 			research_cost_coeff = 1
 		}		
 
@@ -292,31 +266,6 @@ technologies = {
 		}
 	}
 	
-	infantry_1928_equipment = {
-		enable_equipments = {
-			infantry_1928_equipment
-		}
-		
-		path = {
-			leads_to_tech = infantry_weapons
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1.5
-		start_year = 1928
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1928}
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 	# HORSE DRAWN #
 	horse_drawn_equipment_1 = {
@@ -374,7 +323,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = armored_equipment_1
+			leads_to_tech = armored_equipment_2
 			research_cost_coeff = 1
 		}
 
@@ -401,38 +350,6 @@ technologies = {
 	}
 	
 	# ARMORED CARS #
-	armored_equipment_1 = {
-		
-		enable_equipments = {
-			armored_equipment_1
-		}
-		
-		path = {
-			leads_to_tech = armored_equipment_2
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1912
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1912 }
-		}
-		
-		folder = {
-			name = support_folder
-			position = { x = 7 y = 9 }
-		}
-		
-		categories = {
-			motorized_equipment
-			infantry_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 	armored_equipment_2 = {
 		enable_equipments = {
@@ -440,7 +357,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = armored_equipment_3
+			leads_to_tech = motorized_equipment_1918
 			research_cost_coeff = 1
 		}
 		
@@ -466,37 +383,6 @@ technologies = {
 		}
 	}
 	
-	armored_equipment_3 = {
-		enable_equipments = {
-			armored_equipment_3
-		}
-		
-		path = {
-			leads_to_tech = motorized_equipment_1918
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1916
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1916 }
-		}
-		
-		folder = {
-			name = support_folder
-			position = { x = 7 y = 9 }
-		}
-		
-		categories = {
-			motorized_equipment
-			infantry_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 	# MOTORIZED CARS #
 	motorized_equipment_1918 = {
@@ -505,7 +391,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = motorized_equipment_1920
+			leads_to_tech = motorized_equipment_1928
 			research_cost_coeff = 1
 		}
 
@@ -531,69 +417,6 @@ technologies = {
 		}
 	}
 	
-	motorized_equipment_1920 = {
-		enable_equipments = {
-			motorized_equipment_1920
-		}
-		
-		path = {
-			leads_to_tech = motorized_equipment_1924
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1920
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1920 }
-		}
-		
-		folder = {
-			name = support_folder
-			position = { x = 7 y = 9 }
-		}
-		
-		categories = {
-			motorized_equipment
-			infantry_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
-	motorized_equipment_1924 = {
-		enable_equipments = {
-			motorized_equipment_1924
-		}
-		
-		path = {
-			leads_to_tech = motorized_equipment_1928
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1924
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1924 }
-		}
-		
-		folder = {
-			name = support_folder
-			position = { x = 7 y = 9 }
-		}
-		
-		categories = {
-			motorized_equipment
-			infantry_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	
 	motorized_equipment_1928 = {
 		enable_equipments = {
@@ -809,7 +632,7 @@ technologies = {
 	marines_1912 = {
 		
 		path = {
-			leads_to_tech = marines_1914
+			leads_to_tech = marines_1916
 			research_cost_coeff = 1
 		}
 
@@ -829,28 +652,6 @@ technologies = {
 		}
 	}
 	
-	marines_1914 = {
-		
-		path = {
-			leads_to_tech = marines_1916
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1914
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1914 }
-		}
-		
-		categories = {
-			marine_tech
-		}
-		
-		ai_will_do = {
-			factor = 0.7
-		}
-	}
 	
 	marines_1916 = {
 		

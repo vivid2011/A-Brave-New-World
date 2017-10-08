@@ -17,7 +17,7 @@ ideologies = {
 			"FACTION_NAME_MONARCHIST_5"
 		}
 		
-		color = { 255 215 50 }
+		color = { 89 54 119 }
 		
 		rules = {
 			can_force_government = no

@@ -609,7 +609,7 @@ technologies = {
 	
 	tech_interwar_flamethrowers = {
 		path = {
-			leads_to_tech = tech_interwar_flamethrowers_2
+			leads_to_tech = tech_ww2_flamethrowers
 			research_cost_coeff = 1
 		}
 
@@ -644,42 +644,6 @@ technologies = {
 		}
 	}
 	
-	tech_interwar_flamethrowers_2 = {
-		path = {
-			leads_to_tech = tech_ww2_flamethrowers
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1928
-		folder = {
-			name = support_folder
-			position = { x = 14 y = @1928 }
-		}
-		
-		categories = {
-			support_tech
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 1.2
-				date > "1928.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1930.1.1"
-			}
-			
-			modifier = {
-				factor = 1.2
-				date > "1932.1.1"
-			}
-		}
-	}
 	
 	## INTERWAR TECH ##
 	

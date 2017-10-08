@@ -4082,4 +4082,9 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/lighttank1916.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_armored_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/armored1914.dds"
+	}
+	
 }

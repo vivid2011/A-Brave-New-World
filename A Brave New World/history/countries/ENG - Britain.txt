@@ -8,11 +8,14 @@ set_national_unity = 0.6
 
 # Starting tech
 set_technology = {
+	support_weapons_1900 = 1
 	powderless_equipment = 1
+	infantry_1900_equipment = 1
 	horse_drawn_equipment_1  = 1
 	
 	artillery_1869 = 1
 	artillery_1870 = 1
+	artillery_1900 = 1
 	
 	ironclad_0 = 1
 	ironclad_1 = 1
@@ -22,13 +25,24 @@ set_technology = {
 	light_cruiser_1900 = 1
 	torpedo_boat_0 = 1
 	torpedo_boat_1 = 1
-
+	battle_cruiser_1900 = 1
+	pre_dreadnought_0 = 1
+	pre_dreadnought_1 = 1
 	pre_1900_landing_craft = 1
+	
+	dirt_runway = 1
+	
+	science = 1
+	newtonian_physics = 1
+	electricity = 1
 	
 	individual_craft = 1
 	family_based_crafts = 1
 	artisans = 1
 	craftsman = 1
+	hand_assembly = 1
+	organized_assembly = 1
+	assembly_line = 1
 }
 
 add_ideas = {

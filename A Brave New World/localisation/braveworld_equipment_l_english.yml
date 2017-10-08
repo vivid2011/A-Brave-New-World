@@ -119,17 +119,11 @@
  basic_car_transport_1:0 "Pre-Militarized Cars"
  basic_car_transport_1_desc:0 "These vehicles would transport information as well as officers and other officals from headquarters to the front. Some were used as ambulances."
  
- ## 1911 ARMORED CARS ##
- armored_equipment:0 "Armored Car Equipment"
- armored_equipment_desc:0 ""
- 
- ## 1912 ARMORED CARS ##
- armored_equipment_1:0 "1912 Armored Cars"
- armored_equipment_1_desc:0 ""
- 
  ## 1914 ARMORED CARS ##
  armored_equipment_2:0 "1914 Armored Cars"
  armored_equipment_2_desc:0 ""
+ ENG_armored_equiptment_2:0 "Rolls Royce Armored Car"
+ ENG_armored_equiptment_2_desc:0 "The Royal Naval Air Service raised the first British armoured car squadron during 1914. The designed superstructure consisted of armoured bodywork and a single fully rotating turret holding a regular water cooled Vickers machine gun."
  
  ## 1916 ARMORED CARS ##
  armored_equipment_3:0 "1916 Armored Cars"
