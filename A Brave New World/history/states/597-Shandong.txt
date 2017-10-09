@@ -4,6 +4,7 @@ state={
 	name="STATE_597"
 
 	history={
+		controller = BOX
 		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC

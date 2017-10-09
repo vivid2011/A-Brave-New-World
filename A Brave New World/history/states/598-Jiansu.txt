@@ -6,6 +6,7 @@ state={
 	state_category = town
 
 	history={
+		controller = BOX
 		owner = CHI
 		add_core_of = CHI
 		add_core_of = PRC
