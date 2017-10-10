@@ -3962,28 +3962,28 @@ spriteTypes = {
 	### ABNW Technology Images ###
 	
 	SpriteType = {
-		name = "GFX_powderless_equipment_medium"
-		texturefile = "gfx/interface/technologies/infantry1870.dds"
+		name = "GFX_ENG_powderless_equipment_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantry1870.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_infantry_1900_equipment_medium"
-		texturefile = "gfx/interface/technologies/infantry1900.dds"
+		name = "GFX_ENG_infantry_1900_equipment_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantry1900.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_infantry_1904_equipment_medium"
-		texturefile = "gfx/interface/technologies/infantry1903.dds"
+		name = "GFX_ENG_infantry_1904_equipment_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantry1903.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_infantry_1908_equipment_medium"
-		texturefile = "gfx/interface/technologies/infantry1908.dds"
+		name = "GFX_ENG_infantry_1908_equipment_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantry1908.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_infantry_1912_equipment_medium"
-		texturefile = "gfx/interface/technologies/infantry1912.dds"
+		name = "GFX_ENG_infantry_1912_equipment_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantry1912.dds"
 	}
 	
 	SpriteType = {
@@ -4013,23 +4013,23 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_support_weapons_1900_medium"
-		texturefile = "gfx/interface/technologies/sidearm1900.dds"
+		name = "GFX_ENG_support_weapons_1900_medium"
+		texturefile = "gfx/interface/technologies/ENG_sidearm1900.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_support_weapons_1904_medium"
-		texturefile = "gfx/interface/technologies/support1904.dds"
+		name = "GFX_ENG_support_weapons_1904_medium"
+		texturefile = "gfx/interface/technologies/ENG_support1904.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_support_weapons_1908_medium"
-		texturefile = "gfx/interface/technologies/support1908.dds"
+		name = "GFX_ENG_support_weapons_1908_medium"
+		texturefile = "gfx/interface/technologies/ENG_support1908.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_support_weapons_1915_medium"
-		texturefile = "gfx/interface/technologies/support1915.dds"
+		name = "GFX_ENG_support_weapons_1915_medium"
+		texturefile = "gfx/interface/technologies/ENG_support1915.dds"
 	}
 	
 	SpriteType = {
@@ -4043,8 +4043,8 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_support_weapons_1914_medium"
-		texturefile = "gfx/interface/technologies/support1914.dds"
+		name = "GFX_ENG_support_weapons_1914_medium"
+		texturefile = "gfx/interface/technologies/ENG_support1914.dds"
 	}
 	
 	SpriteType = {
@@ -4053,73 +4053,128 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-		name = "GFX_model_1915_vl_tank_medium"
-		texturefile = "gfx/interface/technologies/infantrytank1915.dds"
+		name = "GFX_ENG_model_1915_vl_tank_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantrytank1915.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_model_1916_m_tank_medium"
-		texturefile = "gfx/interface/technologies/heavytank1916.dds"
+		name = "GFX_ENG_model_1916_m_tank_medium"
+		texturefile = "gfx/interface/technologies/ENG_heavytank1916.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_model_1917_m_tank_medium"
-		texturefile = "gfx/interface/technologies/heavytank1917.dds"
+		name = "GFX_ENG_model_1917_m_tank_medium"
+		texturefile = "gfx/interface/technologies/ENG_heavytank1917.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_model_1918_m_tank_medium"
-		texturefile = "gfx/interface/technologies/heavytank1918.dds"
+		name = "GFX_ENG_model_1918_m_tank_medium"
+		texturefile = "gfx/interface/technologies/ENG_heavytank1918.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_model_1916_1_tank_medium"
-		texturefile = "gfx/interface/technologies/mediumtank1916.dds"
+		name = "GFX_ENG_model_1916_1_tank_medium"
+		texturefile = "gfx/interface/technologies/ENG_mediumtank1916.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_model_1916_v1_tank_medium"
-		texturefile = "gfx/interface/technologies/lighttank1916.dds"
+		name = "GFX_ENG_model_1916_v1_tank_medium"
+		texturefile = "gfx/interface/technologies/ENG_lighttank1916.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_armored_equipment_2_medium"
-		texturefile = "gfx/interface/technologies/armored1914.dds"
+		name = "GFX_ENG_armored_equipment_2_medium"
+		texturefile = "gfx/interface/technologies/ENG_armored1914.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_motorized_equipment_1918_medium"
-		texturefile = "gfx/interface/technologies/armored1918.dds"
+		name = "GFX_ENG_motorized_equipment_1918_medium"
+		texturefile = "gfx/interface/technologies/ENG_armored1918.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_motorized_equipment_1928_medium"
-		texturefile = "gfx/interface/technologies/mechanized1928.dds"
+		name = "GFX_ENG_motorized_equipment_1928_medium"
+		texturefile = "gfx/interface/technologies/ENG_mechanized1928.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_model_1918_l_tank_medium"
-		texturefile = "gfx/interface/technologies/mediumtank1918.dds"
+		name = "GFX_ENG_model_1918_l_tank_medium"
+		texturefile = "gfx/interface/technologies/ENG_mediumtank1918.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_model_1924_l_tank_medium"
-		texturefile = "gfx/interface/technologies/mediumtank1924.dds"
+		name = "GFX_ENG_model_1924_l_tank_medium"
+		texturefile = "gfx/interface/technologies/ENG_mediumtank1924.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_model_1928_l_tank_medium"
-		texturefile = "gfx/interface/technologies/mediumtank1928.dds"
+		name = "GFX_ENG_model_1928_l_tank_medium"
+		texturefile = "gfx/interface/technologies/ENG_mediumtank1928.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_model_1932_l_tank_medium"
-		texturefile = "gfx/interface/technologies/mediumtank1932.dds"
+		name = "GFX_ENG_model_1932_l_tank_medium"
+		texturefile = "gfx/interface/technologies/ENG_mediumtank1932.dds"
 	}
 	
 	SpriteType = {
-		name = "GFX_model_1928_m_tank_medium"
-		texturefile = "gfx/interface/technologies/heavytank1928.dds"
+		name = "GFX_ENG_model_1928_m_tank_medium"
+		texturefile = "gfx/interface/technologies/ENG_heavytank1928.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_artillery_1869_medium"
+		texturefile = "gfx/interface/technologies/ironcannon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_artillery_1870_medium"
+		texturefile = "gfx/interface/technologies/steelcannon.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ENG_artillery_1900_medium"
+		texturefile = "gfx/interface/technologies/ENG_artillery1900.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_support_weapons_1920_medium"
+		texturefile = "gfx/interface/technologies/support1920.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_infantry_1924_equipment_medium"
+		texturefile = "gfx/interface/technologies/infantry1924.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ENG_infantry_1924_equipment_medium"
+		texturefile = "gfx/interface/technologies/ENG_infantry1924.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ENG_artillery_1905_medium"
+		texturefile = "gfx/interface/technologies/ENG_artillery1905.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ENG_artillery_1914_medium"
+		texturefile = "gfx/interface/technologies/ENG_artillery1914.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ENG_artillery_1916_medium"
+		texturefile = "gfx/interface/technologies/ENG_artillery1916.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ENG_artillery_1912_medium"
+		texturefile = "gfx/interface/technologies/ENG_artillery1912.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_ENG_artillery_1918_medium"
+		texturefile = "gfx/interface/technologies/ENG_artillery1918.dds"
 	}
 	
 }

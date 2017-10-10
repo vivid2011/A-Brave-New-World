@@ -101,11 +101,10 @@
  ## 1924 INF EQ ##
  infantry_1924_equipment:0 "1924 Model Weapons"
  infantry_1924_equipment_desc:0 ""
- 
- ## 1928 INF EQ ##
- infantry_1928_equipment:0 "1928 Model Weapons"
- infantry_1928_equipment_desc:0 ""
- USA_infantry_1928_equipment:0 "Stevens Model 620"
+ ENG_infantry_1924_equipment:0 "Rifle No.1 Mk V"
+ USA_infantry_1924_equipment:0 "M1922 Bang Rifle"
+ ENG_infantry_1924_equipment_desc:0 "Rifles No.1 and No.4 are both variants of the SMLE. The primary distinguishing feature of the No. 1 Mk V is the rear aperture sight. Like the No. 1 Mk III* it lacked a volley sight and had the wire loop in place of the sling swivel at the front of magazine well along with the simplified cocking piece. The Mk V did retain a magazine cut-off, but without a spotting hole, the piling swivel was kept attached to a forward barrel band, which was wrapped over and attached to the rear of the nose cap to reinforce the rifle for use with the standard Pattern 1907 bayonet."
+ USA_infantry_1924_equipment_desc:0 "The 1922 Bang Rifle is the direct predacessor to the M1 Garand rifle used in the Second World War. The M1922 filled the gap in development of semi-automatic rifles between world wars for the United States."
  
  ## 1870 HORSE DRAWN ##
  horse_drawn_equipment:0 "Horse-Drawn Equipment"
@@ -174,12 +173,8 @@
  support_weapons_1918_desc:0 "The first use of poison gas on the Western Front was on 22 April 1915, by the Germans at Ypres, against Canadian and French colonial troops. The initial response was to equip troops with cotton mouth pads for protection. Soon afterwards the British added a long cloth which was used to tie chemical-soaked mouth pads into place. Dr. Cluny MacPherson of Newfoundland Regiment brought the idea of a mask made of chemical absorbing fabric and which fitted over the entire head to England, and this was developed into the British Hypo helmet of June 1915. This primitive type of mask went through several stages of development before being superseded in 1916 by the canister gas mask. This had a mask connected to a tin can containing the absorbent materials by a hose."
  
  ## 1920 SUPPORT WEAPONS ##
- support_weapons_1920:0 "Scopes"
- support_weapons_1920_desc: ""
- 
- ## 1928 SUPPORT WEAPONS ##
- support_weapons_1928:0 "Interwar Equipment"
- support_weapons_1928_desc:0 ""
+ support_weapons_1920:0 "Rifle Scopes"
+ support_weapons_1920_desc: "The advent of magnified rifle scoped in the later parts of World War I, and their advancement before World War II, led to the prevalence of the modern sniper."
  
  ## MOUNTAINEERS ##
  tech_mountaineers_theory:0 "Mountaineers Theory"
@@ -320,27 +315,29 @@
  ## ----------------- ARTILLERY ----------------- ##
  ## <1870 ARTILLERY ##
  artillery_1869:0 "Iron Breech-Loaded Cannons"
- artillery_1869_desc:0 ""
+ artillery_1869_desc:0 "The advent of Iron artillery revolutionized warfare."
  
  ## 1870 ARTILLERY ##
  artillery_1870:0 "Steel Breech-Loaded Cannons"
- artillery_1870_desc:0 ""
+ artillery_1870_desc:0 "Steel cannons allowed larger projectiles to be fired farther distances."
  
  ## 1900 ARTILLERY ##
  artillery_1900:0 "1900 Model Artillery"
  artillery_1900_desc:0 ""
- ENG_artillery_1900:0 "Ordnance QF 4.7-Inch"
+ ENG_artillery_1900:0 "QF 4.7-Inch"
  GER_artillery_1900:0 "7.7cm Feldkanone (FK96)"
  FRA_artillery_1900:0 "Canon de 75 mle 1897"
  AHU_artillery_1900:0 "9cm Feldkanone M75/96"
  SOV_artillery_1900:0 "76mm Gun Model 1900"
+ ENG_artillery_1900_desc:0 "The QF 4.7 inch Gun Mks I, II, III, and IV were a family of British quick-firing 4.724-inch (120 mm) naval and coast defence guns of the late 1880s and 1890s which served with the navies of various countries. They were also mounted on various wheeled carriages to provide the British Army with a long range gun. They all had a bore of 40 calibres length."
  
  ## 1905 ARTILLERY ##
  artillery_1905:0 "1905 Model Artillery"
  artillery_1905_desc:0 ""
  JAP_artillery_1905:0 "Type 38 75mm"
- ENG_artillery_1905:0 "Ordnance QF 18-Pounder"
+ ENG_artillery_1905:0 "QF 18-Pounder"
  ITA_artillery_1905:0 "Cannone da 75/27 modello 06"
+ ENG_artillery_1905_desc:0 "The QF 18 pounder was the standard British Empire field gun of the First World War-era. It formed the backbone of the Royal Field Artillery during the war, and was produced in large numbers. It was used by British Forces in all the main theatres, and by British troops in Russia in 1919. Its calibre (84 mm) and shell weight were greater than those of the equivalent field guns in French (75 mm) and German (77 mm) service. It was generally horse drawn until mechanisation in the 1930s."
  
  ## 1912 ARTILLERY ##
  artillery_1912:0 "1912 Model Artillery"
@@ -348,19 +345,24 @@
  FRA_artillery_1912:0 "Canon de 105 mle 1913 Schneider"
  AHU_artillery_1912:0 "30.5cm Belagerungsmorser (Schlanke Emma)"
  ITA_artillery_1912:0 "Cannone da 69/17 modello 1913"
+ ENG_artillery_1912:0 "QF 4.5-inch Howitzer"
+ ENG_artillery_1912_desc:0 "The QF 4.5-inch howitzer was the standard British Empire field (or ‘light’) howitzer of the First World War era. It replaced the BL 5-inch howitzer and equipped some 25% of the field artillery. It entered service in 1910 and remained in service through the interwar period and was last used in the field by British forces in early 1942. It was generally horse drawn until mechanisation in the 1930s."
  
  ## 1914 ARTILLERY ##
  artillery_1914:0 "1914 Model Artillery"
  artillery_1914_desc:0 ""
  GER_artillery_1914:0 "42cm Type M-Gerat 14 L/12 (Big Bertha)"
- ENG_artillery_1914:0 "Ordnance BL 9.2-inch"
+ ENG_artillery_1914:0 "BL 9.2-inch"
+ ENG_artillery_1914_desc:0 "The BL 9.2-inch howitzer was a heavy siege howitzer that formed the principal counter-battery equipment of British forces in France in World War I. It equipped a substantial number of siege batteries of the Royal Garrison Artillery. It remained in service until about the middle of World War II."
+ 
  
  ## 1916 ARTILLERY ##
  artillery_1916:0 "1916 Model Artillery"
  artillery_1916_desc:0 ""
  GER_artillery_1916:0 "10.5cm IeFH"
- ENG_artillery_1916:0 "Ordnance BL 12-inch"
+ ENG_artillery_1916:0 "BL 12-inch"
  FRA_artillery_1916:0 "Canon de Infanterie de Modele 1916 TRP"
+ ENG_artillery_1916_desc:0 "The BL 12-inch howitzer was a scaled-up version of the successful BL 9.2-inch siege howitzer."
  
  ## 1918 ARTILLERY ##
  artillery_1918:0 "1918 Model Artillery"
@@ -368,6 +370,8 @@
  USA_artillery_1918:0 "M1918 155 GPF"
  GER_artillery_1918:0 "21cm/24cm Paris-Geschutz (Paris Gun)"
  FRA_artillery_1918:0 "Canon de 155 GPF mle 1917"
+ ENG_artillery_1918:0 "BL 6-inch Gun Mk XIX"
+ ENG_artillery_1918_desc:0 "The British BL 6 inch Gun Mk XIX was introduced in 1917 as a lighter and longer-range field gun replacement for the obsolescent BL 6 inch Gun Mk VII."
  
  ## 1924 ARTILLERY ##
  artillery_1924:0 "1924 Model Artillery"

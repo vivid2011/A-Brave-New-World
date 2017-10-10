@@ -1073,57 +1073,6 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = support_weapons_1928
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1920
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = @1920 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-			
-			modifier = {
-				factor = 2
-				date > "1912.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1913.1.1"
-			}
-			
-			modifier = {
-				factor = 2
-				date > "1914.1.1"
-			}
-		}
-	}
-	
-	support_weapons_1928 = {
-
-		infantry = {
-			soft_attack = 0.02
-		}
-		marine = {
-			soft_attack = 0.01
-		}
-		paratrooper = {
-			soft_attack = 0.02
-		}
-		mountaineers = {
-			soft_attack = 0.015
-		}
-		
-		path = {
 			leads_to_tech = support_weapons
 			research_cost_coeff = 1
 		}

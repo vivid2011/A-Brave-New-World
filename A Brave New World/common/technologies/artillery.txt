@@ -353,7 +353,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = artillery_1928
+			leads_to_tech = gw_artillery
 			research_cost_coeff = 1
 		}
 		
@@ -388,91 +388,6 @@ technologies = {
 		}
 	}
 	
-	artillery_1928 = {
-		start_year = 1928
-		
-		enable_equipments = {
-			artillery_1928
-		}
-		
-		path = {
-			leads_to_tech = artillery_1932
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = -4 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 2
-				date > "1928.6.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1930.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1931.6.1"
-			}
-		}
-	}
-	
-	artillery_1932 = {
-		start_year = 1932
-		
-		enable_equipments = {
-			artillery_1932
-		}
-		
-		path = {
-			leads_to_tech = gw_artillery
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
-		
-		folder = {
-			name = artillery_folder
-			position = { x = 0 y = -2 }
-		}
-		
-		categories = {
-			artillery
-		}
-		
-		ai_will_do = {
-			factor = 2
-			
-			modifier = {
-				factor = 2
-				date > "1932.6.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1932.1.1"
-			}
-			
-			modifier = {
-				factor = 5
-				date > "1933.6.1"
-			}
-		}
-	}
 	
 	gw_artillery = {
 		start_year = 1934
