@@ -1,0 +1,54 @@
+﻿capital = 292
+
+oob = "JAB_1900"
+
+# Starting tech
+set_technology = {
+	powderless_equipment = 1
+	horse_drawn_equipment_1 = 1
+	individual_craft = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 6
+		}
+
+		fascism = {
+			popularity = 1
+		}
+		
+		communism = {
+			popularity = 1
+			#banned = no #default is no
+		}
+		
+		neutrality = { 
+			popularity = 2
+		}
+		
+		monarchist = {
+			popularity = 90
+		}
+	}
+	
+	ruling_party = monarchist
+	last_election = "Never"
+	election_frequency = 0
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Abdulaziz bin Mithab"
+	desc = ""
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_fascism1.dds"
+	expire = "1965.1.1"
+	ideology = imperial
+	traits = {
+		#
+	}
+}

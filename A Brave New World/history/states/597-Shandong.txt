@@ -4,8 +4,7 @@ state={
 	name="STATE_597"
 
 	history={
-		controller = BOX
-		owner = CHI
+		owner = BOX
 		add_core_of = CHI
 		add_core_of = PRC
 		victory_points = {
@@ -15,6 +14,10 @@ state={
 			infrastructure = 2
 			industrial_complex = 1
 		}
+		
+		1902.1.1 = {
+		owner = CHI		
+        }
 		
 		1919.6.28 = {
 			buildings = {
