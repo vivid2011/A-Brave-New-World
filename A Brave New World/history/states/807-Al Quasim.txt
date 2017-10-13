@@ -1,0 +1,30 @@
+
+state={
+	id=807
+	name="STATE_807"
+	resources={
+		oil=2.000
+	}
+
+	history={
+		owner = JAB
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+		}
+		add_core_of = JAB
+		
+		1921.1.1 = {
+		owner = SAU
+		add_core_of = SAU
+		}
+
+	}
+
+	provinces={
+		10923 12749
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

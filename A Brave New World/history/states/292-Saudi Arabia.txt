@@ -7,15 +7,10 @@ state={
 	}
 
 	history={
-		owner = JAB
 		buildings = {
 			infrastructure = 1
 			arms_factory = 1
 		}
-		victory_points = {
-			12727 5 
-		}
-		add_core_of = JAB
 		
 		1921.1.1 = {
 		owner = SAU
@@ -25,9 +20,9 @@ state={
 	}
 
 	provinces={
-		2057 4968 4974 5024 5027 5058 5093 5099 7970 7995 8004 8060 8101 10815 10892 10901 10923 12455 12727 12749 12813 12870 
+		5093 8060 12727 12870
 	}
-	manpower=1000000
+	manpower=10000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

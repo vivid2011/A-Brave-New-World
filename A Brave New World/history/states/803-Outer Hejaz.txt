@@ -1,0 +1,30 @@
+
+state={
+	id=803
+	name="STATE_803"
+	resources={
+		oil=1.000
+	}
+
+	history={
+		buildings = {
+			infrastructure = 0
+		}
+		
+		1921.1.1 = {
+		buildings = {
+			infrastructure = 1
+		}
+		owner = SAU
+		add_core_of = SAU
+		}
+
+	}
+
+	provinces={
+		5099 8004 10892
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}
