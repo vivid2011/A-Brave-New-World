@@ -1,0 +1,28 @@
+state={
+	id=809
+	name="STATE_809"
+	manpower = 25319
+	
+	state_category = pastoral
+
+	history={
+		owner = TUR
+		add_core_of = TUR
+
+		buildings = {
+			infrastructure = 2
+		}
+		
+		1921.1.1 = {
+			owner = SAU
+			buildings = {
+				infrastructure = 3
+			}
+		}
+		add_core_of = SAU
+	}
+
+	provinces={
+		5006 8073
+	}
+}

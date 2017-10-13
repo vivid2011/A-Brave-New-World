@@ -20,10 +20,17 @@ state={
 		}
 		add_core_of = SAU
 		add_core_of = TUR
+		
+		1921.1.1 = {
+			owner = SAU
+			buildings = {
+				infrastructure = 3
+			}
+		}
 
 	}
 	provinces={
-		1955 4932 10791 12702 
+		1955 10791 12702 
 	}
 	manpower=440000
 	buildings_max_level_factor=1.000
