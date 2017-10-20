@@ -1,8 +1,8 @@
 #reload countrycolors
 
 AHU = {
-	color = rgb { 200 200 200 }
-	color_ui = rgb { 200 200 200 }
+	color = rgb { 220 210 205 }
+	color_ui = rgb { 220 210 205 }
 }
 BAV = {
 	color = rgb { 0 152 212 }
