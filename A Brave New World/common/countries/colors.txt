@@ -13,12 +13,12 @@ SOV = {
 	color_ui = rgb { 163 17 31 }
 }
 SWE = {
-	color = rgb { 46 99 155 }
-	color_ui = rgb { 47 172 255 }
+	color = rgb { 125 175 215 }
+	color_ui = rgb { 125 175 215 }
 }
 FRA = {
-	color = rgb { 57 113 228 }
-	color_ui = rgb { 74 147 255 }
+	color = rgb { 0 100 175 }
+	color_ui = rgb { 0 100 175 }
 }
 LUX = {
 	color = rgb { 65 175 179 }
@@ -254,8 +254,8 @@ YUN = {
 	color_ui = rgb { 222 247 198 }
 }
 USA = {
-	color = rgb { 20 133 237 }
-	color_ui = rgb { 87 160 255 }
+	color = rgb { 100 25 25 }
+	color_ui = rgb { 100 25 25 }
 }
 MON = {
 	#color = HSV { 0.1 0.15 0.4 }
